@@ -5,6 +5,23 @@ site_author: m0wer
 site_url: https://m0wer.github.io/blue-book
 nav:
   - Introduction: index.md
+  - Projects:
+  - Organization:
+  - Computer Science:
+    - GNU/Linux:
+      - Tools:
+    - Android:
+  - Cooking:
+  - Music:
+  - Electrical Engineering:
+  - Machine Learning:
+  - Math:
+  - Pollution:
+  - Languages:
+    - Turkish:
+  - Economy:
+  - Botany:
+  - Contact:
 
 plugins:
   - search
