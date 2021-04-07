@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    
+    <title>The Blue Book</title>
+    <description>My personal digital garden</description>
+    <link>https://m0wer.github.io/blue-book</link>
+    <atom:link href="https://m0wer.github.io/blue-book/daily.xml" rel="self" type="application/rss+xml"/>
+
+    
+    <managingEditor>m0wer</managingEditor>
+
+    
+    <pubDate>2021-04-07 18:29:33.262365</pubDate>
+    <ttl>1440</ttl>
+
+    
+    <generator>mkdocs-newsletter - v0.2.1</generator>
+
+    
+    
+    <image><url>https://m0wer.github.io/blue-book/img/logo.bmp</url><title>The Blue Book</title>
+      <link>https://m0wer.github.io/blue-book</link>
+    </image>
+    
+
+    
+    
+  </channel>
+</rss>
