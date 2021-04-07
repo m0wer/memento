@@ -5,7 +5,6 @@ site_author: m0wer
 site_url: https://m0wer.github.io/blue-book
 nav:
   - Introduction: index.md
-  - Projects: projects/projects.md
 
 plugins:
   - search
