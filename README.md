@@ -19,6 +19,6 @@ request, if you don't know what that means, you cal always open an
 ## Thank you
 
 If you liked my book and want to show your support, please contribute to [my
-other projects](docs/projects/projects.md) or just say hi :-)
+other projects](https://m0wer.github.io/blue-book/projects/projects.md) or just say hi :-)
 
 [![CC0](https://img.shields.io/badge/license-CC0-0a0a0a.svg?style=flat&colorA=0a0a0a)](https://creativecommons.org/publicdomain/zero/1.0/)
