@@ -14,7 +14,7 @@ If you find a mistake or want to add new content, please make the changes. You
 can use the edit button on the top right of any article to add them in a pull
 request, if you don't know what that means, you cal always open an
 [issue](https://github.com/m0wer/memento/issues/new) or send me an
-[email](docs/contact.md).
+[email](https://m0wer.github.io/memento/contact/).
 
 ## Thank you
 
