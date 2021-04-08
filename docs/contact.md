@@ -89,4 +89,4 @@ I'm available through:
     =Weat
     -----END PGP PUBLIC KEY BLOCK-----
     ```
-* Through Github by [opening an issue](https://github.com/m0wer/blue-book/issues).
+* Through Github by [opening an issue](https://github.com/m0wer/memento/issues).
