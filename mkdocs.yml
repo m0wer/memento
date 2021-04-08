@@ -1,8 +1,8 @@
 ---
-site_name: The Blue Book
+site_name: Memento
 site_description: My personal digital garden
 site_author: m0wer
-site_url: https://m0wer.github.io/blue-book
+site_url: https://m0wer.github.io/memento
 nav:
   - Introduction: index.md
     #  - Projects:
@@ -211,7 +211,7 @@ extra:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/m0wer
     - icon: fontawesome/solid/rss
-      link: https://m0wer.github.io/blue-book/newsletter/0_newsletter_index
+      link: https://m0wer.github.io/memento/newsletter/0_newsletter_index
 
-repo_name: m0wer/blue-book
-repo_url: https://github.com/m0wer/blue-book
+repo_name: m0wer/memento
+repo_url: https://github.com/m0wer/memento
