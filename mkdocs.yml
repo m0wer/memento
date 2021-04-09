@@ -9,120 +9,117 @@ nav:
     #  - Organization:
   - Computer Science:
     - GNU/Linux:
-      - android: computer_science/gnu_linux/android.md
-      - android-studio: computer_science/gnu_linux/android-studio.md
-      - anki: computer_science/gnu_linux/anki.md
-      - ansible: computer_science/gnu_linux/ansible.md
-      - apt: computer_science/gnu_linux/apt.md
-      - bash: computer_science/gnu_linux/bash.md
+      - Android: computer_science/gnu_linux/android.md
+      - Android-studio: computer_science/gnu_linux/android-studio.md
+      - Anki: computer_science/gnu_linux/anki.md
+      - Ansible: computer_science/gnu_linux/ansible.md
+      - APT: computer_science/gnu_linux/apt.md
+      - Bash: computer_science/gnu_linux/bash.md
       - blkid: computer_science/gnu_linux/blkid.md
-      - c: computer_science/gnu_linux/c.md
-      - coding: computer_science/gnu_linux/coding.md
+      - C: computer_science/gnu_linux/c.md
       - cpupower: computer_science/gnu_linux/cpupower.md
-      - debian: computer_science/gnu_linux/debian.md
+      - Debian: computer_science/gnu_linux/debian.md
       - dig: computer_science/gnu_linux/dig.md
-      - docker: computer_science/gnu_linux/docker.md
-      - eclipse: computer_science/gnu_linux/eclipse.md
+      - Docker: computer_science/gnu_linux/docker.md
+      - Eclipse: computer_science/gnu_linux/eclipse.md
       - elogind: computer_science/gnu_linux/elogind.md
       - emerge: computer_science/gnu_linux/emerge.md
       - equery: computer_science/gnu_linux/equery.md
-      - esp8266: computer_science/gnu_linux/esp8266.md
-      - exiftool: computer_science/gnu_linux/exiftool.md
+      - ESP8266: computer_science/gnu_linux/esp8266.md
+      - ExifTool: computer_science/gnu_linux/exiftool.md
       - fdisk: computer_science/gnu_linux/fdisk.md
-      - ffmpeg: computer_science/gnu_linux/ffmpeg.md
+      - FFmpeg: computer_science/gnu_linux/ffmpeg.md
       - find: computer_science/gnu_linux/find.md
-      - firefox: computer_science/gnu_linux/firefox.md
-      - ftp: computer_science/gnu_linux/ftp.md
+      - Firefox: computer_science/gnu_linux/firefox.md
+      - FTP: computer_science/gnu_linux/ftp.md
       - genkernel: computer_science/gnu_linux/genkernel.md
       - genlop: computer_science/gnu_linux/genlop.md
-      - gentoo: computer_science/gnu_linux/gentoo.md
-      - git: computer_science/gnu_linux/git.md
-      - gpg: computer_science/gnu_linux/gpg.md
-      - gs: computer_science/gnu_linux/gs.md
-      - i3wm: computer_science/gnu_linux/i3wm.md
+      - Gentoo: computer_science/gnu_linux/gentoo.md
+      - Git: computer_science/gnu_linux/git.md
+      - GPG: computer_science/gnu_linux/gpg.md
+      - Ghostscript: computer_science/gnu_linux/ghostscript.md
+      - i3 window manager: computer_science/gnu_linux/i3wm.md
       - ibus: computer_science/gnu_linux/ibus.md
-      - imagemagick: computer_science/gnu_linux/imagemagick.md
+      - ImageMagick: computer_science/gnu_linux/imagemagick.md
       - iostat: computer_science/gnu_linux/iostat.md
       - iptables: computer_science/gnu_linux/iptables.md
       - isync: computer_science/gnu_linux/isync.md
-      - jabber: computer_science/gnu_linux/jabber.md
-      - java: computer_science/gnu_linux/java.md
+      - Jabber: computer_science/gnu_linux/jabber.md
+      - Java: computer_science/gnu_linux/java.md
       - jpegoptim: computer_science/gnu_linux/jpegoptim.md
-      - kali: computer_science/gnu_linux/kali.md
-      - kernel: computer_science/gnu_linux/kernel.md
-      - khal: computer_science/gnu_linux/khal.md
-      - khard: computer_science/gnu_linux/khard.md
-      - kodi: computer_science/gnu_linux/kodi.md
-      - latex: computer_science/gnu_linux/latex.md
-      - layman: computer_science/gnu_linux/layman.md
-      - libreoffice: computer_science/gnu_linux/libreoffice.md
-      - lightdm: computer_science/gnu_linux/lightdm.md
-      - linux: computer_science/gnu_linux/linux.md
-      - luks: computer_science/gnu_linux/luks.md
-      - lvm: computer_science/gnu_linux/lvm.md
-      - markdown: computer_science/gnu_linux/markdown.md
-      - mathjax: computer_science/gnu_linux/mathjax.md
+      - Kali: computer_science/gnu_linux/kali.md
+      - Kernel: computer_science/gnu_linux/kernel.md
+      - Khal: computer_science/gnu_linux/khal.md
+      - Khard: computer_science/gnu_linux/khard.md
+      - Kodi: computer_science/gnu_linux/kodi.md
+      - Latex: computer_science/gnu_linux/latex.md
+      - Layman: computer_science/gnu_linux/layman.md
+      - LibreOffice: computer_science/gnu_linux/libreoffice.md
+      - LightDM: computer_science/gnu_linux/lightdm.md
+      - Linux: computer_science/gnu_linux/linux.md
+      - LUKS: computer_science/gnu_linux/luks.md
+      - LVM: computer_science/gnu_linux/lvm.md
+      - MarkDown: computer_science/gnu_linux/markdown.md
+      - MathJax: computer_science/gnu_linux/mathjax.md
       - mdadm: computer_science/gnu_linux/mdadm.md
       - mimeopen: computer_science/gnu_linux/mimeopen.md
-      - molecule: computer_science/gnu_linux/molecule.md
-      - msmtp: computer_science/gnu_linux/msmtp.md
-      - music: computer_science/gnu_linux/music.md
-      - neomutt: computer_science/gnu_linux/neomutt.md
+      - Molecule: computer_science/gnu_linux/molecule.md
+      - Msmtp: computer_science/gnu_linux/msmtp.md
+      - Music: computer_science/gnu_linux/music.md
+      - NeoMutt: computer_science/gnu_linux/neomutt.md
       - netcat: computer_science/gnu_linux/netcat.md
-      - nextcloud: computer_science/gnu_linux/nextcloud.md
-      - nfs: computer_science/gnu_linux/nfs.md
-      - nginx: computer_science/gnu_linux/nginx.md
+      - Nextcloud: computer_science/gnu_linux/nextcloud.md
+      - NFS: computer_science/gnu_linux/nfs.md
+      - NGINX: computer_science/gnu_linux/nginx.md
       - nice: computer_science/gnu_linux/nice.md
-      - nikola: computer_science/gnu_linux/nikola.md
-      - octave: computer_science/gnu_linux/octave.md
-      - openldap: computer_science/gnu_linux/openldap.md
-      - openrc: computer_science/gnu_linux/openrc.md
-      - openssl: computer_science/gnu_linux/openssl.md
-      - pandas: computer_science/gnu_linux/pandas.md
-      - pandoc: computer_science/gnu_linux/pandoc.md
-      - pass: computer_science/gnu_linux/pass.md
+      - Nikola: computer_science/gnu_linux/nikola.md
+      - Octave: computer_science/gnu_linux/octave.md
+      - OpenLDAP: computer_science/gnu_linux/openldap.md
+      - OpenRC: computer_science/gnu_linux/openrc.md
+      - OpenSSL: computer_science/gnu_linux/openssl.md
+      - Pandoc: computer_science/gnu_linux/pandoc.md
+      - Pass: computer_science/gnu_linux/pass.md
       - pdfimages: computer_science/gnu_linux/pdfimages.md
-      - pdftk: computer_science/gnu_linux/pdftk.md
+      - PDFtk: computer_science/gnu_linux/pdftk.md
       - pdfunite: computer_science/gnu_linux/pdfunite.md
-      - pip: computer_science/gnu_linux/pip.md
-      - portage: computer_science/gnu_linux/portage.md
-      - postgresql: computer_science/gnu_linux/postgresql.md
-      - pulseaudio: computer_science/gnu_linux/pulseaudio.md
+      - Portage: computer_science/gnu_linux/portage.md
+      - PostgreSQL: computer_science/gnu_linux/postgresql.md
+      - PulseAudio: computer_science/gnu_linux/pulseaudio.md
       - qutebrowser: computer_science/gnu_linux/qutebrowser.md
-      - radare2: computer_science/gnu_linux/radare2.md
-      - ranger: computer_science/gnu_linux/ranger.md
-      - rpi: computer_science/gnu_linux/rpi.md
+      - Radare2: computer_science/gnu_linux/radare2.md
+      - Ranger: computer_science/gnu_linux/ranger.md
+      - Raspberry Pi: computer_science/gnu_linux/rpi.md
       - rsnapshot: computer_science/gnu_linux/rsnapshot.md
       - rsync: computer_science/gnu_linux/rsync.md
       - rxvt-unicode: computer_science/gnu_linux/rxvt-unicode.md
       - sed: computer_science/gnu_linux/sed.md
-      - shell: computer_science/gnu_linux/shell.md
-      - shell-utils: computer_science/gnu_linux/shell-utils.md
+      - Shell: computer_science/gnu_linux/shell.md
+      - Shell-utils: computer_science/gnu_linux/shell-utils.md
       - shnsplit: computer_science/gnu_linux/shnsplit.md
       - smartmontools: computer_science/gnu_linux/smartmontools.md
-      - ssh: computer_science/gnu_linux/ssh.md
+      - SSH: computer_science/gnu_linux/ssh.md
       - ss: computer_science/gnu_linux/ss.md
       - stat: computer_science/gnu_linux/stat.md
       - sysctl: computer_science/gnu_linux/sysctl.md
-      - systemd: computer_science/gnu_linux/systemd.md
-      - taskwarrior: computer_science/gnu_linux/taskwarrior.md
+      - SystemD: computer_science/gnu_linux/systemd.md
+      - Taskwarrior: computer_science/gnu_linux/taskwarrior.md
       - tcpdump: computer_science/gnu_linux/tcpdump.md
-      - telegraf: computer_science/gnu_linux/telegraf.md
+      - Telegraf: computer_science/gnu_linux/telegraf.md
       - telegram-cli: computer_science/gnu_linux/telegram-cli.md
-      - terminal: computer_science/gnu_linux/terminal.md
-      - termite: computer_science/gnu_linux/termite.md
+      - Terminal: computer_science/gnu_linux/terminal.md
+      - Termite: computer_science/gnu_linux/termite.md
       - tmux: computer_science/gnu_linux/tmux.md
-      - tor: computer_science/gnu_linux/tor.md
-      - vagrant: computer_science/gnu_linux/vagrant.md
+      - TOR: computer_science/gnu_linux/tor.md
+      - Vagrant: computer_science/gnu_linux/vagrant.md
       - vimdiff: computer_science/gnu_linux/vimdiff.md
       - vim: computer_science/gnu_linux/vim.md
       - virtualenvwrapper: computer_science/gnu_linux/virtualenvwrapper.md
-      - weechat: computer_science/gnu_linux/weechat.md
+      - WeeChat: computer_science/gnu_linux/weechat.md
       - wget: computer_science/gnu_linux/wget.md
       - xcip: computer_science/gnu_linux/xcip.md
       - X: computer_science/gnu_linux/X.md
-      - x-utilities: computer_science/gnu_linux/x-utilities.md
-      - yaml: computer_science/gnu_linux/yaml.md
+      - X-utilities: computer_science/gnu_linux/x-utilities.md
+      - YAML: computer_science/gnu_linux/yaml.md
       - youtube-dl: computer_science/gnu_linux/youtube-dl.md
       - zip: computer_science/gnu_linux/zip.md
     - Android:
@@ -131,6 +128,8 @@ nav:
       - Python:
         - Basics: computer_science/programming/python/basics.md
         - Debugging: computer_science/programming/python/debugging.md
+        - Pandas: computer_science/programming/python/pandas.md
+        - pip: computer_science/gnu_linux/programming/python/pip.md
         - Style: computer_science/programming/python/style.md
     #  - Cooking:
     #  - Music:
