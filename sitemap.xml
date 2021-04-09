@@ -36,10 +36,6 @@
      <lastmod>2021-04-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://m0wer.github.io/memento/computer_science/gnu_linux/coding/</loc>
-     <lastmod>2021-04-09</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
      <loc>https://m0wer.github.io/memento/computer_science/gnu_linux/cpupower/</loc>
      <lastmod>2021-04-09</lastmod>
      <changefreq>daily</changefreq>
@@ -117,10 +113,6 @@
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://m0wer.github.io/memento/computer_science/gnu_linux/gpg/</loc>
-     <lastmod>2021-04-09</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://m0wer.github.io/memento/computer_science/gnu_linux/gs/</loc>
      <lastmod>2021-04-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
@@ -280,10 +272,6 @@
      <lastmod>2021-04-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://m0wer.github.io/memento/computer_science/gnu_linux/pandas/</loc>
-     <lastmod>2021-04-09</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
      <loc>https://m0wer.github.io/memento/computer_science/gnu_linux/pandoc/</loc>
      <lastmod>2021-04-09</lastmod>
      <changefreq>daily</changefreq>
@@ -301,10 +289,6 @@
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://m0wer.github.io/memento/computer_science/gnu_linux/pdfunite/</loc>
-     <lastmod>2021-04-09</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://m0wer.github.io/memento/computer_science/gnu_linux/pip/</loc>
      <lastmod>2021-04-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
@@ -477,6 +461,10 @@
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://m0wer.github.io/memento/computer_science/programming/python/debugging/</loc>
+     <lastmod>2021-04-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://m0wer.github.io/memento/computer_science/programming/python/pandas/</loc>
      <lastmod>2021-04-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
