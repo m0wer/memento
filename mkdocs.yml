@@ -88,7 +88,6 @@ nav:
       - portage: computer_science/gnu_linux/portage.md
       - postgresql: computer_science/gnu_linux/postgresql.md
       - pulseaudio: computer_science/gnu_linux/pulseaudio.md
-      - python: computer_science/gnu_linux/python.md
       - qutebrowser: computer_science/gnu_linux/qutebrowser.md
       - radare2: computer_science/gnu_linux/radare2.md
       - ranger: computer_science/gnu_linux/ranger.md
@@ -128,6 +127,11 @@ nav:
       - zip: computer_science/gnu_linux/zip.md
     - Android:
       - Apps: computer_science/android/apps.md
+    - Programming:
+      - Python:
+        - Basics: computer_science/programming/python/basics.md
+        - Debugging: computer_science/programming/python/debugging.md
+        - Style: computer_science/programming/python/style.md
     #  - Cooking:
     #  - Music:
     #  - Electrical Engineering:
