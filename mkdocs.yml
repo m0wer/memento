@@ -131,7 +131,9 @@ nav:
         - Pandas: computer_science/programming/python/pandas.md
         - pip: computer_science/gnu_linux/programming/python/pip.md
         - Style: computer_science/programming/python/style.md
-    #  - Cooking:
+  - Cooking:
+    - Recipes:
+      - Eggplant kebap: cooking/recipes/eggplant_kebap.md
     #  - Music:
     #  - Electrical Engineering:
     #  - Machine Learning:
