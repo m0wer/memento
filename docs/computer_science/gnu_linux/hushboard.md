@@ -24,11 +24,21 @@ deactivate
 
 # Running the application
 
+You can run it manually as follows
+
 ```bash
 workon hushboard
 python -m hushboard
 deactivate
 ```
+
+Or if you use [i3wm](i3wm), add
+
+```
+exec --no-startup-id workon hushboard && python -m hushboard
+```
+
+to your `i3wm` configuration file to start it automatically.
 
 # Notes
 
