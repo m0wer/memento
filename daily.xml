@@ -11,7 +11,7 @@
     <managingEditor>m0wer</managingEditor>
 
     
-    <pubDate>2021-04-09 06:36:38+00:00</pubDate>
+    <pubDate>2021-04-10 06:35:40+00:00</pubDate>
     <ttl>1440</ttl>
 
     
@@ -25,6 +25,16 @@
     
 
     
+    
+    <item><title>9th April 2021</title>
+      <author>m0wer</author>
+      <description>&lt;article class=&#34;md-content__inner md-typeset&#34;&gt; &lt;a class=&#34;md-content__button md-icon&#34; href=&#34;https://github.com/m0wer/memento/edit/master/docs/newsletter/2021_04_09.md&#34; title=&#34;Edit this page&#34;&gt; &lt;svg viewbox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z&#34;&gt;&lt;/path&gt;&lt;/svg&gt; &lt;/a&gt;  &lt;h2 id=&#34;other&#34;&gt;Other&lt;/h2&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Added Python basics reference.&lt;/p&gt; &lt;p&gt;Notes on Python basics such as built-in types and functions and file system interaction.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;New: Added script header snippet.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;New: Added basic pdb usage.&lt;/p&gt; &lt;p&gt;&lt;code&gt;pdb&lt;/code&gt; is a Python module for interactive source code debugging.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;New: Added PEP-8 and pprint basics.&lt;/p&gt; &lt;p&gt;PEP-8 is a code style for python code. &lt;code&gt;pprint&lt;/code&gt; is a Python module provides a capability to “pretty-print” arbitrary Python data structures in a form which can be used as input to the interpreter.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Reorganization: Split Python file into subfiles.&lt;/p&gt; &lt;/li&gt; &lt;li&gt;Reorganization: Caps in index and python directory.&lt;/li&gt; &lt;li&gt; &lt;p&gt;New: Eggplant kebap recipe.&lt;/p&gt; &lt;p&gt;&lt;em&gt;Patlıcanlı kebap&lt;/em&gt; is a Turkish dish that contains mainly eggplant and meat. It is generally cooked over a fire but it can be also be prepared in the oven.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt;  &lt;/article&gt;</description>
+      <link>https://m0wer.github.io/memento/newsletter/2021_04_09/</link>
+      <pubDate>2021-04-10 06:35:40+00:00</pubDate>
+      <source url="https://m0wer.github.io/memento/daily.xml">Memento</source>
+      <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2021_04_09/</guid>
+      
+    </item>
     
     <item><title>8th April 2021</title>
       <author>m0wer</author>
