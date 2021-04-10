@@ -38,6 +38,7 @@ nav:
       - Git: computer_science/gnu_linux/git.md
       - GPG: computer_science/gnu_linux/gpg.md
       - Ghostscript: computer_science/gnu_linux/ghostscript.md
+      - Hushboard: computer_science/gnu_linux/hushboard.md
       - i3 window manager: computer_science/gnu_linux/i3wm.md
       - ibus: computer_science/gnu_linux/ibus.md
       - ImageMagick: computer_science/gnu_linux/imagemagick.md
