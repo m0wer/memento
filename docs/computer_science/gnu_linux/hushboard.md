@@ -42,4 +42,4 @@ to your `i3wm` configuration file to start it automatically.
 
 # Notes
 
-`mkvirtualenv`, `deactivate` and `workon` are part of [`virtualenvwrapper`](virtualenvwrapper).
+`mkvirtualenv`, `deactivate` and `workon` are part of [`virtualenvwrapper`](virtualenvwrapper.md).
