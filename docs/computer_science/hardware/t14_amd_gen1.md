@@ -1,0 +1,31 @@
+---
+title: Lenovo Thinkpad T14 (AMD) Gen 1
+date: 2021-04-11
+author: m0wer
+tags: [ 't14_amd_gen1', 'thinkpad', 'lenovo' ]
+---
+
+# Issues
+
+## Flashing colors on the LCD screen
+
+!!! note "TL;DR: open the laptop bottom case and unplug and then replug the battery and the BIOS button battery."
+
+I opened my laptop, which was suspended, and the screen was flashing in
+different colors as shown on this video
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HWugyoWqjqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+I panicked a bit and look the problem up, finding only [this thread](https://forums.lenovo.com/t5/ThinkPad-T400-T500-and-newer-T-series-Laptops/Thinkpad-T14-gen-1-AMD-LCD-change-colors-green-blue-red-etc/m-p/5060359)
+where they suggested reinstalling the BIOS by using an external screen. I've
+tried to do so by connecting the laptop to the [ThinkPad USB-C Dock Gen 2](https://www.lenovo.com/us/en/accessories-and-monitors/docking/universal-cable-docks-usb/TP-USB-C-DOCK-GEN2-US/p/40AS0090US)
+but the screens showed no output.
+
+Before trying anything else, I decided to go for the ol' reliable "have you
+tried turning it off and on again". So open the bottom case, which is a bit
+annoying  but easily doable, as shown on the following video
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/AeO9oklP7sg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Then, unplug the battery and the BIOS button battery and replug them again.
+You can check if it works properly before putting back the bottom case.

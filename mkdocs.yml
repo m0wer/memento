@@ -8,6 +8,8 @@ nav:
     #  - Projects:
     #  - Organization:
   - Computer Science:
+    - Android:
+      - Apps: computer_science/android/apps.md
     - GNU/Linux:
       - Android: computer_science/gnu_linux/android.md
       - Android-studio: computer_science/gnu_linux/android-studio.md
@@ -123,8 +125,8 @@ nav:
       - YAML: computer_science/gnu_linux/yaml.md
       - youtube-dl: computer_science/gnu_linux/youtube-dl.md
       - zip: computer_science/gnu_linux/zip.md
-    - Android:
-      - Apps: computer_science/android/apps.md
+    - Hardware:
+      - Thinkpad T14 (AMD) Gen1: computer_science/hardware/t14_amd_gen1.md
     - Programming:
       - Python:
         - Basics: computer_science/programming/python/basics.md
