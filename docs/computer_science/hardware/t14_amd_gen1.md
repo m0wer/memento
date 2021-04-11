@@ -22,10 +22,10 @@ tried to do so by connecting the laptop to the [ThinkPad USB-C Dock Gen 2](https
 but the screens showed no output.
 
 Before trying anything else, I decided to go for the ol' reliable "have you
-tried turning it off and on again". So open the bottom case, which is a bit
+tried turning it off and on again". So I opened the bottom case, which is a bit
 annoying  but easily doable, as shown on the following video
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/AeO9oklP7sg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Then, unplug the battery and the BIOS button battery and replug them again.
-You can check if it works properly before putting back the bottom case.
+Then, I unplugged the battery and the BIOS button battery and replugged them again.
+I checked that it worked properly before putting back the bottom case.
