@@ -7,7 +7,8 @@ tags: [ 'turkey', 'work' ]
 
 # Work permit
 
-As a foreigner, you will need a Work Permit to work and live in Turkey.
+As a foreigner, you will need a Work Permit to work and live in
+Turkey.
 
 ## Exceptions
 
