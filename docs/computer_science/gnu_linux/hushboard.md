@@ -32,13 +32,22 @@ python -m hushboard
 deactivate
 ```
 
-Or if you use [i3wm](i3wm), add
+Or if you use [i3wm](i3wm), create the following script
+
+```bash
+#!/usr/bin/env bash
+
+source {WORKON_PATH}/hushboard/bin/activate
+python -m hushboard
+deactivate
+```
+
+You should replace `{WORKON_PATH}` with your virtual environments path. Then
+add this line to your `i3wm` configuration file to start it automatically.
 
 ```
-exec --no-startup-id workon hushboard && python -m hushboard
+exec --no-startup-id ~/scripts/hushboard.sh
 ```
-
-to your `i3wm` configuration file to start it automatically.
 
 # Notes
 
