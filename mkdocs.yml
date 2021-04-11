@@ -135,6 +135,9 @@ nav:
   - Cooking:
     - Recipes:
       - Eggplant kebap: cooking/recipes/eggplant_kebap.md
+  - Countries:
+    - Turkey:
+      - Work: countries/turkey/work.md
     #  - Music:
     #  - Electrical Engineering:
     #  - Machine Learning:
