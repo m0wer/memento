@@ -135,8 +135,11 @@ nav:
         - Style: computer_science/programming/python/style.md
         - Snippets: computer_science/programming/python/snippets.md
   - Cooking:
-    - Recipes:
+    - All recipes:
       - Eggplant kebap: cooking/recipes/eggplant_kebap.md
+      - Cheesecake: cooking/recipes/cheesecake.md
+    - Vegetarian recipes:
+      - Cheesecake: cooking/recipes/cheesecake.md
   - Countries:
     - Turkey:
       - Work: countries/turkey/work.md
