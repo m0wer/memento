@@ -9,7 +9,7 @@ tags: [ 't14_amd_gen1', 'thinkpad', 'lenovo' ]
 
 ## Flashing colors on the LCD screen
 
-!!! note "TL;DR: open the laptop bottom case and unplug and then replug the battery and the BIOS button battery."
+!!! note "TL;DR: power off the laptop and unplug it from the AC adapter and press the emergency-reset button located in the bottom case."
 
 I opened my laptop, which was suspended, and the screen was flashing in
 different colors as shown on this video
@@ -29,3 +29,7 @@ annoying  but easily doable, as shown on the following video
 
 Then, I unplugged the battery and the BIOS button battery and replugged them again.
 I checked that it worked properly before putting back the bottom case.
+
+But then, I've learned that Thinkpads with a non-removable battery generally
+have a "emergency-reset hole", which I could have just pressed instead of
+opening the laptop xD There is more information about it in the [T14 Gen 1 and P14s Gen 1 Hardware Maintenance Manual](https://download.lenovo.com/pccbbs/mobiles_pdf/t14_gen1_p14s_gen1_hmm_en.pdf).
