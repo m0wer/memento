@@ -132,6 +132,7 @@ nav:
         - Basics: computer_science/programming/python/basics.md
         - Debugging: computer_science/programming/python/debugging.md
         - Gotchas: computer_science/programming/python/gotchas.md
+        - NetworkX: computer_science/programming/python/networkx.md
         - Pandas: computer_science/programming/python/pandas.md
         - pip: computer_science/programming/python/pip.md
         - Style: computer_science/programming/python/style.md
