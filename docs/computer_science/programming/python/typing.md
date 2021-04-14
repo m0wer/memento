@@ -20,3 +20,17 @@ specified. Let's see an example:
 def greeting(name: str) -> str:
     return 'Hello ' + name
 ```
+
+## Type aliases
+
+A type alias is defined by assigning the type to the alias. For example:
+
+```python
+import pandas as pd
+import networkx as nx
+
+# Type aliases
+Series = pd.core.series.Series
+DataFrame = pd.core.frame.DataFrame
+Graph = nx.classes.graph.Graph
+```
