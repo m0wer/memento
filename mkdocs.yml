@@ -138,6 +138,7 @@ nav:
         - pip: computer_science/programming/python/pip.md
         - Style: computer_science/programming/python/style.md
         - Snippets: computer_science/programming/python/snippets.md
+        - Typing: computer_science/programming/python/typing.md
   - Cooking:
     - All recipes:
       - Eggplant kebap: cooking/recipes/eggplant_kebap.md
