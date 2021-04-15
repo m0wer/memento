@@ -57,6 +57,7 @@ idna==2.10
 importlib-metadata==3.10.1
     # via
     #   keyring
+    #   markdown
     #   twine
 invoke==1.5.0
     # via python-semantic-release
@@ -207,7 +208,9 @@ tqdm==4.60.0
 twine==3.4.1
     # via python-semantic-release
 typing-extensions==3.7.4.3
-    # via pydantic
+    # via
+    #   importlib-metadata
+    #   pydantic
 urllib3==1.26.4
     # via requests
 webencodings==0.5.1
