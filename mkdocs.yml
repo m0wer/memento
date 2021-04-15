@@ -66,6 +66,7 @@ nav:
       - MathJax: computer_science/gnu_linux/mathjax.md
       - mdadm: computer_science/gnu_linux/mdadm.md
       - mimeopen: computer_science/gnu_linux/mimeopen.md
+      - MkDocs: computer_science/gnu_linux/mkdocs.md
       - Molecule: computer_science/gnu_linux/molecule.md
       - Msmtp: computer_science/gnu_linux/msmtp.md
       - Music: computer_science/gnu_linux/music.md
@@ -148,6 +149,9 @@ nav:
   - Countries:
     - Turkey:
       - Work: countries/turkey/work.md
+  - Economics:
+      - Development:
+        - Product Space: economics/development/product_space.md
     #  - Music:
     #  - Electrical Engineering:
     #  - Machine Learning:
@@ -155,7 +159,6 @@ nav:
     #  - Pollution:
     #  - Languages:
     #    - Turkish:
-    #  - Economy:
     #  - Botany:
   - Forking this wiki: forking_this_wiki.md
   - Contact: contact.md
@@ -163,6 +166,9 @@ nav:
 plugins:
   - search
   - autolinks
+  - bibtex:
+      bib_file: "refs.bib"
+      cite_style: "pandoc"
   - git-revision-date-localized:
       type: timeago
   - minify:
@@ -178,7 +184,8 @@ markdown_extensions:
   - toc:
       permalink: ⚑
       baselevel: 2
-  - pymdownx.arithmatex
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
@@ -225,6 +232,11 @@ theme:
 extra_css:
   - stylesheets/extra.css
   - stylesheets/links.css
+
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 extra:
   social:
