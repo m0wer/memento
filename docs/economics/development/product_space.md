@@ -26,7 +26,7 @@ that studies the economic development of countries using network science analysi
 
 Economic power is usually measured with the aggregate output of a countries
 capital and labor. The main idea of the article is that diversity of a countries
-exports matters, and its useful when predicting a countries development.
+exports matters, and it's useful when predicting a countries development.
 
 Countries are more likely to produce products which have similar requirements
 as the ones they already produce.
