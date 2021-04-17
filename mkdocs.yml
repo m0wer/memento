@@ -5,8 +5,6 @@ site_author: m0wer
 site_url: https://m0wer.github.io/memento
 nav:
   - Introduction: index.md
-    #  - Projects:
-    #  - Organization:
   - Computer Science:
     - Android:
       - Apps: computer_science/android/apps.md
