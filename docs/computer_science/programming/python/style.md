@@ -27,7 +27,7 @@ s = "this is my really, really, really, really, really, really," \
 ## pprint
 
 `pprint` is a Python module provides a capability to “pretty-print” arbitrary
-Python data structures in a form which can be used as input to the interpreter. 
+Python data structures in a form which can be used as input to the interpreter.
 
 ```python
 import pprint

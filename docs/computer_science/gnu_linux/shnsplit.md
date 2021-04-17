@@ -8,7 +8,7 @@ tags: shnsplit,FLAC,split,cue
 
 ## Split multi-track FLAC to single tracks
 
-You need the **cue** file for the times and metadata. Then: 
+You need the **cue** file for the times and metadata. Then:
 
 `shnsplit -f file.cue -t %n-%t -o flac file.flac`
 

@@ -14,7 +14,7 @@ I'm available through:
 ??? note "PGP Key: `55ED839D73830D00EBA5409430B4ECB4ECEEF686`"
     ```
     -----BEGIN PGP PUBLIC KEY BLOCK-----
-    
+
     mQINBFmHbfsBEADEKDDJIhA886JFHahMoeG+qaAEIwrfBiNgx4OvQoqndbJenhwQ
     frXa+V7fp9582siz3TJbdPexezZpWDCD4ZGqhu1/eNyhuzA/+vDmSrlDqUehDDfT
     Ef5vIaVyWO+8/GJFrt/TY3zrIDZhHju3F+GR1g4OmSMiHWzRQPUwM8gb0OMJeI1N

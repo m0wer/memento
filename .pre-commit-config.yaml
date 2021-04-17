@@ -26,9 +26,6 @@
   hooks:
     - name: Build requirements.txt
       id: pip-compile
-    - name: Build requirements-dev.txt
-      id: pip-compile
-      args: ['requirements-dev.in', '--allow-unsafe']
 
 - repo: https://github.com/adrienverge/yamllint
   rev: v1.21.0

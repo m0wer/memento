@@ -5,7 +5,7 @@ tags: partition,USB,format,fdisk
 ---
 # fdisk
 
-## Create new partition: 
+## Create new partition:
 
 ```bash
 fdisk [disk]
