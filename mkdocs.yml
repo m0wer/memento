@@ -19,6 +19,7 @@ nav:
       - Bash: computer_science/gnu_linux/bash.md
       - blkid: computer_science/gnu_linux/blkid.md
       - C: computer_science/gnu_linux/c.md
+      - Commitizen: computer_science/gnu_linux/commitizen.md
       - cpupower: computer_science/gnu_linux/cpupower.md
       - Debian: computer_science/gnu_linux/debian.md
       - dig: computer_science/gnu_linux/dig.md
