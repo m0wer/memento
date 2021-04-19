@@ -136,3 +136,28 @@ plugins:
 
 Note that `dir/*` excludes all markdown files within a directory and its
 children.
+
+## mkdocs-newsletter
+
+[lyz-code/mkdocs-newsletter](https://github.com/lyz-code/mkdocs-newsletter)
+is a plugin that automatically creates newsletters from the changes in
+a [MkDocs](mkdocs) git repository.
+
+### Installation
+
+You'll need to:
+
+```bash
+pip install mkdocs-newsletter
+```
+
+And enable this plugin, by changing your `mkdocs.yml`
+
+```yaml
+plugins:
+  - git-revision-date-localized:
+      type: timeago
+  - autolinks
+  - section-index
+  - mkdocs-newsletter
+```
