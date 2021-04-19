@@ -157,6 +157,9 @@ nav:
 
 plugins:
   - search
+  - exclude-search:
+      exclude:
+        - newsletter/*
   - autolinks
   - bibtex:
       bib_file: "refs.bib"
