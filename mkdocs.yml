@@ -151,14 +151,7 @@ nav:
   - Economics:
       - Development:
         - Product Space: economics/development/product_space.md
-    #  - Music:
-    #  - Electrical Engineering:
-    #  - Machine Learning:
-    #  - Math:
-    #  - Pollution:
-    #  - Languages:
-    #    - Turkish:
-    #  - Botany:
+  - Projects: projects/projects.md
   - Forking this wiki: forking_this_wiki.md
   - Contact: contact.md
 
