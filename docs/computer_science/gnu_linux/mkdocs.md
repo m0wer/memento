@@ -96,3 +96,43 @@ plugins:
 Keep your bibtex references in `refs.bib`. Then, if you want to add a reference
 in an entry, cite it with `[@{cite_name}]` and add `\bibliography` wherever you
 want the full references to appear.
+
+## mkdocs-exclude-search
+
+[chrieke/mkdocs-exclude-search](https://github.com/chrieke/mkdocs-exclude-search)
+is a mkdocs plugin that lets you exclude selected chapters from the search
+index.
+
+I use it to exclude the newsletter files generated from [lyz-code/mkdocs-newsletter](https://github.com/lyz-code/mkdocs-newsletter) from the search.
+
+### Installation
+
+Install the plugin with
+
+```bash
+pip install mkdocs-exclude-search
+
+```
+
+and activate it in `mkdocs.yml` as shown in the configuration section.
+
+### Configuration
+
+Add the following configuration to your `mkdocs.yml`
+
+```yaml
+plugins:
+  - search
+  - exclude-search:
+      exclude:
+        - first.md
+        - dir/second.md
+        - third.md#some-heading
+        - dir2/*
+        - /*/fifth.md
+      ignore:
+        - dir/second.md#some-heading
+```
+
+Note that `dir/*` excludes all markdown files within a directory and its
+children.
