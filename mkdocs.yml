@@ -136,6 +136,7 @@ nav:
         - NetworkX: computer_science/programming/python/networkx.md
         - Pandas: computer_science/programming/python/pandas.md
         - pip: computer_science/programming/python/pip.md
+        - Plotly: computer_science/programming/python/plotly.md
         - Style: computer_science/programming/python/style.md
         - Snippets: computer_science/programming/python/snippets.md
         - Typing: computer_science/programming/python/typing.md
