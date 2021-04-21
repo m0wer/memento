@@ -9,6 +9,56 @@ tags: [ 'python', 'networks', 'graphs' ]
 manipulation, and study of the structure, dynamics, and functions of complex
 networks.
 
+# Importing
+
+## Import from Pandas
+
+### Import from edgelist
+
+You need a `DataFrame` containing at least `origin` and `destination` columns.
+The rest of the columns, or a selection of them, can be imported as edge
+attributes. An input `DataFrame` could look like
+
+| origin | destination | weight | cost |
+|--------|-------------|--------|------|
+| A      | B           | 2      | 100  |
+| A      | C           | 1      | 20   |
+| ...    | ...         | ...    | ...  |
+
+To create an `NetworkX.Graph` from it, do
+
+
+```python
+import networkx as nx
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.DataFrame({
+    "origin": ["A", "A"],
+    "destination": ["B", "C"],
+    "weight": [2, 1],
+    "cost": [100, 20]
+})
+
+G = nx.from_pandas_edgelist(df,
+                            source="origin",
+                            target="destination",
+                            edge_attr=["weight", "cost"],
+                            create_using=nx.DiGraph())
+
+# Draw it
+pos = nx.spring_layout(G, k=10)  # For better example looking
+nx.draw(G, pos, with_labels=True)
+labels = {e: G.edges[e]["cost"] for e in G.edges}
+nx.draw_networkx_edge_labels(G, pos, edge_labels=labels)
+plt.show()
+```
+
+![NetworkX Graph from edge list](networkx_from_edgelist.png)
+
+Only add `create_using=nx.DiGraph()` if you want the result to be a directed
+graph, otherwise it will be an undirected one by default.
+
 # Exporting
 
 ## Export to Gephi
