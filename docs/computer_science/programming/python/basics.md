@@ -78,7 +78,9 @@ shuffle(x)
 This fragment comes from
 [stackoverflow](https://stackoverflow.com/questions/976882/shuffling-a-list-of-objects).
 
-# Files I/O
+# I/O
+
+## Files
 
 You can operate with files from a filesystem directly from python. A common
 way of doing so is
@@ -112,3 +114,16 @@ with open('file_path') as f:
 
 Otherwise, `f.close()` should be called in order to close the file and thus
 freeing up any system resource used by it.
+
+## String formatting
+
+### Scientific notation for numbers
+
+To print a number using scientific notation with `n` decimals, do
+
+```python
+number = 0.000123
+print("{:.{n}e}".format(number))
+```
+
+which will return `1.23e-04` with `n=2`.
