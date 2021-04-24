@@ -128,6 +128,7 @@ nav:
     - Hardware:
       - Thinkpad T14 (AMD) Gen1: computer_science/hardware/t14_amd_gen1.md
     - Programming:
+      - Jinja: computer_science/programming/jinja.md
       - Python:
         - Basics: computer_science/programming/python/basics.md
         - Debugging: computer_science/programming/python/debugging.md
