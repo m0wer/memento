@@ -63,7 +63,7 @@ list.sort(key=lambda x: x.attribute, reverse=True) # Higher first
 This fragment comes from
 [stackoverflow](https://stackoverflow.com/questions/403421/how-to-sort-a-list-of-objects-based-on-an-attribute-of-the-objects).
 
-# Other fucntions
+# Other functions
 
 ## Shuffle
 
