@@ -127,3 +127,19 @@ print("{:.{n}e}".format(number))
 ```
 
 which will return `1.23e-04` with `n=2`.
+
+# Internet protocols and support
+
+## http.server
+
+You can create a basic HTTP server that serves the files in the current
+directory with
+
+```bash
+mkdir /tmp/www
+echo "Hello world!" > /tmp/index.html
+cd /tmp/www; python3 -m http.server
+```
+
+if you want to leave it running in the background even if you close the
+console session, do `nohup python3 -m http.server &` instead.
