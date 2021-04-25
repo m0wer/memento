@@ -9,8 +9,8 @@ nav:
     - Android:
       - Apps: computer_science/android/apps.md
     - GNU/Linux:
-      - Android: computer_science/gnu_linux/android.md
       - Android-studio: computer_science/gnu_linux/android-studio.md
+      - Android: computer_science/gnu_linux/android.md
       - Anki: computer_science/gnu_linux/anki.md
       - Ansible: computer_science/gnu_linux/ansible.md
       - APT: computer_science/gnu_linux/apt.md
@@ -36,9 +36,9 @@ nav:
       - genkernel: computer_science/gnu_linux/genkernel.md
       - genlop: computer_science/gnu_linux/genlop.md
       - Gentoo: computer_science/gnu_linux/gentoo.md
+      - Ghostscript: computer_science/gnu_linux/ghostscript.md
       - Git: computer_science/gnu_linux/git.md
       - GPG: computer_science/gnu_linux/gpg.md
-      - Ghostscript: computer_science/gnu_linux/ghostscript.md
       - Hushboard: computer_science/gnu_linux/hushboard.md
       - i3 window manager: computer_science/gnu_linux/i3wm.md
       - ibus: computer_science/gnu_linux/ibus.md
@@ -81,6 +81,7 @@ nav:
       - OpenRC: computer_science/gnu_linux/openrc.md
       - OpenSSL: computer_science/gnu_linux/openssl.md
       - Pandoc: computer_science/gnu_linux/pandoc.md
+      - Parallel: computer_science/gnu_linux/parallel.md
       - Pass: computer_science/gnu_linux/pass.md
       - pdfimages: computer_science/gnu_linux/pdfimages.md
       - PDFtk: computer_science/gnu_linux/pdftk.md
@@ -96,12 +97,12 @@ nav:
       - rsync: computer_science/gnu_linux/rsync.md
       - rxvt-unicode: computer_science/gnu_linux/rxvt-unicode.md
       - sed: computer_science/gnu_linux/sed.md
-      - Shell: computer_science/gnu_linux/shell.md
       - Shell-utils: computer_science/gnu_linux/shell-utils.md
+      - Shell: computer_science/gnu_linux/shell.md
       - shnsplit: computer_science/gnu_linux/shnsplit.md
       - smartmontools: computer_science/gnu_linux/smartmontools.md
-      - SSH: computer_science/gnu_linux/ssh.md
       - ss: computer_science/gnu_linux/ss.md
+      - SSH: computer_science/gnu_linux/ssh.md
       - stat: computer_science/gnu_linux/stat.md
       - sysctl: computer_science/gnu_linux/sysctl.md
       - SystemD: computer_science/gnu_linux/systemd.md
@@ -114,14 +115,14 @@ nav:
       - tmux: computer_science/gnu_linux/tmux.md
       - TOR: computer_science/gnu_linux/tor.md
       - Vagrant: computer_science/gnu_linux/vagrant.md
-      - vimdiff: computer_science/gnu_linux/vimdiff.md
       - vim: computer_science/gnu_linux/vim.md
+      - vimdiff: computer_science/gnu_linux/vimdiff.md
       - virtualenvwrapper: computer_science/gnu_linux/virtualenvwrapper.md
       - WeeChat: computer_science/gnu_linux/weechat.md
       - wget: computer_science/gnu_linux/wget.md
-      - xcip: computer_science/gnu_linux/xcip.md
-      - X: computer_science/gnu_linux/X.md
       - X-utilities: computer_science/gnu_linux/x-utilities.md
+      - X: computer_science/gnu_linux/X.md
+      - xcip: computer_science/gnu_linux/xcip.md
       - YAML: computer_science/gnu_linux/yaml.md
       - youtube-dl: computer_science/gnu_linux/youtube-dl.md
       - zip: computer_science/gnu_linux/zip.md
