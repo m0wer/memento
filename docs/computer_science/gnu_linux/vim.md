@@ -51,6 +51,22 @@ If you want to paste the content of one of them use `"3p` for example.
 **Reference**:
 [superuser](https://superuser.com/questions/102815/vim-cut-and-paste-history#102828)
 
+### Sort
+
+Vim has a very powerful
+[built-in sort utility](https://vim.fandom.com/wiki/Sort_lines), or it can
+interface with an external one. In order to keep only unique lines and sort,
+
+```vim
+:{range}sort u
+```
+
+You can make a selection (with `v` or `V` for example) and then
+
+```vim
+:'<,'>sort u
+```
+
 ## Tips
 
 ### Go to th nth line
