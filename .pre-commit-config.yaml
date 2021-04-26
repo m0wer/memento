@@ -12,21 +12,23 @@ repos:
   rev: 0.10.2
   hooks:
     - id: proselint
-      exclude: LICENSE|requirements
+      exclude: LICENSE|requirements|newsletter
       files: \.(md|mdown|markdown)$
 - repo: https://github.com/igorshubovych/markdownlint-cli
-  rev: v0.23.2
+  rev: v0.27.1
   hooks:
     - id: markdownlint
+      args: ['--ignore', 'docs/newsletter/']
 - repo: https://github.com/Lucas-C/pre-commit-hooks-safety
   rev: v1.2.1
   hooks:
     - id: python-safety-dependencies-check
 - repo: https://github.com/jazzband/pip-tools
-  rev: 5.0.0
+  rev: 6.1.0
   hooks:
     - name: Build requirements.txt
       id: pip-compile
+      args: ['-Ur', 'requirements.in', '--allow-unsafe']
 
       #- repo: https://github.com/adrienverge/yamllint
       #  rev: v1.21.0
