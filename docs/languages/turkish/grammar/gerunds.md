@@ -8,8 +8,8 @@ tags: [ 'turkish', 'grammar' ]
 # Gerunds of junction (Bağlama Ulacı)
 
 !!! note "-ıp [-ip, -üp, -up; -(y)ip, -(y)ıp…]"
-  They are used to avoid repetition of the verb tense in sentences with several
-  verbs.
+    They are used to avoid repetition of the verb tense in sentences with several
+    verbs.
 
 ## Examples
 
