@@ -156,6 +156,10 @@ nav:
   - Economics:
       - Development:
         - Product Space: economics/development/product_space.md
+  - Languages:
+    - Turkish:
+      - Grammar:
+        - Gerunds: languages/turkish/grammar/gerunds.md
   - Projects: projects/projects.md
   - Forking this wiki: forking_this_wiki.md
   - Contact: contact.md
