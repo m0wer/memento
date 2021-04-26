@@ -4,61 +4,59 @@ date: 2018-06-21
 tags: [ 'latex', 'tex', 'pdflatex', 'math', 'science' ]
 ---
 
-# LaTeX
+# Cheatsheest
 
-## Cheatsheest
-
-### Style
+## Style
 
 Use point as the decimal separator: `\decimalpoint`.
 
 [stackexchange](https://tex.stackexchange.com/questions/82009/babel-and-the-decimal-separator)
 
-### Greek letters
+## Greek letters
 
-* epsilon: **\varepsilon** $$ \varepsilon $$
-* rho: **\rho** $$ \rho $$
-* phi: **\phi** $$ \phi $$
+* epsilon: **\varepsilon** $ \varepsilon $
+* rho: **\rho** $ \rho $
+* phi: **\phi** $ \phi $
 
 Not greek, but related:
 
-* Nabla: **\nabla** $$ \nabla $$
+* Nabla: **\nabla** $ \nabla $
 
 [uib](http://web.ift.uib.no/Teori/KURS/WRK/TeX/sym1.html)
 [wikipedia](https://en.wikipedia.org/wiki/Greek_alphabet)
 
-### Math
+## Math
 
-#### Vectors
+### Vectors
 
-* Unit vectors: **\hat{v}** $$ \hat{v} $$
+* Unit vectors: **\hat{v}** $ \hat{v} $
 
-#### Integrals
+### Integrals
 
-* Triple integrals: **\iiint xyz dxdydz** $$ \iiint xyz dxdydz $$
+* Triple integrals: **\iiint xyz dxdydz** $ \iiint xyz dxdydz $
 
-##### Closed integrals
+#### Closed integrals
 
 Using packages **asmath** and **esint**.
 
-* **\oiint** $$ \oiint $$
+* **\oiint** $ \oiint $
 
 [stackexchange-tex](https://tex.stackexchange.com/questions/134416/surface-integral)
 
-### Quotation
+## Quotation
 
 To quote some text you can't directly use "", you should wrap it around `` and
 '' instead.
 
 * [stackexchange](https://tex.stackexchange.com/questions/64371/direct-quotations-and-entire-paragraph-quotations)
 
-## Usage
+# Usage
 
-### Plugins
+## Plugins
 
-#### Minted
+### Minted
 
-##### Import code from file
+#### Import code from file
 
 ```tex
 \inputminted{<lang>}{<file>}
@@ -66,9 +64,24 @@ To quote some text you can't directly use "", you should wrap it around `` and
 
 * [stackexchange](https://tex.stackexchange.com/questions/44018/how-do-i-import-a-source-file-using-minted)
 
-## Reference
+## Figures
 
-### Packages
+### Tips
+
+* To ensure figures appear before certain point, use
+  [placeins](https://ctan.org/pkg/placeins). For example:
+
+  ```latex
+  \usepackage[section]{placeins}
+
+  % ... some floats here ...
+
+  \FloatBarrier
+  ```
+
+# Reference
+
+## Packages
 
 * [ConTeXt](https://tex.stackexchange.com/questions/2099/how-to-include-svg-diagrams-in-latex)
    To include **.svg** diagrams directly.
