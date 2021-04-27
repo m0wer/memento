@@ -8,6 +8,8 @@ nav:
   - Computer Science:
     - Android:
       - Apps: computer_science/android/apps.md
+    - CI/CD:
+      - Github Actions: computer_science/cicd/github_actions.md
     - GNU/Linux:
       - Android-studio: computer_science/gnu_linux/android-studio.md
       - Android: computer_science/gnu_linux/android.md
