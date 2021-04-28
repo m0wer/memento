@@ -65,6 +65,12 @@ keycode  44 = j J j J idotless Iabovedot idotless Iabovedot
 keycode  54 = c C c C ccedilla Ccedilla ccedilla Ccedilla
 ```
 
+You can get the current mappings with
+
+```bash
+xmodmap -pke
+```
+
 Execute
 
 ```bash
