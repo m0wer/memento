@@ -1,15 +1,15 @@
 ---
-title: Eggplant kebap recipe
+title: Eggplant kebab recipe
 date: 2021-04-08
 author: m0wer
-tags: [ 'cooking', 'recipe', 'kebap', 'eggplant' ]
+tags: [ 'cooking', 'recipe', 'kebab', 'eggplant' ]
 ---
 
 *Patlıcanlı kebap* is a Turkish dish that contains mainly
 eggplant and meat. It is generally cooked over a fire but it can be also be
 prepared in the oven.
 
-![Eggplant kebap](eggplant_kebap.jpg)
+![Eggplant kebab](eggplant_kebab.jpg)
 
 # Summary
 

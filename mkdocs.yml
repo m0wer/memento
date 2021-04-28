@@ -149,10 +149,15 @@ nav:
         - Git commits: computer_science/programming/code_style/git_commits.md
   - Cooking:
     - All recipes:
-      - Eggplant kebap: cooking/recipes/eggplant_kebap.md
       - Cheesecake: cooking/recipes/cheesecake.md
+      - Eggplant kebab: cooking/recipes/eggplant_kebab.md
+      - Red lentil soup: cooking/recipes/red_lentil_soup.md
+    - Turkish recipes:
+      - Eggplant kebab: cooking/recipes/eggplant_kebab.md
+      - Red lentil soup: cooking/recipes/red_lentil_soup.md
     - Vegetarian recipes:
       - Cheesecake: cooking/recipes/cheesecake.md
+      - Red lentil soup: cooking/recipes/red_lentil_soup.md
   - Countries:
     - Turkey:
       - Work: countries/turkey/work.md
