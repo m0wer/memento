@@ -4,7 +4,7 @@ date: 2018-06-21
 tags: [ 'latex', 'tex', 'pdflatex', 'math', 'science' ]
 ---
 
-# Cheatsheest
+# Cheatsheet
 
 ## Style
 
