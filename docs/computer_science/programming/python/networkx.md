@@ -83,3 +83,14 @@ nx.write_gexf(G, '{name}.gexf')
 
 I had some issues exporting a graph that was created from Pandas. I could only
 export it correctly when I left only the `weight` edge attribute.
+
+# Generators
+
+## Ego graph
+
+To generate the ego graph of a node from an existing graph, you can use
+[networkx.generators.ego.ego_graph](https://networkx.org/documentation/stable/reference/generated/networkx.generators.ego.ego_graph.html?highlight=ego_graph#networkx.generators.ego.ego_graph).
+
+```python
+networkx.generators.ego.ego_graph(G, n, radius=1, center=True, undirected=False, distance=None)
+```
