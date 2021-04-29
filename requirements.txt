@@ -4,7 +4,7 @@
 #
 #    pip-compile --allow-unsafe requirements.in
 #
-babel==2.9.0
+babel==2.9.1
     # via mkdocs-git-revision-date-localized-plugin
 beautifulsoup4==4.9.3
     # via mkdocs-newsletter
@@ -95,7 +95,7 @@ git+git://github.com/lyz-code/mkdocs-autolinks-plugin.git
     #   mkdocs-newsletter
 mkdocs-bibtex==0.3.1
     # via -r requirements.in
-mkdocs-exclude-search==0.5.1
+mkdocs-exclude-search==0.5.2
     # via -r requirements.in
 mkdocs-git-revision-date-localized-plugin==0.9
     # via -r requirements.in
