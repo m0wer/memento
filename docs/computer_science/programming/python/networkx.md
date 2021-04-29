@@ -59,6 +59,15 @@ plt.show()
 Only add `create_using=nx.DiGraph()` if you want the result to be a directed
 graph, otherwise it will be an undirected one by default.
 
+### Add node attributes from Series
+
+You can add node attributes to an existing graph from a Pandas Series with_labels
+
+
+```python
+nx.set_node_attributes(G, pd.Series(nodes.gender, index=nodes.node).to_dict(), 'gender')
+```
+
 # Exporting
 
 ## Export to Gephi
