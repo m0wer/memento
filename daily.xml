@@ -11,7 +11,7 @@
     <managingEditor>m0wer</managingEditor>
 
     
-    <pubDate>2021-04-28 05:36:18+00:00</pubDate>
+    <pubDate>2021-04-29 05:34:52+00:00</pubDate>
     <ttl>1440</ttl>
 
     
@@ -25,6 +25,16 @@
     
 
     
+    
+    <item><title>28th April 2021</title>
+      <author>m0wer</author>
+      <description>&lt;article class=&#34;md-content__inner md-typeset&#34;&gt; &lt;a class=&#34;md-content__button md-icon&#34; href=&#34;https://github.com/m0wer/memento/edit/master/docs/newsletter/2021_04_28.md&#34; title=&#34;Edit this page&#34;&gt; &lt;svg viewbox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z&#34;&gt;&lt;/path&gt;&lt;/svg&gt; &lt;/a&gt;  &lt;h2 id=&#34;computer-science&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/gnu_linux/keyboard/&#34;&gt;Computer Science&lt;/a&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Get current keyboard mappings.&lt;/p&gt; &lt;p&gt;Use &lt;code&gt;xmodmap -pke&lt;/code&gt;.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h2 id=&#34;cooking&#34;&gt;Cooking&lt;/h2&gt; &lt;h3 id=&#34;all-recipes&#34;&gt;All recipes&lt;/h3&gt; &lt;h4 id=&#34;red-lentil-soup&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/cooking/recipes/red_lentil_soup/&#34;&gt;Red lentil soup&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Red lentil soup recipe.&lt;/p&gt; &lt;p&gt;Mercimek çorbası is the most popular Turkish soup, made with red lentils.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt;  &lt;/article&gt;</description>
+      <link>https://m0wer.github.io/memento/newsletter/2021_04_28/</link>
+      <pubDate>2021-04-29 05:34:52+00:00</pubDate>
+      <source url="https://m0wer.github.io/memento/daily.xml">Memento</source>
+      <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2021_04_28/</guid>
+      
+    </item>
     
     <item><title>27th April 2021</title>
       <author>m0wer</author>
@@ -173,16 +183,6 @@
       <pubDate>2021-04-17 16:44:48+00:00</pubDate>
       <source url="https://m0wer.github.io/memento/daily.xml">Memento</source>
       <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2021_04_09/</guid>
-      
-    </item>
-    
-    <item><title>8th April 2021</title>
-      <author>m0wer</author>
-      <description>&lt;article class=&#34;md-content__inner md-typeset&#34;&gt; &lt;a class=&#34;md-content__button md-icon&#34; href=&#34;https://github.com/m0wer/memento/edit/master/docs/newsletter/2021_04_08.md&#34; title=&#34;Edit this page&#34;&gt; &lt;svg viewbox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z&#34;&gt;&lt;/path&gt;&lt;/svg&gt; &lt;/a&gt;  &lt;h2 id=&#34;other&#34;&gt;Other&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;New: Added initial content.&lt;/li&gt; &lt;li&gt;New: Added index.&lt;/li&gt; &lt;li&gt;Reorganization: GNU/Linux tools.&lt;/li&gt; &lt;li&gt; &lt;p&gt;New: Forking this wiki.&lt;/p&gt; &lt;p&gt;Step by step guide on how to fork this wiki and customize it.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Reorganization: GNU/Linux tools.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;New: Added Scrambled Exif.&lt;/p&gt; &lt;p&gt;Android app to remove the metadata from your pictures before sharing them.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;New: Added link to Android apps.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt;  &lt;/article&gt;</description>
-      <link>https://m0wer.github.io/memento/newsletter/2021_04_08/</link>
-      <pubDate>2021-04-17 16:44:48+00:00</pubDate>
-      <source url="https://m0wer.github.io/memento/daily.xml">Memento</source>
-      <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2021_04_08/</guid>
       
     </item>
     
