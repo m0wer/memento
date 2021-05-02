@@ -131,7 +131,7 @@ nav:
       - YAML: computer_science/gnu_linux/yaml.md
       - youtube-dl: computer_science/gnu_linux/youtube-dl.md
       - zip: computer_science/gnu_linux/zip.md
-    - winbugs
+    - winbugs:
       - WinToUSB: computer_science/windows/wintousb.md
     - Hardware:
       - Thinkpad T14 (AMD) Gen1: computer_science/hardware/t14_amd_gen1.md
