@@ -8,8 +8,11 @@ tags: [ 'windows' ]
 [WoeUSB/WoeUSB](https://github.com/WoeUSB/WoeUSB) is a Microsoft Windows® USB
 installation media preparer for GNU+Linux.
 
-Unlike other operating systems, winbugs does not provide bootable ISOs, so a
-spacial process has to be done for creating a bootable USB.
+Unlike other operating systems, winbugs ISOs can't be directly flashed, so a
+special process has to be done for creating a bootable winbugs USB.
+
+This tool will create a bootable winbugs installer USB. If you want to create
+a Window To Go portable USB instead, check [WinToUsb](wintousb).
 
 # Usage
 
