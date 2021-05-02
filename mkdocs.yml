@@ -172,6 +172,7 @@ nav:
     - Turkish:
       - Grammar:
         - Gerunds: languages/turkish/grammar/gerunds.md
+        - Noun cases: languages/turkish/grammar/noun_cases.md
   - Projects: projects/projects.md
   - Forking this wiki: forking_this_wiki.md
   - Contact: contact.md
