@@ -123,6 +123,7 @@ nav:
       - virtualenvwrapper: computer_science/gnu_linux/virtualenvwrapper.md
       - WeeChat: computer_science/gnu_linux/weechat.md
       - wget: computer_science/gnu_linux/wget.md
+      - WoeUSB: computer_science/gnu_linux/woeusb.md
       - X-utilities: computer_science/gnu_linux/x-utilities.md
       - X: computer_science/gnu_linux/X.md
       - xcip: computer_science/gnu_linux/xcip.md
