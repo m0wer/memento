@@ -120,6 +120,7 @@ nav:
       - Vagrant: computer_science/gnu_linux/vagrant.md
       - vim: computer_science/gnu_linux/vim.md
       - vimdiff: computer_science/gnu_linux/vimdiff.md
+      - virt-manager: computer_science/gnu_linux/virt-manager.md
       - virtualenvwrapper: computer_science/gnu_linux/virtualenvwrapper.md
       - WeeChat: computer_science/gnu_linux/weechat.md
       - wget: computer_science/gnu_linux/wget.md
