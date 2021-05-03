@@ -100,3 +100,29 @@ networkx.generators.ego.ego_graph(G, n, radius=1, center=True, undirected=False,
 Use `networkx.DiGraph.to_undirected(reciprocal=False, as_view=False)`. Set
 `reciprocal=True` if you want to keep only the edges that appear in both
 directions in the original digraph.
+
+## Subgraph filtering nodes and edges
+
+To get a subgraph of another by filtering nodes and or edges, use
+`networkx.classes.graphviews.subgraph_view(G, filter_node=<function no_filter>, filter_edge=<function no_filter>)`.
+
+The functions will get the node name or the edge name only (without attributes)
+so keep it in mind while writing the filtering function because you won't be
+able to access the node or edge attributes directly.
+
+Example:
+
+```python
+import networkx as nx
+
+G = nx.path_graph(6)
+G[3][4]["cross_me"] = False
+
+def filter_edge(n1, n2):
+    return G[n1][n2].get("cross_me", True)
+
+view = nx.subgraph_view(G, filter_edge=filter_edge)
+view.edges()
+```
+
+Which returns `EdgeView([(0, 1), (1, 2), (2, 3), (4, 5)])`.
