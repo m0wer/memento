@@ -94,3 +94,9 @@ To generate the ego graph of a node from an existing graph, you can use
 ```python
 networkx.generators.ego.ego_graph(G, n, radius=1, center=True, undirected=False, distance=None)
 ```
+
+## Undirected graph from directed
+
+Use `networkx.DiGraph.to_undirected(reciprocal=False, as_view=False)`. Set
+`reciprocal=True` if you want to keep only the edges that appear in both
+directions in the original digraph.
