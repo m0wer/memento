@@ -8,6 +8,7 @@ nav:
   - Computer Science:
     - Android:
       - Apps: computer_science/android/apps.md
+      - OsmAnd: computer_science/android/osmand.md
     - CI/CD:
       - Github Actions: computer_science/cicd/github_actions.md
     - GNU/Linux:
