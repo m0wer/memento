@@ -8,7 +8,10 @@ nav:
   - Computer Science:
     - Android:
       - Apps: computer_science/android/apps.md
-      - OsmAnd: computer_science/android/osmand.md
+        - OsmAnd: computer_science/android/apps/osmand.md
+      - Devices:
+        - Xiaomi Redmi Note 9S: computer_science/android/devices/curtana.md
+      - SafetyNet: computer_science/android/safetynet.md
     - CI/CD:
       - Github Actions: computer_science/cicd/github_actions.md
     - GNU/Linux:
