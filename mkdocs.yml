@@ -7,7 +7,8 @@ nav:
   - Introduction: index.md
   - Computer Science:
     - Android:
-      - Apps: computer_science/android/apps.md
+      - Apps:
+        - computer_science/android/apps.md
         - OsmAnd: computer_science/android/apps/osmand.md
       - Devices:
         - Xiaomi Redmi Note 9S: computer_science/android/devices/curtana.md
