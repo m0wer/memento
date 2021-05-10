@@ -78,6 +78,28 @@ shuffle(x)
 This fragment comes from
 [stackoverflow](https://stackoverflow.com/questions/976882/shuffling-a-list-of-objects).
 
+# Text processing services
+
+## re
+
+The [`re`](https://docs.python.org/3/library/re.html) module provides regular
+expression matching operations similar to those found in Perl.
+
+### Usage
+
+#### Check if string matches a pattern
+
+The usage is `re.match(pattern, string)`. Example:
+
+```python
+import re
+
+string = "whatever"
+
+if re.match("what.*", string):
+  print("yes")
+```
+
 # I/O
 
 ## Files
