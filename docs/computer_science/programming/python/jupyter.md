@@ -46,13 +46,13 @@ and you're ready to go.
 that makes it easy to develop Plotly Dash apps interactively from within
 Jupyter environments.
 
-## Installation
+### Installation
 
 ```bash
 pip install jupyter-dash
 ```
 
-## Usage
+### Usage
 
 In a Jupyter Notebook, run this example application
 
@@ -98,3 +98,23 @@ app.run_server(mode='inline')
 `JupyterDash.infer_jupyter_proxy_config()` is needed if the Jupyter server is
 not accessible directly, and needs the [jupyter-server-proxy](#jupyter-server-proxy)
 extension to be installed.
+
+## ipynb
+
+[ipython/ipynb](https://github.com/ipython/ipynb) is a package/module importer
+for importing code from Jupyter Notebook files (.ipynb).
+
+### Usage
+
+To import a Notebook (`notebook1`) that is in the same directory as the
+current one:
+
+```python
+import ipynb.fs  # Boilerplate required
+
+# Do a full import
+from .full.notebook1 import foo
+
+# Do a definitions-only import
+from .defs.notebook1 import bar
+```
