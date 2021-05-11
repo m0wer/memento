@@ -78,6 +78,16 @@ shuffle(x)
 This fragment comes from
 [stackoverflow](https://stackoverflow.com/questions/976882/shuffling-a-list-of-objects).
 
+# Generic Operating System Services
+
+## os
+
+### listdir
+
+[`os.listdir(path='.')`](https://docs.python.org/3/library/os.html#os.listdir)
+returns a list containing the names of the entries in
+the directory given by *path*.
+
 # Text processing services
 
 ## re
