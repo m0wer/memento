@@ -4,13 +4,17 @@ date: 2020-03-16
 tags: [ 'postgresql', 'sql' ]
 ---
 
-# PostgresSQL
+# Usage
 
-## Usage
+## psql
 
-### psql
+## Delete a table
 
-#### Enable command timing
+```psql
+DROP TABLE "{table_name}";
+```
+
+### Enable command timing
 
 ```pgsql
 \timing [on|off]
