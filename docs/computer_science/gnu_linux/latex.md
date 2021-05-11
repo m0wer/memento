@@ -50,6 +50,18 @@ To quote some text you can't directly use "", you should wrap it around `` and
 
 * [stackexchange](https://tex.stackexchange.com/questions/64371/direct-quotations-and-entire-paragraph-quotations)
 
+## Rename tables names in Spanish
+
+By default, the caption of a table will start with “Cuadro: ” when using
+`\usepackage[spanish]{babel}`. if you want to change it to something else, for
+example “Tabla: ” add the following lines after `\begin{document}`:
+
+```latex
+% Cambiar Cuadros por Tablas y lista de...
+\renewcommand{\listtablename}{Índice de tablas}
+\renewcommand{\tablename}{Tabla}
+```
+
 # Usage
 
 ## Plugins
