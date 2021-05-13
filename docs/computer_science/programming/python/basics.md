@@ -110,6 +110,26 @@ if re.match("what.*", string):
   print("yes")
 ```
 
+## time
+
+The module [`time`](https://docs.python.org/3/library/time.html?highlight=time#module-time)
+provides various time-related functions.
+
+## Usage
+
+### Measure elapsed time between two points
+
+To measure elapsed time between two points do:
+
+```python
+import time
+
+start = time.time()
+print("hello")
+end = time.time()
+print(end - start)
+```
+
 # I/O
 
 ## Files
