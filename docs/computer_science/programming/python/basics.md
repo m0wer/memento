@@ -52,6 +52,18 @@ reversed(range(n))
 
 # Built-in functions
 
+## isinstance
+
+To check if an object is an istance of a class use
+[`isinstance(object, class)`](https://docs.python.org/2/library/functions.html#isinstance).
+For example:
+
+```python
+d = {"a": 4}
+
+isinstance(d, dict)
+```
+
 ## Sort
 
 To sort the objects of a `list` based on an attribute of them you can do
