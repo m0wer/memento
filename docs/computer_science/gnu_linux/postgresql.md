@@ -8,13 +8,19 @@ tags: [ 'postgresql', 'sql' ]
 
 ## psql
 
+## Get column names of a table
+
+```psql
+SELECT column_name FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = '{table_name';
+```
+
 ## Delete a table
 
 ```psql
 DROP TABLE "{table_name}";
 ```
 
-### Enable command timing
+## Enable command timing
 
 ```pgsql
 \timing [on|off]
