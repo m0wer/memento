@@ -54,7 +54,7 @@ reversed(range(n))
 
 ## isinstance
 
-To check if an object is an istance of a class use
+To check if an object is an instance of a class use
 [`isinstance(object, class)`](https://docs.python.org/2/library/functions.html#isinstance).
 For example:
 
