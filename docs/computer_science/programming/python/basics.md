@@ -122,6 +122,10 @@ if re.match("what.*", string):
   print("yes")
 ```
 
+### Tips
+
+* Try your RegEx at [Pythex](https://pythex.org/).
+
 ## time
 
 The module [`time`](https://docs.python.org/3/library/time.html?highlight=time#module-time)
