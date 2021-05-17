@@ -148,6 +148,7 @@ nav:
         - Debugging: computer_science/programming/python/debugging.md
         - Gotchas: computer_science/programming/python/gotchas.md
         - Jupyter Notebook/Lab: computer_science/programming/python/jupyter.md
+        - json: computer_science/programming/python/json.md
         - NetworkX: computer_science/programming/python/networkx.md
         - Pandas: computer_science/programming/python/pandas.md
         - pip: computer_science/programming/python/pip.md
