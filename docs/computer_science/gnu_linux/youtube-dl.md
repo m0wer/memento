@@ -1,7 +1,7 @@
 ---
 title: youtube-dl
-date: 20171113
-tags: youtube-dl,download,web,audio,video,mp3,mp4
+date: 2017-11-13
+tags: [ 'youtube-dl', 'download', 'web', 'audio', 'video', 'mp3', 'mp4' ]
 ---
 
 # Download methods
@@ -29,3 +29,16 @@ The subtitles will be written to a separate file.
 ## Ignore errors (missing videos)
 
 `--ignore-errors` or `-i`
+
+## Parallel downloads
+
+```bash
+youtube-dl --get-id {playlist_url} | xargs -I '{}' -P 5 youtube-dl 'https://youtube.com/watch?v={}'
+```
+
+The first command (`--get-id`) gets a list of video IDs in the playlist, one
+per line. Those IDs get piped to `xargs`, which calls individual instances of
+`youtube-dl` to download each video. Because we're passing `-P 5` to `xargs`,
+it runs up to 5 parallel instances of `youtube-dl` at a time.
+
+Reference: [alexwlchan](https://alexwlchan.net/2020/07/how-to-do-parallel-downloads-with-youtube-dl/)
