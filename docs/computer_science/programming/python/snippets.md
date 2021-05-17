@@ -36,3 +36,14 @@ dir_path = '{dir_path}'
 if not os.path.exists(dir_path):
     os.makedirs(dir_path)
 ```
+
+# Network
+
+## Download a file
+
+To download a file from a URL do:
+
+```python
+import urllib.request
+urllib.request.urlretrieve('{url}', '{destination_path}')
+```
