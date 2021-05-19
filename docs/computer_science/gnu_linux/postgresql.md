@@ -19,7 +19,37 @@ To select the database to work in do
 
 or `\c {database_name}` in short.
 
-## Get column names of a table
+## Basic operations
+
+### Delete a table
+
+```psql
+DROP TABLE "{table_name}";
+```
+
+### GROUP BY
+
+Reference:
+[PostgreSQL GROUP BY](https://www.postgresqltutorial.com/postgresql-group-by/)
+
+## Time stamp operations
+
+### Get only part of the time stamp
+
+To get only a part of the time stamp (e.g., day, hour...) or to get it in
+another format (e.g., epoch), use `date_part()`. For example, to get the
+hour of a `timestamp` do:
+
+```psql
+date_part('hour', timestamp '2001-02-16 20:38:40')
+```
+
+which will return `20`. The second argument of the function can be the name of
+a column.
+
+## Meta
+
+### Get column names of a table
 
 ```psql
 SELECT column_name FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = '{table_name}';
@@ -29,13 +59,8 @@ Or, to get the column names along with their type use:
 ```psql
 \d+ {table_name}
 ```
-## Delete a table
 
-```psql
-DROP TABLE "{table_name}";
-```
-
-## Enable command timing
+### Enable command timing
 
 ```pgsql
 \timing [on|off]
