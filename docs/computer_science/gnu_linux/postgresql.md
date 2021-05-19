@@ -11,6 +11,14 @@ Use `psql`.
 Queries ignore case, so if any column name has capital letters in it, escape
 it with double quotes ("). To scape a string use single quotes (').
 
+To select the database to work in do
+
+```psql
+\connect {database_name}
+```
+
+or `\c {database_name}` in short.
+
 ## Get column names of a table
 
 ```psql
