@@ -11,9 +11,13 @@ tags: [ 'postgresql', 'sql' ]
 ## Get column names of a table
 
 ```psql
-SELECT column_name FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = '{table_name';
+SELECT column_name FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = '{table_name}';
 ```
+Or, to get the column names along with their type use:
 
+```psql
+\d+ {table_name}
+```
 ## Delete a table
 
 ```psql
