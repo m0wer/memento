@@ -6,7 +6,10 @@ tags: [ 'postgresql', 'sql' ]
 
 # Usage
 
-## psql
+Use `psql`.
+
+Queries ignore case, so if any column name has capital letters in it, escape
+it with double quotes ("). To scape a string use single quotes (').
 
 ## Get column names of a table
 
