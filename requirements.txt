@@ -206,7 +206,7 @@ soupsieve==2.2.1
     # via beautifulsoup4
 toml==0.10.2
     # via pep517
-tomlkit==0.7.0
+tomlkit==0.7.1
     # via python-semantic-release
 tornado==6.1
     # via
