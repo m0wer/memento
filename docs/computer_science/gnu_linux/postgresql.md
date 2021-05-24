@@ -70,6 +70,10 @@ Or, to get the column names along with their type use:
 
 ## Configuration
 
+You can use [PGTune](https://pgtune.leopard.in.ua/#/) to calculate
+configuration for PostgreSQL based on the maximum performance for a given
+hardware configuration.
+
 ### Parallelization
 
 To tune the number of workers edit `postgresql.conf` and in the
