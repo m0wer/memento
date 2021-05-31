@@ -5,6 +5,36 @@ author: m0wer
 tags: [ 't14_amd_gen1', 'thinkpad', 'lenovo' ]
 ---
 
+# Usage
+
+## BIOS upgrade
+
+There are several ways of upgrading the BIOS of this laptop. One of them is
+using `fwupdate`, other is running an executable from winbugs and the last one
+is from a bootable USB.
+
+Keep in mind that the upgrades might require the laptop to be plugged to a power
+supply and/or have a level of charge over 50%, 80%...
+
+### Bootable USB
+
+First, create the bootable USB:
+
+1. Download the BIOS update (Bootable CD) from
+  [lenovo](https://pcsupport.lenovo.com/es/en/products/laptops-and-netbooks/thinkpad-t-series-laptops/thinkpad-t14-type-20ud-20ue/downloads/driver-list/component?name=BIOS%2FUEFI).
+1. Check the integrity of the downloaded file with `sha256sum {downloaded_file}`
+1. Extract the bootable image:
+  ```bash
+  geteltorito -o t14.img {downloaded_file}
+  ```
+1. Flash the extracted image to an usb:
+  ```bash
+  dd if=t14.img of=/dev/sdX
+  ```
+1. Reboot, interrupt the boot (press enter), press F12 and select the USB as
+  the boot device.
+1. Follow the on-screen instructions.
+
 # Issues
 
 ## Flashing colors on the LCD screen
