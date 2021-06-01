@@ -11,7 +11,7 @@
     <managingEditor>m0wer</managingEditor>
 
     
-    <pubDate>2021-05-25 05:55:10+00:00</pubDate>
+    <pubDate>2021-06-01 07:13:24+00:00</pubDate>
     <ttl>1440</ttl>
 
     
@@ -25,6 +25,16 @@
     
 
     
+    
+    <item><title>31st May 2021</title>
+      <author>m0wer</author>
+      <description>&lt;article class=&#34;md-content__inner md-typeset&#34;&gt; &lt;a class=&#34;md-content__button md-icon&#34; href=&#34;https://github.com/m0wer/memento/edit/master/docs/newsletter/2021_05_31.md&#34; title=&#34;Edit this page&#34;&gt; &lt;svg viewbox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z&#34;&gt;&lt;/path&gt;&lt;/svg&gt; &lt;/a&gt;  &lt;h2 id=&#34;computer-science&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/gnu_linux/luks/&#34;&gt;Computer Science&lt;/a&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;New: Using a keyfile for LUKS.&lt;/li&gt; &lt;/ul&gt; &lt;h3 id=&#34;hardware&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/hardware/t14_amd_gen1/&#34;&gt;Hardware&lt;/a&gt;&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;New: BIOS upgrade instructions.&lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt;  &lt;/article&gt;</description>
+      <link>https://m0wer.github.io/memento/newsletter/2021_05_31/</link>
+      <pubDate>2021-06-01 07:13:24+00:00</pubDate>
+      <source url="https://m0wer.github.io/memento/daily.xml">Memento</source>
+      <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2021_05_31/</guid>
+      
+    </item>
     
     <item><title>24th May 2021</title>
       <author>m0wer</author>
@@ -173,16 +183,6 @@
       <pubDate>2021-04-28 05:36:18+00:00</pubDate>
       <source url="https://m0wer.github.io/memento/daily.xml">Memento</source>
       <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2021_04_27/</guid>
-      
-    </item>
-    
-    <item><title>26th April 2021</title>
-      <author>m0wer</author>
-      <description>&lt;article class=&#34;md-content__inner md-typeset&#34;&gt; &lt;a class=&#34;md-content__button md-icon&#34; href=&#34;https://github.com/m0wer/memento/edit/master/docs/newsletter/2021_04_26.md&#34; title=&#34;Edit this page&#34;&gt; &lt;svg viewbox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z&#34;&gt;&lt;/path&gt;&lt;/svg&gt; &lt;/a&gt;  &lt;h2 id=&#34;computer-science&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/gnu_linux/latex/&#34;&gt;Computer Science&lt;/a&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Add placeins package.&lt;/p&gt; &lt;p&gt;Use it to ensure figures appear before certain point.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;New: Altgr-intl layout.&lt;/p&gt; &lt;p&gt;My favorite layout is &lt;a href=&#34;https://altgr-weur.eu/altgr-intl.html&#34;&gt;altgr-intl&lt;/a&gt; because it is based on the standard US layout, which is comfortable for programming and allows me to write accents on letters (required for Spanish and French). And by adding some modifications it can be used for Turkish too.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h2 id=&#34;languages&#34;&gt;Languages&lt;/h2&gt; &lt;h3 id=&#34;turkish&#34;&gt;Turkish&lt;/h3&gt; &lt;h4 id=&#34;gerunds&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/languages/turkish/grammar/gerunds/&#34;&gt;Gerunds&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Gerunds of junction.&lt;/p&gt; &lt;p&gt;They are used to avoid repetition of the verb tense in sentences with several verbs.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt;  &lt;/article&gt;</description>
-      <link>https://m0wer.github.io/memento/newsletter/2021_04_26/</link>
-      <pubDate>2021-04-27 05:35:37+00:00</pubDate>
-      <source url="https://m0wer.github.io/memento/daily.xml">Memento</source>
-      <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2021_04_26/</guid>
       
     </item>
     
