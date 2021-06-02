@@ -59,6 +59,21 @@ SET column1 = value1,
 WHERE condition;
 ```
 
+#### From subquery
+
+The most efficient way appears to be the following.
+
+```psql
+UPDATE {table}
+SET {column1}=subquery.{column1},
+    {column2}=subquery.{column2}
+FROM ({subquery}) AS subquery
+WHERE {table}.{id} = subquery.{id};
+```
+
+Other options are to perform a `JOIN` but the syntax is less clear and the
+performance seems to be worse.
+
 ### Window functions
 
 Window functions allow to perform the calculation across a set of rows related
