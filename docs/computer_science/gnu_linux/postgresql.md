@@ -115,3 +115,9 @@ hardware configuration.
 To tune the number of workers edit `postgresql.conf` and in the
 *- Asynchronous Behavior -* section edit `max_worker_processes`,
 `max_parallel_workers_per_gather` and `max_parallel_workers`.
+
+# Reference
+
+## Data types
+
+* [Numeric Types](https://www.postgresql.org/docs/current/datatype-numeric.html)
