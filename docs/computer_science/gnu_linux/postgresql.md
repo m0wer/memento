@@ -69,6 +69,18 @@ function returns a null value if `value1` equals `value2`; otherwise it returns
 
 It can be useful for avoiding divisions by 0 (e.g. set `value2` to 0).
 
+## String functions and operators
+
+Reference: [PostgreSQL Documentation](https://www.postgresql.org/docs/current/functions-string.html)
+
+
+### concat_ws
+
+To concatenate strings with a separator, use
+`concat_ws({separator}, {val1}, {...})`.
+
+For example: `concat_ws(',', 'abcde', 2, NULL, 22) → abcde,2,22`.
+
 ## Time stamp operations
 
 ### Get only part of the time stamp
