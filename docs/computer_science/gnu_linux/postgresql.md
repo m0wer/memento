@@ -32,6 +32,21 @@ DROP TABLE "{table_name}";
 Reference:
 [PostgreSQL GROUP BY](https://www.postgresqltutorial.com/postgresql-group-by/)
 
+### UPDATE
+
+To update the values of some columns, use
+[UPDATE](https://www.postgresql.org/docs/9.1/sql-update.html).
+
+The general basic syntax is as follows:
+
+```psql
+UPDATE table_name
+SET column1 = value1,
+    column2 = value2,
+    ...
+WHERE condition;
+```
+
 ## Query operators
 
 ### NULLIF
