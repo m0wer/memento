@@ -68,6 +68,17 @@ Or, to get the column names along with their type use:
 
 * [stackoverflow](https://stackoverflow.com/questions/9063402/get-execution-time-of-postgresql-query/9064100)
 
+### Stop/kill process
+
+First locate the process `pid` with
+
+```psql
+SELECT pid, query FROM pg_stat_activity WHERE state = 'active';
+```
+
+Then, stop or kill the process with SELECT `pg_cancel_backend({pid})` or
+`pg_termiante_backend({pid})` respectively.
+
 ## Configuration
 
 You can use [PGTune](https://pgtune.leopard.in.ua/#/) to calculate
