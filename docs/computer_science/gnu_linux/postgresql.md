@@ -27,6 +27,18 @@ or `\c {database_name}` in short.
 DROP TABLE "{table_name}";
 ```
 
+### Add a new column
+
+To add a new column, use
+[`ALTER TABLE`](https://www.postgresql.org/docs/current/sql-altertable.html).
+
+For example:
+
+```psql
+ALTER TABLE {table_name}
+  ADD IF NOT EXISTS {column_name} {data_type}
+```
+
 ### GROUP BY
 
 Reference:
