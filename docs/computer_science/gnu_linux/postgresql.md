@@ -32,6 +32,16 @@ DROP TABLE "{table_name}";
 Reference:
 [PostgreSQL GROUP BY](https://www.postgresqltutorial.com/postgresql-group-by/)
 
+## Query operators
+
+### NULLIF
+
+The [`NULLIF(value1, value2)`](https://www.postgresql.org/docs/current/functions-conditional.html#FUNCTIONS-NULLIF)
+function returns a null value if `value1` equals `value2`; otherwise it returns
+`value1`.
+
+It can be useful for avoiding divisions by 0 (e.g. set `value2` to 0).
+
 ## Time stamp operations
 
 ### Get only part of the time stamp
