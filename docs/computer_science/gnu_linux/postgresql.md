@@ -59,6 +59,32 @@ SET column1 = value1,
 WHERE condition;
 ```
 
+### Window functions
+
+Window functions allow to perform the calculation across a set of rows related
+to the current row.
+
+The simplified syntax is:
+
+```psql
+window_function(arg1, arg2,..) OVER (
+   [PARTITION BY partition_expression]
+   [ORDER BY sort_expression [ASC | DESC] [NULLS {FIRST | LAST }])
+```
+
+So for example a moving average of the last 28 days could be obtained with:
+
+```psql
+SELECT
+    AVG({column})
+        OVER (
+         ORDER BY {date_column}
+               RANGE BETWEEN '28 day' PRECEDING AND current row)
+         AS rolling_average
+ FROM
+     {table}
+```
+
 ## Query operators
 
 ### NULLIF
