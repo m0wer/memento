@@ -137,6 +137,9 @@ date_part('hour', timestamp '2001-02-16 20:38:40')
 which will return `20`. The second argument of the function can be the name of
 a column.
 
+If instead you want to truncate a timestamp to a specified level of precission,
+use `date_trunc('datepart', field)`.
+
 ## Meta
 
 ### Get column names of a table
