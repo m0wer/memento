@@ -4,17 +4,22 @@ date: 2017-11-25
 tags: [ 'apt', 'debian', 'package', 'manager' ]
 ---
 
-# APT
+# Usage
 
-## Debug
+## Install package from .deb
 
-### Fix half-installed package
+Either use `apt-get install ./{path to .deb}` or `dpkg -i {path to .deb}` and
+then `apt-get -f install` if there are missing dependencies.
+
+# Debug
+
+## Fix half-installed package
 
 `apt install --reinstall [package]`
 
 [askubuntu](https://askubuntu.com/questions/490671/fix-half-installed-package)
 
-## Tips
+# Tips
 
 ```bash
 alias uu='apt update && apt upgrade -y && apt-get autoremove -y'
