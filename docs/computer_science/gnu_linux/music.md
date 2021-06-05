@@ -4,11 +4,22 @@ date: 2018-05-21
 tags: [ 'info', 'music', 'audio' ]
 ---
 
-# Music related stuff
+# FLAC
 
-## Reference
+FLAC is a open lossless audio codec.
 
-### Utilities
+
+## ReplayGain
+
+To calculate and add the replaygain tag to FLAC files, do:
+
+```bash
+metaflac --add-replay-gain *.flac
+```
+
+# Reference
+
+## Utilities
 
 * **easytag** for tags.
 * **pulseeffects** equalizer.
