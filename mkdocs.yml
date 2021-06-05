@@ -74,6 +74,7 @@ nav:
       - mdadm: computer_science/gnu_linux/mdadm.md
       - mimeopen: computer_science/gnu_linux/mimeopen.md
       - MkDocs: computer_science/gnu_linux/mkdocs.md
+      - mmv: computer_science/gnu_linux/mmv.md
       - Molecule: computer_science/gnu_linux/molecule.md
       - Msmtp: computer_science/gnu_linux/msmtp.md
       - Music: computer_science/gnu_linux/music.md
