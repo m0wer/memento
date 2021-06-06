@@ -55,6 +55,7 @@ nav:
       - isync: computer_science/gnu_linux/isync.md
       - Jabber: computer_science/gnu_linux/jabber.md
       - Java: computer_science/gnu_linux/java.md
+      - jmtpfs: computer_science/gnu_linux/jmtpfs.md
       - jpegoptim: computer_science/gnu_linux/jpegoptim.md
       - Kali: computer_science/gnu_linux/kali.md
       - Kernel: computer_science/gnu_linux/kernel.md
