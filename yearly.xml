@@ -4,14 +4,14 @@
     
     <title>Memento</title>
     <description>My personal digital garden</description>
-    <link>https://m0wer.github.io/memento</link>
-    <atom:link href="https://m0wer.github.io/memento/yearly.xml" rel="self" type="application/rss+xml"/>
+    <link>https://m0wer.github.io/memento/</link>
+    <atom:link href="https://m0wer.github.io/memento//yearly.xml" rel="self" type="application/rss+xml"/>
 
     
     <managingEditor>m0wer</managingEditor>
 
     
-    <pubDate>2021-06-07 06:54:59.064311</pubDate>
+    <pubDate>2021-06-08 06:00:16.429138</pubDate>
     <ttl>525600</ttl>
 
     
@@ -19,8 +19,8 @@
 
     
     
-    <image><url>https://m0wer.github.io/memento/img/logo.bmp</url><title>Memento</title>
-      <link>https://m0wer.github.io/memento</link>
+    <image><url>https://m0wer.github.io/memento//img/logo.bmp</url><title>Memento</title>
+      <link>https://m0wer.github.io/memento/</link>
     </image>
     
 
