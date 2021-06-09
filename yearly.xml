@@ -4,23 +4,23 @@
     
     <title>Memento</title>
     <description>My personal digital garden</description>
-    <link>https://m0wer.github.io/memento/</link>
-    <atom:link href="https://m0wer.github.io/memento//yearly.xml" rel="self" type="application/rss+xml"/>
+    <link>https://m0wer.github.io/memento</link>
+    <atom:link href="https://m0wer.github.io/memento/yearly.xml" rel="self" type="application/rss+xml"/>
 
     
     <managingEditor>m0wer</managingEditor>
 
     
-    <pubDate>2021-06-08 06:00:16.429138</pubDate>
+    <pubDate>2021-06-09 05:50:17.037938</pubDate>
     <ttl>525600</ttl>
 
     
-    <generator>mkdocs-newsletter - v0.3.0</generator>
+    <generator>mkdocs-newsletter - v0.3.1</generator>
 
     
     
-    <image><url>https://m0wer.github.io/memento//img/logo.bmp</url><title>Memento</title>
-      <link>https://m0wer.github.io/memento/</link>
+    <image><url>https://m0wer.github.io/memento/img/logo.bmp</url><title>Memento</title>
+      <link>https://m0wer.github.io/memento</link>
     </image>
     
 
