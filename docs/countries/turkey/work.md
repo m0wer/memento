@@ -14,6 +14,8 @@ Turkey.
 
 According to Article 8e of Law No. 4817 about work permit for foreigners: "*[...] working permission may be given [...] to citizens of the countries that are a member of the European Union [...]*".
 
+*Note*: apparently this does not apply in practice.
+
 Reference: [YABANCILARIN ÇALIŞMA İZİNLERİ HAKKINDA KANUN](https://www.mevzuat.gov.tr/MevzuatMetin/1.5.4817.pdf).
 
 ## Evaluation criteria
