@@ -4,11 +4,17 @@ date: 20171106
 tags: gnu,linux,shell,utility
 ---
 
-# find
+# Cheatsheet
 
-## Options
+## List files larger than
 
-### Types
+```bash
+find . -type f -size +100M
+```
+
+# Options
+
+## Types
 
 * Find only directories: `-type d`
 
