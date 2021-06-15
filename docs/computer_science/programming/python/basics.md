@@ -196,6 +196,17 @@ print("{:.{n}e}".format(number))
 
 which will return `1.23e-04` with `n=2`.
 
+### Get the name of the weekday
+
+To get the name of the weekday of a `datetime` object use `.strftime("%A")`.
+For example:
+
+```python
+>>> from datetime import datetime as date
+>>> date.today().strftime("%A")
+'Monday'
+```
+
 # Internet protocols and support
 
 ## http.server
