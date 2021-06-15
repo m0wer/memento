@@ -5,6 +5,26 @@ author: m0wer
 tags: [ 'plotly', 'python', 'visualization' ]
 ---
 
+# Plotly express
+
+## Facet and Trellis Plots
+
+Facet plots, also known as trellis plots or small multiples, are figures made
+up of multiple subplots which have the same set of axes, where each subplot
+shows a subset of the data.
+
+Example:
+
+```python
+import plotly.express as px
+df = px.data.gapminder()
+fig = px.scatter(df, x='gdpPercap', y='lifeExp', color='continent', size='pop',
+                facet_col='year', facet_col_wrap=4)
+fig.show()
+```
+
+![Plotly Express facet plot](facet)
+
 # Dash
 
 [Dash](https://dash.plotly.com/) is a productive Python framework for building
