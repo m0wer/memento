@@ -23,7 +23,7 @@ fig = px.scatter(df, x='gdpPercap', y='lifeExp', color='continent', size='pop',
 fig.show()
 ```
 
-![Plotly Express facet plot](facet)
+![Plotly Express facet plot](facet.png)
 
 # Dash
 
