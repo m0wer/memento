@@ -36,6 +36,17 @@ Then, add the keyfile to the LUKS header with
 cryptsetup luksAddKey {luks_partitition} /etc/mykeyfile
 ```
 
+## Change the passphrase
+
+To change a passphrase of a LUKS device to another:
+
+```bash
+cryptsetup luksChangeKey {device}
+```
+
+You will be prompted for the old passphrase and the new one twice. The device
+can be unlocked and in-use while changing the password.
+
 # Reference
 
 * [howtoforge](https://www.howtoforge.com/automatically-unlock-luks-encrypted-drives-with-a-keyfile) Automatically unlock LUKS drives.
