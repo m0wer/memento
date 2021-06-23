@@ -9,7 +9,7 @@ The codename is `curtana` but its also name of a larger family named `miatoll`.
 
 # Recoveries
 
-For Android 11 use [PitchBlack Recovery Project](https://sourceforge.net/projects/pbrp/files/miatoll/).
+For Android 11 use [OrangeFox Recovery](https://orangefox.download/device/miatoll).
 
 # ROMs
 
