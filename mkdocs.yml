@@ -142,6 +142,7 @@ nav:
       - WinToUSB: computer_science/windows/wintousb.md
     - Hardware:
       - Asus Prime B450 Plus motherboard: computer_science/hardware/asus_prime_b450_plus.md
+      - reMarkable: computer_science/hardware/remarkable.md
       - Thinkpad T14 (AMD) Gen1: computer_science/hardware/t14_amd_gen1.md
     - Programming:
       - Jinja: computer_science/programming/jinja.md
