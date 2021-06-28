@@ -111,6 +111,14 @@ docker images --format '{{.Size}}\t{{.Repository}}\t{{.Tag}}\t{{.ID}}' | sed 's/
 
 * [gist](https://gist.github.com/andyrbell/f30ae74c0eff82ae52238f4a7df9a313)
 
+### Don't send unnecessary files/directory to build context
+
+When building an image from a Dockerfile, Docker copies the files and directories
+in the local path, which can take a long time if the files are large.
+
+You can add unnecesary files and directories to `.dockerignore` so that they
+are't copied when building.
+
 ## Reference
 
 ### Healthcheck
