@@ -30,6 +30,34 @@ fig.show()
 [Dash](https://dash.plotly.com/) is a productive Python framework for building
 web analytic applications.
 
+## Configuration
+
+### Reverse proxy
+
+There might be issues with the request URLs if the app is served under a
+non-root directory of a domain (e.g., `domain.tld/dashboard/`). This is because
+Dash uses some absolute paths by default.
+
+Use the following configuration to avoid this issues:
+
+```python
+app = dash.Dash(__name__)
+app.config.update(
+    {
+        "routes_pathname_prefix": "", # default is /
+        "requests_pathname_prefix": "/{path}/",
+    }
+)
+```
+
+Then if you use NGINX:
+
+```nginx
+location /{path}/ {
+        proxy_pass http://127.0.0.1:{binded_port}/;
+}
+```
+
 ## Interactive visualizations
 
 The `dash_core_components` library includes a component called `Graph`.
