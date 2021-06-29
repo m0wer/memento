@@ -13,9 +13,9 @@ nav:
       - Devices:
         - Xiaomi Redmi Note 9S: computer_science/android/devices/curtana.md
       - SafetyNet: computer_science/android/safetynet.md
-    - CI/CD:
+    - CICD:
       - Github Actions: computer_science/cicd/github_actions.md
-    - GNU/Linux:
+    - GNULinux:
       - Android-studio: computer_science/gnu_linux/android-studio.md
       - Android: computer_science/gnu_linux/android.md
       - Anki: computer_science/gnu_linux/anki.md
