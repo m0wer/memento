@@ -101,7 +101,7 @@ git+git://github.com/lyz-code/mkdocs-autolinks-plugin.git
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-bibtex==0.4.0
+mkdocs-bibtex==1.0.0
     # via -r requirements.in
 mkdocs-exclude-search==0.5.2
     # via -r requirements.in
