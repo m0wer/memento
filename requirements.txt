@@ -149,7 +149,7 @@ pymdown-extensions==8.2
     # via
     #   -r requirements.in
     #   mkdocs-material
-pypandoc==1.5
+pypandoc==1.6.3
     # via mkdocs-bibtex
 pyparsing==2.4.7
     # via packaging
@@ -226,7 +226,7 @@ wheel==0.36.2
     #   pip-tools
     #   pypandoc
     #   python-semantic-release
-zipp==3.4.1
+zipp==3.5.0
     # via
     #   importlib-metadata
     #   pep517
