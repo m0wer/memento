@@ -133,7 +133,7 @@ pip-tools==6.2.0
     # via -r requirements.in
 pkginfo==1.7.0
     # via twine
-proselint==0.11.1
+proselint==0.11.2
     # via -r requirements.in
 pybtex==0.24.0
     # via mkdocs-bibtex
@@ -206,7 +206,7 @@ toml==0.10.2
     # via pep517
 tomlkit==0.7.0
     # via python-semantic-release
-tqdm==4.61.1
+tqdm==4.61.2
     # via twine
 twine==3.4.1
     # via python-semantic-release
