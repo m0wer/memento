@@ -122,6 +122,7 @@ nav:
       - telegram-cli: computer_science/gnu_linux/telegram-cli.md
       - Terminal: computer_science/gnu_linux/terminal.md
       - Termite: computer_science/gnu_linux/termite.md
+      - timedatectl: computer_science/gnu_linux/timedatectl.md
       - tmux: computer_science/gnu_linux/tmux.md
       - TOR: computer_science/gnu_linux/tor.md
       - Vagrant: computer_science/gnu_linux/vagrant.md
