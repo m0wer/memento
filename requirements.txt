@@ -45,7 +45,7 @@ gitdb==4.0.7
     #   gitpython
 gitdb2==4.0.2
     # via -r requirements.in
-gitpython==3.1.19
+gitpython==3.1.18
     # via
     #   mkdocs-git-revision-date-localized-plugin
     #   mkdocs-newsletter
@@ -202,7 +202,7 @@ smmap==4.0.0
     # via gitdb
 soupsieve==2.2.1
     # via beautifulsoup4
-tomli==1.0.4
+tomli==1.1.0
     # via pep517
 tomlkit==0.7.0
     # via python-semantic-release
