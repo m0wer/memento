@@ -7,7 +7,9 @@ tags: [ 'plotly', 'python', 'visualization' ]
 
 # Plotly express
 
-## Facet and Trellis Plots
+## Usage
+
+### Facet and Trellis Plots
 
 Facet plots, also known as trellis plots or small multiples, are figures made
 up of multiple subplots which have the same set of axes, where each subplot
@@ -24,6 +26,28 @@ fig.show()
 ```
 
 ![Plotly Express facet plot](facet.png)
+
+### Convert Matplotlib figure to Plotly
+
+For better aesthetics and interactivity, you can convert Matplotlib figures,
+that often are returned by existing libraries, to Plotly with:
+
+```python
+import plotly.tools as tls
+
+x = np.random.random(100)  # toy data
+y = np.random.random(100)  # toy data
+
+## matplotlib fig
+fig, axes = plt.subplots(2,1, figsize = (10,6))
+axes[0].plot(x, label = 'x')
+axes[1].scatter(x,y)
+
+## convert and plot in plotly
+tls.mpl_to_plotly(fig)
+```
+
+* Reference: [python - Matplotlib to plotly offline - Stack Overflow](https://stackoverflow.com/questions/52615425/matplotlib-to-plotly-offline)
 
 # Dash
 
