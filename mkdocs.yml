@@ -158,6 +158,7 @@ nav:
         - Pandas: computer_science/programming/python/pandas.md
         - pip: computer_science/programming/python/pip.md
         - Plotly: computer_science/programming/python/plotly.md
+        - pytest: computer_science/programming/python/pytest.md
         - Style: computer_science/programming/python/style.md
         - Snippets: computer_science/programming/python/snippets.md
         - Typing: computer_science/programming/python/typing.md
