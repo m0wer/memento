@@ -731,6 +731,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://m0wer.github.io/memento/computer_science/programming/python/pytest/</loc>
+         <lastmod>2021-08-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://m0wer.github.io/memento/computer_science/programming/python/snippets/</loc>
          <lastmod>2021-08-03</lastmod>
          <changefreq>daily</changefreq>
