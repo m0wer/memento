@@ -44,6 +44,12 @@ To commit:
 cz commit
 ```
 
+To retry a failed commit:
+
+```bash
+cz commit --retry
+```
+
 To bump the version and update the changelog:
 
 ```bash
