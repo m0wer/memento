@@ -222,3 +222,12 @@ cd /tmp/www; python3 -m http.server
 
 if you want to leave it running in the background even if you close the
 console session, do `nohup python3 -m http.server &` instead.
+
+# Built-in exceptions
+
+Most common:
+
+  * `TypeError`: Raised when an operation or function is applied to an object
+    of inappropriate type.
+  * `ValueError`: Raised when an operation or function receives an argument
+    that has the right type but an inappropriate value.
