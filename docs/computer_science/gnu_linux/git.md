@@ -33,9 +33,9 @@ Add the following lines to *.git/config*:
 
 # Usage
 
-# Cloning
+## Cloning
 
-## Clone a repo and its submodules
+### Clone a repo and its submodules
 
 ```bash
 git clone --recurse-submodules -j8 [repo]
@@ -75,7 +75,7 @@ git checkout --track origin/[branch_name]
 
 ## Commits
 
-## Revert last public commit
+### Revert last public commit
 
 `git revert HEAD`
 
@@ -114,6 +114,26 @@ immediately previous commit:
 `git checkout [commit-id]~1 -- [files...]`
 
 [stackoverflow](https://stackoverflow.com/questions/215718/reset-or-revert-a-specific-file-to-a-specific-revision-using-git)
+
+### Removing sensitive data from a repository
+
+If you commit sensitive data, such as a password or SSH key into a git
+repository, you can remove it from the history. To entirely remove unwanted
+files from a repository's history you can use `git filter-branch`.
+
+To force git to process the entire history of every branch and tag
+and remove the specified file as well as any empty commits generated as a result
+run:
+
+```bash
+git filter-branch --force --index-filter \
+  "git rm --cached --ignore-unmatch {{path_to_file}}" \
+  --prune-empty --tag-name-filter cat -- --all
+```
+
+*Note*: If the file with sensitive data used to exist at any other paths
+(because it was moved or renamed), you must run this command on those paths,
+as well.
 
 ### GPG signed commits
 
