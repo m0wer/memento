@@ -31,3 +31,17 @@ doing it:
             .format(sql.Identifier('table')),
         [10, 20])
     ```
+
+    If part of your query is a variable sequence of arguments, such as a
+    comma-separated list of field names, you can use the `SQL.join()` method to
+    pass them to the query:
+
+    ```python
+    query = sql.SQL("select {fields} from {table}").format(
+      fields=sql.SQL(',').join([
+          sql.Identifier('field1'),
+          sql.Identifier('field2'),
+          sql.Identifier('field3'),
+      ]),
+      table=sql.Identifier('some_table'))
+    ```
