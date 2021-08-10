@@ -5,9 +5,25 @@ author: m0wer
 tags: [ 'test', 'python' ]
 ---
 
-# Mocking
+# Usage
 
-## monkeypatch
+## Parametrization
+
+To run the same test several times with different variables use
+`@pytest.mark.parametrize()`.
+
+```python
+import pytest
+
+
+@pytest.mark.parametrize("test_input,expected", [("3+5", 8), ("2+4", 6), ("6*9", 42)])
+def test_eval(test_input, expected):
+    assert eval(test_input) == expected
+```
+
+## Mocking
+
+### monkeypatch
 
 Sometimes tests need to invoke functionality which depends on global settings
 or which invokes code which cannot be easily tested such as network access.
@@ -17,7 +33,7 @@ environment variable, or to modify sys.path for importing.
 
 You need to add `monkeypatch` as an argument to the test functions.
 
-### Environment variables
+#### Environment variables
 
 ```python
 monkeypatch.setenv(name, value, prepend=None)
