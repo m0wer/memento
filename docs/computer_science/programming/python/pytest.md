@@ -7,6 +7,11 @@ tags: [ 'test', 'python' ]
 
 # Usage
 
+Invoke with `python -m pytest` so that the current directory is included
+to the python path.
+
+# Reference
+
 ## Parametrization
 
 To run the same test several times with different variables use
