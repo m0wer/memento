@@ -146,6 +146,14 @@ end = time.time()
 print(end - start)
 ```
 
+# Data Types
+
+## datetime
+
+### Methods
+
+* `timestamp()`: Return POSIX timestamp.
+
 # I/O
 
 ## Files
