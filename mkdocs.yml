@@ -160,6 +160,7 @@ nav:
         - Plotly: computer_science/programming/python/plotly.md
         - psycopg2: computer_science/programming/python/psycopg2.md
         - pytest: computer_science/programming/python/pytest.md
+        - statsmodels: computer_science/programming/python/statsmodels.md
         - Style: computer_science/programming/python/style.md
         - Snippets: computer_science/programming/python/snippets.md
         - Typing: computer_science/programming/python/typing.md
