@@ -239,3 +239,32 @@ Most common:
     of inappropriate type.
   * `ValueError`: Raised when an operation or function receives an argument
     that has the right type but an inappropriate value.
+
+# Functional programming modules
+
+## functools
+
+The [`functools`](https://docs.python.org/3/library/functools.html)
+module is for higher-order functions: functions that act on or return
+other functions.
+
+### Usage
+
+#### Change function default argument value
+
+```python
+from functools import partial
+
+def f(num: int = 0) -> str:
+  return "The value of num is: " + str(num)
+
+f_p = partial(f, num=1)
+
+f_p()
+```
+
+To keep the docstring of the original function, just copy it with:
+
+```python
+f_p.__doc__ = f.__doc__
+```
