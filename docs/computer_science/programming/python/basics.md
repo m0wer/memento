@@ -52,6 +52,13 @@ reversed(range(n))
 
 # Built-in functions
 
+## filter
+
+Use
+[`filter(function, iterable)`](https://docs.python.org/3/library/functions.html?highlight=filter#filter)
+to construct an iterator from those elements of `iterable` for which `function`
+returns true.
+
 ## isinstance
 
 To check if an object is an instance of a class use
