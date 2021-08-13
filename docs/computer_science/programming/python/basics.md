@@ -212,6 +212,20 @@ freeing up any system resource used by it.
 
 ## String formatting
 
+### Formatted string literals (f-strings)
+
+[Formatted string literals](https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals)
+(also called f-strings for short) let you include the value of Python
+expressions inside a string by prefixing the string with `f` or `F` and writing
+expressions as `{expression}`.
+
+For example:
+
+```python
+name = "robot"
+print(f"Hello {name}")
+```
+
 ### Scientific notation for numbers
 
 To print a number using scientific notation with `n` decimals, do
