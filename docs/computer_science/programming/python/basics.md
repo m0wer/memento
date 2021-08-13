@@ -30,6 +30,18 @@ A more extensive definition can be found at
 
 To get the class attributes of an object, do `object.__dict__`.
 
+## Mapping Types (dict)
+
+A mapping object maps hashable values to arbitrary objects. Mappings are
+mutable objects. There is currently only one standard mapping type, the
+dictionary.
+
+### setdefault
+
+[`setdefault(key[, default])`](https://docs.python.org/3/library/stdtypes.html#dict.setdefault):
+If `key` is in the dictionary, return its value. If not, insert key with a
+value of `default` and return `default`. `default` defaults to `None`.
+
 ## Ranges
 
 A `range` is a Python built-in type that represents an immutable sequence of
