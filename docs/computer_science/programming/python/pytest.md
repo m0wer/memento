@@ -10,6 +10,19 @@ tags: [ 'test', 'python' ]
 Invoke with `python -m pytest` so that the current directory is included
 to the python path.
 
+## Execute just one test or test class
+
+```python
+pytest test_server.py::TestClass::test_method
+```
+
+or
+
+
+```python
+pytest test_server.py::TestClass
+```
+
 # Reference
 
 ## Parametrization
