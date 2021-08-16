@@ -165,13 +165,38 @@ end = time.time()
 print(end - start)
 ```
 
-# Data Types
+# Data types
 
 ## datetime
 
 ### Methods
 
 * `timestamp()`: Return POSIX timestamp.
+
+## enum
+
+An enumeration is a set of symbolic names (members) bound to unique, constant
+values. Within an enumeration, the members can be compared by identity, and
+the enumeration itself can be iterated over.
+
+Example:
+
+```python
+from enum import Enum
+
+class Color(Enum):
+    RED = 1
+    GREEN = 2
+    BLUE = 3
+
+isinstance(Color.GREEN, Color) # True
+
+color = Color.RED
+color.name # RED
+color.value # 1
+```
+
+Enumeration members are hashable, so they can be used in dictionaries and sets.
 
 # I/O
 
