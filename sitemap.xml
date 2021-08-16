@@ -741,6 +741,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://m0wer.github.io/memento/computer_science/programming/python/pydantic/</loc>
+         <lastmod>2021-08-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://m0wer.github.io/memento/computer_science/programming/python/pytest/</loc>
          <lastmod>2021-08-16</lastmod>
          <changefreq>daily</changefreq>
