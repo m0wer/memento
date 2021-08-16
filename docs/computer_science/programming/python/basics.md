@@ -301,3 +301,49 @@ To keep the docstring of the original function, just copy it with:
 ```python
 f_p.__doc__ = f.__doc__
 ```
+
+# Python runtime services
+
+## Abstract Base Classes
+
+This module provides the infrastructure for defining
+[abstract base classes (ABCs)](https://docs.python.org/3/glossary.html#term-abstract-base-class)
+in Python, as outlined in [PEP 3119](https://www.python.org/dev/peps/pep-3119).
+
+To create an abstract base class, to define and interface and can be
+inherited but not instantiated, do:
+
+```python
+from abc import ABC, abstractmethod
+
+class Switchable(ABC):
+    """Switchable interface."""
+    is_on: bool = False
+
+    @abstractmethod
+    def turn_on(self):
+    """Method to turn on.""
+
+    @abstractmethod
+    def turn_off(self):
+    """Method to turn off.""
+
+class LightBulb(Switchable):
+    """Light bulb class."""
+    def turn_on(self):
+        self.is_on = True
+        print("Light is on.")
+
+    def turn_on(self):
+        self.is_on = False
+        print("Light is off.")
+
+light_bulb_1 = LightBulb()
+
+light_bulb_1.turn_on()
+```
+
+This code is an example for an abstract class that doesn't follow the
+composition over inheritance principle. It would be better to implement
+separate `turn_on` and `turn_off` functions that get a `Switchable` object
+as their argument.
