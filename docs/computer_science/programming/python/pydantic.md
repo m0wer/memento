@@ -66,3 +66,31 @@ What's going on here:
 
 If validation fails `pydantic` will raise an error with a breakdown of what
 was wrong.
+
+## Validators
+
+Custom validation and complex relationships between objects can be achieved
+using the `validator` decorator.
+
+Example:
+
+```python
+from pydantic import BaseModel, ValidationError, validator
+
+
+class UserModel(BaseModel):
+    name: str
+    username: str
+    password1: str
+    password2: str
+
+    @validator('name')
+    def name_must_contain_space(cls, v):
+        if ' ' not in v:
+            raise ValueError('must contain a space')
+        return v.title()
+```
+
+The validation function will get the variable `name` value and can perform
+checks or transformations to it. It should finally return the desired value
+for the variable.
