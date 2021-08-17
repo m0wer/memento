@@ -716,6 +716,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://m0wer.github.io/memento/computer_science/programming/python/mypy/</loc>
+         <lastmod>2021-08-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://m0wer.github.io/memento/computer_science/programming/python/networkx/</loc>
          <lastmod>2021-08-17</lastmod>
          <changefreq>daily</changefreq>
