@@ -298,6 +298,18 @@ Most common:
   * `ValueError`: Raised when an operation or function receives an argument
     that has the right type but an inappropriate value.
 
+## Custom exception
+
+To provide more insightful error messages related to our code, we can create
+custom exceptions. For example:
+
+```python
+class ColorError(ValueError):
+    def __init__(self, color):
+        message = f"Invalid color {color}."
+        super().__init__(message)
+```
+
 # Functional programming modules
 
 ## functools
