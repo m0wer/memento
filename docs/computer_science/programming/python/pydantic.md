@@ -75,7 +75,7 @@ using the `validator` decorator.
 Example:
 
 ```python
-from pydantic import BaseModel, ValidationError, validator
+from pydantic import BaseModel, validator
 
 
 class UserModel(BaseModel):
@@ -94,3 +94,35 @@ class UserModel(BaseModel):
 The validation function will get the variable `name` value and can perform
 checks or transformations to it. It should finally return the desired value
 for the variable.
+
+You can use validators to set the value of an attribute as a combination
+of others if undefined:
+
+```python
+from typing import Optional
+
+from pydantic import BaseModel, validator
+
+
+class UserModel(BaseModel):
+    name: str
+    password1: str
+    password2: str
+    username: Optional[str] = None
+    accepted_tos: bool = False
+
+    @validator('username', pre=True, always=True)
+    def default_username(cls, v, values):
+        if v is None:
+            v = values['name']
+        return v
+```
+
+`always=True` is required in this example since otherwise when `username` is
+not passed, the validator won't be executed. `pre=True` makes it run before
+any other validator so that `username` is defined in before other possible
+validations.
+
+Note that `values` only contains the class attributes defined *before* the
+one that is being validated. In the example above, `values` in the
+`default_username` validator won't contain the `accepted_tos` key.
