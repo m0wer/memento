@@ -31,6 +31,14 @@ for arg in [list]; do [command] $arg; done
 
 ## Environment variables
 
+### Remove an environment variable
+
+To remove an exported environment variable use:
+
+```bash
+unset VARIABLE
+```
+
 ### Remove prefix/suffix
 
 You can remove a fixed prefix and/or suffix from an environment variable
