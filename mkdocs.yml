@@ -151,6 +151,7 @@ nav:
       - Python:
         - Basics: computer_science/programming/python/basics.md
         - Debugging: computer_science/programming/python/debugging.md
+        - Docstrings: computer_science/programming/python/docstrings.md
         - FastAPI: computer_science/programming/python/fastapi.md
         - Gotchas: computer_science/programming/python/gotchas.md
         - Jupyter Notebook/Lab: computer_science/programming/python/jupyter.md
