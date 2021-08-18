@@ -696,6 +696,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://m0wer.github.io/memento/computer_science/programming/python/docstrings/</loc>
+         <lastmod>2021-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://m0wer.github.io/memento/computer_science/programming/python/fastapi/</loc>
          <lastmod>2021-08-18</lastmod>
          <changefreq>daily</changefreq>
