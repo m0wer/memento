@@ -23,6 +23,25 @@ or
 pytest test_server.py::TestClass
 ```
 
+## Coverage
+
+To see which parts of your code are executed when running the tests, you can
+use [Coverage.py](https://coverage.readthedocs.io/).
+
+You can install it with `pip install coverage`.
+
+The basic usage is:
+
+```bash
+coverage run --source={{path}} -m pytest
+coverage report -m # view report summary in the command-line
+coverage html # generate detailed report in htmlcov/index.html
+```
+
+100% coverage doesn't mean that all the code is tested, it means that all the
+code was executed at least once while running the tests. 100% coverage is
+necessary but not sufficient for ensuring that all code is tested.
+
 # Reference
 
 ## Parametrization
