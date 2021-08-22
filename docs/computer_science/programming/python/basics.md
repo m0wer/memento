@@ -182,6 +182,7 @@ print(end - start)
 ### Methods
 
 * `timestamp()`: Return POSIX timestamp.
+* `now()`: Return the current local date and time.
 
 ## enum
 
