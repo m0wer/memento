@@ -396,6 +396,9 @@ composition over inheritance principle. It would be better to implement
 separate `turn_on` and `turn_off` functions that get a `Switchable` object
 as their argument.
 
+*Note*: Use `@abstractmethod` before `classmethod`. See
+[Issue 16267](https://bugs.python.org/issue16267).
+
 # Development tools
 
 ## typing
