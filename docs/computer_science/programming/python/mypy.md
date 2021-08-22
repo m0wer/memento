@@ -32,3 +32,10 @@ additional dependency and enable the plugin in `pyproject.toml` with:
 [tool.mypy]
 plugins = ["pydantic.mypy"]
 ```
+
+# Tips
+
+## Ignore type checking in one line
+
+To ignore type checking in one particular line of the code, add the comment
+`# type: ignore` at the end of that line
