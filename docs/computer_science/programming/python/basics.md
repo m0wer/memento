@@ -62,6 +62,16 @@ To reverse the order in the range you can do
 reversed(range(n))
 ```
 
+# String
+
+## Methods
+
+* `str.removeprefix(prefix)`: If the string starts with the prefix string,
+  return `str[len(prefix):]`. Otherwise, return a copy of the original string.
+* `str.removesuffix(suffix)`: If the string ends with the suffix string and
+  that suffix is not empty, return `str[:-len(suffix)]`. Otherwise, return a
+  copy of the original string.
+
 # Built-in functions
 
 ## filter
