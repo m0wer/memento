@@ -25,6 +25,14 @@ __email__ = "email"
 __status__ = "Alpha"
 ```
 
+# Basic operations
+
+## Find first element  in dictionary that satisfies a condition
+
+```python
+next(item for item in {dict} if {{ condition }})
+```
+
 # I/O
 
 ## Create a directory if it doesn't exist
