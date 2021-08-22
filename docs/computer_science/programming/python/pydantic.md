@@ -126,3 +126,33 @@ validations.
 Note that `values` only contains the class attributes defined *before* the
 one that is being validated. In the example above, `values` in the
 `default_username` validator won't contain the `accepted_tos` key.
+
+### Root validators
+
+Validation can also be performed on the entire model's data.
+
+You can decorate a function with `@root_validator` and it will get all of the
+values as an argument. This function should process them and raise an exception
+or return the desired values dictionary.
+
+For example:
+
+```python
+@root_validator
+def check_passwords_match(cls, values):
+    pw1, pw2 = values.get('password1'), values.get('password2')
+    if pw1 is not None and pw2 is not None and pw1 != pw2:
+        raise ValueError('passwords do not match')
+    return values
+```
+
+`root_validator` takes `pre` as argument but not `always`, since its executed
+always anyways.
+
+*Note*: there is a bug
+([#1895](https://github.com/samuelcolvin/pydantic/issues/1895))
+that prevents subclasses to override the `root_validator` method defined in
+the parent class. A workaround for `BaseModel` subclasses is described in the
+issue comments but not for pydantic dataclasses. In this second case, a
+solution is to not define the root validator in the parent class and do it
+only on the child.
