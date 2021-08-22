@@ -395,3 +395,37 @@ This code is an example for an abstract class that doesn't follow the
 composition over inheritance principle. It would be better to implement
 separate `turn_on` and `turn_off` functions that get a `Switchable` object
 as their argument.
+
+# Development tools
+
+## typing
+
+Provides runtime support for type hints.
+
+### Types
+
+#### TypedDict
+
+Special construct to add type hints to a dictionary. At runtime it is a plain
+`dict`.
+
+Example:
+
+```python
+class Point2D(TypedDict):
+    x: int
+    y: int
+    label: str
+
+a: Point2D = {'x': 1, 'y': 2, 'label': 'good'}  # OK
+b: Point2D = {'z': 3, 'label': 'bad'}           # Fails type check
+```
+
+By default, all keys must be present in a `TypedDict`. It is possible to
+override this by specifying totality. Usage:
+
+```python
+class point2D(TypedDict, total=False):
+    x: int
+    y: int
+```
