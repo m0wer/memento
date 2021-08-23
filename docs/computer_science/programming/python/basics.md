@@ -81,6 +81,17 @@ Use
 to construct an iterator from those elements of `iterable` for which `function`
 returns true.
 
+## getattr
+
+```python
+getattr(object, name[, default])
+```
+
+Return the value of the named attribute of `object`.`name` must be a string.
+If the string is the name of one of the object's attributes, the result is the
+value of that attribute. If the named attribute does not exist, `default` is
+returned if provided, otherwise `AttributeError` is raised.
+
 ## isinstance
 
 To check if an object is an instance of a class use
