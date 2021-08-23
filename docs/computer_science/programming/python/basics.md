@@ -71,6 +71,8 @@ reversed(range(n))
 * `str.removesuffix(suffix)`: If the string ends with the suffix string and
   that suffix is not empty, return `str[:-len(suffix)]`. Otherwise, return a
   copy of the original string.
+* `str.strip([chars])`: Return a copy of the string with the leading and
+  trailing characters removed.
 
 # Built-in functions
 
