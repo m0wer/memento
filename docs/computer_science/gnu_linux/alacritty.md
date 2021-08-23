@@ -15,3 +15,9 @@ emulator by running `time tree ~` in both.
 
 To install it in Debian, you can use the pre-built `.deb` releases from
 [barnumbirr/alacritty-debian](https://github.com/barnumbirr/alacritty-debian).
+
+# Usage
+
+## Shortcuts
+
+* `Ctrl+Shift+Space`: Enter vi mode.
