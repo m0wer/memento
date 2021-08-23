@@ -55,3 +55,15 @@ To download a file from a URL do:
 import urllib.request
 urllib.request.urlretrieve('{url}', '{destination_path}')
 ```
+
+# Useful data
+
+## Weekdays
+
+```python
+Weekdays = IntEnum(
+    "Weekdays",
+    "Monday Tuesday Wednesday Thursday Friday Saturday Sunday",
+    start=0,
+)
+```
