@@ -16,6 +16,7 @@ nav:
     - CICD:
       - Github Actions: computer_science/cicd/github_actions.md
     - GNULinux:
+      - Alacritty: computer_science/gnu_linux/alacritty.md
       - Android-studio: computer_science/gnu_linux/android-studio.md
       - Android: computer_science/gnu_linux/android.md
       - Anki: computer_science/gnu_linux/anki.md
