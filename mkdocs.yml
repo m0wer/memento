@@ -170,6 +170,7 @@ nav:
         - Style: computer_science/programming/python/style.md
         - Snippets: computer_science/programming/python/snippets.md
         - Typing: computer_science/programming/python/typing.md
+        - unittest: computer_science/programming/python/unittest.md
       - Code style:
         - Git commits: computer_science/programming/code_style/git_commits.md
   - Cooking:
