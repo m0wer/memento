@@ -97,7 +97,7 @@ returned if provided, otherwise `AttributeError` is raised.
 ## isinstance
 
 To check if an object is an instance of a class use
-[`isinstance(object, class)`](https://docs.python.org/2/library/functions.html#isinstance).
+[`isinstance(object, class)`](https://docs.python.org/3/library/functions.html#isinstance).
 For example:
 
 ```python
@@ -105,6 +105,14 @@ d = {"a": 4}
 
 isinstance(d, dict)
 ```
+
+## issubclass
+
+[`issubclass(class, classinfo)`](https://docs.python.org/3/library/functions.html#issubclass):
+Return `True` if `class` is a subclass (direct, indirect or virtual) of
+`classinfo`. A class is considered a subclass of itself. `classinfo` may be a
+tuple of class objects, in which case every entry in `classinfo` will be
+checked. In any other case, a `TypeError` exception is raised.
 
 ## Sort
 
