@@ -34,3 +34,9 @@ Series = pd.core.series.Series
 DataFrame = pd.core.frame.DataFrame
 Graph = nx.classes.graph.Graph
 ```
+
+# Types
+
+Common types from `typing`:
+
+* `Type[Class]`: Accepts instances of the `Class` and the `Class` itself.
