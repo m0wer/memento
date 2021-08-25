@@ -68,3 +68,38 @@ raised from the imported function. The best solution for this appears to be
 defining a wrapper function that handles the arguments, calls the imported
 function or method and handles the exceptions raising the proper
 `HTTPException`.
+
+### Dependency injection
+
+A FastAPI decorated function can import the necessary arguments for other
+functions or objects.
+
+For example:
+
+```python
+from typing import Optional
+
+from fastapi import Depends, FastAPI
+
+app = FastAPI()
+
+
+async def common_parameters(q: Optional[str] = None, skip: int = 0, limit: int = 100):
+    return {"q": q, "skip": skip, "limit": limit}
+
+
+@app.get("/items/")
+async def read_items(commons: dict = Depends(common_parameters)):
+    return commons
+```
+
+In this example, the function `read_items` will get the parameters
+for the function `common_parameters` (i.e., `q`, `skip`, `limit`) allowing the
+optional ones to be set or not. Then, the passed parameters will be passed
+as a dictionary as the `commons` argument value of `read_itmes`. This is
+thanks to `Depends`.
+
+`Depends` can also be used with classes, and we could get an instance of a
+class directly to our function. For example by setting the argument:
+`car: Car = Depends(Car)` or `car: Car = Depends()` (which assumes that it
+depends on the class defined in the type hint).
