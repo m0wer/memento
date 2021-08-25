@@ -62,3 +62,9 @@ if an argument is a list, since you'll need to set its default value
 to `Query()` you can change it with `functools` instead of modifying
 the original function (which would be pretty ugly). Make sure of copying
 the original docstring.
+
+Nevertheless, this approach has some caveats such as not handling exceptions
+raised from the imported function. The best solution for this appears to be
+defining a wrapper function that handles the arguments, calls the imported
+function or method and handles the exceptions raising the proper
+`HTTPException`.
