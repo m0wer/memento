@@ -103,3 +103,19 @@ thanks to `Depends`.
 class directly to our function. For example by setting the argument:
 `car: Car = Depends(Car)` or `car: Car = Depends()` (which assumes that it
 depends on the class defined in the type hint).
+
+## JSON encoder
+
+The default the responses will be serialized to JSON. You can use a different
+JSON encoder than the default one, for example
+[ijl/orjson](https://github.com/ijl/orjson) which is more efficient and
+natively support serialization of dataclasses and more.
+
+To set the default encoder do:
+
+```python
+from fastapi import FastAPI
+from fastapi.responses import ORJSONResponse
+
+FastAPI(default_response_class=ORJSONResponse)
+```
