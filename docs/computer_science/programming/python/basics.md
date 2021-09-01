@@ -42,6 +42,12 @@ dictionary.
 If `key` is in the dictionary, return its value. If not, insert key with a
 value of `default` and return `default`. `default` defaults to `None`.
 
+### Rename a dictionary key
+
+```python
+mydict[k_new] = mydict.pop(k_old)
+```
+
 ## Ranges
 
 A `range` is a Python built-in type that represents an immutable sequence of
