@@ -150,6 +150,7 @@ nav:
     - Programming:
       - Jinja: computer_science/programming/jinja.md
       - Python:
+        - asyncpg: computer_science/programming/python/asyncpg.md
         - Basics: computer_science/programming/python/basics.md
         - Debugging: computer_science/programming/python/debugging.md
         - Docstrings: computer_science/programming/python/docstrings.md
