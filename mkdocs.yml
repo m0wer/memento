@@ -191,7 +191,7 @@ nav:
         - Touristic visa: countries/turkey/legal/touristic_visa.md
         - Work: countries/turkey/legal/work.md
       - Places:
-        - Ankara: countries/turkey/legal/ankara.md
+        - Ankara: countries/turkey/places/ankara.md
   - Economics:
       - Development:
         - Product Space: economics/development/product_space.md
