@@ -821,12 +821,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://m0wer.github.io/memento/countries/turkey/touristic_visa/</loc>
+         <loc>https://m0wer.github.io/memento/countries/turkey/legal/touristic_visa/</loc>
          <lastmod>2021-09-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://m0wer.github.io/memento/countries/turkey/work/</loc>
+         <loc>https://m0wer.github.io/memento/countries/turkey/legal/work/</loc>
+         <lastmod>2021-09-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://m0wer.github.io/memento/countries/turkey/places/ankara/</loc>
          <lastmod>2021-09-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
