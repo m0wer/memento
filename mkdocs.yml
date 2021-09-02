@@ -187,8 +187,8 @@ nav:
       - Red lentil soup: cooking/recipes/red_lentil_soup.md
   - Countries:
     - Turkey:
-      - Touristic visa: countries/turkey/touristic_visa.md
-      - Work: countries/turkey/work.md
+      - Touristic visa: countries/turkey/legal/touristic_visa.md
+      - Work: countries/turkey/legal/work.md
   - Economics:
       - Development:
         - Product Space: economics/development/product_space.md
