@@ -691,6 +691,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://m0wer.github.io/memento/computer_science/programming/python/asyncio/</loc>
+         <lastmod>2021-09-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://m0wer.github.io/memento/computer_science/programming/python/asyncpg/</loc>
          <lastmod>2021-09-03</lastmod>
          <changefreq>daily</changefreq>
