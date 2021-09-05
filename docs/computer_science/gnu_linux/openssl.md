@@ -4,7 +4,7 @@ date: 20180925
 tags: openssl,ssl,https,certificates,RSA,csr,key
 ---
 
-# OpenSSL usage guide
+# Usage
 
 ## Key
 
@@ -48,3 +48,9 @@ emailAddress           = "[CN/emailAddress]"		# CN/emailAddress=
 `openssl req -config csr.conf -new  -key [key file] -out [CSR file] -verbose`
 
 [medium](https://medium.com/curiouscaloo/how-to-generate-a-wildcard-cert-csr-with-a-config-file-for-openssl-8a6613ab342f)
+
+## Get information about a SSL/TLS certificate
+
+```bash
+openssl s_client -connect [host]:[port] | openssl x509 -noout -dates
+```
