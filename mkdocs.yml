@@ -167,6 +167,7 @@ nav:
         - psycopg2: computer_science/programming/python/psycopg2.md
         - pydantic: computer_science/programming/python/pydantic.md
         - pytest: computer_science/programming/python/pytest.md
+        - re: computer_science/programming/python/re.md
         - requests: computer_science/programming/python/requests.md
         - statsmodels: computer_science/programming/python/statsmodels.md
         - Style: computer_science/programming/python/style.md
