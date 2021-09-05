@@ -158,7 +158,7 @@ python-dateutil==2.8.2
     #   mkdocs-newsletter
 python-gitlab==2.10.1
     # via python-semantic-release
-python-semantic-release==7.19.1
+python-semantic-release==7.19.2
     # via mkdocs-newsletter
 pytz==2021.1
     # via babel
@@ -237,7 +237,7 @@ pip==21.2.4
     # via
     #   pip-tools
     #   pypandoc
-setuptools==57.4.0
+setuptools==57.5.0
     # via
     #   pip-tools
     #   pypandoc
