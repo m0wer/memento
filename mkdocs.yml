@@ -72,6 +72,7 @@ nav:
       - LUKS: computer_science/gnu_linux/luks.md
       - LVM: computer_science/gnu_linux/lvm.md
       - mail: computer_science/gnu_linux/mail.md
+      - MariaDB: computer_science/gnu_linux/mariadb.md
       - MarkDown: computer_science/gnu_linux/markdown.md
       - MathJax: computer_science/gnu_linux/mathjax.md
       - mdadm: computer_science/gnu_linux/mdadm.md
