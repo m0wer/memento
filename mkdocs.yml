@@ -149,6 +149,8 @@ nav:
       - reMarkable: computer_science/hardware/remarkable.md
       - Thinkpad T14 (AMD) Gen1: computer_science/hardware/t14_amd_gen1.md
     - Programming:
+      - Code style:
+        - Git commits: computer_science/programming/code_style/git_commits.md
       - Jinja: computer_science/programming/jinja.md
       - Python:
         - asyncio: computer_science/programming/python/asyncio.md
@@ -175,8 +177,7 @@ nav:
         - Snippets: computer_science/programming/python/snippets.md
         - Typing: computer_science/programming/python/typing.md
         - unittest: computer_science/programming/python/unittest.md
-      - Code style:
-        - Git commits: computer_science/programming/code_style/git_commits.md
+      - TDD: computer_science/programming/tdd.md
   - Cooking:
     - All recipes:
       - Cheesecake: cooking/recipes/cheesecake.md
