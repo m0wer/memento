@@ -237,7 +237,7 @@ pip==21.2.4
     # via
     #   pip-tools
     #   pypandoc
-setuptools==58.0.0
+setuptools==58.0.2
     # via
     #   pip-tools
     #   pypandoc
