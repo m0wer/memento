@@ -13,7 +13,7 @@ tool for checking compliance with Python docstring conventions.
 
 ### Allow missing docstrings when overriding methods
 
-To alow missing docstrings when overriding methods you can use the
+To allow missing docstrings when overriding methods you can use the
 [`@overrides`](overrides.md) decorator and the command line option
 `--ignore-decorator=overrides` or the setting `ignore_decorator = "overrides"`
 in the configuration file.
