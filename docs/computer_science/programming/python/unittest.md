@@ -53,3 +53,18 @@ def test(mock_method):
 
 test()
 ```
+
+### Abstract class
+
+To patch an abstract class to be able to instantiate it, without having to
+create a fake class that inherits from it, you can patch it as follows:
+
+```python
+@patch.object(MyAbcClass, '__abstractmethods__', set())
+```
+
+or if you want to patch some attributes and/or methods at the same time:
+
+```python
+@patch.multiple(MyAbcClass, __abstractmethods__=set())
+```
