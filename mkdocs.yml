@@ -128,6 +128,7 @@ nav:
       - timedatectl: computer_science/gnu_linux/timedatectl.md
       - tmux: computer_science/gnu_linux/tmux.md
       - TOR: computer_science/gnu_linux/tor.md
+      - uptimed: computer_science/gnu_linux/uptimed.md
       - Vagrant: computer_science/gnu_linux/vagrant.md
       - vim: computer_science/gnu_linux/vim.md
       - vimdiff: computer_science/gnu_linux/vimdiff.md
