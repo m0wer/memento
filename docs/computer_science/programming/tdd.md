@@ -65,6 +65,15 @@ Go outside-in (from higher level to lower level) instead of inside-out to:
     be able to imagine the most convenient API you could want from the
     underneath layer.
 
+## Exploratory coding (spiking)
+
+When learning a new tool or exploring a new possible solution, it’s often
+appropriate to leave the rigorous TDD process to one side, and build a little
+prototype without tests, or perhaps with very few tests. The goat doesn't mind
+looking the other way for a bit.
+
+For de-spiking, rewrite your prototype code using TDD.
+
 # Tests
 
 Try to keep tests as simple as possible:
