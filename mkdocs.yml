@@ -158,6 +158,7 @@ nav:
         - asyncpg: computer_science/programming/python/asyncpg.md
         - Basics: computer_science/programming/python/basics.md
         - Debugging: computer_science/programming/python/debugging.md
+        - Decorators: computer_science/programming/python/decorators.md
         - Docstrings: computer_science/programming/python/docstrings.md
         - FastAPI: computer_science/programming/python/fastapi.md
         - Gotchas: computer_science/programming/python/gotchas.md
