@@ -199,6 +199,7 @@ nav:
         - Work: countries/turkey/legal/work.md
       - Places:
         - Ankara: countries/turkey/places/ankara.md
+        - Eskişehir: countries/turkey/places/eskisehir.md
   - Economics:
       - Development:
         - Product Space: economics/development/product_space.md
