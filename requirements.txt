@@ -72,7 +72,7 @@ jinja2==3.0.1
     # via mkdocs
 jsmin==2.2.2
     # via mkdocs-minify-plugin
-keyring==23.1.0
+keyring==23.2.0
     # via twine
 latexcodec==2.0.1
     # via pybtex
@@ -105,7 +105,7 @@ mkdocs-bibtex==1.0.0
     # via -r requirements.in
 mkdocs-exclude-search==0.5.2
     # via -r requirements.in
-mkdocs-git-revision-date-localized-plugin==0.9.3
+mkdocs-git-revision-date-localized-plugin==0.10.0
     # via -r requirements.in
 mkdocs-material==7.2.6
     # via -r requirements.in
@@ -148,7 +148,7 @@ pymdown-extensions==8.2
     # via
     #   -r requirements.in
     #   mkdocs-material
-pypandoc==1.6.3
+pypandoc==1.6.4
     # via mkdocs-bibtex
 pyparsing==2.4.7
     # via packaging
@@ -187,7 +187,7 @@ secretstorage==3.3.1
     # via keyring
 semver==2.13.0
     # via python-semantic-release
-setuptools-scm==6.3.1
+setuptools-scm==6.3.2
     # via dotty-dict
 six==1.16.0
     # via
