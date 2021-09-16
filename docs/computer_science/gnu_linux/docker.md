@@ -6,6 +6,26 @@ tags: [ 'docker', 'virtualization', 'container', 'volumes', 'networks' ]
 
 # Usage
 
+## Build an image
+
+The general command is
+
+```bash
+docker build [OPTIONS] PATH | URL | -
+```
+
+Most commonly you'll use `docker build -t tag .` if there is a `Dockerfile`
+in the directory.
+
+### Build image from a git repository
+
+```bash
+docker build -t tag https://github.com/docker/rootfs.git#[tag_or_branch]
+```
+
+There are more possible configurations available, check
+[the Docker documentation](https://docs.docker.com/engine/reference/commandline/build/#git-repositories).
+
 ## Registry as a cache
 
 `docker run -d -p 5000:5000 --restart always --name registry -e "REGISTRY_DELETE_ENABLED=true" -e "REGISTRY_PROXY_REMOTEURL=https://registry-1.docker.io" registry:2`
