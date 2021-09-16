@@ -4,11 +4,9 @@ date: 2017-10-19
 tags: [ 'docker', 'virtualization', 'container', 'volumes', 'networks' ]
 ---
 
-# Docker
+# Usage
 
-## Usage
-
-### Registry as a cache
+## Registry as a cache
 
 `docker run -d -p 5000:5000 --restart always --name registry -e "REGISTRY_DELETE_ENABLED=true" -e "REGISTRY_PROXY_REMOTEURL=https://registry-1.docker.io" registry:2`
 
@@ -16,9 +14,9 @@ And the in the clients run `dockerd` with `--registry-mirror http://host:5000`.
 
 [docker-doc](https://docs.docker.com/registry/recipes/mirror/#configure-the-docker-daemon)
 
-### GUI
+## GUI
 
-#### X server
+### X server
 
 You should mount your local *~/Xauthority* to the docker.
 
@@ -32,9 +30,9 @@ So it enables access control.
 
 [ros.org](http://wiki.ros.org/docker/Tutorials/GUI)
 
-## Install
+# Configuration
 
-### Change docker data root path
+## Change docker data root path
 
 In the `systemd` unit file:
 
@@ -42,7 +40,9 @@ In the `systemd` unit file:
 ExecStart=/usr/bin/dockerd --data-root [docker_data_root_path]
 ```
 
-### Manage dockers with systemd
+# Tips
+
+## Manage dockers with systemd
 
 ```
 [Unit]
@@ -70,22 +70,20 @@ WantedBy=multi-user.target
 
 [container-solutions](http://container-solutions.com/running-docker-containers-with-systemd/)
 
-## Tips
-
-### Delete dangling volumes
+## Delete dangling volumes
 
 Delete orphan volumes (created when not running `docker run` with the `--rm` option):
 `docker volume rm \`docker volume ls -q -f dangling=true\``
 
 [coderwall](https://coderwall.com/p/hdsfpq/docker-remove-all-dangling-volumes)
 
-### Print names in stead of IDs with `docker stats`
+## Print names in stead of IDs with `docker stats`
 
 `docker stats $(docker ps --format '{{.Names}}')`
 
 [stackoverflow](https://stackoverflow.com/questions/30732313/is-there-any-way-to-display-container-names-in-docker-stats)
 
-### Get the run command of a docker
+## Get the run command of a docker
 
 Sometimes you have a running docker of which you want to get the command line
 options it was originally launched with. You can get it with:
@@ -97,13 +95,13 @@ docker run --rm -v /var/run/docker.sock:/var/run/docker.sock \
 
 [stackoverflow](https://stackoverflow.com/questions/32758793/how-to-show-the-run-command-of-a-docker-container#answer-32774347)
 
-### Upgrade all your currently downloaded docker images
+## Upgrade all your currently downloaded docker images
 
 ```bash
 docker images | grep -vE "(REPOSITORY|local|<none>)" | awk '{print $1":"$2}' | xargs -L1 docker pull
 ```
 
-### Sort docker images by size desc
+## Sort docker images by size desc
 
 ```bash
 docker images --format '{{.Size}}\t{{.Repository}}\t{{.Tag}}\t{{.ID}}' | sed 's/ //' | sort -h -r | column -t
@@ -111,7 +109,7 @@ docker images --format '{{.Size}}\t{{.Repository}}\t{{.Tag}}\t{{.ID}}' | sed 's/
 
 * [gist](https://gist.github.com/andyrbell/f30ae74c0eff82ae52238f4a7df9a313)
 
-### Don't send unnecessary files/directory to build context
+## Don't send unnecessary files/directory to build context
 
 When building an image from a Dockerfile, Docker copies the files and directories
 in the local path, which can take a long time if the files are large.
@@ -119,8 +117,8 @@ in the local path, which can take a long time if the files are large.
 You can add unnecesary files and directories to `.dockerignore` so that they
 are't copied when building.
 
-## Reference
+# Reference
 
-### Healthcheck
+## Healthcheck
 
 * [couchbase](https://blog.couchbase.com/docker-health-check-keeping-containers-healthy/)
