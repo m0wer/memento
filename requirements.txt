@@ -97,7 +97,7 @@ mkdocs==1.2.2
     #   mkdocs-minify-plugin
     #   mkdocs-newsletter
     #   mkdocs-section-index
-git+git://github.com/lyz-code/mkdocs-autolinks-plugin.git
+mkdocs-autolinks-plugin @ git+git://github.com/lyz-code/mkdocs-autolinks-plugin.git
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -128,7 +128,7 @@ packaging==21.0
     #   setuptools-scm
 pep517==0.11.0
     # via pip-tools
-pip-tools==6.2.0
+pip-tools==6.3.0
     # via -r requirements.in
 pkginfo==1.7.1
     # via twine
@@ -237,7 +237,7 @@ pip==21.2.4
     # via
     #   pip-tools
     #   pypandoc
-setuptools==58.0.4
+setuptools==58.1.0
     # via
     #   pip-tools
     #   pypandoc
