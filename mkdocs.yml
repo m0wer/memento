@@ -6,208 +6,208 @@ site_url: https://m0wer.github.io/memento
 nav:
   - Introduction: index.md
   - Computer Science:
-    - Android:
-      - Apps:
-        - computer_science/android/apps.md
-        - OsmAnd: computer_science/android/apps/osmand.md
-      - Devices:
-        - Xiaomi Redmi Note 9S: computer_science/android/devices/curtana.md
-      - SafetyNet: computer_science/android/safetynet.md
-    - CICD:
-      - Github Actions: computer_science/cicd/github_actions.md
-    - GNULinux:
-      - Alacritty: computer_science/gnu_linux/alacritty.md
-      - Android-studio: computer_science/gnu_linux/android-studio.md
-      - Android: computer_science/gnu_linux/android.md
-      - Anki: computer_science/gnu_linux/anki.md
-      - Ansible: computer_science/gnu_linux/ansible.md
-      - APT: computer_science/gnu_linux/apt.md
-      - Bash: computer_science/gnu_linux/bash.md
-      - blkid: computer_science/gnu_linux/blkid.md
-      - C: computer_science/gnu_linux/c.md
-      - Commitizen: computer_science/gnu_linux/commitizen.md
-      - cpupower: computer_science/gnu_linux/cpupower.md
-      - Debian: computer_science/gnu_linux/debian.md
-      - dig: computer_science/gnu_linux/dig.md
-      - Docker: computer_science/gnu_linux/docker.md
-      - Eclipse: computer_science/gnu_linux/eclipse.md
-      - elogind: computer_science/gnu_linux/elogind.md
-      - emerge: computer_science/gnu_linux/emerge.md
-      - equery: computer_science/gnu_linux/equery.md
-      - ESP8266: computer_science/gnu_linux/esp8266.md
-      - ExifTool: computer_science/gnu_linux/exiftool.md
-      - fdisk: computer_science/gnu_linux/fdisk.md
-      - FFmpeg: computer_science/gnu_linux/ffmpeg.md
-      - find: computer_science/gnu_linux/find.md
-      - Firefox: computer_science/gnu_linux/firefox.md
-      - FTP: computer_science/gnu_linux/ftp.md
-      - genkernel: computer_science/gnu_linux/genkernel.md
-      - genlop: computer_science/gnu_linux/genlop.md
-      - Gentoo: computer_science/gnu_linux/gentoo.md
-      - Ghostscript: computer_science/gnu_linux/ghostscript.md
-      - Git: computer_science/gnu_linux/git.md
-      - GPG: computer_science/gnu_linux/gpg.md
-      - Hushboard: computer_science/gnu_linux/hushboard.md
-      - i3 window manager: computer_science/gnu_linux/i3wm.md
-      - ibus: computer_science/gnu_linux/ibus.md
-      - ImageMagick: computer_science/gnu_linux/imagemagick.md
-      - iostat: computer_science/gnu_linux/iostat.md
-      - iptables: computer_science/gnu_linux/iptables.md
-      - isync: computer_science/gnu_linux/isync.md
-      - Jabber: computer_science/gnu_linux/jabber.md
-      - Java: computer_science/gnu_linux/java.md
-      - jmtpfs: computer_science/gnu_linux/jmtpfs.md
-      - jpegoptim: computer_science/gnu_linux/jpegoptim.md
-      - Kali: computer_science/gnu_linux/kali.md
-      - Kernel: computer_science/gnu_linux/kernel.md
-      - Keyboard: computer_science/gnu_linux/keyboard.md
-      - Khal: computer_science/gnu_linux/khal.md
-      - Khard: computer_science/gnu_linux/khard.md
-      - Kodi: computer_science/gnu_linux/kodi.md
-      - Latex: computer_science/gnu_linux/latex.md
-      - Layman: computer_science/gnu_linux/layman.md
-      - LibreOffice: computer_science/gnu_linux/libreoffice.md
-      - LightDM: computer_science/gnu_linux/lightdm.md
-      - Linux: computer_science/gnu_linux/linux.md
-      - LUKS: computer_science/gnu_linux/luks.md
-      - LVM: computer_science/gnu_linux/lvm.md
-      - mail: computer_science/gnu_linux/mail.md
-      - MariaDB: computer_science/gnu_linux/mariadb.md
-      - MarkDown: computer_science/gnu_linux/markdown.md
-      - MathJax: computer_science/gnu_linux/mathjax.md
-      - mdadm: computer_science/gnu_linux/mdadm.md
-      - mimeopen: computer_science/gnu_linux/mimeopen.md
-      - MkDocs: computer_science/gnu_linux/mkdocs.md
-      - mmv: computer_science/gnu_linux/mmv.md
-      - Molecule: computer_science/gnu_linux/molecule.md
-      - Msmtp: computer_science/gnu_linux/msmtp.md
-      - Music: computer_science/gnu_linux/music.md
-      - NeoMutt: computer_science/gnu_linux/neomutt.md
-      - netcat: computer_science/gnu_linux/netcat.md
-      - Nextcloud: computer_science/gnu_linux/nextcloud.md
-      - NFS: computer_science/gnu_linux/nfs.md
-      - NGINX: computer_science/gnu_linux/nginx.md
-      - nice: computer_science/gnu_linux/nice.md
-      - Nikola: computer_science/gnu_linux/nikola.md
-      - Octave: computer_science/gnu_linux/octave.md
-      - OpenLDAP: computer_science/gnu_linux/openldap.md
-      - OpenRC: computer_science/gnu_linux/openrc.md
-      - OpenSSL: computer_science/gnu_linux/openssl.md
-      - Pandoc: computer_science/gnu_linux/pandoc.md
-      - Parallel: computer_science/gnu_linux/parallel.md
-      - Pass: computer_science/gnu_linux/pass.md
-      - pdfimages: computer_science/gnu_linux/pdfimages.md
-      - PDFtk: computer_science/gnu_linux/pdftk.md
-      - pdfunite: computer_science/gnu_linux/pdfunite.md
-      - Portage: computer_science/gnu_linux/portage.md
-      - PostgreSQL: computer_science/gnu_linux/postgresql.md
-      - PulseAudio: computer_science/gnu_linux/pulseaudio.md
-      - qutebrowser: computer_science/gnu_linux/qutebrowser.md
-      - Radare2: computer_science/gnu_linux/radare2.md
-      - Ranger: computer_science/gnu_linux/ranger.md
-      - Raspberry Pi: computer_science/gnu_linux/rpi.md
-      - rsnapshot: computer_science/gnu_linux/rsnapshot.md
-      - rsync: computer_science/gnu_linux/rsync.md
-      - rxvt-unicode: computer_science/gnu_linux/rxvt-unicode.md
-      - sed: computer_science/gnu_linux/sed.md
-      - Shell-utils: computer_science/gnu_linux/shell-utils.md
-      - Shell: computer_science/gnu_linux/shell.md
-      - shnsplit: computer_science/gnu_linux/shnsplit.md
-      - smartmontools: computer_science/gnu_linux/smartmontools.md
-      - ss: computer_science/gnu_linux/ss.md
-      - SSH: computer_science/gnu_linux/ssh.md
-      - stat: computer_science/gnu_linux/stat.md
-      - sysctl: computer_science/gnu_linux/sysctl.md
-      - SystemD: computer_science/gnu_linux/systemd.md
-      - Taskwarrior: computer_science/gnu_linux/taskwarrior.md
-      - tcpdump: computer_science/gnu_linux/tcpdump.md
-      - Telegraf: computer_science/gnu_linux/telegraf.md
-      - telegram-cli: computer_science/gnu_linux/telegram-cli.md
-      - Terminal: computer_science/gnu_linux/terminal.md
-      - Termite: computer_science/gnu_linux/termite.md
-      - timedatectl: computer_science/gnu_linux/timedatectl.md
-      - tmux: computer_science/gnu_linux/tmux.md
-      - TOR: computer_science/gnu_linux/tor.md
-      - uptimed: computer_science/gnu_linux/uptimed.md
-      - Vagrant: computer_science/gnu_linux/vagrant.md
-      - vim: computer_science/gnu_linux/vim.md
-      - vimdiff: computer_science/gnu_linux/vimdiff.md
-      - virt-manager: computer_science/gnu_linux/virt-manager.md
-      - virtualenvwrapper: computer_science/gnu_linux/virtualenvwrapper.md
-      - WeeChat: computer_science/gnu_linux/weechat.md
-      - wget: computer_science/gnu_linux/wget.md
-      - WoeUSB: computer_science/gnu_linux/woeusb.md
-      - X-utilities: computer_science/gnu_linux/x-utilities.md
-      - X: computer_science/gnu_linux/X.md
-      - xcip: computer_science/gnu_linux/xcip.md
-      - YAML: computer_science/gnu_linux/yaml.md
-      - youtube-dl: computer_science/gnu_linux/youtube-dl.md
-      - zip: computer_science/gnu_linux/zip.md
-    - winbugs:
-      - WinToUSB: computer_science/windows/wintousb.md
-    - Hardware:
-      - Asus Prime B450 Plus motherboard: computer_science/hardware/asus_prime_b450_plus.md
-      - reMarkable: computer_science/hardware/remarkable.md
-      - Thinkpad T14 (AMD) Gen1: computer_science/hardware/t14_amd_gen1.md
-    - Programming:
-      - Code style:
-        - Git commits: computer_science/programming/code_style/git_commits.md
-      - Jinja: computer_science/programming/jinja.md
-      - Python:
-        - asyncio: computer_science/programming/python/asyncio.md
-        - asyncpg: computer_science/programming/python/asyncpg.md
-        - Basics: computer_science/programming/python/basics.md
-        - Debugging: computer_science/programming/python/debugging.md
-        - Decorators: computer_science/programming/python/decorators.md
-        - Docstrings: computer_science/programming/python/docstrings.md
-        - FastAPI: computer_science/programming/python/fastapi.md
-        - Gotchas: computer_science/programming/python/gotchas.md
-        - Jupyter Notebook/Lab: computer_science/programming/python/jupyter.md
-        - json: computer_science/programming/python/json.md
-        - Linters: computer_science/programming/python/linters.md
-        - mypy: computer_science/programming/python/mypy.md
-        - NetworkX: computer_science/programming/python/networkx.md
-        - Pandas: computer_science/programming/python/pandas.md
-        - pip: computer_science/programming/python/pip.md
-        - Plotly: computer_science/programming/python/plotly.md
-        - psycopg2: computer_science/programming/python/psycopg2.md
-        - pydantic: computer_science/programming/python/pydantic.md
-        - pytest: computer_science/programming/python/pytest.md
-        - re: computer_science/programming/python/re.md
-        - requests: computer_science/programming/python/requests.md
-        - statsmodels: computer_science/programming/python/statsmodels.md
-        - Style: computer_science/programming/python/style.md
-        - Snippets: computer_science/programming/python/snippets.md
-        - Typing: computer_science/programming/python/typing.md
-        - unittest: computer_science/programming/python/unittest.md
-      - TDD: computer_science/programming/tdd.md
+      - Android:
+          - Apps:
+              - computer_science/android/apps.md
+              - OsmAnd: computer_science/android/apps/osmand.md
+          - Devices:
+              - Xiaomi Redmi Note 9S: computer_science/android/devices/curtana.md
+          - SafetyNet: computer_science/android/safetynet.md
+      - CICD:
+          - Github Actions: computer_science/cicd/github_actions.md
+      - GNULinux:
+          - Alacritty: computer_science/gnu_linux/alacritty.md
+          - Android-studio: computer_science/gnu_linux/android-studio.md
+          - Android: computer_science/gnu_linux/android.md
+          - Anki: computer_science/gnu_linux/anki.md
+          - Ansible: computer_science/gnu_linux/ansible.md
+          - APT: computer_science/gnu_linux/apt.md
+          - Bash: computer_science/gnu_linux/bash.md
+          - blkid: computer_science/gnu_linux/blkid.md
+          - C: computer_science/gnu_linux/c.md
+          - Commitizen: computer_science/gnu_linux/commitizen.md
+          - cpupower: computer_science/gnu_linux/cpupower.md
+          - Debian: computer_science/gnu_linux/debian.md
+          - dig: computer_science/gnu_linux/dig.md
+          - Docker: computer_science/gnu_linux/docker.md
+          - Eclipse: computer_science/gnu_linux/eclipse.md
+          - elogind: computer_science/gnu_linux/elogind.md
+          - emerge: computer_science/gnu_linux/emerge.md
+          - equery: computer_science/gnu_linux/equery.md
+          - ESP8266: computer_science/gnu_linux/esp8266.md
+          - ExifTool: computer_science/gnu_linux/exiftool.md
+          - fdisk: computer_science/gnu_linux/fdisk.md
+          - FFmpeg: computer_science/gnu_linux/ffmpeg.md
+          - find: computer_science/gnu_linux/find.md
+          - Firefox: computer_science/gnu_linux/firefox.md
+          - FTP: computer_science/gnu_linux/ftp.md
+          - genkernel: computer_science/gnu_linux/genkernel.md
+          - genlop: computer_science/gnu_linux/genlop.md
+          - Gentoo: computer_science/gnu_linux/gentoo.md
+          - Ghostscript: computer_science/gnu_linux/ghostscript.md
+          - Git: computer_science/gnu_linux/git.md
+          - GPG: computer_science/gnu_linux/gpg.md
+          - Hushboard: computer_science/gnu_linux/hushboard.md
+          - i3 window manager: computer_science/gnu_linux/i3wm.md
+          - ibus: computer_science/gnu_linux/ibus.md
+          - ImageMagick: computer_science/gnu_linux/imagemagick.md
+          - iostat: computer_science/gnu_linux/iostat.md
+          - iptables: computer_science/gnu_linux/iptables.md
+          - isync: computer_science/gnu_linux/isync.md
+          - Jabber: computer_science/gnu_linux/jabber.md
+          - Java: computer_science/gnu_linux/java.md
+          - jmtpfs: computer_science/gnu_linux/jmtpfs.md
+          - jpegoptim: computer_science/gnu_linux/jpegoptim.md
+          - Kali: computer_science/gnu_linux/kali.md
+          - Kernel: computer_science/gnu_linux/kernel.md
+          - Keyboard: computer_science/gnu_linux/keyboard.md
+          - Khal: computer_science/gnu_linux/khal.md
+          - Khard: computer_science/gnu_linux/khard.md
+          - Kodi: computer_science/gnu_linux/kodi.md
+          - Latex: computer_science/gnu_linux/latex.md
+          - Layman: computer_science/gnu_linux/layman.md
+          - LibreOffice: computer_science/gnu_linux/libreoffice.md
+          - LightDM: computer_science/gnu_linux/lightdm.md
+          - Linux: computer_science/gnu_linux/linux.md
+          - LUKS: computer_science/gnu_linux/luks.md
+          - LVM: computer_science/gnu_linux/lvm.md
+          - mail: computer_science/gnu_linux/mail.md
+          - MariaDB: computer_science/gnu_linux/mariadb.md
+          - MarkDown: computer_science/gnu_linux/markdown.md
+          - MathJax: computer_science/gnu_linux/mathjax.md
+          - mdadm: computer_science/gnu_linux/mdadm.md
+          - mimeopen: computer_science/gnu_linux/mimeopen.md
+          - MkDocs: computer_science/gnu_linux/mkdocs.md
+          - mmv: computer_science/gnu_linux/mmv.md
+          - Molecule: computer_science/gnu_linux/molecule.md
+          - Msmtp: computer_science/gnu_linux/msmtp.md
+          - Music: computer_science/gnu_linux/music.md
+          - NeoMutt: computer_science/gnu_linux/neomutt.md
+          - netcat: computer_science/gnu_linux/netcat.md
+          - Nextcloud: computer_science/gnu_linux/nextcloud.md
+          - NFS: computer_science/gnu_linux/nfs.md
+          - NGINX: computer_science/gnu_linux/nginx.md
+          - nice: computer_science/gnu_linux/nice.md
+          - Nikola: computer_science/gnu_linux/nikola.md
+          - Octave: computer_science/gnu_linux/octave.md
+          - OpenLDAP: computer_science/gnu_linux/openldap.md
+          - OpenRC: computer_science/gnu_linux/openrc.md
+          - OpenSSL: computer_science/gnu_linux/openssl.md
+          - Pandoc: computer_science/gnu_linux/pandoc.md
+          - Parallel: computer_science/gnu_linux/parallel.md
+          - Pass: computer_science/gnu_linux/pass.md
+          - pdfimages: computer_science/gnu_linux/pdfimages.md
+          - PDFtk: computer_science/gnu_linux/pdftk.md
+          - pdfunite: computer_science/gnu_linux/pdfunite.md
+          - Portage: computer_science/gnu_linux/portage.md
+          - PostgreSQL: computer_science/gnu_linux/postgresql.md
+          - PulseAudio: computer_science/gnu_linux/pulseaudio.md
+          - qutebrowser: computer_science/gnu_linux/qutebrowser.md
+          - Radare2: computer_science/gnu_linux/radare2.md
+          - Ranger: computer_science/gnu_linux/ranger.md
+          - Raspberry Pi: computer_science/gnu_linux/rpi.md
+          - rsnapshot: computer_science/gnu_linux/rsnapshot.md
+          - rsync: computer_science/gnu_linux/rsync.md
+          - rxvt-unicode: computer_science/gnu_linux/rxvt-unicode.md
+          - sed: computer_science/gnu_linux/sed.md
+          - Shell-utils: computer_science/gnu_linux/shell-utils.md
+          - Shell: computer_science/gnu_linux/shell.md
+          - shnsplit: computer_science/gnu_linux/shnsplit.md
+          - smartmontools: computer_science/gnu_linux/smartmontools.md
+          - ss: computer_science/gnu_linux/ss.md
+          - SSH: computer_science/gnu_linux/ssh.md
+          - stat: computer_science/gnu_linux/stat.md
+          - sysctl: computer_science/gnu_linux/sysctl.md
+          - SystemD: computer_science/gnu_linux/systemd.md
+          - Taskwarrior: computer_science/gnu_linux/taskwarrior.md
+          - tcpdump: computer_science/gnu_linux/tcpdump.md
+          - Telegraf: computer_science/gnu_linux/telegraf.md
+          - telegram-cli: computer_science/gnu_linux/telegram-cli.md
+          - Terminal: computer_science/gnu_linux/terminal.md
+          - Termite: computer_science/gnu_linux/termite.md
+          - timedatectl: computer_science/gnu_linux/timedatectl.md
+          - tmux: computer_science/gnu_linux/tmux.md
+          - TOR: computer_science/gnu_linux/tor.md
+          - uptimed: computer_science/gnu_linux/uptimed.md
+          - Vagrant: computer_science/gnu_linux/vagrant.md
+          - neovim: computer_science/gnu_linux/neovim.md
+          - vimdiff: computer_science/gnu_linux/vimdiff.md
+          - virt-manager: computer_science/gnu_linux/virt-manager.md
+          - virtualenvwrapper: computer_science/gnu_linux/virtualenvwrapper.md
+          - WeeChat: computer_science/gnu_linux/weechat.md
+          - wget: computer_science/gnu_linux/wget.md
+          - WoeUSB: computer_science/gnu_linux/woeusb.md
+          - X-utilities: computer_science/gnu_linux/x-utilities.md
+          - X: computer_science/gnu_linux/X.md
+          - xcip: computer_science/gnu_linux/xcip.md
+          - YAML: computer_science/gnu_linux/yaml.md
+          - youtube-dl: computer_science/gnu_linux/youtube-dl.md
+          - zip: computer_science/gnu_linux/zip.md
+      - winbugs:
+          - WinToUSB: computer_science/windows/wintousb.md
+      - Hardware:
+          - Asus Prime B450 Plus motherboard: computer_science/hardware/asus_prime_b450_plus.md
+          - reMarkable: computer_science/hardware/remarkable.md
+          - Thinkpad T14 (AMD) Gen1: computer_science/hardware/t14_amd_gen1.md
+      - Programming:
+          - Code style:
+              - Git commits: computer_science/programming/code_style/git_commits.md
+          - Jinja: computer_science/programming/jinja.md
+          - Python:
+              - asyncio: computer_science/programming/python/asyncio.md
+              - asyncpg: computer_science/programming/python/asyncpg.md
+              - Basics: computer_science/programming/python/basics.md
+              - Debugging: computer_science/programming/python/debugging.md
+              - Decorators: computer_science/programming/python/decorators.md
+              - Docstrings: computer_science/programming/python/docstrings.md
+              - FastAPI: computer_science/programming/python/fastapi.md
+              - Gotchas: computer_science/programming/python/gotchas.md
+              - Jupyter Notebook/Lab: computer_science/programming/python/jupyter.md
+              - json: computer_science/programming/python/json.md
+              - Linters: computer_science/programming/python/linters.md
+              - mypy: computer_science/programming/python/mypy.md
+              - NetworkX: computer_science/programming/python/networkx.md
+              - Pandas: computer_science/programming/python/pandas.md
+              - pip: computer_science/programming/python/pip.md
+              - Plotly: computer_science/programming/python/plotly.md
+              - psycopg2: computer_science/programming/python/psycopg2.md
+              - pydantic: computer_science/programming/python/pydantic.md
+              - pytest: computer_science/programming/python/pytest.md
+              - re: computer_science/programming/python/re.md
+              - requests: computer_science/programming/python/requests.md
+              - statsmodels: computer_science/programming/python/statsmodels.md
+              - Style: computer_science/programming/python/style.md
+              - Snippets: computer_science/programming/python/snippets.md
+              - Typing: computer_science/programming/python/typing.md
+              - unittest: computer_science/programming/python/unittest.md
+          - TDD: computer_science/programming/tdd.md
   - Cooking:
-    - All recipes:
-      - Cheesecake: cooking/recipes/cheesecake.md
-      - Eggplant kebab: cooking/recipes/eggplant_kebab.md
-      - Red lentil soup: cooking/recipes/red_lentil_soup.md
-    - Turkish recipes:
-      - Eggplant kebab: cooking/recipes/eggplant_kebab.md
-      - Red lentil soup: cooking/recipes/red_lentil_soup.md
-    - Vegetarian recipes:
-      - Cheesecake: cooking/recipes/cheesecake.md
-      - Red lentil soup: cooking/recipes/red_lentil_soup.md
+      - All recipes:
+          - Cheesecake: cooking/recipes/cheesecake.md
+          - Eggplant kebab: cooking/recipes/eggplant_kebab.md
+          - Red lentil soup: cooking/recipes/red_lentil_soup.md
+      - Turkish recipes:
+          - Eggplant kebab: cooking/recipes/eggplant_kebab.md
+          - Red lentil soup: cooking/recipes/red_lentil_soup.md
+      - Vegetarian recipes:
+          - Cheesecake: cooking/recipes/cheesecake.md
+          - Red lentil soup: cooking/recipes/red_lentil_soup.md
   - Countries:
-    - Turkey:
-      - Legal:
-        - Touristic visa: countries/turkey/legal/touristic_visa.md
-        - Work: countries/turkey/legal/work.md
-      - Places:
-        - Ankara: countries/turkey/places/ankara.md
-        - Eskişehir: countries/turkey/places/eskisehir.md
+      - Turkey:
+          - Legal:
+              - Touristic visa: countries/turkey/legal/touristic_visa.md
+              - Work: countries/turkey/legal/work.md
+          - Places:
+              - Ankara: countries/turkey/places/ankara.md
+              - Eskişehir: countries/turkey/places/eskisehir.md
   - Economics:
       - Development:
-        - Product Space: economics/development/product_space.md
+          - Product Space: economics/development/product_space.md
   - Languages:
-    - Turkish:
-      - Grammar:
-        - Gerunds: languages/turkish/grammar/gerunds.md
-        - Noun cases: languages/turkish/grammar/noun_cases.md
+      - Turkish:
+          - Grammar:
+              - Gerunds: languages/turkish/grammar/gerunds.md
+              - Noun cases: languages/turkish/grammar/noun_cases.md
   - Projects: projects/projects.md
   - Forking this wiki: forking_this_wiki.md
   - Contact: contact.md
@@ -219,8 +219,8 @@ plugins:
         - newsletter/*
   - autolinks
   - bibtex:
-      bib_file: "refs.bib"
-      cite_style: "pandoc"
+      bib_file: refs.bib
+      cite_style: pandoc
   - git-revision-date-localized:
       type: timeago
   - minify:
