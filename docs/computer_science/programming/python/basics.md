@@ -72,6 +72,8 @@ reversed(range(n))
 
 ## Methods
 
+* `str.count(sub[, start[, end]])`: Return the number of non-overlapping
+  occurrences of substring `sub` in the range [`start`, `end`].
 * `str.removeprefix(prefix)`: If the string starts with the prefix string,
   return `str[len(prefix):]`. Otherwise, return a copy of the original string.
 * `str.removesuffix(suffix)`: If the string ends with the suffix string and
