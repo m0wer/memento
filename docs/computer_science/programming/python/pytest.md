@@ -75,3 +75,18 @@ You need to add `monkeypatch` as an argument to the test functions.
 ```python
 monkeypatch.setenv(name, value, prepend=None)
 ```
+
+## Fixtures
+
+### capfd
+
+Capture stdout/stderr output.
+
+Example:
+
+```python
+def test_foo(capfd):
+    foo()  # Writes "Hello World!" to stdout
+    out, err = capfd.readouterr()
+    assert out == "Hello World!"
+```
