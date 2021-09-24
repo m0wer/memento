@@ -33,3 +33,7 @@ The main commands are:
 
 All of the above commands (except for `pp`) can be called by only its first
 letter (e.g., `continue` -> `c`).
+
+## References
+
+* [Talk: Nina Zakharenko - Goodbye Print, Hello Debugger! - YouTube](https://www.youtube.com/watch?v=5AYIe-3cD-s)
