@@ -27,6 +27,7 @@ nav:
           - C: computer_science/gnu_linux/c.md
           - Commitizen: computer_science/gnu_linux/commitizen.md
           - cpupower: computer_science/gnu_linux/cpupower.md
+          - cURL: computer_science/gnu_linux/curl.md
           - Debian: computer_science/gnu_linux/debian.md
           - dig: computer_science/gnu_linux/dig.md
           - Docker: computer_science/gnu_linux/docker.md
