@@ -97,6 +97,20 @@ Delete orphan volumes (created when not running `docker run` with the `--rm` opt
 
 [coderwall](https://coderwall.com/p/hdsfpq/docker-remove-all-dangling-volumes)
 
+## Remove unused data
+
+Use `docker system prune`.
+
+### Automated clean up
+
+Add the following line to `crontab -e`:
+
+```cron
+0 3 * * * /usr/bin/docker system prune -f 2>&1 > /dev/null
+```
+
+`-f` prevents manual confirmation from being asked.
+
 ## Print names in stead of IDs with `docker stats`
 
 `docker stats $(docker ps --format '{{.Names}}')`
