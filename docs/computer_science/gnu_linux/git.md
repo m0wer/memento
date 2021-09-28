@@ -31,6 +31,24 @@ Add the following lines to *.git/config*:
 
 [github-help](https://help.github.com/articles/ignoring-files/)
 
+## Hooks
+
+### pre-commit
+
+[pre-commit/pre-commit](https://github.com/pre-commit/pre-commit) is a
+framework for managing and maintaining multi-language pre-commit hooks.
+
+#### Usage
+
+##### Skip specific hooks
+
+```bash
+SKIP=no-commit-to-branch pre-commit run --all-files
+```
+
+Which is useful if a CI runs for the main branch so that it doesn't complain
+about running in it.
+
 # Usage
 
 ## Cloning
