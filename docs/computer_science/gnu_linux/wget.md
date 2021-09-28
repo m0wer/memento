@@ -3,7 +3,14 @@ title: wget
 date: 20171022
 tags: wget,download,http,https,web,fetch
 ---
-# wget
+
+# Usage
+
+## Redirect output to stdout
+
+```bash
+wget -qO- [url]
+```
 
 ## Download only if newer version is available
 
