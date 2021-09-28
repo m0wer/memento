@@ -227,7 +227,7 @@ wheel==0.37.0
     #   pip-tools
     #   pypandoc
     #   python-semantic-release
-zipp==3.5.0
+zipp==3.5.1
     # via
     #   importlib-metadata
     #   pep517
