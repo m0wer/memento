@@ -27,7 +27,7 @@ click-log==0.3.2
     # via python-semantic-release
 colorama==0.4.4
     # via twine
-cryptography==3.4.8
+cryptography==35.0.0
     # via secretstorage
 deepdiff==5.5.0
     # via mkdocs-newsletter
@@ -144,7 +144,7 @@ pygments==2.10.0
     # via
     #   mkdocs-material
     #   readme-renderer
-pymdown-extensions==8.2
+pymdown-extensions==9.0
     # via
     #   -r requirements.in
     #   mkdocs-material
@@ -227,7 +227,7 @@ wheel==0.37.0
     #   pip-tools
     #   pypandoc
     #   python-semantic-release
-zipp==3.5.1
+zipp==3.6.0
     # via
     #   importlib-metadata
     #   pep517
