@@ -124,8 +124,20 @@ I asked for the residence permit to be from 01/08/2021 to the 01/08/2022
 I'm not including the Sim card costs (600TL for 3 months with internet)
 and the photocopy prices (few TL).
 
-After obtaining the residence permit I had to notify my Turkish
-cell phone operator.
+# Things to do after obtaining the residence permit
+
+* Notify my Turkish cell phone operator (updated my details from the app).
+  Otherwise your line will be canceled after some months (source: the guy
+  at Turkcell store).
+* Get access to e-devlet to do bureaucracy online. Go to PTT and ask for the
+  code, you will receive it as an SMS to your Turkish phone number. The cost
+  is 2 TL.
+* Go back to the Göç İdaresi to register your address (yes, again). You will
+  need to bring some utility bill registered to your name. You can also go with
+  the person you live with if the bills are under their name and they are
+  already registered (nüfus) at that address. If they are not registered, they
+  can try to do it from e-devlet or go to the population directorate (nüfus
+  müdürlüğü).
 
 # References
 
