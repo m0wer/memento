@@ -69,7 +69,9 @@ jeepney==0.7.1
     #   keyring
     #   secretstorage
 jinja2==3.0.2
-    # via mkdocs
+    # via
+    #   mkdocs
+    #   mkdocs-material
 jsmin==3.0.0
     # via mkdocs-minify-plugin
 keyring==23.2.1
@@ -107,7 +109,7 @@ mkdocs-exclude-search==0.5.2
     # via -r requirements.in
 mkdocs-git-revision-date-localized-plugin==0.10.0
     # via -r requirements.in
-mkdocs-material==7.3.1
+mkdocs-material==7.3.2
     # via -r requirements.in
 mkdocs-material-extensions==1.0.3
     # via mkdocs-material
