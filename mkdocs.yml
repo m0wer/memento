@@ -156,6 +156,7 @@ nav:
           - Jinja: computer_science/programming/jinja.md
           - Python:
               - asyncio: computer_science/programming/python/asyncio.md
+              - pyTelegramBotAPI: computer_science/programming/python/pytelegrambotapi.md
               - asyncpg: computer_science/programming/python/asyncpg.md
               - Basics: computer_science/programming/python/basics.md
               - Debugging: computer_science/programming/python/debugging.md
