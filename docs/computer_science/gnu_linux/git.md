@@ -81,6 +81,12 @@ To delete a remote branch: `git push origin --delete [branch]`
 
 [makandracards](https://makandracards.com/makandra/621-git-delete-a-branch-local-or-remote)
 
+### Rename branch
+
+```bash
+git branch -m [old_branch_name] [new_branch_name]
+```
+
 ### Fetch and track remote branches
 
 You need to create a local branch that tracks a remote branch.
