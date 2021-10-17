@@ -11,7 +11,7 @@
     <managingEditor>m0wer</managingEditor>
 
     
-    <pubDate>2021-10-10 05:24:44+00:00</pubDate>
+    <pubDate>2021-10-17 05:24:14+00:00</pubDate>
     <ttl>1440</ttl>
 
     
@@ -25,6 +25,16 @@
     
 
     
+    
+    <item><title>16th October 2021</title>
+      <author>m0wer</author>
+      <description>&lt;article class=&#34;md-content__inner md-typeset&#34;&gt; &lt;a class=&#34;md-content__button md-icon&#34; href=&#34;https://github.com/m0wer/memento/edit/master/docs/newsletter/2021_10_16.md&#34; title=&#34;Edit this page&#34;&gt; &lt;svg viewbox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z&#34;&gt;&lt;/path&gt;&lt;/svg&gt; &lt;/a&gt;  &lt;h2 id=&#34;computer-science&#34;&gt;Computer Science&lt;/h2&gt; &lt;h3 id=&#34;gnulinux&#34;&gt;GNULinux&lt;/h3&gt; &lt;h4 id=&#34;git&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/gnu_linux/git/&#34;&gt;Git&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Rename branch.&lt;/p&gt;  &lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt; &lt;div class=&#34;md-source-date&#34;&gt; &lt;small&gt; Last update: &lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago&#34;&gt;&lt;span class=&#34;timeago&#34; datetime=&#34;2021-10-17T05:24:14+00:00&#34; locale=&#34;en&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date&#34;&gt;2021-10-17&lt;/span&gt; &lt;/small&gt; &lt;/div&gt; &lt;/article&gt;</description>
+      <link>https://m0wer.github.io/memento/newsletter/2021_10_16/</link>
+      <pubDate>2021-10-17 05:24:14+00:00</pubDate>
+      <source url="https://m0wer.github.io/memento/daily.xml">Memento</source>
+      <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2021_10_16/</guid>
+      
+    </item>
     
     <item><title>9th October 2021</title>
       <author>m0wer</author>
@@ -183,16 +193,6 @@
       <pubDate>2021-09-03 05:25:16+00:00</pubDate>
       <source url="https://m0wer.github.io/memento/daily.xml">Memento</source>
       <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2021_09_02/</guid>
-      
-    </item>
-    
-    <item><title>1st September 2021</title>
-      <author>m0wer</author>
-      <description>&lt;article class=&#34;md-content__inner md-typeset&#34;&gt; &lt;a class=&#34;md-content__button md-icon&#34; href=&#34;https://github.com/m0wer/memento/edit/master/docs/newsletter/2021_09_01.md&#34; title=&#34;Edit this page&#34;&gt; &lt;svg viewbox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z&#34;&gt;&lt;/path&gt;&lt;/svg&gt; &lt;/a&gt;  &lt;h2 id=&#34;computer-science&#34;&gt;Computer Science&lt;/h2&gt; &lt;h3 id=&#34;programming&#34;&gt;Programming&lt;/h3&gt; &lt;h4 id=&#34;asyncpg&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/programming/python/asyncpg/&#34;&gt;asyncpg&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Asyncpg.&lt;/p&gt; &lt;p&gt;&lt;a href=&#34;https://github.com/MagicStack/asyncpg&#34;&gt;MagicStack/asyncpg&lt;/a&gt; is a fast PostgreSQL Database Client Library for Python/asyncio.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h4 id=&#34;basics&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/programming/python/basics/&#34;&gt;Basics&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Rename a dictionary key.&lt;/p&gt;  &lt;/li&gt; &lt;/ul&gt; &lt;h2 id=&#34;other&#34;&gt;Other&lt;/h2&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: How to get rid of the spinning wheel.&lt;/p&gt; &lt;p&gt;Run &lt;code&gt;exec&lt;/code&gt; and &lt;code&gt;exec_always&lt;/code&gt; with &lt;code&gt;--no-startup-id&lt;/code&gt; if the command won&#39;t generate a window, otherwise the spinning wheel will get stuck and appear instead of the normal mouse icon.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt; &lt;div class=&#34;md-source-date&#34;&gt; &lt;small&gt; Last update: &lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago&#34;&gt;&lt;span class=&#34;timeago&#34; datetime=&#34;2021-09-02T05:25:19+00:00&#34; locale=&#34;en&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date&#34;&gt;2021-09-02&lt;/span&gt; &lt;/small&gt; &lt;/div&gt; &lt;/article&gt;</description>
-      <link>https://m0wer.github.io/memento/newsletter/2021_09_01/</link>
-      <pubDate>2021-09-02 05:25:19+00:00</pubDate>
-      <source url="https://m0wer.github.io/memento/daily.xml">Memento</source>
-      <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2021_09_01/</guid>
       
     </item>
     
