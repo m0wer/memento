@@ -108,7 +108,7 @@ mkdocs-exclude-search==0.5.2
     # via -r requirements.in
 mkdocs-git-revision-date-localized-plugin==0.10.0
     # via -r requirements.in
-mkdocs-material==7.3.3
+mkdocs-material==7.3.4
     # via -r requirements.in
 mkdocs-material-extensions==1.0.3
     # via mkdocs-material
@@ -127,7 +127,7 @@ packaging==21.0
     #   bleach
     #   mkdocs
     #   setuptools-scm
-pep517==0.11.0
+pep517==0.11.1
     # via pip-tools
 pip-tools==6.4.0
     # via -r requirements.in
