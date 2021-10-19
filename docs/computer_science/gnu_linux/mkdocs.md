@@ -181,3 +181,29 @@ plugins:
 
 If we don't add `../` to the python path, the package for which we are
 generating the documentation would need to be installed.
+
+#### Automatically generate the reference files for each source file
+
+Instead of creating manually a markdown file for every source file with
+`::: package.module.file`, we can automate this with a script that will be
+run automatically on every site build:
+
+```yaml
+plugins:
+  - gen-files:
+      scripts:
+        - generate_reference.py
+```
+
+```python
+from pathlib import Path
+import mkdocs_gen_files
+
+src_root = Path("../my_module")
+for path in src_root.glob("**/*.py"):
+    doc_path = Path("reference", path.relative_to(src_root)).with_suffix(".md")
+
+    with mkdocs_gen_files.open(doc_path, "w") as f:
+        ident = ".".join(path.with_suffix("").parts[1:])
+        print("::: " + ident, file=f)
+```
