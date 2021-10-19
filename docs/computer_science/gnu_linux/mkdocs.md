@@ -161,3 +161,23 @@ plugins:
   - section-index
   - mkdocs-newsletter
 ```
+
+## mkdocstrings
+
+[mkdocstrings/mkdocstrings](https://github.com/mkdocstrings/mkdocstrings)
+generates automatic documentation from sources.
+
+### Configuration
+
+```yaml
+plugins:
+  - mkdocstrings:
+      handlers:
+        python:
+          setup_commands:
+            - "import sys"
+            - "sys.path.append('../')"
+```
+
+If we don't add `../` to the python path, the package for which we are
+generating the documentation would need to be installed.
