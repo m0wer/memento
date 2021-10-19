@@ -6,6 +6,29 @@ tags: [ 'nginx', 'web', 'server' ]
 
 # Configuration
 
+## Serve static files
+
+Either
+
+```
+location /static/ {
+    root /var/www/app/;
+}
+```
+
+or
+
+```
+location /static/ {
+    alias /var/www/app/static/;
+}
+```
+
+The difference is that with `alias` the location part gets dropped from the
+original URL so `http://host/static/somefile` would access
+`/var/www/app/static/somefile` instead of
+`/var/www/app/static/somefile/somefile`.
+
 ## Reverse proxy
 
 In the vhost file, add
