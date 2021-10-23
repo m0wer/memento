@@ -41,7 +41,7 @@ future==0.18.2
     # via proselint
 ghp-import==2.0.2
     # via mkdocs
-gitdb==4.0.7
+gitdb==4.0.8
     # via
     #   gitdb2
     #   gitpython
@@ -199,7 +199,7 @@ six==1.16.0
     #   proselint
     #   pybtex
     #   python-dateutil
-smmap==4.0.0
+smmap==5.0.0
     # via gitdb
 soupsieve==2.2.1
     # via beautifulsoup4
@@ -235,11 +235,11 @@ zipp==3.6.0
     #   pep517
 
 # The following packages are considered to be unsafe in a requirements file:
-pip==21.3
+pip==21.3.1
     # via
     #   pip-tools
     #   pypandoc
-setuptools==58.2.0
+setuptools==58.3.0
     # via
     #   pip-tools
     #   pypandoc
