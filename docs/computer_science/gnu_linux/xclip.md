@@ -4,11 +4,15 @@ date: 2019-05-02
 tags: [ 'xclip', 'x11', 'x', 'clipboard' ]
 ---
 
-# xclip
+# Usage
 
-## Usage
+## Copy pipe input to clipboard
 
-### Save an image from the clipboard
+```bash
+somecommand | xclip -selection clipboard
+```
+
+## Save an image from the clipboard
 
 If you have copied an image to the clipboard and you want to save it as a file,
 use:

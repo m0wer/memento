@@ -140,7 +140,7 @@ nav:
           - WoeUSB: computer_science/gnu_linux/woeusb.md
           - X-utilities: computer_science/gnu_linux/x-utilities.md
           - X: computer_science/gnu_linux/X.md
-          - xcip: computer_science/gnu_linux/xcip.md
+          - xclip: computer_science/gnu_linux/xclip.md
           - YAML: computer_science/gnu_linux/yaml.md
           - youtube-dl: computer_science/gnu_linux/youtube-dl.md
           - zip: computer_science/gnu_linux/zip.md
