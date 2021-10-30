@@ -124,7 +124,7 @@ mkdocs-section-index==0.3.2
     #   mkdocs-newsletter
 ordered-set==4.0.2
     # via deepdiff
-packaging==21.0
+packaging==21.2
     # via
     #   bleach
     #   mkdocs
@@ -153,7 +153,7 @@ pymdown-extensions==9.0
     #   mkdocs-material
 pypandoc==1.6.4
     # via mkdocs-bibtex
-pyparsing==3.0.3
+pyparsing==2.4.7
     # via packaging
 python-dateutil==2.8.2
     # via
