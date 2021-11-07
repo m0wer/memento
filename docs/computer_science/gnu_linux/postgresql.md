@@ -184,6 +184,14 @@ To tune the number of workers edit `postgresql.conf` and in the
 *- Asynchronous Behavior -* section edit `max_worker_processes`,
 `max_parallel_workers_per_gather` and `max_parallel_workers`.
 
+# Administration
+
+## Change user password
+
+```sql
+ALTER USER user_name WITH PASSWORD 'new_password';
+```
+
 # Reference
 
 ## Data types
