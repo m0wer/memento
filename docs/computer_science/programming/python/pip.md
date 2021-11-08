@@ -12,6 +12,33 @@ tags: pip,python,virtualenv,install,uninstall
 
 [pypa-doc](https://pip.pypa.io/en/stable/reference/pip_uninstall/)
 
+# Requirements files
+
+## Structure
+
+Define the user dependencies in `setup.py` and use `pip-compile` to generate
+a `requirements.txt` file with the latest compatible versions. Then, create
+a `requirements-dev.in` file and add:
+
+```
+-c requirements.txt
+-e file:.
+
+dep1
+dep2
+...
+```
+
+* `-c requirements.txt` will consider the user dependencies and its versions
+  but without adding them also to `requirements-dev.txt`. Add with `-c` any
+  other requirements files from the project such as `docs/requirements.txt`.
+* `-e file:.` will add the local package so that any changes
+  would reflect directly in your environment. `file:.` instead of just `.`
+  makes the path in the generated `requirements-dev.txt` relative instead of
+  absolute.
+
+Use `pip-compile requirements-dev.in` to generate `requirements-dev.txt`.
+
 # pip-tools
 
 [jazzband/pip-tools](https://github.com/jazzband/pip-tools) are a set of tools
