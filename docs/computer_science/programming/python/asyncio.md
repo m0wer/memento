@@ -37,3 +37,19 @@ asyncio.run(main())
 
 This code runs in approximately one second, instead of the expected 100 seconds
 of its non concurrent version.
+
+## Tips
+
+### Limit concurrency
+
+Use
+[`asyncio.Semaphore`](https://docs.python.org/3/library/asyncio-sync.html#semaphores).
+
+```python
+sem = asyncio.Semaphore(10)
+
+async with sem:
+    # work with shared resource
+```
+
+Note that this method is not thread-safe.
