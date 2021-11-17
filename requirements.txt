@@ -80,7 +80,7 @@ keyring==23.2.1
     # via twine
 latexcodec==2.0.1
     # via pybtex
-markdown==3.3.4
+markdown==3.3.5
     # via
     #   mkdocs
     #   mkdocs-bibtex
