@@ -228,6 +228,21 @@ git merge upstream/master
 
 * [GitHub Help](https://help.github.com/en/articles/syncing-a-fork)
 
+## stash
+
+If you have uncommitted changes and you want to switch to another branch,
+you can temporarily save those changes with:
+
+```bash
+git stash
+```
+
+Then, to reapply them, do:
+
+```bash
+git stash pop
+```
+
 # Tips
 
 ## Unstage files
