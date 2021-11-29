@@ -76,7 +76,7 @@ jinja2==3.0.3
     #   mkdocs-material
 jsmin==3.0.0
     # via mkdocs-minify-plugin
-keyring==23.3.0
+keyring==23.4.0
     # via twine
 latexcodec==2.0.1
     # via pybtex
@@ -106,11 +106,11 @@ mkdocs-autolinks-plugin @ git+git://github.com/lyz-code/mkdocs-autolinks-plugin.
     #   mkdocs-newsletter
 mkdocs-bibtex==1.0.0
     # via -r requirements.in
-mkdocs-exclude-search==0.5.2
+mkdocs-exclude-search==0.5.3
     # via -r requirements.in
 mkdocs-git-revision-date-localized-plugin==0.10.3
     # via -r requirements.in
-mkdocs-material==7.3.6
+mkdocs-material==8.0.1
     # via -r requirements.in
 mkdocs-material-extensions==1.0.3
     # via mkdocs-material
@@ -239,7 +239,7 @@ pip==21.3.1
     # via
     #   pip-tools
     #   pypandoc
-setuptools==59.3.0
+setuptools==59.4.0
     # via
     #   pip-tools
     #   pypandoc
