@@ -106,7 +106,7 @@ mkdocs-autolinks-plugin @ git+git://github.com/lyz-code/mkdocs-autolinks-plugin.
     #   mkdocs-newsletter
 mkdocs-bibtex==1.0.0
     # via -r requirements.in
-mkdocs-exclude-search==0.5.3
+mkdocs-exclude-search==0.5.4
     # via -r requirements.in
 mkdocs-git-revision-date-localized-plugin==0.10.3
     # via -r requirements.in
@@ -133,7 +133,7 @@ pep517==0.12.0
     # via pip-tools
 pip-tools==6.4.0
     # via -r requirements.in
-pkginfo==1.8.1
+pkginfo==1.8.2
     # via twine
 proselint==0.13.0
     # via -r requirements.in
@@ -211,7 +211,7 @@ tomlkit==0.7.0
     # via python-semantic-release
 tqdm==4.62.3
     # via twine
-twine==3.6.0
+twine==3.7.0
     # via python-semantic-release
 typing-extensions==4.0.1
     # via
