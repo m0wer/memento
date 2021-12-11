@@ -78,6 +78,18 @@ monkeypatch.setenv(name, value, prepend=None)
 
 ## Fixtures
 
+To run a custom function for every test in a class do:
+
+```python
+class TestClass:
+    @pytest.fixture(autouse=True)
+    def setup(self):
+        self.variable = 42
+
+    def test_something(self):
+        ...
+```
+
 ### capfd
 
 Capture stdout/stderr output.
