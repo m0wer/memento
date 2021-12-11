@@ -53,3 +53,18 @@ jobs:
 ```
 
 This will push the commited changes to the current branch.
+
+# Configuration
+
+## Concurrency
+
+You can use `concurrency` to cancel any in-progress job or run. Example:
+
+```yaml
+concurrency:
+  group: docs-${{ github.head_ref }}
+  cancel-in-progress: true
+```
+
+This is useful to cancel previous jobs if new commits are pushed, which saves
+minutes, energy and avoids conflicts when pushing changes during the action.
