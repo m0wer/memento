@@ -5,6 +5,19 @@ author: m0wer
 tags: [ 'basics' ]
 ---
 
+# Operators
+
+## .?
+
+Use `?.` when you want to call a method/getter on an object if that object is
+not null (otherwise, return null).
+
+Example:
+
+```dart
+currentState?.open();
+```
+
 # Built-in data types
 
 ## List
