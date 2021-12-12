@@ -25,6 +25,21 @@ List<String> myList = myMap.entries.map(
                                        ).toList();
 ```
 
+### Combine/merge/concat maps
+
+You can use spread operator `...`:
+
+
+```dart
+final firstMap = {"1":"2"};
+final secondMap = {"2":"3"};
+
+final thirdMap = {
+   ...firstMap,
+   ...secondMap,
+};
+```
+
 # Writing documentation
 
 Add comments with `//` or `///`, the later will make the comments be
