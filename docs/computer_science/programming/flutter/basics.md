@@ -7,6 +7,17 @@ tags: [ 'basics' ]
 
 # Built-in data types
 
+## List
+
+### Find first element that satisfies condition
+
+Use `.firstWhere()`:
+
+```dart
+List<Currency> currencies = ...;
+Currency dollar = currencies.firstWhere((currency) => currency.code == "USD");
+```
+
 ## Map
 
 ```dart
