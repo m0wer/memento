@@ -20,3 +20,13 @@ def somefunction():
 
 The function will be retried a maximum of 3 times, waiting 0.1 s, 0.2 s and 0.4
 s between each attempt respectively.
+
+## Catch only some kind of errors
+
+Use `@retry(retry=retry_if_exception_type(IOError))`.
+
+Several types of exceptions can be combined as follows:
+
+```python
+@retry(retry=(retry_if_exception_type(IOError) | retry_if_exception_type(TimeoutError)))
+```
