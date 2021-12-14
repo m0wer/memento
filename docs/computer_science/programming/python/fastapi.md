@@ -142,3 +142,67 @@ def test_endpoint(client):
 
     assert response.status_code == 200
 ```
+
+## Performance
+
+Performance can be hugely improved with some minor changes:
+
+* Use `orjson` (faster JSON serialization):
+
+  ```python
+  from fastapi import FastAPI
+  from fastapi.responses import ORJSONResponse
+  app = FastAPI(default_response_class=ORJSONResponse)
+  ...
+  ```
+* When using `response_model=...`, directly return a `Response` object if
+  you've already done the `pydantic` model validation
+  (or if you don't want to validate the object at all). Otherwise the
+  validation will happen twice which is computationally expensive.
+
+  ```python
+  ...
+  from fastapi.encoders import jsonable_encoder
+
+  class Thing(BaseModel):
+    name: str
+
+  @app.get("/thing', response_model=Thing)
+  def get_thing():
+      thing: Thing = Thing(name="something")
+      return ORJSONResponse(content=jsonable_encoder(result))
+  ```
+* Use [long2ice/fastapi-cache](https://github.com/long2ice/fastapi-cache)
+  to cache responses and set the appropriate `ETag` and `Cache-Control`
+  headers.
+
+  You will need to use the `PickleCoder` coder if you want to cache responses
+  directly. Otherwise if you directly return a `dict` or similar (not a
+  `Response`) the cache will store that object and then the model validation
+  will be executed unnecessarily every time the endpoint is called..
+
+
+All together:
+
+```python
+from fastapi import FastAPI
+from fastapi.responses import ORJSONResponse
+from fastapi.encoders import jsonable_encoder
+from fastapi_cache.backends.inmemory import InMemoryBackend
+from fastapi_cache.coder import PickleCoder
+
+app = FastAPI(default_response_class=ORJSONResponse)
+
+@app.on_event("startup")
+async def startup():
+    FastAPICache.init(InMemoryBackend())
+
+class Thing(BaseModel):
+  name: str
+
+@app.get("/thing', response_model=Thing)
+@cache(expire=7 * 24 * 60 * 60, coder=PickleCoder)  # 7 days
+def get_thing():
+    thing: Thing = Thing(name="something")
+    return ORJSONResponse(content=jsonable_encoder(result))
+```
