@@ -119,3 +119,26 @@ from fastapi.responses import ORJSONResponse
 
 FastAPI(default_response_class=ORJSONResponse)
 ```
+
+## Testing
+
+### Testing startup and shutdown events
+
+When you need your event handlers (`startup` and `shutdown`) to run in your
+tests, you can use the `TestClient` with a with statement:
+
+```python
+import pytest
+from fastapi.testclient import TestClient
+from api.main import api
+
+@pytest.fixture
+def client():
+    with TestClient(api) as client:
+        yield client
+
+def test_endpoint(client):
+    response = client.get("/endpoint")
+
+    assert response.status_code == 200
+```
