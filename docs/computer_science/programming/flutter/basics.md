@@ -26,6 +26,18 @@ currentState?.open();
 
 # Built-in data types
 
+## Enum
+
+```dart
+enum Day { monday, tuesday }
+```
+
+### Get the value of an enum element
+
+```dart
+Day.monday.name
+```
+
 ## List
 
 ### Find first element that satisfies condition
