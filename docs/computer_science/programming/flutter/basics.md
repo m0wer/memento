@@ -24,6 +24,16 @@ Example:
 currentState?.open();
 ```
 
+## ?? (if null)
+
+Get a default value if object is null:
+
+```dart
+var value;
+...
+value = value ?? 2;
+```
+
 # Built-in data types
 
 ## Enum
