@@ -5,6 +5,12 @@ author: m0wer
 tags: [ 'basics' ]
 ---
 
+# Usage
+
+## Commands
+
+* `flutter --version`: See Flutter and Dart version.
+
 # Operators
 
 ## .?
