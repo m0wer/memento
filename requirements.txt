@@ -103,7 +103,7 @@ mkdocs-autolinks-plugin @ git+git://github.com/lyz-code/mkdocs-autolinks-plugin.
     #   mkdocs-newsletter
 mkdocs-bibtex==1.0.0
     # via -r requirements.in
-mkdocs-exclude-search==0.6.3
+mkdocs-exclude-search==0.6.4
     # via -r requirements.in
 mkdocs-git-revision-date-localized-plugin==0.11.1
     # via -r requirements.in
@@ -171,7 +171,7 @@ pyyaml-env-tag==0.1
     # via mkdocs
 readme-renderer==32.0
     # via twine
-requests==2.27.0
+requests==2.27.1
     # via
     #   python-gitlab
     #   python-semantic-release
