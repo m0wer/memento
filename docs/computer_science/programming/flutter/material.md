@@ -20,7 +20,7 @@ Color hexToColor(String code) {
 
 ## InkWell
 
-Make a component clickable (with animations onf hover and tap):
+Make a component clickable (with animations on hover and tap):
 
 ```dart
 InkWell(
