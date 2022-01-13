@@ -656,6 +656,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://m0wer.github.io/memento/computer_science/gnu_linux/wallabag/</loc>
+         <lastmod>2022-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://m0wer.github.io/memento/computer_science/gnu_linux/weechat/</loc>
          <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
