@@ -14,7 +14,7 @@ If you want to share your Wallabag *starred* RSS feed but keep the others
 (*all*, *read*...) private, add:
 
 ```nginx
-location ~ /feed/sgn/{token}/(?!starred) {
+location ~ /feed/{user}/{token}/(?!starred) {
    deny all;
    return 403;
   }
