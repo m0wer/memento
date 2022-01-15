@@ -68,3 +68,21 @@ concurrency:
 
 This is useful to cancel previous jobs if new commits are pushed, which saves
 minutes, energy and avoids conflicts when pushing changes during the action.
+
+## Secrets
+
+### Store file as secret
+
+If you want to store a file (multiline, binary...) as a secret, first encode it
+with base64:
+
+```bash
+base64 -i < {{ file_path }} | tr -d '\n' | xclip -i -selection clipboard
+```
+
+Then paste it to a new secret. To restore the file diring the workflow, add:
+
+```yaml
+- name: restore file
+  run: echo ${{ secrets.SECRET }} | base64 -d > {{ file_path }}
+```
