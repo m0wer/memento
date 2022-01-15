@@ -11,7 +11,7 @@
     <managingEditor>m0wer</managingEditor>
 
     
-    <pubDate>2022-01-14 05:29:08+00:00</pubDate>
+    <pubDate>2022-01-14 05:29:40+00:00</pubDate>
     <ttl>1440</ttl>
 
     
@@ -34,9 +34,9 @@
     &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
     &lt;span class=&#34;nl&#34;&gt;child:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Card&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;New: Most common commands.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;code&gt;\msg {user@server.tld}&lt;/code&gt;: Start a conversation.&lt;/li&gt; &lt;li&gt;&lt;code&gt;\roster add {user@server.tld}&lt;/code&gt;: Add user to contacts.&lt;/li&gt; &lt;li&gt;&lt;code&gt;\sub request {user@server.tld}&lt;/code&gt;: Request presence updates from user.&lt;/li&gt; &lt;li&gt;&lt;code&gt;\omemo start&lt;/code&gt;: Start an OMEMO session.&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt; &lt;div class=&#34;md-source-file&#34;&gt; &lt;small&gt; Last update: &lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago&#34;&gt;&lt;span class=&#34;timeago&#34; datetime=&#34;2022-01-14T05:29:08+00:00&#34; locale=&#34;en&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date&#34;&gt;2022-01-14&lt;/span&gt; &lt;/small&gt; &lt;/div&gt; &lt;/article&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;New: Most common commands.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;code&gt;\msg {user@server.tld}&lt;/code&gt;: Start a conversation.&lt;/li&gt; &lt;li&gt;&lt;code&gt;\roster add {user@server.tld}&lt;/code&gt;: Add user to contacts.&lt;/li&gt; &lt;li&gt;&lt;code&gt;\sub request {user@server.tld}&lt;/code&gt;: Request presence updates from user.&lt;/li&gt; &lt;li&gt;&lt;code&gt;\omemo start&lt;/code&gt;: Start an OMEMO session.&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt; &lt;div class=&#34;md-source-file&#34;&gt; &lt;small&gt; Last update: &lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago&#34;&gt;&lt;span class=&#34;timeago&#34; datetime=&#34;2022-01-14T05:29:40+00:00&#34; locale=&#34;en&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date&#34;&gt;2022-01-14&lt;/span&gt; &lt;/small&gt; &lt;/div&gt; &lt;/article&gt;</description>
       <link>https://m0wer.github.io/memento/newsletter/2022_01_13/</link>
-      <pubDate>2022-01-14 05:29:08+00:00</pubDate>
+      <pubDate>2022-01-14 05:29:40+00:00</pubDate>
       <source url="https://m0wer.github.io/memento/daily.xml">Memento</source>
       <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2022_01_13/</guid>
       
