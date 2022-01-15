@@ -73,6 +73,7 @@ nav:
           - LUKS: computer_science/gnu_linux/luks.md
           - LVM: computer_science/gnu_linux/lvm.md
           - mail: computer_science/gnu_linux/mail.md
+          - Makefile: computer_science/gnu_linux/makefile.md
           - MariaDB: computer_science/gnu_linux/mariadb.md
           - MarkDown: computer_science/gnu_linux/markdown.md
           - MathJax: computer_science/gnu_linux/mathjax.md
