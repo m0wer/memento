@@ -23,6 +23,7 @@ nav:
           - Ansible: computer_science/gnu_linux/ansible.md
           - APT: computer_science/gnu_linux/apt.md
           - Bash: computer_science/gnu_linux/bash.md
+          - Basics: computer_science/gnu_linux/basics.md
           - blkid: computer_science/gnu_linux/blkid.md
           - C: computer_science/gnu_linux/c.md
           - Commitizen: computer_science/gnu_linux/commitizen.md
@@ -67,6 +68,7 @@ nav:
           - Kodi: computer_science/gnu_linux/kodi.md
           - Latex: computer_science/gnu_linux/latex.md
           - Layman: computer_science/gnu_linux/layman.md
+          - Let\'s Encrypt: computer_science/gnu_linux/letsencrypt.md
           - LibreOffice: computer_science/gnu_linux/libreoffice.md
           - LightDM: computer_science/gnu_linux/lightdm.md
           - Linux: computer_science/gnu_linux/linux.md
@@ -85,6 +87,7 @@ nav:
           - Msmtp: computer_science/gnu_linux/msmtp.md
           - Music: computer_science/gnu_linux/music.md
           - NeoMutt: computer_science/gnu_linux/neomutt.md
+          - neovim: computer_science/gnu_linux/neovim.md
           - netcat: computer_science/gnu_linux/netcat.md
           - Nextcloud: computer_science/gnu_linux/nextcloud.md
           - NFS: computer_science/gnu_linux/nfs.md
@@ -103,6 +106,7 @@ nav:
           - pdfunite: computer_science/gnu_linux/pdfunite.md
           - Portage: computer_science/gnu_linux/portage.md
           - PostgreSQL: computer_science/gnu_linux/postgresql.md
+          - Profanity: computer_science/gnu_linux/profanity.md
           - PulseAudio: computer_science/gnu_linux/pulseaudio.md
           - qutebrowser: computer_science/gnu_linux/qutebrowser.md
           - Radare2: computer_science/gnu_linux/radare2.md
@@ -132,10 +136,11 @@ nav:
           - TOR: computer_science/gnu_linux/tor.md
           - uptimed: computer_science/gnu_linux/uptimed.md
           - Vagrant: computer_science/gnu_linux/vagrant.md
-          - neovim: computer_science/gnu_linux/neovim.md
+          - Vim: computer_science/gnu_linux/vim.md
           - vimdiff: computer_science/gnu_linux/vimdiff.md
           - virt-manager: computer_science/gnu_linux/virt-manager.md
           - virtualenvwrapper: computer_science/gnu_linux/virtualenvwrapper.md
+          - Wallabag: computer_science/gnu_linux/wallabag.md
           - WeeChat: computer_science/gnu_linux/weechat.md
           - wget: computer_science/gnu_linux/wget.md
           - WoeUSB: computer_science/gnu_linux/woeusb.md
@@ -154,6 +159,11 @@ nav:
       - Programming:
           - Code style:
               - Git commits: computer_science/programming/code_style/git_commits.md
+          - Flutter:
+              - Basics: computer_science/programming/flutter/basics.md
+              - Debugging: computer_science/programming/flutter/debugging.md
+              - Material: computer_science/programming/flutter/material.md
+              - Provider: computer_science/programming/flutter/provider.md
           - Jinja: computer_science/programming/jinja.md
           - Python:
               - asyncio: computer_science/programming/python/asyncio.md
@@ -181,6 +191,7 @@ nav:
               - statsmodels: computer_science/programming/python/statsmodels.md
               - Style: computer_science/programming/python/style.md
               - Snippets: computer_science/programming/python/snippets.md
+              - Tenacity: computer_science/programming/python/tenacity.md
               - Typing: computer_science/programming/python/typing.md
               - unittest: computer_science/programming/python/unittest.md
           - TDD: computer_science/programming/tdd.md
