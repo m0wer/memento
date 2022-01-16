@@ -66,3 +66,28 @@ particularily useful if you want to have a CI build and sign the releases.
 
 Check [store file as secret](github_actions#store-file-as-secret) to save the
 generated keystore file as a CI secret.
+
+# Continuous Integration (CI)
+
+## GitHub Actions
+
+### Upload to Play Store
+
+1. Create a *principal* in <https://console.cloud.google.com/iam-admin/iam>
+  with the role *Service Account User*.
+1. Create and download a new key (JSON format) for the created *principal*.
+1. In [Play Console](https://play.google.com/console/) go to Setup>API access
+  and enable access for the created *principal* granting
+  *Admin (all permissions)* to it.
+1. Add the key JSON content as a GitHub Secret (e.g., `SERVICE_ACCOUNT_JSON`).
+1. Add the following step to your workflow (after `flutter build appbundle`):
+
+  ```yaml
+  - name: Upload to Google Play
+    uses: r0adkll/upload-google-play@v1.0.15
+    with:
+      serviceAccountJsonPlainText: ${{ secrets.SERVICE_ACCOUNT_JSON }}
+      packageName: {{ package_name }}
+      releaseFiles: build/app/outputs/bundle/release/app-release.aab
+      track: production
+  ```
