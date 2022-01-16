@@ -160,6 +160,7 @@ nav:
           - Code style:
               - Git commits: computer_science/programming/code_style/git_commits.md
           - Flutter:
+              - Android: computer_science/programming/flutter/android.md
               - Basics: computer_science/programming/flutter/basics.md
               - Debugging: computer_science/programming/flutter/debugging.md
               - Material: computer_science/programming/flutter/material.md
