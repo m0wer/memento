@@ -11,7 +11,7 @@
     <managingEditor>m0wer</managingEditor>
 
     
-    <pubDate>2022-01-16 05:28:29+00:00</pubDate>
+    <pubDate>2022-01-16 05:29:05+00:00</pubDate>
     <ttl>1440</ttl>
 
     
@@ -32,9 +32,9 @@
 &lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;run&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l l-Scalar l-Scalar-Plain&#34;&gt;echo ${{ secrets.SECRET }} | base64 -d &amp;gt; {{ file_path }}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h3 id=&#34;gnulinux&#34;&gt;GNULinux&lt;/h3&gt; &lt;h4 id=&#34;makefile&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/gnu_linux/makefile/&#34;&gt;Makefile&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Paralelize steps.&lt;/p&gt; &lt;p&gt;Add the following lines to the beginning of the &lt;em&gt;Makefile&lt;/em&gt;:&lt;/p&gt; &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&#34;nv&#34;&gt;NPROCS&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;shell grep -c &lt;span class=&#34;s1&#34;&gt;&#39;processor&#39;&lt;/span&gt; /proc/cpuinfo&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;
 &lt;span class=&#34;nv&#34;&gt;MAKEFLAGS&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+=&lt;/span&gt; -j&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;NPROCS&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h2 id=&#34;other&#34;&gt;Other&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Correction: Add missing entries to nav.&lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt; &lt;div class=&#34;md-source-file&#34;&gt; &lt;small&gt; Last update: &lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago&#34;&gt;&lt;span class=&#34;timeago&#34; datetime=&#34;2022-01-16T05:28:29+00:00&#34; locale=&#34;en&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date&#34;&gt;2022-01-16&lt;/span&gt; &lt;/small&gt; &lt;/div&gt; &lt;/article&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h2 id=&#34;other&#34;&gt;Other&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Correction: Add missing entries to nav.&lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt; &lt;div class=&#34;md-source-file&#34;&gt; &lt;small&gt; Last update: &lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago&#34;&gt;&lt;span class=&#34;timeago&#34; datetime=&#34;2022-01-16T05:29:05+00:00&#34; locale=&#34;en&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date&#34;&gt;2022-01-16&lt;/span&gt; &lt;/small&gt; &lt;/div&gt; &lt;/article&gt;</description>
       <link>https://m0wer.github.io/memento/newsletter/2022_01_15/</link>
-      <pubDate>2022-01-16 05:28:29+00:00</pubDate>
+      <pubDate>2022-01-16 05:29:05+00:00</pubDate>
       <source url="https://m0wer.github.io/memento/daily.xml">Memento</source>
       <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2022_01_15/</guid>
       
