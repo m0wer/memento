@@ -86,3 +86,23 @@ Then paste it to a new secret. To restore the file diring the workflow, add:
 - name: restore file
   run: echo ${{ secrets.SECRET }} | base64 -d > {{ file_path }}
 ```
+
+## Steps
+
+### Condition execution depending on another step outcome
+
+To allow a step to fail without that implying failing the whole
+workflow and then execute some steps according to the result, do:
+
+```yaml
+- name: commitizen
+  id: commitizen
+  continue-on-error: true
+  uses: commitizen-tools/commitizen-action@0.11.0
+  with:
+    github_token: ${{ secrets.GITHUB_TOKEN }}
+
+- name: Some other task
+  if: steps.commitizen.outcome == 'success'
+  run: something
+```
