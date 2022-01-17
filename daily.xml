@@ -11,7 +11,7 @@
     <managingEditor>m0wer</managingEditor>
 
     
-    <pubDate>2022-01-16 05:29:05+00:00</pubDate>
+    <pubDate>2022-01-17 05:29:33+00:00</pubDate>
     <ttl>1440</ttl>
 
     
@@ -25,6 +25,38 @@
     
 
     
+    
+    <item><title>16th January 2022</title>
+      <author>m0wer</author>
+      <description>&lt;article class=&#34;md-content__inner md-typeset&#34;&gt; &lt;a class=&#34;md-content__button md-icon&#34; href=&#34;https://github.com/m0wer/memento/edit/master/docs/newsletter/2022_01_16.md&#34; title=&#34;Edit this page&#34;&gt; &lt;svg viewbox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z&#34;&gt;&lt;/path&gt;&lt;/svg&gt; &lt;/a&gt;  &lt;h2 id=&#34;computer-science&#34;&gt;Computer Science&lt;/h2&gt; &lt;h3 id=&#34;gnulinux&#34;&gt;GNULinux&lt;/h3&gt; &lt;h4 id=&#34;android&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/gnu_linux/android/&#34;&gt;Android&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Automatic version code generation.&lt;/p&gt; &lt;p&gt;If you use semantic versioning and you don&#39;t want to increment the version code manually, replace the related config from &lt;code&gt;android/app/build.gradle&lt;/code&gt; with:&lt;/p&gt;  &lt;p&gt;Then whenever &lt;code&gt;pubspec.yaml&lt;/code&gt; &lt;code&gt;version&lt;/code&gt; veriable changes and you build an APK or appbundle, the version code will be generated from it.&lt;/p&gt; &lt;p&gt;Examples (version name -&amp;gt; version code):&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;code&gt;1.2.0&lt;/code&gt; -&amp;gt; &lt;code&gt;1020000&lt;/code&gt;&lt;/li&gt; &lt;li&gt;&lt;code&gt;3.0.1+99&lt;/code&gt; -&amp;gt; &lt;code&gt;3000199&lt;/code&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;New: Signing the APK/AppBundle.&lt;/p&gt; &lt;p&gt;First of all, create a key if you don&#39;t have one with:&lt;/p&gt; &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;keytool -genkey -v -keystore &lt;span class=&#34;o&#34;&gt;{{&lt;/span&gt; keystore_file &lt;span class=&#34;o&#34;&gt;}}&lt;/span&gt; -alias &lt;span class=&#34;o&#34;&gt;{{&lt;/span&gt; key_alias &lt;span class=&#34;o&#34;&gt;}}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\&lt;/span&gt;
+  -keyalg RSA -keysize &lt;span class=&#34;m&#34;&gt;4096&lt;/span&gt; -validity &lt;span class=&#34;m&#34;&gt;10000&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;p&gt;Replace &lt;code&gt;signingConfigs&lt;/code&gt; with:&lt;/p&gt; &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;  &lt;span class=&#34;n&#34;&gt;signingConfigs&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+       &lt;span class=&#34;n&#34;&gt;release&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;keyAlias&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&#34;$System.env.KEY_ALIAS&#34;&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;keyPassword&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&#34;$System.env.KEY_PASSWORD&#34;&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;storeFile&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;file&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&#34;$System.env.KEY_PATH&#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;storePassword&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&#34;$System.env.STORE_PASSWORD&#34;&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+   &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+   &lt;span class=&#34;n&#34;&gt;buildTypes&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+       &lt;span class=&#34;n&#34;&gt;release&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+           &lt;span class=&#34;n&#34;&gt;signingConfig&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;signingConfigs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;release&lt;/span&gt;
+       &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+   &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;p&gt;Now, you can set the corresponding environment variables. This configuration is particularily useful if you want to have a CI build and sign the releases.&lt;/p&gt; &lt;p&gt;Check &lt;a href=&#34;github_actions#store-file-as-secret&#34;&gt;store file as secret&lt;/a&gt; to save the generated keystore file as a CI secret.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h2 id=&#34;other&#34;&gt;Other&lt;/h2&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Upload to Play Store with CI.&lt;/p&gt; &lt;ol&gt; &lt;li&gt;Create a &lt;em&gt;principal&lt;/em&gt; in &lt;a href=&#34;https://console.cloud.google.com/iam-admin/iam&#34;&gt;https://console.cloud.google.com/iam-admin/iam&lt;/a&gt; with the role &lt;em&gt;Service Account User&lt;/em&gt;.&lt;/li&gt; &lt;li&gt;Create and download a new key (JSON format) for the created &lt;em&gt;principal&lt;/em&gt;.&lt;/li&gt; &lt;li&gt;In &lt;a href=&#34;https://play.google.com/console/&#34;&gt;Play Console&lt;/a&gt; go to Setup&amp;gt;API access and enable access for the created &lt;em&gt;principal&lt;/em&gt; granting &lt;em&gt;Admin (all permissions)&lt;/em&gt; to it.&lt;/li&gt; &lt;li&gt;Add the key JSON content as a GitHub Secret (e.g., &lt;code&gt;SERVICE_ACCOUNT_JSON&lt;/code&gt;).&lt;/li&gt; &lt;li&gt;Add the following step to your workflow (after &lt;code&gt;flutter build appbundle&lt;/code&gt;):&lt;/li&gt; &lt;/ol&gt; &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&#34;p p-Indicator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l l-Scalar l-Scalar-Plain&#34;&gt;Upload to Google Play&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;uses&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l l-Scalar l-Scalar-Plain&#34;&gt;r0adkll/upload-google-play@v1.0.15&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;with&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;serviceAccountJsonPlainText&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l l-Scalar l-Scalar-Plain&#34;&gt;${{ secrets.SERVICE_ACCOUNT_JSON }}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;packageName&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p p-Indicator&#34;&gt;{{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;package_name&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p p-Indicator&#34;&gt;}}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;releaseFiles&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l l-Scalar l-Scalar-Plain&#34;&gt;build/app/outputs/bundle/release/app-release.aab&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;track&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l l-Scalar l-Scalar-Plain&#34;&gt;production&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt; &lt;div class=&#34;md-source-file&#34;&gt; &lt;small&gt; Last update: &lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago&#34;&gt;&lt;span class=&#34;timeago&#34; datetime=&#34;2022-01-17T05:29:33+00:00&#34; locale=&#34;en&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date&#34;&gt;2022-01-17&lt;/span&gt; &lt;/small&gt; &lt;/div&gt; &lt;/article&gt;</description>
+      <link>https://m0wer.github.io/memento/newsletter/2022_01_16/</link>
+      <pubDate>2022-01-17 05:29:33+00:00</pubDate>
+      <source url="https://m0wer.github.io/memento/daily.xml">Memento</source>
+      <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2022_01_16/</guid>
+      
+    </item>
     
     <item><title>15th January 2022</title>
       <author>m0wer</author>
@@ -209,16 +241,6 @@
       <pubDate>2021-10-20 05:25:48+00:00</pubDate>
       <source url="https://m0wer.github.io/memento/daily.xml">Memento</source>
       <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2021_10_19/</guid>
-      
-    </item>
-    
-    <item><title>16th October 2021</title>
-      <author>m0wer</author>
-      <description>&lt;article class=&#34;md-content__inner md-typeset&#34;&gt; &lt;a class=&#34;md-content__button md-icon&#34; href=&#34;https://github.com/m0wer/memento/edit/master/docs/newsletter/2021_10_16.md&#34; title=&#34;Edit this page&#34;&gt; &lt;svg viewbox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z&#34;&gt;&lt;/path&gt;&lt;/svg&gt; &lt;/a&gt;  &lt;h2 id=&#34;computer-science&#34;&gt;Computer Science&lt;/h2&gt; &lt;h3 id=&#34;gnulinux&#34;&gt;GNULinux&lt;/h3&gt; &lt;h4 id=&#34;git&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/gnu_linux/git/&#34;&gt;Git&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Rename branch.&lt;/p&gt;  &lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt; &lt;div class=&#34;md-source-file&#34;&gt; &lt;small&gt; Last update: &lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago&#34;&gt;&lt;span class=&#34;timeago&#34; datetime=&#34;2021-10-17T05:24:42+00:00&#34; locale=&#34;en&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date&#34;&gt;2021-10-17&lt;/span&gt; &lt;/small&gt; &lt;/div&gt; &lt;/article&gt;</description>
-      <link>https://m0wer.github.io/memento/newsletter/2021_10_16/</link>
-      <pubDate>2021-10-17 05:24:42+00:00</pubDate>
-      <source url="https://m0wer.github.io/memento/daily.xml">Memento</source>
-      <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2021_10_16/</guid>
       
     </item>
     
