@@ -150,7 +150,7 @@ pymdown-extensions==9.1
     #   mkdocs-material
 pypandoc==1.7.2
     # via mkdocs-bibtex
-pyparsing==3.0.6
+pyparsing==3.0.7
     # via packaging
 python-dateutil==2.8.2
     # via
