@@ -107,7 +107,7 @@ mkdocs-exclude-search==0.6.4
     # via -r requirements.in
 mkdocs-git-revision-date-localized-plugin==0.11.1
     # via -r requirements.in
-mkdocs-material==8.1.7
+mkdocs-material==8.1.8
     # via -r requirements.in
 mkdocs-material-extensions==1.0.3
     # via mkdocs-material
