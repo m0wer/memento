@@ -12,6 +12,12 @@ tags: pip,python,virtualenv,install,uninstall
 
 [pypa-doc](https://pip.pypa.io/en/stable/reference/pip_uninstall/)
 
+### Uninstall all packages
+
+```bash
+pip freeze | xargs pip uninstall -y
+```
+
 # Requirements files
 
 ## Structure
