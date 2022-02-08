@@ -105,7 +105,7 @@ mkdocs-bibtex==2.0.0
     # via -r requirements.in
 mkdocs-exclude-search==0.6.4
     # via -r requirements.in
-mkdocs-git-revision-date-localized-plugin==0.12
+mkdocs-git-revision-date-localized-plugin==0.12.1
     # via -r requirements.in
 mkdocs-material==8.1.10
     # via -r requirements.in
