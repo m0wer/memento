@@ -18,6 +18,14 @@ ffmpeg -video_size 1920x1080 -framerate 30 -f x11grab -i :0.0+0,0 -f alsa -ac 2 
 With `-i :0.0+0,0` you can specify the X11 session (`0.0`) and the position of
 the top left corner (`0,0`).
 
+## Merging
+
+### Concatenate and convert files
+
+```bash
+ffmpeg -i "concat:1.ogg|2.ogg" out.mp3
+```
+
 ## Misc
 
 ### List available formats
