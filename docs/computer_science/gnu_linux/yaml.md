@@ -1,14 +1,11 @@
 ---
 title: YAML
-date: 20171125
-tags: yaml,ansible,syntax
+date: 2017-11-25
 ---
 
-# YAML
+# Syntax
 
-## Syntax
-
-### Multiline variables
+## Multiline variables
 
 * Folding block (joins multiple lines together by spaces):
 
