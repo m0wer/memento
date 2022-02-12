@@ -41,6 +41,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://m0wer.github.io/memento/computer_science/dbms/database_normalization/</loc>
+         <lastmod>2022-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://m0wer.github.io/memento/computer_science/gnu_linux/X/</loc>
          <lastmod>2022-02-12</lastmod>
          <changefreq>daily</changefreq>
@@ -757,6 +762,11 @@
     </url>
     <url>
          <loc>https://m0wer.github.io/memento/computer_science/programming/flutter/material/</loc>
+         <lastmod>2022-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://m0wer.github.io/memento/computer_science/programming/flutter/nginx/</loc>
          <lastmod>2022-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
