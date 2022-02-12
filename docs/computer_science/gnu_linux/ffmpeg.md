@@ -26,6 +26,15 @@ the top left corner (`0,0`).
 ffmpeg -i "concat:1.ogg|2.ogg" out.mp3
 ```
 
+## Cropping
+
+```bash
+ffmpeg -ss 30 -t 70 -i inputfile.mp3 outputfile.mp3
+```
+
+* `-ss` refers to the starting time.
+* `-t` is the duration after the starting time to consider.
+
 ## Misc
 
 ### List available formats
