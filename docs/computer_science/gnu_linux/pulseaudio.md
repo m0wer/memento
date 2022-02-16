@@ -4,9 +4,15 @@ date: 2020-03-05
 tags: [ 'pulseaudio', 'sound', 'audio' ]
 ---
 
-# PulseAudio
+# Usage
 
-## Reference
+## Restart PulseAudio
+
+```bash
+pulseaudio -k
+```
+
+# Reference
 
 * [ArchLinux Examples](https://wiki.archlinux.org/index.php/PulseAudio/Examples)
 * [Usage with
