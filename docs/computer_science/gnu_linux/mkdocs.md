@@ -212,7 +212,7 @@ for path in src_root.glob("**/*.py"):
 
 ## Image with caption
 
-```
+```markdown
 <!-- markdownlint-disable MD033 -->
 <figure markdown>
   ![Domain model](img/domain_model.png){ loading=lazy }
