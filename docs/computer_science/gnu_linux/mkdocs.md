@@ -207,3 +207,16 @@ for path in src_root.glob("**/*.py"):
         ident = ".".join(path.with_suffix("").parts[1:])
         print("::: " + ident, file=f)
 ```
+
+# Tips
+
+## Image with caption
+
+```
+<!-- markdownlint-disable MD033 -->
+<figure markdown>
+  ![Domain model](img/domain_model.png){ loading=lazy }
+  <figcaption>Proposed model.</figcaption>
+</figure>
+<!-- markdownlint-enable MD033 -->
+```
