@@ -11,7 +11,7 @@
     <managingEditor>m0wer</managingEditor>
 
     
-    <pubDate>2022-02-14 05:25:37+00:00</pubDate>
+    <pubDate>2022-02-21 05:25:04+00:00</pubDate>
     <ttl>10080</ttl>
 
     
@@ -25,6 +25,23 @@
     
 
     
+    
+    <item><title>7th Week of 2022</title>
+      <author>m0wer</author>
+      <description>&lt;article class=&#34;md-content__inner md-typeset&#34;&gt; &lt;a class=&#34;md-content__button md-icon&#34; href=&#34;https://github.com/m0wer/memento/edit/master/docs/newsletter/2022_w07.md&#34; title=&#34;Edit this page&#34;&gt; &lt;svg viewbox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z&#34;&gt;&lt;/path&gt;&lt;/svg&gt; &lt;/a&gt;  &lt;h2 id=&#34;computer-science&#34;&gt;Computer Science&lt;/h2&gt; &lt;h3 id=&#34;gnulinux&#34;&gt;GNULinux&lt;/h3&gt; &lt;h4 id=&#34;markdown&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/gnu_linux/markdown/&#34;&gt;MarkDown&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Disable specific rule for a block.&lt;/p&gt;  &lt;/li&gt; &lt;/ul&gt; &lt;h4 id=&#34;mkdocs&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/gnu_linux/mkdocs/&#34;&gt;MkDocs&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Image with caption.&lt;/p&gt; &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&amp;lt;!-- markdownlint-disable MD033 --&amp;gt;
+&amp;lt;figure markdown&amp;gt;
+  ![Domain model](img/domain_model.png){ loading=lazy }
+  &amp;lt;figcaption&amp;gt;Proposed model.&amp;lt;/figcaption&amp;gt;
+&amp;lt;/figure&amp;gt;
+&amp;lt;!-- markdownlint-enable MD033 --&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h4 id=&#34;pulseaudio&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/gnu_linux/pulseaudio/&#34;&gt;PulseAudio&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Restart PulseAudio.&lt;/p&gt; &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pulseaudio -k
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h2 id=&#34;other&#34;&gt;Other&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;New: Add definitions and examples.&lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt; &lt;div class=&#34;md-source-file&#34;&gt; &lt;small&gt; Last update: &lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago&#34;&gt;&lt;span class=&#34;timeago&#34; datetime=&#34;2022-02-21T05:25:04+00:00&#34; locale=&#34;en&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date&#34;&gt;2022-02-21&lt;/span&gt; &lt;/small&gt; &lt;/div&gt; &lt;/article&gt;</description>
+      <link>https://m0wer.github.io/memento/newsletter/2022_w07/</link>
+      <pubDate>2022-02-21 05:25:04+00:00</pubDate>
+      <source url="https://m0wer.github.io/memento/weekly.xml">Memento</source>
+      <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2022_w07/</guid>
+      
+    </item>
     
     <item><title>6th Week of 2022</title>
       <author>m0wer</author>
@@ -268,20 +285,6 @@
       <pubDate>2021-10-11 05:25:15+00:00</pubDate>
       <source url="https://m0wer.github.io/memento/weekly.xml">Memento</source>
       <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2021_w40/</guid>
-      
-    </item>
-    
-    <item><title>39th Week of 2021</title>
-      <author>m0wer</author>
-      <description>&lt;article class=&#34;md-content__inner md-typeset&#34;&gt; &lt;a class=&#34;md-content__button md-icon&#34; href=&#34;https://github.com/m0wer/memento/edit/master/docs/newsletter/2021_w39.md&#34; title=&#34;Edit this page&#34;&gt; &lt;svg viewbox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z&#34;&gt;&lt;/path&gt;&lt;/svg&gt; &lt;/a&gt;  &lt;h2 id=&#34;computer-science&#34;&gt;Computer Science&lt;/h2&gt; &lt;h3 id=&#34;gnulinux&#34;&gt;GNULinux&lt;/h3&gt; &lt;h4 id=&#34;curl&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/gnu_linux/curl/&#34;&gt;cURL&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Fetch a website that requires auth.&lt;/p&gt;  &lt;/li&gt; &lt;/ul&gt; &lt;h4 id=&#34;docker&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/gnu_linux/docker/&#34;&gt;Docker&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Remove unused data.&lt;/p&gt; &lt;p&gt;Use &lt;code&gt;docker system prune&lt;/code&gt;.&lt;/p&gt; &lt;p&gt;And for automated clean up:&lt;/p&gt; &lt;p&gt;Add the following line to &lt;code&gt;crontab -e&lt;/code&gt;:&lt;/p&gt; &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;0 3 * * * /usr/bin/docker system prune -f 2&amp;gt;&amp;amp;1 &amp;gt; /dev/null
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;p&gt;&lt;code&gt;-f&lt;/code&gt; prevents manual confirmation from being asked.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h4 id=&#34;git&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/gnu_linux/git/&#34;&gt;Git&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Pre-commit.&lt;/p&gt; &lt;p&gt;&lt;a href=&#34;https://github.com/pre-commit/pre-commit&#34;&gt;pre-commit/pre-commit&lt;/a&gt; is a framework for managing and maintaining multi-language pre-commit hooks.&lt;/p&gt; &lt;p&gt;You can skip specific hooks with:&lt;/p&gt; &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&#34;nv&#34;&gt;SKIP&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;no-commit-to-branch pre-commit run --all-files
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;p&gt;Which is useful if a CI runs for the main branch so that it doesn&#39;t complain about running in it.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h4 id=&#34;netcat&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/gnu_linux/netcat/&#34;&gt;netcat&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Test TCP connections.&lt;/p&gt; &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;nc -v -z -w &lt;span class=&#34;m&#34;&gt;3&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;host&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;port&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;p&gt;Options: * &lt;code&gt;-v&lt;/code&gt;: verbose * &lt;code&gt;-z&lt;/code&gt;: just check if the port is open and exit (without sending any data) * &lt;code&gt;-w 3&lt;/code&gt;: 3 seconds timeout&lt;/p&gt; &lt;p&gt;If it exists with return code 0, it means that the connection succeeded.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h4 id=&#34;wget&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/gnu_linux/wget/&#34;&gt;wget&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Redirect output to stdout.&lt;/p&gt; &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;wget -qO- &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;url&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h3 id=&#34;programming&#34;&gt;Programming&lt;/h3&gt; &lt;h4 id=&#34;pip&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/programming/python/pip/&#34;&gt;pip&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Pip-tools.&lt;/p&gt; &lt;p&gt;&lt;a href=&#34;https://github.com/jazzband/pip-tools&#34;&gt;jazzband/pip-tools&lt;/a&gt; are a set of tools to keep your pinned Python dependencies fresh.&lt;/p&gt; &lt;p&gt;Usage of &lt;code&gt;pip-compile&lt;/code&gt; and of &lt;code&gt;pip-sync&lt;/code&gt;.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt; &lt;div class=&#34;md-source-file&#34;&gt; &lt;small&gt; Last update: &lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago&#34;&gt;&lt;span class=&#34;timeago&#34; datetime=&#34;2021-10-04T05:25:25+00:00&#34; locale=&#34;en&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date&#34;&gt;2021-10-04&lt;/span&gt; &lt;/small&gt; &lt;/div&gt; &lt;/article&gt;</description>
-      <link>https://m0wer.github.io/memento/newsletter/2021_w39/</link>
-      <pubDate>2021-10-04 05:25:25+00:00</pubDate>
-      <source url="https://m0wer.github.io/memento/weekly.xml">Memento</source>
-      <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2021_w39/</guid>
       
     </item>
     
