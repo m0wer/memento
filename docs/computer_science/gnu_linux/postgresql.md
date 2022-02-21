@@ -140,6 +140,21 @@ a column.
 If instead you want to truncate a timestamp to a specified level of precission,
 use `date_trunc('datepart', field)`.
 
+## Constraints
+
+### Check that a string is a valid timezone
+
+Use the constraint `CHECK (now() AT TIME ZONE timezone IS NOT NULL)`. For
+example:
+
+```psql
+CREATE TABLE locations (
+    location_id SERIAL PRIMARY KEY,
+    name TEXT,
+    timezone TEXT NOT NULL CHECK (now() AT TIME ZONE timezone IS NOT NULL)
+);
+```
+
 ## Meta
 
 ### Get column names of a table
@@ -172,13 +187,13 @@ SELECT pid, query FROM pg_stat_activity WHERE state = 'active';
 Then, stop or kill the process with SELECT `pg_cancel_backend({pid})` or
 `pg_termiante_backend({pid})` respectively.
 
-## Configuration
+# Configuration
 
 You can use [PGTune](https://pgtune.leopard.in.ua/#/) to calculate
 configuration for PostgreSQL based on the maximum performance for a given
 hardware configuration.
 
-### Parallelization
+## Parallelization
 
 To tune the number of workers edit `postgresql.conf` and in the
 *- Asynchronous Behavior -* section edit `max_worker_processes`,
