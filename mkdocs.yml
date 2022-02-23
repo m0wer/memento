@@ -15,6 +15,8 @@ nav:
           - SafetyNet: computer_science/android/safetynet.md
       - CICD:
           - Github Actions: computer_science/cicd/github_actions.md
+      - DBMS:
+          - Database Normalization: computer_science/dbms/database_normalization.md
       - GNULinux:
           - Alacritty: computer_science/gnu_linux/alacritty.md
           - Android-studio: computer_science/gnu_linux/android-studio.md
@@ -224,6 +226,9 @@ nav:
           - Grammar:
               - Gerunds: languages/turkish/grammar/gerunds.md
               - Noun cases: languages/turkish/grammar/noun_cases.md
+  - Media:
+    - Books:
+      - Atlas Shrugged: media/books/atlas_shrugged.md
   - Projects: projects/projects.md
   - Forking this wiki: forking_this_wiki.md
   - Contact: contact.md
