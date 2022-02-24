@@ -229,6 +229,7 @@ nav:
   - Media:
     - Books:
       - Atlas Shrugged: media/books/atlas_shrugged.md
+      - The Problem of Political Authority: media/books/the_problem_of_political_authority.md
   - Projects: projects/projects.md
   - Forking this wiki: forking_this_wiki.md
   - Contact: contact.md
