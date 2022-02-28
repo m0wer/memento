@@ -11,7 +11,7 @@
     <managingEditor>m0wer</managingEditor>
 
     
-    <pubDate>2022-02-23 07:08:07+00:00</pubDate>
+    <pubDate>2022-02-28 05:25:27+00:00</pubDate>
     <ttl>10080</ttl>
 
     
@@ -25,6 +25,16 @@
     
 
     
+    
+    <item><title>8th Week of 2022</title>
+      <author>m0wer</author>
+      <description>&lt;article class=&#34;md-content__inner md-typeset&#34;&gt; &lt;a class=&#34;md-content__button md-icon&#34; href=&#34;https://github.com/m0wer/memento/edit/master/docs/newsletter/2022_w08.md&#34; title=&#34;Edit this page&#34;&gt; &lt;svg viewbox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z&#34;&gt;&lt;/path&gt;&lt;/svg&gt; &lt;/a&gt;  &lt;h2 id=&#34;computer-science&#34;&gt;Computer Science&lt;/h2&gt; &lt;h3 id=&#34;gnulinux&#34;&gt;GNULinux&lt;/h3&gt; &lt;h4 id=&#34;postgresql&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/gnu_linux/postgresql/&#34;&gt;PostgreSQL&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Check that a string is a valid timezone.&lt;/p&gt; &lt;p&gt;Use the constraint &lt;code&gt;CHECK (now() AT TIME ZONE timezone IS NOT NULL)&lt;/code&gt;. For example:&lt;/p&gt;  &lt;/li&gt; &lt;/ul&gt; &lt;h2 id=&#34;media&#34;&gt;Media&lt;/h2&gt; &lt;h3 id=&#34;books&#34;&gt;Books&lt;/h3&gt; &lt;h4 id=&#34;atlas-shrugged&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/media/books/atlas_shrugged/&#34;&gt;Atlas Shrugged&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Atlas Shrugged 1957 novel by Ayn Rand.&lt;/p&gt; &lt;p&gt;Atlas Shrugged is a 1957 novel by Ayn Rand. It contains Rand&#39;s most extensive statement of Objectivism. The book depicts a dystopian United States in which private businesses suffer under increasingly burdensome laws and regulations.&lt;/p&gt; &lt;p&gt;The book is more than a thousand pages long. There are audiobooks (~60h long) and a movie divided in three parts.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h4 id=&#34;the-problem-of-political-authority&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/media/books/the_problem_of_political_authority/&#34;&gt;The Problem of Political Authority&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: The Problem of Political Authority.&lt;/p&gt; &lt;p&gt;Modern states commonly deploy coercion in a wide array of circumstances in which the resort to force would clearly be wrong for any private agent. What entitles the state to behave in this manner? And why should citizens obey its commands? This book examines theories of political authority, from the social contract theory, to theories of democratic authorization, to fairness- and consequence-based theories. Ultimately, no theory of authority succeeds, and thus no government has the kind of authority often ascribed to governments.&lt;/p&gt; &lt;p&gt;The author goes on to discuss how voluntary and competitive institutions could provide the central goods for the sake of which the state is often deemed necessary, including law, protection from private criminals, and national security. An orderly and livable society thus does not require acquiescence in the illusion of political authority.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt; &lt;div class=&#34;md-source-file&#34;&gt; &lt;small&gt; Last update: &lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago&#34;&gt;&lt;span class=&#34;timeago&#34; datetime=&#34;2022-02-28T05:25:27+00:00&#34; locale=&#34;en&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date&#34;&gt;2022-02-28&lt;/span&gt; &lt;/small&gt; &lt;/div&gt; &lt;/article&gt;</description>
+      <link>https://m0wer.github.io/memento/newsletter/2022_w08/</link>
+      <pubDate>2022-02-28 05:25:27+00:00</pubDate>
+      <source url="https://m0wer.github.io/memento/weekly.xml">Memento</source>
+      <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2022_w08/</guid>
+      
+    </item>
     
     <item><title>7th Week of 2022</title>
       <author>m0wer</author>
@@ -275,16 +285,6 @@
       <pubDate>2021-10-18 05:25:22+00:00</pubDate>
       <source url="https://m0wer.github.io/memento/weekly.xml">Memento</source>
       <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2021_w41/</guid>
-      
-    </item>
-    
-    <item><title>40th Week of 2021</title>
-      <author>m0wer</author>
-      <description>&lt;article class=&#34;md-content__inner md-typeset&#34;&gt; &lt;a class=&#34;md-content__button md-icon&#34; href=&#34;https://github.com/m0wer/memento/edit/master/docs/newsletter/2021_w40.md&#34; title=&#34;Edit this page&#34;&gt; &lt;svg viewbox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z&#34;&gt;&lt;/path&gt;&lt;/svg&gt; &lt;/a&gt;  &lt;h2 id=&#34;computer-science&#34;&gt;Computer Science&lt;/h2&gt; &lt;h3 id=&#34;programming&#34;&gt;Programming&lt;/h3&gt; &lt;h4 id=&#34;pytelegrambotapi&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/programming/python/pytelegrambotapi/&#34;&gt;pyTelegramBotAPI&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt;New: How to get (group) chat id.&lt;/li&gt; &lt;/ul&gt; &lt;h2 id=&#34;countries&#34;&gt;Countries&lt;/h2&gt; &lt;h3 id=&#34;turkey&#34;&gt;Turkey&lt;/h3&gt; &lt;h4 id=&#34;touristic-visa&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/countries/turkey/legal/touristic_visa/&#34;&gt;Touristic visa&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: After obtaining the r permit.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Notify my Turkish cell phone operator (updated my details from the app). Otherwise your line will be canceled after some months (source: the guy at Turkcell store).&lt;/li&gt; &lt;li&gt;Get access to e-devlet to do bureaucracy online. Go to PTT and ask for the code, you will receive it as an SMS to your Turkish phone number. The cost is 2 TL.&lt;/li&gt; &lt;li&gt;Go back to the Göç İdaresi to register your address (yes, again). You will need to bring some utility bill registered to your name. You can also go with the person you live with if the bills are under their name and they are already registered (nüfus) at that address. If they are not registered, they can try to do it from e-devlet or go to the population directorate (nüfus müdürlüğü).&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt;  &lt;/article&gt;</description>
-      <link>https://m0wer.github.io/memento/newsletter/2021_w40/</link>
-      <pubDate>2021-10-11 05:25:15+00:00</pubDate>
-      <source url="https://m0wer.github.io/memento/weekly.xml">Memento</source>
-      <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2021_w40/</guid>
       
     </item>
     
