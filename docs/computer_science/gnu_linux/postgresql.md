@@ -207,6 +207,31 @@ To tune the number of workers edit `postgresql.conf` and in the
 ALTER USER user_name WITH PASSWORD 'new_password';
 ```
 
+# Tips
+
+## Copy data manually between different databases
+
+If you want to copy just a few rows between tables in different databases and
+even slightly different schema, you can use the following commands:
+
+```psql
+COPY (SELECT * FROM user WHERE id = 42) TO STDOUT WITH (FORMAT CSV, HEADER);
+```
+
+Which returns:
+
+```csv
+id,name,created_at,updated_at
+42,Some User,2022-03-01 06:18:53.37+00,2022-03-01 06:18:53.37+00
+```
+
+Then, in the other database:
+
+```psql
+COPY user FROM STDIN WITH (FORMAT CSV, HEADER);
+```
+Paste the result from the first query and press `Ctrl+D`.
+
 # Reference
 
 ## Data types
