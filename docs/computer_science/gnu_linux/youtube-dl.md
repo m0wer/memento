@@ -6,9 +6,15 @@ tags: [ 'youtube-dl', 'download', 'web', 'audio', 'video', 'mp3', 'mp4' ]
 
 # Download methods
 
-## Dowload only the audio
+## Download only the audio
 
 `youtube-dl --extract-audio [url]`
+
+### Download only the audio in MP3 format
+
+```bash
+youtube-dl --extract-audio --audio-format mp3 [url]
+```
 
 ## Download audio and video in custom qualities and merge to mp4
 
