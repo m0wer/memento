@@ -124,6 +124,17 @@ To concatenate strings with a separator, use
 
 For example: `concat_ws(',', 'abcde', 2, NULL, 22) → abcde,2,22`.
 
+#### COUNT
+
+##### Count NULL values
+
+```psql
+SELECT COUNT(*) FROM table WHERE column IS NULL;
+```
+`COUNT` only conseiders non null values so use `COUNT(*)` (which counts the
+row) instead of `COUNT(column)` because the later would always return 0 since
+the filter gets only the null values of `column`.
+
 ### Time stamp operations
 
 #### Get only part of the time stamp
