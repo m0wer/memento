@@ -4,7 +4,9 @@ date: 2020-03-16
 tags: [ 'postgresql', 'sql' ]
 ---
 
-# Usage
+# PostgreSQL
+
+## Usage
 
 Use `psql`.
 
@@ -19,15 +21,15 @@ To select the database to work in do
 
 or `\c {database_name}` in short.
 
-## Basic operations
+### Basic operations
 
-### Delete a table
+#### Delete a table
 
 ```psql
 DROP TABLE "{table_name}";
 ```
 
-### Add a new column
+#### Add a new column
 
 To add a new column, use
 [`ALTER TABLE`](https://www.postgresql.org/docs/current/sql-altertable.html).
@@ -39,12 +41,12 @@ ALTER TABLE {table_name}
   ADD IF NOT EXISTS {column_name} {data_type}
 ```
 
-### GROUP BY
+#### GROUP BY
 
 Reference:
 [PostgreSQL GROUP BY](https://www.postgresqltutorial.com/postgresql-group-by/)
 
-### UPDATE
+#### UPDATE
 
 To update the values of some columns, use
 [UPDATE](https://www.postgresql.org/docs/9.1/sql-update.html).
@@ -59,7 +61,7 @@ SET column1 = value1,
 WHERE condition;
 ```
 
-#### From subquery
+##### From subquery
 
 The most efficient way appears to be the following.
 
@@ -74,7 +76,7 @@ WHERE {table}.{id} = subquery.{id};
 Other options are to perform a `JOIN` but the syntax is less clear and the
 performance seems to be worse.
 
-### Window functions
+#### Window functions
 
 Window functions allow to perform the calculation across a set of rows related
 to the current row.
@@ -100,9 +102,9 @@ SELECT
      {table}
 ```
 
-## Query operators
+### Query operators
 
-### NULLIF
+#### NULLIF
 
 The [`NULLIF(value1, value2)`](https://www.postgresql.org/docs/current/functions-conditional.html#FUNCTIONS-NULLIF)
 function returns a null value if `value1` equals `value2`; otherwise it returns
@@ -110,21 +112,21 @@ function returns a null value if `value1` equals `value2`; otherwise it returns
 
 It can be useful for avoiding divisions by 0 (e.g. set `value2` to 0).
 
-## String functions and operators
+### String functions and operators
 
 Reference: [PostgreSQL Documentation](https://www.postgresql.org/docs/current/functions-string.html)
 
 
-### concat_ws
+#### concat_ws
 
 To concatenate strings with a separator, use
 `concat_ws({separator}, {val1}, {...})`.
 
 For example: `concat_ws(',', 'abcde', 2, NULL, 22) → abcde,2,22`.
 
-## Time stamp operations
+### Time stamp operations
 
-### Get only part of the time stamp
+#### Get only part of the time stamp
 
 To get only a part of the time stamp (e.g., day, hour...) or to get it in
 another format (e.g., epoch), use `date_part()`. For example, to get the
@@ -140,9 +142,9 @@ a column.
 If instead you want to truncate a timestamp to a specified level of precission,
 use `date_trunc('datepart', field)`.
 
-## Constraints
+### Constraints
 
-### Check that a string is a valid timezone
+#### Check that a string is a valid timezone
 
 Use the constraint `CHECK (now() AT TIME ZONE timezone IS NOT NULL)`. For
 example:
@@ -155,9 +157,9 @@ CREATE TABLE locations (
 );
 ```
 
-## Meta
+### Meta
 
-### Get column names of a table
+#### Get column names of a table
 
 ```psql
 SELECT column_name FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = '{table_name}';
@@ -168,7 +170,7 @@ Or, to get the column names along with their type use:
 \d+ {table_name}
 ```
 
-### Enable command timing
+#### Enable command timing
 
 ```pgsql
 \timing [on|off]
@@ -176,7 +178,7 @@ Or, to get the column names along with their type use:
 
 * [stackoverflow](https://stackoverflow.com/questions/9063402/get-execution-time-of-postgresql-query/9064100)
 
-### Stop/kill process
+#### Stop/kill process
 
 First locate the process `pid` with
 
@@ -187,29 +189,29 @@ SELECT pid, query FROM pg_stat_activity WHERE state = 'active';
 Then, stop or kill the process with SELECT `pg_cancel_backend({pid})` or
 `pg_termiante_backend({pid})` respectively.
 
-# Configuration
+## Configuration
 
 You can use [PGTune](https://pgtune.leopard.in.ua/#/) to calculate
 configuration for PostgreSQL based on the maximum performance for a given
 hardware configuration.
 
-## Parallelization
+### Parallelization
 
 To tune the number of workers edit `postgresql.conf` and in the
 *- Asynchronous Behavior -* section edit `max_worker_processes`,
 `max_parallel_workers_per_gather` and `max_parallel_workers`.
 
-# Administration
+## Administration
 
-## Change user password
+### Change user password
 
 ```sql
 ALTER USER user_name WITH PASSWORD 'new_password';
 ```
 
-# Tips
+## Tips
 
-## Copy data manually between different databases
+### Copy data manually between different databases
 
 If you want to copy just a few rows between tables in different databases and
 even slightly different schema, you can use the following commands:
@@ -232,8 +234,23 @@ COPY user FROM STDIN WITH (FORMAT CSV, HEADER);
 ```
 Paste the result from the first query and press `Ctrl+D`.
 
-# Reference
+## Performance optimization
 
-## Data types
+### Get the 20 slowest queries
+
+```psql
+SELECT substring(query, 1, 50) AS short_query,
+              round(total_time::numeric, 2) AS total_time,
+              calls,
+              round(mean_time::numeric, 2) AS mean,
+              round((100 * total_time / sum(total_time::numeric) OVER ())::numeric, 2) AS percentage_cpu
+FROM  pg_stat_statements
+ORDER BY total_time DESC
+LIMIT 20;
+```
+
+## Reference
+
+### Data types
 
 * [Numeric Types](https://www.postgresql.org/docs/current/datatype-numeric.html)
