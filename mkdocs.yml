@@ -32,6 +32,7 @@ nav:
           - cpupower: computer_science/gnu_linux/cpupower.md
           - cURL: computer_science/gnu_linux/curl.md
           - Debian: computer_science/gnu_linux/debian.md
+          - demicode: computer_science/gnu_linux/demicode.md
           - dig: computer_science/gnu_linux/dig.md
           - Docker: computer_science/gnu_linux/docker.md
           - Eclipse: computer_science/gnu_linux/eclipse.md
