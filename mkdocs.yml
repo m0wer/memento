@@ -200,6 +200,9 @@ nav:
               - Typing: computer_science/programming/python/typing.md
               - unittest: computer_science/programming/python/unittest.md
           - TDD: computer_science/programming/tdd.md
+      - Theory:
+          - Algorithms:
+              - Union-find: computer_science/theory/algorithms/union_find.md
   - Cooking:
       - All recipes:
           - Cheesecake: cooking/recipes/cheesecake.md
