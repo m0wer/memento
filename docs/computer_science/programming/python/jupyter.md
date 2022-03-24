@@ -5,14 +5,24 @@ author: m0wer
 tags: [ 'python', 'jupyter' ]
 ---
 
+# Jupyter Notebook/Lab
+
 [Jupyter Notebook/Lab](https://jupyter.org/) is an open-source web application
 that allows you to create and share documents that contain live code,
 equations, visualizations and narrative text. It can be used for R and for
 Python, among others.
 
-# Extensions
+## Tips
 
-## jupyter-server-proxy
+### Matplotlib
+
+#### Adjust default plot size
+
+Try running `%matplotlib notebook` after the imports.
+
+## Extensions
+
+### jupyter-server-proxy
 
 [Jupyter Server Proxy](https://jupyter-server-proxy.readthedocs.io/) lets you
 run arbitrary external processes (such as RStudio, Shiny Server, syncthing,
@@ -22,7 +32,7 @@ to them.
 Once installed, you'll be able to access arbitrary hosts and ports at
 `<notebook-base>/proxy/<host>:<port>`.
 
-### Installation
+#### Installation
 
 First, install the required server extension
 
@@ -38,21 +48,21 @@ pip install jupyter-server-proxy
 
 and you're ready to go.
 
-# Libraries
+## Libraries
 
-## jupyter-dash
+### jupyter-dash
 
 [plotly/jupyter-dash](https://github.com/plotly/jupyter-dash) is a library
 that makes it easy to develop Plotly Dash apps interactively from within
 Jupyter environments.
 
-### Installation
+#### Installation
 
 ```bash
 pip install jupyter-dash
 ```
 
-### Usage
+#### Usage
 
 In a Jupyter Notebook, run this example application
 
@@ -63,9 +73,9 @@ JupyterDash.infer_jupyter_proxy_config()
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
-# Load Data
+## Load Data
 df = px.data.tips()
-# Build App
+## Build App
 app = JupyterDash(__name__)
 app.layout = html.Div([
     html.H1("JupyterDash Demo"),
@@ -80,7 +90,7 @@ app.layout = html.Div([
             ])
     ]),
 ])
-# Define callback to update graph
+## Define callback to update graph
 @app.callback(
     Output('graph', 'figure'),
     [Input("colorscale-dropdown", "value")]
@@ -91,7 +101,7 @@ def update_figure(colorscale):
         color_continuous_scale=colorscale,
         render_mode="webgl", title="Tips"
     )
-# Run app and display result inline in the notebook
+## Run app and display result inline in the notebook
 app.run_server(mode='inline')
 ```
 
@@ -99,12 +109,12 @@ app.run_server(mode='inline')
 not accessible directly, and needs the [jupyter-server-proxy](#jupyter-server-proxy)
 extension to be installed.
 
-## ipynb
+### ipynb
 
 [ipython/ipynb](https://github.com/ipython/ipynb) is a package/module importer
 for importing code from Jupyter Notebook files (.ipynb).
 
-### Usage
+#### Usage
 
 To import a Notebook (`notebook1`) that is in the same directory as the
 current one:
@@ -112,9 +122,9 @@ current one:
 ```python
 import ipynb.fs  # Boilerplate required
 
-# Do a full import
+## Do a full import
 from .full.notebook1 import foo
 
-# Do a definitions-only import
+## Do a definitions-only import
 from .defs.notebook1 import bar
 ```
