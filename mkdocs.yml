@@ -169,6 +169,8 @@ nav:
               - Material: computer_science/programming/flutter/material.md
               - NGINX: computer_science/programming/flutter/nginx.md
               - Provider: computer_science/programming/flutter/provider.md
+          - Javascript:
+              - basics: computer_science/programming/javascript/basics.md
           - Jinja: computer_science/programming/jinja.md
           - Python:
               - asyncio: computer_science/programming/python/asyncio.md
