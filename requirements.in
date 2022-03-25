@@ -8,6 +8,6 @@ mkdocs-material
 mkdocs-section-index
 pip-tools
 pymdown-extensions
-git+git://github.com/lyz-code/mkdocs-autolinks-plugin.git
+mkdocs-autolinks-plugin
 mkdocs-bibtex
 mkdocs-newsletter
