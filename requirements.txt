@@ -87,7 +87,7 @@ markupsafe==2.1.1
     # via jinja2
 mergedeep==1.3.4
     # via mkdocs
-mkdocs==1.2.3
+mkdocs==1.3.0
     # via
     #   -r requirements.in
     #   mkdocs-autolinks-plugin
@@ -233,7 +233,7 @@ zipp==3.7.0
 # The following packages are considered to be unsafe in a requirements file:
 pip==22.0.4
     # via pip-tools
-setuptools==61.1.0
+setuptools==61.1.1
     # via
     #   pip-tools
     #   setuptools-scm
