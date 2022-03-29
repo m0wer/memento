@@ -4,9 +4,11 @@ date: 2017-10-25
 tags: [ 'git', 'github', 'versions', 'branches' ]
 ---
 
-# Configuration
+# Git
 
-## New repo
+## Configuration
+
+### New repo
 
 After running `git init`:
 
@@ -16,7 +18,7 @@ After running `git init`:
 * `git remote add origin [remote origin]`
 * `git push -u origin [branch]`
 
-## Autosign commits
+### Autosign commits
 
 Add the following lines to *.git/config*:
 
@@ -25,22 +27,22 @@ Add the following lines to *.git/config*:
     gpgsign = true
 ```
 
-## Global .gitignore file
+### Global .gitignore file
 
 `git config --global core.excludesfile ~/.gitignore_global`
 
 [github-help](https://help.github.com/articles/ignoring-files/)
 
-## Hooks
+### Hooks
 
-### pre-commit
+#### pre-commit
 
 [pre-commit/pre-commit](https://github.com/pre-commit/pre-commit) is a
 framework for managing and maintaining multi-language pre-commit hooks.
 
-#### Usage
+##### Usage
 
-##### Skip specific hooks
+###### Skip specific hooks
 
 ```bash
 SKIP=no-commit-to-branch pre-commit run --all-files
@@ -49,11 +51,11 @@ SKIP=no-commit-to-branch pre-commit run --all-files
 Which is useful if a CI runs for the main branch so that it doesn't complain
 about running in it.
 
-# Usage
+## Usage
 
-## Cloning
+### Cloning
 
-### Clone a repo and its submodules
+#### Clone a repo and its submodules
 
 ```bash
 git clone --recurse-submodules -j8 [repo]
@@ -67,13 +69,13 @@ For pulling the command is similar: `git pull --recurse-submodules`
 * [stackoverflow](https://stackoverflow.com/questions/3796927/how-to-git-clone-including-submodules)
 * [stackoverflow](https://stackoverflow.com/questions/1030169/easy-way-to-pull-latest-of-all-git-submodules)
 
-## Branches
+### Branches
 
-### Create new branch and switch to it
+#### Create new branch and switch to it
 
 `git checkout -b [branch name]`
 
-### Delete branchs
+#### Delete branchs
 
 To delete a local branch: `git branch -d [branch]`.
 
@@ -81,13 +83,13 @@ To delete a remote branch: `git push origin --delete [branch]`
 
 [makandracards](https://makandracards.com/makandra/621-git-delete-a-branch-local-or-remote)
 
-### Rename branch
+#### Rename branch
 
 ```bash
 git branch -m [old_branch_name] [new_branch_name]
 ```
 
-### Fetch and track remote branches
+#### Fetch and track remote branches
 
 You need to create a local branch that tracks a remote branch.
 
@@ -97,15 +99,15 @@ git checkout --track origin/[branch_name]
 
 * [Git fetch remote branch - Stack Overflow](https://stackoverflow.com/questions/9537392/git-fetch-remote-branch)
 
-## Commits
+### Commits
 
-### Revert last public commit
+#### Revert last public commit
 
 `git revert HEAD`
 
 [stackoverflow](https://stackoverflow.com/questions/927358/how-to-undo-the-last-commits-in-git)
 
-### Revert public merge commit
+#### Revert public merge commit
 
 1. Reset to the last good commit: `git reset [commit]`
 2. Set everything as it was then: `git reset --hard`
@@ -113,20 +115,20 @@ git checkout --track origin/[branch_name]
 
 [stackoverflow](https://stackoverflow.com/questions/7099833/how-to-revert-a-merge-commit-thats-already-pushed-to-remote-branch)
 
-### Delete last commit
+#### Delete last commit
 
 `git reset HEAD^` **Note**: this won't delete the changes made, just the commit.
 Also it will unstage the modified files.
 
 [stackoverflow](https://stackoverflow.com/questions/37420642/how-to-undo-the-last-commit-in-git)
 
-### Revert to a particular commit
+#### Revert to a particular commit
 
 `git reset --hard [commit-id]` This will remove local changes.
 
 * [stackoverflow](https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit)
 
-### Reset file to specific revision
+#### Reset file to specific revision
 
 To reset a file to its state in a specific commit:
 
@@ -139,7 +141,7 @@ immediately previous commit:
 
 [stackoverflow](https://stackoverflow.com/questions/215718/reset-or-revert-a-specific-file-to-a-specific-revision-using-git)
 
-### Removing sensitive data from a repository
+#### Removing sensitive data from a repository
 
 If you commit sensitive data, such as a password or SSH key into a git
 repository, you can remove it from the history. To entirely remove unwanted
@@ -159,15 +161,15 @@ git filter-branch --force --index-filter \
 (because it was moved or renamed), you must run this command on those paths,
 as well.
 
-### GPG signed commits
+#### GPG signed commits
 
-#### Sign last commit
+##### Sign last commit
 
 `git commit -S --amend`
 
-### Rewrite old commits
+#### Rewrite old commits
 
-#### Change last commit message
+##### Change last commit message
 
 To edit the message: `git commit --amend`
 
@@ -175,7 +177,7 @@ Then to push it to the upstream: `git push --force`
 
 [github-help](https://help.github.com/articles/changing-a-commit-message/)
 
-#### Change author username and email
+##### Change author username and email
 
 Create an alias in *.gitconfig*:
 `change-commits = "!f() { VAR=$1; OLD=$2; NEW=$3; shift 3; git filter-branch --env-filter \"if [[ \\\"$`echo $VAR`\\\" = '$OLD' ]]; then export $VAR='$NEW'; fi\" $@; }; f "`
@@ -187,9 +189,17 @@ Then from the repo:
 
 [stackoverflow](https://stackoverflow.com/questions/750172/change-the-author-and-committer-name-and-e-mail-of-multiple-commits-in-git)
 
-## Files
+#### Show commit information
 
-### Untrack file/folder but keep locally
+To see the information of a particular commit use:
+
+```bash
+git show <revhash>
+```
+
+### Files
+
+#### Untrack file/folder but keep locally
 
 It is a good idea to add the file/folder's path to *.gitignore*. Then, to
 remove the file/folder and its contents from git
@@ -197,9 +207,9 @@ tracking: `git rm [-r] --cached {path}`.
 
 [stackoverflow](https://stackoverflow.com/questions/24290358/remove-a-folder-from-git-tracking)
 
-## Tags
+### Tags
 
-### Tag current HEAD with a message and GPG sign it
+#### Tag current HEAD with a message and GPG sign it
 
 `git tag -a [tag] -m "[tag message]" -s`
 
@@ -207,7 +217,7 @@ Then, push it with: `git push origin [tag]`.
 
 [git-doc](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
 
-## Delete a tag local and remote
+### Delete a tag local and remote
 
 ```bash
 git push --delete origin [tagname]
@@ -216,7 +226,7 @@ git tag --delete [tagname]
 
 * [stackoverflow](https://stackoverflow.com/questions/5480258/how-to-delete-a-remote-tag)
 
-## Syncing a fork
+### Syncing a fork
 
 Sync a fork of a repository to keep it up-to-date with the upstream repository.
 
@@ -228,7 +238,7 @@ git merge upstream/master
 
 * [GitHub Help](https://help.github.com/en/articles/syncing-a-fork)
 
-## stash
+### stash
 
 If you have uncommitted changes and you want to switch to another branch,
 you can temporarily save those changes with:
@@ -243,46 +253,46 @@ Then, to reapply them, do:
 git stash pop
 ```
 
-# Tips
+## Tips
 
-## Unstage files
+### Unstage files
 
 `git reset [file]`
 
 [stackoverflow](https://stackoverflow.com/questions/348170/how-to-undo-git-add-before-commit)
 
-# Debug
+## Debug
 
-## Failed to delete remote branch (deletion of the current branch prohibited)
+### Failed to delete remote branch (deletion of the current branch prohibited)
 
 The default branch must be changed from the web repo configuration.
 
 [stackoverflow](https://stackoverflow.com/questions/14040754/deleting-remote-master-branch-refused-due-to-being-current-branch)
 
-# Reference
+## Reference
 
-## Merging
+### Merging
 
-### mergetool
+#### mergetool
 
 * [rosipov](http://www.rosipov.com/blog/use-vimdiff-as-git-mergetool/)
 
-## Workflow
+### Workflow
 
 * [git-scm](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 
-## Commits
+### Commits
 
-### Style
+#### Style
 
 * [semantic commit messages](https://seesparkbox.com/foundry/semantic_commit_messages)
 
-## Subtrees
+### Subtrees
 
 * [atlassian](https://www.atlassian.com/blog/git/alternatives-to-git-submodule-git-subtree)
 
-## Tips
+### Tips
 
-### Usuful .gitignore
+#### Usuful .gitignore
 
 [github](https://gist.github.com/octocat/9257657)
