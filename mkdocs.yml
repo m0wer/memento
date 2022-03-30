@@ -170,7 +170,7 @@ nav:
               - NGINX: computer_science/programming/flutter/nginx.md
               - Provider: computer_science/programming/flutter/provider.md
           - Javascript:
-              - basics: computer_science/programming/javascript/basics.md
+              - basics: javascript_basics.md
           - Jinja: computer_science/programming/jinja.md
           - Python:
               - asyncio: computer_science/programming/python/asyncio.md
