@@ -28,6 +28,12 @@ for (const [key, value] of Object.entries(object)) {
 }
 ```
 
+##### Map a dictionary to a dictionary
+
+```javascript
+Object.fromEntries(Object.entries(obj).map(([k, v]) => [k, v["someKey"]]));
+```
+
 ## Debugging
 
 ### Logging
