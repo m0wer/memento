@@ -1,10 +1,10 @@
 ---
-title: Javascript basics
+title: JavaScript basics
 date: 2022-03-24
 author: m0wer
 ---
 
-# Javascript basics
+# JavaScript basics
 
 ## Basic types
 
@@ -32,6 +32,14 @@ for (const [key, value] of Object.entries(object)) {
 
 ```javascript
 Object.fromEntries(Object.entries(obj).map(([k, v]) => [k, v["someKey"]]));
+```
+
+### Enum
+
+There is no `Enum` in JavaScript but you can use:
+
+```javascript
+Object.freeze({ Apple: 0, Banana: 1, Cherry: 2});
 ```
 
 ## Debugging
