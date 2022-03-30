@@ -5,6 +5,8 @@ author: m0wer
 tags: [ 'api', 'http' ]
 ---
 
+# FastAPI
+
 [FastAPI](https://fastapi.tiangolo.com/) is a modern, fast
 (high-performance), web framework for building HTTP APIs based on
 standard Python type hints.
@@ -205,4 +207,13 @@ class Thing(BaseModel):
 def get_thing():
     thing: Thing = Thing(name="something")
     return ORJSONResponse(content=jsonable_encoder(result))
+```
+
+## Logging
+
+To add custom log messages to the `uvicorn` output, the dirty way, get the
+logger called `uvicorn`:
+
+```python
+logger = logging.getLogger("uvicorn")
 ```
