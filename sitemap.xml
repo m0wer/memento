@@ -16,6 +16,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://m0wer.github.io/memento/javascript_basics/</loc>
+         <lastmod>2022-03-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://m0wer.github.io/memento/computer_science/android/apps/</loc>
          <lastmod>2022-03-30</lastmod>
          <changefreq>daily</changefreq>
@@ -777,11 +782,6 @@
     </url>
     <url>
          <loc>https://m0wer.github.io/memento/computer_science/programming/flutter/provider/</loc>
-         <lastmod>2022-03-30</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://m0wer.github.io/memento/computer_science/programming/javascript/basics/</loc>
          <lastmod>2022-03-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
