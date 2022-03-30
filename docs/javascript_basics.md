@@ -27,3 +27,16 @@ for (const [key, value] of Object.entries(object)) {
   console.log(key, value);
 }
 ```
+
+## Debugging
+
+### Logging
+
+#### Recursively log object
+
+If you `console.log()` an object, only the first levels of it will be shown.
+To recursively log the whole object, use:
+
+```javascript
+console.dir(yourObject, { depth: null });
+```
