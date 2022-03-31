@@ -16,7 +16,7 @@ cffi==1.15.0
     # via cryptography
 charset-normalizer==2.0.12
     # via requests
-click==8.1.0
+click==8.1.1
     # via
     #   click-log
     #   mkdocs
@@ -120,7 +120,7 @@ mkdocs-minify-plugin==0.5.0
     # via -r requirements.in
 mkdocs-newsletter==1.0.1
     # via -r requirements.in
-mkdocs-section-index==0.3.3
+mkdocs-section-index==0.3.4
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
