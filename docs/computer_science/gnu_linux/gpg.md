@@ -12,6 +12,14 @@ tags: [ 'gpg', 'pgp', 'key', 'rsa', 'privacy' ]
 
 Use `gpg --gen-key` or `gpg --full-gen-key` for more options.
 
+### Export a key
+
+#### Export public key
+
+```bash
+gpg --output public.pgp --armor --export username@email
+```
+
 ## Reference
 
 ### Usage
