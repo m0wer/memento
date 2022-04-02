@@ -4,23 +4,31 @@ date: 20171026
 tags: pip,python,virtualenv,install,uninstall
 ---
 
-# Usage
+# pip
 
-## Uninstall a package
+## Usage
+
+### Install
+
+Options:
+
+* `--ignore-installed`: Ignore the installed packages, overwriting them.
+
+### Uninstall a package
 
 `pip uninstall [package]`
 
 [pypa-doc](https://pip.pypa.io/en/stable/reference/pip_uninstall/)
 
-### Uninstall all packages
+#### Uninstall all packages
 
 ```bash
 pip freeze | xargs pip uninstall -y
 ```
 
-# Requirements files
+## Requirements files
 
-## Structure
+### Structure
 
 Define the user dependencies in `setup.py` and use `pip-compile` to generate
 a `requirements.txt` file with the latest compatible versions. Then, create
@@ -45,12 +53,12 @@ dep2
 
 Use `pip-compile requirements-dev.in` to generate `requirements-dev.txt`.
 
-# pip-tools
+## pip-tools
 
 [jazzband/pip-tools](https://github.com/jazzband/pip-tools) are a set of tools
 to keep your pinned Python dependencies fresh.
 
-## pip-compile
+### pip-compile
 
 Define dependencies in `setup.py` or `requirements.in` (without specifying
 the version of each package) and then set the version to the latest possible
@@ -60,7 +68,7 @@ This is useful for having a saved list with the dependencies and their version
 that are compatible among them and with your software (you can check it by
 running your software's tests for example).
 
-### Development dependencies
+#### Development dependencies
 
 You can build a `requirements-dev.txt` file containing the development
 dependencies needed only for development purposes and not for the software
@@ -85,7 +93,7 @@ pip-compile requirements-dev.in
 
 Which will generate a `requirements-dev.txt` file.
 
-## pip-sync
+### pip-sync
 
 To keep the locally installed dependencies synced with these files do:
 
