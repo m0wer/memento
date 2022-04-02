@@ -1,28 +1,30 @@
 ---
-title: OpenSSL usage guide
-date: 20180925
-tags: openssl,ssl,https,certificates,RSA,csr,key
+title: OpenSSL
+date: 2018-09-25
+tags: [ 'openssl', 'ssl', 'https', 'certificates', 'RSA', 'csr', 'key' ]
 ---
 
-# Usage
+# OpenSSL
 
-## Key
+## Usage
 
-### Generate a RSA key
+### Key
+
+#### Generate a RSA key
 
 `openssl genrsa -out [key file] [bit size]`
 
 **[bit size]**: 2048, 4096...
 
-## CSR
+### CSR
 
-### Get information from a CSR file
+#### Get information from a CSR file
 
 `openssl req -in [csr file] -text -noout`
 
 [shellhacks](https://www.shellhacks.com/decode-csr/)
 
-### Generate a CSR
+#### Generate a CSR
 
 1. Generate a key file.
 2. Create a *csr.conf* file (recommended) with the following contents:
@@ -35,7 +37,7 @@ default_keyfile    = [domain]
 prompt             = no
 encrypt_key        = no
 distinguished_name = req_distinguished_name
-# distinguished_name
+## distinguished_name
 [ req_distinguished_name ]
 countryName            = "[C]"                     	# C=
 localityName           = "[L]"                 		# L=
@@ -49,7 +51,7 @@ emailAddress           = "[CN/emailAddress]"		# CN/emailAddress=
 
 [medium](https://medium.com/curiouscaloo/how-to-generate-a-wildcard-cert-csr-with-a-config-file-for-openssl-8a6613ab342f)
 
-## Get information about a SSL/TLS certificate
+### Get information about a SSL/TLS certificate
 
 ```bash
 openssl s_client -connect [host]:[port] | openssl x509 -noout -dates
