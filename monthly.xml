@@ -11,7 +11,7 @@
     <managingEditor>m0wer</managingEditor>
 
     
-    <pubDate>2022-04-01 05:26:29+00:00</pubDate>
+    <pubDate>2022-04-01 05:27:04+00:00</pubDate>
     <ttl>43200</ttl>
 
     
@@ -49,9 +49,9 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;ul&gt; &lt;li&gt;&lt;em&gt;N&lt;/em&gt; is the number of nodes. Equals to &lt;em&gt;10&lt;/em&gt; in the example.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;The data structure should support the following operations:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;initialize()&lt;/strong&gt;: Set the initial state of the graph.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;find(p, q)&lt;/strong&gt;: Are nodes &lt;strong&gt;p&lt;/strong&gt; and &lt;strong&gt;q&lt;/strong&gt; connected?&lt;/li&gt; &lt;li&gt;&lt;strong&gt;union(p,q)&lt;/strong&gt;: Connect nodes &lt;strong&gt;p&lt;/strong&gt; and &lt;strong&gt;q&lt;/strong&gt;.&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h2 id=&#34;other&#34;&gt;Other&lt;/h2&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Array find method.&lt;/p&gt; &lt;p&gt;&lt;code&gt;.find()&lt;/code&gt;: returns the first element in the provided array that satisfies the provided testing function. If no values satisfy the testing function, &lt;code&gt;undefined&lt;/code&gt; is returned. E.g., &lt;code&gt;array1.find(element =&amp;gt; element &amp;gt; 10)&lt;/code&gt;.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;New: Iterate keys and values.&lt;/p&gt; &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;key&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;of&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Object&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;entries&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;object&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
   &lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;key&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt; &lt;div class=&#34;md-source-file&#34;&gt; &lt;small&gt; Last update: &lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago&#34;&gt;&lt;span class=&#34;timeago&#34; datetime=&#34;2022-04-01T05:26:29+00:00&#34; locale=&#34;en&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date&#34;&gt;2022-04-01&lt;/span&gt; &lt;/small&gt; &lt;/div&gt; &lt;/article&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt; &lt;div class=&#34;md-source-file&#34;&gt; &lt;small&gt; Last update: &lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago&#34;&gt;&lt;span class=&#34;timeago&#34; datetime=&#34;2022-04-01T05:27:04+00:00&#34; locale=&#34;en&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date&#34;&gt;2022-04-01&lt;/span&gt; &lt;/small&gt; &lt;/div&gt; &lt;/article&gt;</description>
       <link>https://m0wer.github.io/memento/newsletter/2022_03/</link>
-      <pubDate>2022-04-01 05:26:29+00:00</pubDate>
+      <pubDate>2022-04-01 05:27:04+00:00</pubDate>
       <source url="https://m0wer.github.io/memento/monthly.xml">Memento</source>
       <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2022_03/</guid>
       
