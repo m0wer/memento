@@ -16,8 +16,6 @@ it with double quotes ("). To scape a string use single quotes (').
 To select the database to work in do
 
 ```psql
-\connect {database_name}
-```
 
 or `\c {database_name}` in short.
 
@@ -169,6 +167,12 @@ CREATE TABLE locations (
 ```
 
 ### Meta
+
+#### List databases
+
+```psql
+\l
+```
 
 #### Get column names of a table
 
