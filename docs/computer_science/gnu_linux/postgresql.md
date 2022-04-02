@@ -245,6 +245,24 @@ COPY user FROM STDIN WITH (FORMAT CSV, HEADER);
 ```
 Paste the result from the first query and press `Ctrl+D`.
 
+## Stop remote connections
+
+Some operations, like dropping a database, require that the database has no connections. To stop all remote connections and prevent them from connecting again, do:
+
+```psql
+ALTER DATABASE somedatabase ALLOW_CONNECTIONS = OFF;
+
+SELECT pg_terminate_backend(pid)
+FROM pg_stat_activity
+WHERE datname = 'somedatabase';
+```
+
+But if you are using PostgreSQL 13 or above, for dropping a table you can directly do:
+
+```psql
+DROP DATABASE db_name WITH (FORCE);
+```
+
 ## Performance optimization
 
 ### Get the 20 slowest queries
