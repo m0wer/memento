@@ -6,6 +6,12 @@ tags: [ 'gpg', 'pgp', 'key', 'rsa', 'privacy' ]
 
 # GPG
 
+## Usage
+
+### Generate a key
+
+Use `gpg --gen-key` or `gpg --full-gen-key` for more options.
+
 ## Reference
 
 ### Usage
