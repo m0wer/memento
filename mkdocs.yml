@@ -18,6 +18,8 @@ nav:
       - DBMS:
           - Database Normalization: computer_science/dbms/database_normalization.md
       - GNULinux:
+          - Scripts:
+              - Adjust external monitor brightness: script_adjust_external_monitors_brightness.md
           - Alacritty: computer_science/gnu_linux/alacritty.md
           - Android-studio: computer_science/gnu_linux/android-studio.md
           - Android: gnu_linux_android.md
