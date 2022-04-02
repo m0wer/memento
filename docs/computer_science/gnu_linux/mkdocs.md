@@ -88,7 +88,6 @@ Next, add the following lines to your `mkdocs.yml`:
 plugins:
   - bibtex:
       bib_file: "refs.bib"
-      cite_style: "pandoc"
 ```
 
 ### Usage

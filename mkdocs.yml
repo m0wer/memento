@@ -20,12 +20,12 @@ nav:
       - GNULinux:
           - Alacritty: computer_science/gnu_linux/alacritty.md
           - Android-studio: computer_science/gnu_linux/android-studio.md
-          - Android: computer_science/gnu_linux/android.md
+          - Android: gnu_linux_android.md
           - Anki: computer_science/gnu_linux/anki.md
           - Ansible: computer_science/gnu_linux/ansible.md
           - APT: computer_science/gnu_linux/apt.md
           - Bash: computer_science/gnu_linux/bash.md
-          - Basics: computer_science/gnu_linux/basics.md
+          - Basics: gnu_linux_basics.md
           - blkid: computer_science/gnu_linux/blkid.md
           - C: computer_science/gnu_linux/c.md
           - Commitizen: computer_science/gnu_linux/commitizen.md
@@ -163,11 +163,11 @@ nav:
           - Code style:
               - Git commits: computer_science/programming/code_style/git_commits.md
           - Flutter:
-              - Android: computer_science/programming/flutter/android.md
-              - Basics: computer_science/programming/flutter/basics.md
-              - Debugging: computer_science/programming/flutter/debugging.md
+              - Android: flutter_android.md
+              - Basics: flutter_basics.md
+              - Debugging: flutter_debugging.md
               - Material: computer_science/programming/flutter/material.md
-              - NGINX: computer_science/programming/flutter/nginx.md
+              - NGINX: flutter_nginx.md
               - Provider: computer_science/programming/flutter/provider.md
           - Javascript:
               - basics: javascript_basics.md
@@ -176,9 +176,9 @@ nav:
               - asyncio: computer_science/programming/python/asyncio.md
               - pyTelegramBotAPI: computer_science/programming/python/pytelegrambotapi.md
               - asyncpg: computer_science/programming/python/asyncpg.md
-              - Basics: computer_science/programming/python/basics.md
-              - Debugging: computer_science/programming/python/debugging.md
-              - Decorators: computer_science/programming/python/decorators.md
+              - Basics: python_basics.md
+              - Debugging: python_debugging.md
+              - Decorators: python_decorators.md
               - Docstrings: computer_science/programming/python/docstrings.md
               - FastAPI: computer_science/programming/python/fastapi.md
               - Gotchas: computer_science/programming/python/gotchas.md
@@ -241,14 +241,17 @@ nav:
   - Contact: contact.md
 
 plugins:
-  - search
+  - search:
+      min_search_length: 2
+      lang: [en, es, tr]
+      separator: '[\s\-\.\`\"]+'
+      prebuild_index: true
   - exclude-search:
       exclude:
         - newsletter/*
   - autolinks
   - bibtex:
       bib_file: refs.bib
-      cite_style: pandoc
   - git-revision-date-localized:
       type: timeago
   - minify:

@@ -5,9 +5,11 @@ author: m0wer
 tags: [ 'bash', 'shell' ]
 ---
 
-# Useful commands
+# GNU/Linux basics
 
-## Find duplicated lines and count how many times they appear in a file
+## Useful commands
+
+### Find duplicated lines and count how many times they appear in a file
 
 ```bash
 sort <file> | uniq -c

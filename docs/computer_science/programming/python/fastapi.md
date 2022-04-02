@@ -59,7 +59,7 @@ The advantage of this alternative is that we can import the function
 from another module.
 
 If you need to change the default value of some argument of the original
-function, you can use [`functools`](basics.md#functools). This might be necessary
+function, you can use [`functools`](python_basics.md#functools). This might be necessary
 if an argument is a list, since you'll need to set its default value
 to `Query()` you can change it with `functools` instead of modifying
 the original function (which would be pretty ugly). Make sure of copying

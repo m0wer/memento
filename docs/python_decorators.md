@@ -1,10 +1,12 @@
 ---
-title: Decorators
+title: Python decorators
 date: 2021-09-07
 author: m0wer
 ---
 
-# Overrides
+# Python decorators
+
+## Overrides
 
 [`overrides`](https://github.com/mkorpela/overrides) is a decorator that
 verifies that a method that should override an inherited method actually does,
