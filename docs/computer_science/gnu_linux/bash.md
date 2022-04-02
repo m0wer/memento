@@ -31,6 +31,17 @@ command > /dev/null 2>&1
 for arg in [list]; do [command] $arg; done
 ```
 
+### Until loop
+
+#### Run a command until the ouptut contains some text
+
+```bash
+until somecommand | grep -q "Up to date";
+do
+  sleep 1;
+done
+```
+
 ### Environment variables
 
 #### Remove an environment variable
