@@ -209,6 +209,14 @@ tracking: `git rm [-r] --cached {path}`.
 
 ### Tags
 
+#### Push tags
+
+To push the local tags to the remote server:
+
+```bash
+git push --tags
+```
+
 #### Tag current HEAD with a message and GPG sign it
 
 `git tag -a [tag] -m "[tag message]" -s`
