@@ -11,12 +11,57 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://m0wer.github.io/memento/flutter_android/</loc>
+         <lastmod>2022-04-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://m0wer.github.io/memento/flutter_basics/</loc>
+         <lastmod>2022-04-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://m0wer.github.io/memento/flutter_debugging/</loc>
+         <lastmod>2022-04-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://m0wer.github.io/memento/flutter_nginx/</loc>
+         <lastmod>2022-04-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://m0wer.github.io/memento/forking_this_wiki/</loc>
          <lastmod>2022-04-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://m0wer.github.io/memento/gnu_linux_android/</loc>
+         <lastmod>2022-04-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://m0wer.github.io/memento/gnu_linux_basics/</loc>
+         <lastmod>2022-04-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://m0wer.github.io/memento/javascript_basics/</loc>
+         <lastmod>2022-04-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://m0wer.github.io/memento/python_basics/</loc>
+         <lastmod>2022-04-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://m0wer.github.io/memento/python_debugging/</loc>
+         <lastmod>2022-04-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://m0wer.github.io/memento/python_decorators/</loc>
          <lastmod>2022-04-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -66,11 +111,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://m0wer.github.io/memento/computer_science/gnu_linux/android/</loc>
-         <lastmod>2022-04-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://m0wer.github.io/memento/computer_science/gnu_linux/anki/</loc>
          <lastmod>2022-04-02</lastmod>
          <changefreq>daily</changefreq>
@@ -87,11 +127,6 @@
     </url>
     <url>
          <loc>https://m0wer.github.io/memento/computer_science/gnu_linux/bash/</loc>
-         <lastmod>2022-04-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://m0wer.github.io/memento/computer_science/gnu_linux/basics/</loc>
          <lastmod>2022-04-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -756,27 +791,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://m0wer.github.io/memento/computer_science/programming/flutter/android/</loc>
-         <lastmod>2022-04-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://m0wer.github.io/memento/computer_science/programming/flutter/basics/</loc>
-         <lastmod>2022-04-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://m0wer.github.io/memento/computer_science/programming/flutter/debugging/</loc>
-         <lastmod>2022-04-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://m0wer.github.io/memento/computer_science/programming/flutter/material/</loc>
-         <lastmod>2022-04-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://m0wer.github.io/memento/computer_science/programming/flutter/nginx/</loc>
          <lastmod>2022-04-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -792,21 +807,6 @@
     </url>
     <url>
          <loc>https://m0wer.github.io/memento/computer_science/programming/python/asyncpg/</loc>
-         <lastmod>2022-04-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://m0wer.github.io/memento/computer_science/programming/python/basics/</loc>
-         <lastmod>2022-04-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://m0wer.github.io/memento/computer_science/programming/python/debugging/</loc>
-         <lastmod>2022-04-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://m0wer.github.io/memento/computer_science/programming/python/decorators/</loc>
          <lastmod>2022-04-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
