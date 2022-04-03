@@ -161,7 +161,7 @@ python-dateutil==2.8.2
     # via ghp-import
 python-gitlab==3.3.0
     # via python-semantic-release
-python-semantic-release==7.27.0
+python-semantic-release==7.27.1
     # via mkdocs-newsletter
 pytz==2022.1
     # via babel
@@ -207,7 +207,7 @@ tomli==2.0.1
     # via
     #   pep517
     #   setuptools-scm
-tomlkit==0.7.0
+tomlkit==0.10.1
     # via python-semantic-release
 tqdm==4.63.1
     # via twine
