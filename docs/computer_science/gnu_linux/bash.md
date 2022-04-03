@@ -96,6 +96,17 @@ as follows:
 ) 200>/var/lock/.myscript.exclusivelock
 ```
 
+## Tips
+
+### Beep alert
+
+You can generate a beep alert (if enabled in the system) and a window highlight
+with:
+
+```bash
+echo -e "\a"
+```
+
 ## Configuration
 
 ### Prompt
