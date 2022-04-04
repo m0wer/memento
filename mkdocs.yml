@@ -37,6 +37,7 @@ nav:
           - demicode: computer_science/gnu_linux/demicode.md
           - dig: computer_science/gnu_linux/dig.md
           - Docker: computer_science/gnu_linux/docker.md
+          - dpkg: dpkg.md
           - Eclipse: computer_science/gnu_linux/eclipse.md
           - elogind: computer_science/gnu_linux/elogind.md
           - emerge: computer_science/gnu_linux/emerge.md
