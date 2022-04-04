@@ -63,7 +63,7 @@ importlib-metadata==4.11.3
     #   twine
 invoke==1.7.0
     # via python-semantic-release
-jeepney==0.7.1
+jeepney==0.8.0
     # via
     #   keyring
     #   secretstorage
@@ -153,7 +153,7 @@ pymdown-extensions==9.3
     # via
     #   -r requirements.in
     #   mkdocs-material
-pypandoc==1.7.4
+pypandoc==1.7.5
     # via mkdocs-bibtex
 pyparsing==3.0.7
     # via packaging
@@ -209,7 +209,7 @@ tomli==2.0.1
     #   setuptools-scm
 tomlkit==0.10.1
     # via python-semantic-release
-tqdm==4.63.1
+tqdm==4.64.0
     # via twine
 twine==3.8.0
     # via python-semantic-release
@@ -227,7 +227,7 @@ wheel==0.37.1
     # via
     #   pip-tools
     #   python-semantic-release
-zipp==3.7.0
+zipp==3.8.0
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
