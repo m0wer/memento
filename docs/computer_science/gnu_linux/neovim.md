@@ -14,6 +14,19 @@ curl -sSL "https://github.com/neovim/neovim/releases/download/stable/nvim-linux6
   tar -C "${HOME}/.local" -xz --strip-components=1 -f -
 ```
 
+## Usage
+
+### Edit remote files with SSH
+
+Just run:
+
+```bash
+nvim scp://user@host//tmp/file
+```
+
+Notice the extra `/`. You can also specify just a directory to browse it
+interactively.
+
 ## Plugins
 
 ### vim-surround
