@@ -14,7 +14,7 @@ tags: [ 'openldap', 'ldap', 'uid' ]
 LDAPTLS_REQCERT=never [command]
 ```
 
-### Show special entries and attibutes in search
+### Show special entries and attributes in search
 
 ```bash
 ldapsearch [...] +
