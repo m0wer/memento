@@ -5,9 +5,11 @@ author: m0wer
 tags: [ 'python', 'programming' ]
 ---
 
-# Built-in types
+# Python basics
 
-## Classes
+## Built-in types
+
+### Classes
 
 A class is an object from which we can generate instances. A basic definition
 of one is as follows
@@ -30,25 +32,25 @@ A more extensive definition can be found at
 
 To get the class attributes of an object, do `object.__dict__`.
 
-## Mapping Types (dict)
+### Mapping Types (dict)
 
 A mapping object maps hashable values to arbitrary objects. Mappings are
 mutable objects. There is currently only one standard mapping type, the
 dictionary.
 
-### setdefault
+#### setdefault
 
 [`setdefault(key[, default])`](https://docs.python.org/3/library/stdtypes.html#dict.setdefault):
 If `key` is in the dictionary, return its value. If not, insert key with a
 value of `default` and return `default`. `default` defaults to `None`.
 
-### Rename a dictionary key
+#### Rename a dictionary key
 
 ```python
 mydict[k_new] = mydict.pop(k_old)
 ```
 
-## Ranges
+### Ranges
 
 A `range` is a Python built-in type that represents an immutable sequence of
 numbers and is commonly used for looping a specific number of times in
@@ -68,9 +70,9 @@ To reverse the order in the range you can do
 reversed(range(n))
 ```
 
-# String
+## String
 
-## Methods
+### Methods
 
 * `str.count(sub[, start[, end]])`: Return the number of non-overlapping
   occurrences of substring `sub` in the range [`start`, `end`].
@@ -82,16 +84,26 @@ reversed(range(n))
 * `str.strip([chars])`: Return a copy of the string with the leading and
   trailing characters removed.
 
-# Built-in functions
+## Built-in functions
 
-## filter
+### enumerate
+
+To iterate over a list keys and values use `enumerate()`. Example:
+
+```python
+some_list = ['a', 'b', 'c']
+for index, value in enumerate(some_list):
+  ...
+```
+
+### filter
 
 Use
 [`filter(function, iterable)`](https://docs.python.org/3/library/functions.html?highlight=filter#filter)
 to construct an iterator from those elements of `iterable` for which `function`
 returns true.
 
-## getattr
+### getattr
 
 ```python
 getattr(object, name[, default])
@@ -102,7 +114,7 @@ If the string is the name of one of the object's attributes, the result is the
 value of that attribute. If the named attribute does not exist, `default` is
 returned if provided, otherwise `AttributeError` is raised.
 
-## isinstance
+### isinstance
 
 To check if an object is an instance of a class use
 [`isinstance(object, class)`](https://docs.python.org/3/library/functions.html#isinstance).
@@ -114,7 +126,7 @@ d = {"a": 4}
 isinstance(d, dict)
 ```
 
-## issubclass
+### issubclass
 
 [`issubclass(class, classinfo)`](https://docs.python.org/3/library/functions.html#issubclass):
 Return `True` if `class` is a subclass (direct, indirect or virtual) of
@@ -122,7 +134,7 @@ Return `True` if `class` is a subclass (direct, indirect or virtual) of
 tuple of class objects, in which case every entry in `classinfo` will be
 checked. In any other case, a `TypeError` exception is raised.
 
-## Sort
+### Sort
 
 To sort the objects of a `list` based on an attribute of them you can do
 
@@ -133,9 +145,9 @@ list.sort(key=lambda x: x.attribute, reverse=True) # Higher first
 This fragment comes from
 [stackoverflow](https://stackoverflow.com/questions/403421/how-to-sort-a-list-of-objects-based-on-an-attribute-of-the-objects).
 
-# Other functions
+## Other functions
 
-## Shuffle
+### Shuffle
 
 To shuffle the elements order inside a list you can do
 
@@ -148,26 +160,26 @@ shuffle(x)
 This fragment comes from
 [stackoverflow](https://stackoverflow.com/questions/976882/shuffling-a-list-of-objects).
 
-# Generic Operating System Services
+## Generic Operating System Services
 
-## os
+### os
 
-### listdir
+#### listdir
 
 [`os.listdir(path='.')`](https://docs.python.org/3/library/os.html#os.listdir)
 returns a list containing the names of the entries in
 the directory given by *path*.
 
-# Text processing services
+## Text processing services
 
-## re
+### re
 
 The [`re`](https://docs.python.org/3/library/re.html) module provides regular
 expression matching operations similar to those found in Perl.
 
-### Usage
+#### Usage
 
-#### Check if string matches a pattern
+##### Check if string matches a pattern
 
 The usage is `re.match(pattern, string)`. Example:
 
@@ -180,18 +192,18 @@ if re.match("what.*", string):
   print("yes")
 ```
 
-### Tips
+#### Tips
 
 * Try your RegEx at [Pythex](https://pythex.org/).
 
-## time
+### time
 
 The module [`time`](https://docs.python.org/3/library/time.html?highlight=time#module-time)
 provides various time-related functions.
 
-## Usage
+### Usage
 
-### Measure elapsed time between two points
+#### Measure elapsed time between two points
 
 To measure elapsed time between two points do:
 
@@ -204,16 +216,16 @@ end = time.time()
 print(end - start)
 ```
 
-# Data types
+## Data types
 
-## datetime
+### datetime
 
-### Methods
+#### Methods
 
 * `timestamp()`: Return POSIX timestamp.
 * `now()`: Return the current local date and time.
 
-## enum
+### enum
 
 An enumeration is a set of symbolic names (members) bound to unique, constant
 values. Within an enumeration, the members can be compared by identity, and
@@ -238,9 +250,9 @@ color.value # 1
 
 Enumeration members are hashable, so they can be used in dictionaries and sets.
 
-# I/O
+## I/O
 
-## Files
+### Files
 
 You can operate with files from a filesystem directly from python. A common
 way of doing so is
@@ -275,9 +287,9 @@ with open('file_path') as f:
 Otherwise, `f.close()` should be called in order to close the file and thus
 freeing up any system resource used by it.
 
-## String formatting
+### String formatting
 
-### Formatted string literals (f-strings)
+#### Formatted string literals (f-strings)
 
 [Formatted string literals](https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals)
 (also called f-strings for short) let you include the value of Python
@@ -291,7 +303,7 @@ name = "robot"
 print(f"Hello {name}")
 ```
 
-### Scientific notation for numbers
+#### Scientific notation for numbers
 
 To print a number using scientific notation with `n` decimals, do
 
@@ -302,7 +314,7 @@ print("{:.{n}e}".format(number))
 
 which will return `1.23e-04` with `n=2`.
 
-### Get the name of the weekday
+#### Get the name of the weekday
 
 To get the name of the weekday of a `datetime` object use `.strftime("%A")`.
 For example:
@@ -313,9 +325,9 @@ For example:
 'Monday'
 ```
 
-# Internet protocols and support
+## Internet protocols and support
 
-## http.server
+### http.server
 
 You can create a basic HTTP server that serves the files in the current
 directory with
@@ -329,7 +341,7 @@ cd /tmp/www; python3 -m http.server
 if you want to leave it running in the background even if you close the
 console session, do `nohup python3 -m http.server &` instead.
 
-# Built-in exceptions
+## Built-in exceptions
 
 Most common:
 
@@ -338,7 +350,7 @@ Most common:
   * `ValueError`: Raised when an operation or function receives an argument
     that has the right type but an inappropriate value.
 
-## Custom exception
+### Custom exception
 
 To provide more insightful error messages related to our code, we can create
 custom exceptions. For example:
@@ -350,17 +362,17 @@ class ColorError(ValueError):
         super().__init__(message)
 ```
 
-# Functional programming modules
+## Functional programming modules
 
-## functools
+### functools
 
 The [`functools`](https://docs.python.org/3/library/functools.html)
 module is for higher-order functions: functions that act on or return
 other functions.
 
-### Usage
+#### Usage
 
-#### Change function default argument value
+##### Change function default argument value
 
 ```python
 from functools import partial
@@ -379,9 +391,9 @@ To keep the docstring of the original function, just copy it with:
 f_p.__doc__ = f.__doc__
 ```
 
-# Python runtime services
+## Python runtime services
 
-## Abstract Base Classes
+### Abstract Base Classes
 
 This module provides the infrastructure for defining
 [abstract base classes (ABCs)](https://docs.python.org/3/glossary.html#term-abstract-base-class)
@@ -428,15 +440,15 @@ as their argument.
 *Note*: Use `@abstractmethod` before `classmethod`. See
 [Issue 16267](https://bugs.python.org/issue16267).
 
-# Development tools
+## Development tools
 
-## typing
+### typing
 
 Provides runtime support for type hints.
 
-### Types
+#### Types
 
-#### TypedDict
+##### TypedDict
 
 Special construct to add type hints to a dictionary. At runtime it is a plain
 `dict`.
