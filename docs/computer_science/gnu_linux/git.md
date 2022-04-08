@@ -97,6 +97,18 @@ You need to create a local branch that tracks a remote branch.
 git checkout --track origin/[branch_name]
 ```
 
+#### Move last n commits to a new branch
+
+So you forgot to create a feature branch ah? No problem, let's move the last
+few unpushed commits to a new branch:
+
+```bash
+git checkout -b new_branch # create a new branch from the current one
+git checkout old_branch # go back to the original branch
+git reset --hard HEAD~3 # undo the last 3 commits
+git checkout new_branch # go to the new branch and continue there
+```
+
 * [Git fetch remote branch - Stack Overflow](https://stackoverflow.com/questions/9537392/git-fetch-remote-branch)
 
 ### Commits
