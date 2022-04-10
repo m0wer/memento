@@ -98,6 +98,24 @@ class Color(Enum):
   BLUE = 3
 ```
 
+```python
+>>> Color(1)
+<Color.RED: 1>
+>>> Color(3)
+<Color.BLUE: 3>
+
+>>> Color['RED']
+<Color.RED: 1>
+>>> Color['GREEN']
+<Color.GREEN: 2>
+
+>>> member = Color.RED
+>>> member.name
+'RED'
+>>> member.value
+1
+```
+
 ## Built-in functions
 
 ### enumerate
