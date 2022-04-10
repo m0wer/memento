@@ -257,6 +257,10 @@ print(end - start)
 * `timestamp()`: Return POSIX timestamp.
 * `now()`: Return the current local date and time.
 
+#### Instance methods
+
+* `isoformat()`: ISO 8601 formatted string.
+
 ### enum
 
 An enumeration is a set of symbolic names (members) bound to unique, constant
