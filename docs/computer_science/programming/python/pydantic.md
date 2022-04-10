@@ -159,6 +159,13 @@ issue comments but not for pydantic dataclasses. In this second case, a
 solution is to not define the root validator in the parent class and do it
 only on the child.
 
+### Exporting
+
+Options:
+
+* `model.json(exclude_none=True)`
+* `model.dict(exclude_none=True)`
+
 ### Types
 
 * `pydantic.HttpUrl`
