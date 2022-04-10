@@ -31,7 +31,7 @@ cryptography==36.0.2
     # via secretstorage
 csscompressor==0.9.5
     # via mkdocs-minify-plugin
-deepdiff==5.7.0
+deepdiff==5.8.0
     # via mkdocs-newsletter
 docutils==0.18.1
     # via readme-renderer
@@ -124,7 +124,7 @@ mkdocs-section-index==0.3.4
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-ordered-set==4.0.2
+ordered-set==4.1.0
     # via deepdiff
 packaging==21.3
     # via
