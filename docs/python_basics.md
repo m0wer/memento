@@ -70,9 +70,9 @@ To reverse the order in the range you can do
 reversed(range(n))
 ```
 
-## String
+### String
 
-### Methods
+#### Methods
 
 * `str.count(sub[, start[, end]])`: Return the number of non-overlapping
   occurrences of substring `sub` in the range [`start`, `end`].
@@ -83,6 +83,20 @@ reversed(range(n))
   copy of the original string.
 * `str.strip([chars])`: Return a copy of the string with the leading and
   trailing characters removed.
+
+
+### Enum
+
+Example:
+
+```python
+from enum import Enum
+
+class Color(Enum):
+  RED = 1
+  GREEN = 2
+  BLUE = 3
+```
 
 ## Built-in functions
 
