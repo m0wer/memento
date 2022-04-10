@@ -177,6 +177,7 @@ nav:
               - basics: javascript_basics.md
           - Jinja: computer_science/programming/jinja.md
           - Python:
+              - aiohttp: python_aiohttp.md
               - asyncio: computer_science/programming/python/asyncio.md
               - pyTelegramBotAPI: computer_science/programming/python/pytelegrambotapi.md
               - asyncpg: computer_science/programming/python/asyncpg.md
