@@ -5,11 +5,13 @@ author: m0wer
 tags: [ 'python' ]
 ---
 
+# Typing
+
 Since Python 3.5, type hints are supported. Note that the Python runtime does
 not enforce function and variable type annotations but they can be used by
 third party tools such as type checkers, IDEs, linters, etc.
 
-# Usage
+## Usage
 
 When defining a function, the syntax to specify the type of an argument and its
 default value, which is optional, is
@@ -21,7 +23,7 @@ def greeting(name: str) -> str:
     return 'Hello ' + name
 ```
 
-## Type aliases
+### Type aliases
 
 A type alias is defined by assigning the type to the alias. For example:
 
@@ -29,14 +31,15 @@ A type alias is defined by assigning the type to the alias. For example:
 import pandas as pd
 import networkx as nx
 
-# Type aliases
+## Type aliases
 Series = pd.core.series.Series
 DataFrame = pd.core.frame.DataFrame
 Graph = nx.classes.graph.Graph
 ```
 
-# Types
+## Types
 
 Common types from `typing`:
 
 * `Type[Class]`: Accepts instances of the `Class` and the `Class` itself.
+* `Awaitable`: Promise/Future.
