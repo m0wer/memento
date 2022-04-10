@@ -32,3 +32,15 @@ session.head('http://httpbin.org/get')
 session.options('http://httpbin.org/get')
 session.patch('http://httpbin.org/patch', data=b'data')
 ```
+
+### Headers
+
+```python
+headers = {
+    'Accepts': 'application/json',
+    'X-API_KEY': 'secret',
+}
+
+async with aiohttp.ClientSession(headers=headers) as session:
+    ...
+```
