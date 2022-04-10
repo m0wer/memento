@@ -1,9 +1,11 @@
 ---
-title: pydantic
+title: Pydantic
 date: 2021-08-16
 author: m0wer
 tags: [ 'data validation', 'typing' ]
 ---
+
+# Pydantic
 
 [pydantic](https://pydantic-docs.helpmanual.io/): data validation and settings
 management using python type annotations.
@@ -11,7 +13,7 @@ management using python type annotations.
 Enforces type hints at runtime, and provides user friendly errors when data is
 invalid.
 
-# Usage
+## Usage
 
 The most basic example is:
 
@@ -35,11 +37,11 @@ external_data = {
 }
 user = User(**external_data)
 print(user.id)
-#> 123
+##> 123
 print(repr(user.signup_ts))
-#> datetime.datetime(2019, 6, 1, 12, 22)
+##> datetime.datetime(2019, 6, 1, 12, 22)
 print(user.friends)
-#> [1, 2, 3]
+##> [1, 2, 3]
 print(user.dict())
 """
 {
@@ -67,7 +69,7 @@ What's going on here:
 If validation fails `pydantic` will raise an error with a breakdown of what
 was wrong.
 
-## Validators
+### Validators
 
 Custom validation and complex relationships between objects can be achieved
 using the `validator` decorator.
@@ -127,7 +129,7 @@ Note that `values` only contains the class attributes defined *before* the
 one that is being validated. In the example above, `values` in the
 `default_username` validator won't contain the `accepted_tos` key.
 
-### Root validators
+#### Root validators
 
 Validation can also be performed on the entire model's data.
 
@@ -156,3 +158,8 @@ the parent class. A workaround for `BaseModel` subclasses is described in the
 issue comments but not for pydantic dataclasses. In this second case, a
 solution is to not define the root validator in the parent class and do it
 only on the child.
+
+### Types
+
+* `pydantic.HttpUrl`
+* `pydantic.color.Color`
