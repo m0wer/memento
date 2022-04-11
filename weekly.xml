@@ -11,7 +11,7 @@
     <managingEditor>m0wer</managingEditor>
 
     
-    <pubDate>2022-04-11 05:33:21+00:00</pubDate>
+    <pubDate>2022-04-11 05:35:51+00:00</pubDate>
     <ttl>10080</ttl>
 
     
@@ -85,9 +85,9 @@ git checkout new_branch &lt;span class=&#34;c1&#34;&gt;# go to the new branch an
 &lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 
 &lt;span class=&#34;n&#34;&gt;logging&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;info&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&#39;Just a random string...&#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h4 id=&#34;pydantic&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/programming/python/pydantic/&#34;&gt;pydantic&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Pydantic types.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;code&gt;pydantic.HttpUrl&lt;/code&gt;&lt;/li&gt; &lt;li&gt;&lt;code&gt;pydantic.color.Color&lt;/code&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;New: Exporting.&lt;/p&gt; &lt;p&gt;Options:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;code&gt;model.json(exclude_none=True)&lt;/code&gt;&lt;/li&gt; &lt;li&gt;&lt;code&gt;model.dict(exclude_none=True)&lt;/code&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h4 id=&#34;typing&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/programming/python/typing/&#34;&gt;Typing&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Awaitable type.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;code&gt;Awaitable&lt;/code&gt;: Promise/Future.&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt; &lt;div class=&#34;md-source-file&#34;&gt; &lt;small&gt; Last update: &lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago&#34;&gt;&lt;span class=&#34;timeago&#34; datetime=&#34;2022-04-11T05:33:21+00:00&#34; locale=&#34;en&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date&#34;&gt;2022-04-11&lt;/span&gt; &lt;/small&gt; &lt;/div&gt; &lt;/article&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h4 id=&#34;pydantic&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/programming/python/pydantic/&#34;&gt;pydantic&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Pydantic types.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;code&gt;pydantic.HttpUrl&lt;/code&gt;&lt;/li&gt; &lt;li&gt;&lt;code&gt;pydantic.color.Color&lt;/code&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;New: Exporting.&lt;/p&gt; &lt;p&gt;Options:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;code&gt;model.json(exclude_none=True)&lt;/code&gt;&lt;/li&gt; &lt;li&gt;&lt;code&gt;model.dict(exclude_none=True)&lt;/code&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h4 id=&#34;typing&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/programming/python/typing/&#34;&gt;Typing&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Awaitable type.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;code&gt;Awaitable&lt;/code&gt;: Promise/Future.&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt; &lt;div class=&#34;md-source-file&#34;&gt; &lt;small&gt; Last update: &lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago&#34;&gt;&lt;span class=&#34;timeago&#34; datetime=&#34;2022-04-11T05:35:51+00:00&#34; locale=&#34;en&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date&#34;&gt;2022-04-11&lt;/span&gt; &lt;/small&gt; &lt;/div&gt; &lt;/article&gt;</description>
       <link>https://m0wer.github.io/memento/newsletter/2022_w14/</link>
-      <pubDate>2022-04-11 05:33:21+00:00</pubDate>
+      <pubDate>2022-04-11 05:35:51+00:00</pubDate>
       <source url="https://m0wer.github.io/memento/weekly.xml">Memento</source>
       <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2022_w14/</guid>
       
