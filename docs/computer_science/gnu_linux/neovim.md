@@ -55,3 +55,13 @@ interactively.
 1. `s` to stage the visual selection (or `-` to toggle)
 1. Repeat 2-4 as needed
 1. `cc` to commit
+
+## Mappings
+
+### Search for visual selection
+
+```vimrc
+vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
+```
+To use the mapping, visually select the characters that are wanted in the
+search, then type `//` to search for the next occurrence of the selected text.
