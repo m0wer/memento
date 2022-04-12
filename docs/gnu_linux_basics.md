@@ -14,3 +14,9 @@ tags: [ 'bash', 'shell' ]
 ```bash
 sort <file> | uniq -c
 ```
+
+### Get command output or default value if emtpy
+
+```bash
+echo | sed 's/^$/default value/'
+```
