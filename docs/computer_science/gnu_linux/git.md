@@ -173,6 +173,14 @@ git filter-branch --force --index-filter \
 (because it was moved or renamed), you must run this command on those paths,
 as well.
 
+#### Modify specific commit message
+
+```bash
+git rebase --interactive '<commit-id>^'
+```
+
+Then replace `pick` with `r` and save to modify the commit message.
+
 #### GPG signed commits
 
 ##### Sign last commit
