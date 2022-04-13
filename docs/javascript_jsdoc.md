@@ -8,7 +8,11 @@ author: m0wer
 
 ## Usage
 
-### Examples
+### @type
+
+Reference: [Use JSDoc: @type](https://jsdoc.app/tags-type.html).
+
+### @example
 
 ```javascript
 /**
