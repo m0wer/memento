@@ -175,6 +175,7 @@ nav:
               - Provider: computer_science/programming/flutter/provider.md
           - Javascript:
               - basics: javascript_basics.md
+              - JSDoc: javascript_jsdoc.md
           - Jinja: computer_science/programming/jinja.md
           - Python:
               - aiohttp: python_aiohttp.md
