@@ -61,6 +61,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://m0wer.github.io/memento/javascript_jsdoc/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://m0wer.github.io/memento/python_aiohttp/</loc>
          <lastmod>2022-04-13</lastmod>
          <changefreq>daily</changefreq>
