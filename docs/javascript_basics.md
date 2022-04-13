@@ -8,6 +8,8 @@ author: m0wer
 
 ## Basic types
 
+* [Types in the Closure Type System](https://github.com/google/closure-compiler/wiki/Types-in-the-Closure-Type-System)
+
 ### Array
 
 #### Methods
