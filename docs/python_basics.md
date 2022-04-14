@@ -509,3 +509,13 @@ class point2D(TypedDict, total=False):
     x: int
     y: int
 ```
+
+## Tips
+
+### Check syntax without running
+
+Try to compile it:
+
+```bash
+python -m py_compile script.py
+```
