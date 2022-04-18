@@ -11,7 +11,7 @@
     <managingEditor>m0wer</managingEditor>
 
     
-    <pubDate>2022-04-11 05:35:51+00:00</pubDate>
+    <pubDate>2022-04-18 05:19:13+00:00</pubDate>
     <ttl>10080</ttl>
 
     
@@ -25,6 +25,20 @@
     
 
     
+    
+    <item><title>15th Week of 2022</title>
+      <author>m0wer</author>
+      <description>&lt;article class=&#34;md-content__inner md-typeset&#34;&gt; &lt;a class=&#34;md-content__button md-icon&#34; href=&#34;https://github.com/m0wer/memento/edit/master/docs/newsletter/2022_w15.md&#34; title=&#34;Edit this page&#34;&gt; &lt;svg viewbox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt; &lt;/a&gt;  &lt;h2 id=&#34;computer-science&#34;&gt;Computer Science&lt;/h2&gt; &lt;h3 id=&#34;gnulinux&#34;&gt;GNULinux&lt;/h3&gt; &lt;h4 id=&#34;basics&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/gnu_linux_basics/&#34;&gt;Basics&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Get command output or default value if emtpy.&lt;/p&gt;  &lt;/li&gt; &lt;/ul&gt; &lt;h4 id=&#34;git&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/gnu_linux/git/&#34;&gt;Git&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Modify specific commit message.&lt;/p&gt; &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git rebase --interactive &lt;span class=&#34;s1&#34;&gt;&#39;&amp;lt;commit-id&amp;gt;^&#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;p&gt;Then replace &lt;code&gt;pick&lt;/code&gt; with &lt;code&gt;r&lt;/code&gt; and save to modify the commit message.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h4 id=&#34;neovim&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/gnu_linux/neovim/&#34;&gt;neovim&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Search for visual selection.&lt;/p&gt; &lt;p&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;vnoremap // y/\V&amp;lt;C-R&amp;gt;=escape(@&#34;,&#39;/\&#39;)&amp;lt;CR&amp;gt;&amp;lt;CR&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; To use the mapping, visually select the characters that are wanted in the search, then type &lt;code&gt;//&lt;/code&gt; to search for the next occurrence of the selected text.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h4 id=&#34;sed&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/gnu_linux/sed/&#34;&gt;sed&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Use matched pattern.&lt;/p&gt; &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&#34;foobarbaz&#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; sed &lt;span class=&#34;s1&#34;&gt;&#39;s/^foo\(.*\)baz$/\1/&#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;p&gt;Returns &lt;code&gt;bar&lt;/code&gt;.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h3 id=&#34;programming&#34;&gt;Programming&lt;/h3&gt; &lt;h4 id=&#34;basics_1&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/javascript_basics/&#34;&gt;basics&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Types in the Closure Type System.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&#34;https://github.com/google/closure-compiler/wiki/Types-in-the-Closure-Type-System&#34;&gt;Types in the Closure Type System&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h4 id=&#34;jsdoc&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/javascript_jsdoc/&#34;&gt;JSDoc&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: JSDoc @example.&lt;/p&gt; &lt;p&gt;&lt;code&gt;`javascript /** * Solves equations of the form a * x = b * @example * // returns 2 * globalNS.method1(5, 10); * @example * // returns 3 * globalNS.method(5, 15); * @returns {Number} Returns the value of x for the equation. */ globalNS.method1 = function (a, b) { return b / a; };&lt;/code&gt;&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;New: JSDoc @type.&lt;/p&gt; &lt;p&gt;Reference: &lt;a href=&#34;https://jsdoc.app/tags-type.html&#34;&gt;Use JSDoc: @type&lt;/a&gt;.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h4 id=&#34;basics_2&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/python_basics/&#34;&gt;Basics&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Check syntax without running.&lt;/p&gt; &lt;p&gt;Try to compile it:&lt;/p&gt; &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;python -m py_compile script.py
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt; &lt;div class=&#34;md-source-file&#34;&gt; &lt;small&gt; Last update: &lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago&#34;&gt;&lt;span class=&#34;timeago&#34; datetime=&#34;2022-04-18T05:19:13+00:00&#34; locale=&#34;en&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date&#34;&gt;2022-04-18&lt;/span&gt; &lt;/small&gt; &lt;/div&gt; &lt;/article&gt;</description>
+      <link>https://m0wer.github.io/memento/newsletter/2022_w15/</link>
+      <pubDate>2022-04-18 05:19:13+00:00</pubDate>
+      <source url="https://m0wer.github.io/memento/weekly.xml">Memento</source>
+      <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2022_w15/</guid>
+      
+    </item>
     
     <item><title>14th Week of 2022</title>
       <author>m0wer</author>
@@ -367,21 +381,6 @@ git checkout new_branch &lt;span class=&#34;c1&#34;&gt;# go to the new branch an
       <pubDate>2021-11-29 05:26:57+00:00</pubDate>
       <source url="https://m0wer.github.io/memento/weekly.xml">Memento</source>
       <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2021_w47/</guid>
-      
-    </item>
-    
-    <item><title>46th Week of 2021</title>
-      <author>m0wer</author>
-      <description>&lt;article class=&#34;md-content__inner md-typeset&#34;&gt; &lt;a class=&#34;md-content__button md-icon&#34; href=&#34;https://github.com/m0wer/memento/edit/master/docs/newsletter/2021_w46.md&#34; title=&#34;Edit this page&#34;&gt; &lt;svg viewbox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt; &lt;/a&gt;  &lt;h2 id=&#34;computer-science&#34;&gt;Computer Science&lt;/h2&gt; &lt;h3 id=&#34;programming&#34;&gt;Programming&lt;/h3&gt; &lt;h4 id=&#34;asyncio&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/programming/python/asyncio/&#34;&gt;asyncio&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Limit concurrency.&lt;/p&gt; &lt;p&gt;Use &lt;a href=&#34;https://docs.python.org/3/library/asyncio-sync.html#semaphores&#34;&gt;&lt;code&gt;asyncio.Semaphore&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;  &lt;/li&gt; &lt;/ul&gt; &lt;h2 id=&#34;other&#34;&gt;Other&lt;/h2&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Retrying library for Python.&lt;/p&gt; &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;tenacity&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;retry&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;stop_after_attempt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;wait_exponential&lt;/span&gt;
-
-&lt;span class=&#34;nd&#34;&gt;@retry&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;stop&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;stop_after_attempt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;wait&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;wait_exponential&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;multiplier&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;somefunction&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;():&lt;/span&gt;
-  &lt;span class=&#34;k&#34;&gt;raise&lt;/span&gt; &lt;span class=&#34;ne&#34;&gt;Exception&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;p&gt;The function will be retried a maximum of 3 times, waiting 0.1 s, 0.2 s and 0.4 s between each attempt respectively.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt; &lt;div class=&#34;md-source-file&#34;&gt; &lt;small&gt; Last update: &lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago&#34;&gt;&lt;span class=&#34;timeago&#34; datetime=&#34;2021-11-22T05:26:42+00:00&#34; locale=&#34;en&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date&#34;&gt;2021-11-22&lt;/span&gt; &lt;/small&gt; &lt;/div&gt; &lt;/article&gt;</description>
-      <link>https://m0wer.github.io/memento/newsletter/2021_w46/</link>
-      <pubDate>2021-11-22 05:26:42+00:00</pubDate>
-      <source url="https://m0wer.github.io/memento/weekly.xml">Memento</source>
-      <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2021_w46/</guid>
       
     </item>
     
