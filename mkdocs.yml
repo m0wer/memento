@@ -55,6 +55,7 @@ nav:
           - Ghostscript: computer_science/gnu_linux/ghostscript.md
           - Git: computer_science/gnu_linux/git.md
           - GPG: computer_science/gnu_linux/gpg.md
+          - grep: grep.md
           - GTK: gtk.md
           - Hushboard: computer_science/gnu_linux/hushboard.md
           - i3 window manager: computer_science/gnu_linux/i3wm.md
