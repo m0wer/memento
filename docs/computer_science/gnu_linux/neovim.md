@@ -65,3 +65,18 @@ vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
 ```
 To use the mapping, visually select the characters that are wanted in the
 search, then type `//` to search for the next occurrence of the selected text.
+
+## Marks
+
+A mark allows you to record your current position so you can return to it
+later.
+
+Usage:
+
+* `:marks`: show existing marks.
+* `ma`: set mark `a` in current position of current file, accessible only from
+  the current file.
+* `mA`: set mark `A` in current position of current file, accessible from
+  anywhere.
+* `'a`: Go to mark `a`.
+* `]'`: jump to next line with a lowercase mark.
