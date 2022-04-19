@@ -88,3 +88,7 @@ Usage:
 When replacing some match with a newline, if you try to put `\n` you will see
 that a null character is inserted. You should use `\r` (carriage return)
 instead of `\n`.
+
+### Without RegEx
+
+Use `:sno` instead of `:s` to disable magic.
