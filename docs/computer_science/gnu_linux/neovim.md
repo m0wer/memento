@@ -80,3 +80,11 @@ Usage:
   anywhere.
 * `'a`: Go to mark `a`.
 * `]'`: jump to next line with a lowercase mark.
+
+## sed
+
+### Replace with newline
+
+When replacing some match with a newline, if you try to put `\n` you will see
+that a null character is inserted. You should use `\r` (carriage return)
+instead of `\n`.
