@@ -171,7 +171,7 @@ pyyaml==6.0
     #   pyyaml-env-tag
 pyyaml-env-tag==0.1
     # via mkdocs
-readme-renderer==34.0
+readme-renderer==35.0
     # via twine
 requests==2.27.1
     # via
@@ -185,7 +185,7 @@ requests-toolbelt==0.9.1
     #   twine
 rfc3986==2.0.0
     # via twine
-secretstorage==3.3.1
+secretstorage==3.3.2
     # via keyring
 semver==2.13.0
     # via python-semantic-release
