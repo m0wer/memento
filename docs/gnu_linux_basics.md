@@ -20,3 +20,11 @@ sort <file> | uniq -c
 ```bash
 echo | sed 's/^$/default value/'
 ```
+
+### Get the cursor position
+
+Useful for recording part of the screen with (`ffmpeg`)[ffmpeg].
+
+```bash
+watch -n 0.1 xdotool getmouselocation
+```
