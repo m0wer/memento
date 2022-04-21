@@ -304,6 +304,19 @@ Then, to reapply them, do:
 git stash pop
 ```
 
+### Log
+
+#### View file evolution
+
+You can use `git log -L` to view the evolution of a range of lines. Example:
+
+```bash
+git log -L 15,23:filename.txt
+```
+
+means *trace the evolution of lines `15` to `23` in the file named
+`filename.txt`*.
+
 ## Tips
 
 ### Unstage files
