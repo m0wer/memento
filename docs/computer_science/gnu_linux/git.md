@@ -317,6 +317,16 @@ git log -L 15,23:filename.txt
 means *trace the evolution of lines `15` to `23` in the file named
 `filename.txt`*.
 
+### Diff
+
+#### Compare file accross references
+
+To compare a file accross references (branches, tags, commits...) do:
+
+```bash
+git diff <reference1> <reference2> -- <file>
+```
+
 ## Tips
 
 ### Unstage files
