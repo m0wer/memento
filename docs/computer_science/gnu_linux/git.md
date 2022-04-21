@@ -51,6 +51,29 @@ SKIP=no-commit-to-branch pre-commit run --all-files
 Which is useful if a CI runs for the main branch so that it doesn't complain
 about running in it.
 
+### Merging
+
+#### Merge conflict style
+
+Take the pain out of git conflict resolution: use diff3
+
+```bash
+git config --global merge.conflictstyle diff3
+```
+
+After running this command to turn on diff3, each new conflict will have a 3rd
+section, the merged common ancestor.
+
+```gitconflict
+<<<<<<< HEAD
+GreenMessage.send(include_signature: true)
+||||||| merged common ancestor
+BlueMessage.send(include_signature: true)
+=======
+BlueMessage.send(include_signature: false)
+>>>>>>> merged-branch
+```
+
 ## Usage
 
 ### Cloning
