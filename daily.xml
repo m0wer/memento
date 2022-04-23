@@ -11,7 +11,7 @@
     <managingEditor>m0wer</managingEditor>
 
     
-    <pubDate>2022-04-22 05:47:15+00:00</pubDate>
+    <pubDate>2022-04-22 05:47:56+00:00</pubDate>
     <ttl>1440</ttl>
 
     
@@ -37,9 +37,9 @@ BlueMessage.send(include_signature: false)
 &amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt; merged-branch
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;New: View file evolution.&lt;/p&gt; &lt;p&gt;You can use &lt;code&gt;git log -L&lt;/code&gt; to view the evolution of a range of lines. Example:&lt;/p&gt; &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git log -L &lt;span class=&#34;m&#34;&gt;15&lt;/span&gt;,23:filename.txt
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;p&gt;means &lt;em&gt;trace the evolution of lines &lt;code&gt;15&lt;/code&gt; to &lt;code&gt;23&lt;/code&gt; in the file named &lt;code&gt;filename.txt&lt;/code&gt;&lt;/em&gt;.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;New: Compare file accross references.&lt;/p&gt; &lt;p&gt;To compare a file accross references (branches, tags, commits...) do:&lt;/p&gt; &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git diff &amp;lt;reference1&amp;gt; &amp;lt;reference2&amp;gt; -- &amp;lt;file&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt; &lt;div class=&#34;md-source-file&#34;&gt; &lt;small&gt; Last update: &lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago&#34;&gt;&lt;span class=&#34;timeago&#34; datetime=&#34;2022-04-22T05:47:15+00:00&#34; locale=&#34;en&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date&#34;&gt;2022-04-22&lt;/span&gt; &lt;/small&gt; &lt;/div&gt; &lt;/article&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt; &lt;div class=&#34;md-source-file&#34;&gt; &lt;small&gt; Last update: &lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago&#34;&gt;&lt;span class=&#34;timeago&#34; datetime=&#34;2022-04-22T05:47:56+00:00&#34; locale=&#34;en&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date&#34;&gt;2022-04-22&lt;/span&gt; &lt;/small&gt; &lt;/div&gt; &lt;/article&gt;</description>
       <link>https://m0wer.github.io/memento/newsletter/2022_04_21/</link>
-      <pubDate>2022-04-22 05:47:15+00:00</pubDate>
+      <pubDate>2022-04-22 05:47:56+00:00</pubDate>
       <source url="https://m0wer.github.io/memento/daily.xml">Memento</source>
       <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2022_04_21/</guid>
       
