@@ -102,7 +102,7 @@ mkdocs-autolinks-plugin==0.5.0
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-bibtex==2.0.3
+mkdocs-bibtex==2.1.0
     # via -r requirements.in
 mkdocs-exclude-search==0.6.4
     # via -r requirements.in
@@ -206,7 +206,7 @@ tomli==2.0.1
     # via
     #   pep517
     #   setuptools-scm
-tomlkit==0.10.1
+tomlkit==0.10.2
     # via python-semantic-release
 tqdm==4.64.0
     # via twine
