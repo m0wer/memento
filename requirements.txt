@@ -27,7 +27,7 @@ click-log==0.4.0
     # via python-semantic-release
 colorama==0.4.4
     # via twine
-cryptography==37.0.0
+cryptography==37.0.1
     # via secretstorage
 csscompressor==0.9.5
     # via mkdocs-minify-plugin
@@ -158,7 +158,7 @@ pyparsing==3.0.8
     # via packaging
 python-dateutil==2.8.2
     # via ghp-import
-python-gitlab==3.3.0
+python-gitlab==3.4.0
     # via python-semantic-release
 python-semantic-release==7.28.1
     # via mkdocs-newsletter
