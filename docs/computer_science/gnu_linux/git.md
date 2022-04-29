@@ -240,6 +240,12 @@ To see the information of a particular commit use:
 git show <revhash>
 ```
 
+#### Revert file to specific commit
+
+```bash
+git checkout c5f567 -- file1/to/restore file2/to/restore
+```
+
 ### Files
 
 #### Untrack file/folder but keep locally
