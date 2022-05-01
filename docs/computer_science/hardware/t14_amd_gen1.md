@@ -5,9 +5,11 @@ author: m0wer
 tags: [ 't14_amd_gen1', 'thinkpad', 'lenovo' ]
 ---
 
-# Usage
+# Lenovo Thinkpad T14 (AMD) Gen 1
 
-## BIOS upgrade
+## Usage
+
+### BIOS upgrade
 
 There are several ways of upgrading the BIOS of this laptop. One of them is
 using `fwupdate`, other is running an executable from winbugs and the last one
@@ -16,7 +18,7 @@ is from a bootable USB.
 Keep in mind that the upgrades might require the laptop to be plugged to a power
 supply and/or have a level of charge over 50%, 80%...
 
-### Bootable USB
+#### Bootable USB
 
 First, create the bootable USB:
 
@@ -35,9 +37,9 @@ First, create the bootable USB:
   the boot device.
 1. Follow the on-screen instructions.
 
-# Issues
+## Issues
 
-## Flashing colors on the LCD screen
+### Flashing colors on the LCD screen
 
 !!! note "TL;DR: power off the laptop and unplug it from the AC adapter and press the emergency-reset button located in the bottom case."
 
@@ -63,3 +65,38 @@ I checked that it worked properly before putting back the bottom case.
 But then, I've learned that Thinkpads with a non-removable battery generally
 have a "emergency-reset hole", which I could have just pressed instead of
 opening the laptop xD There is more information about it in the [T14 Gen 1 and P14s Gen 1 Hardware Maintenance Manual](https://download.lenovo.com/pccbbs/mobiles_pdf/t14_gen1_p14s_gen1_hmm_en.pdf).
+
+## Sticky touchpad after suspend
+
+After suspension, the touchpad behaves weird: can't scroll, and acts as if you
+were clicking and dragging (sticky). The TrackPoint works correctly though.
+
+A first solution was to disable it and just use the TrackPoint. This is done
+as follows:
+
+```bash
+xinput list # look for SynPS/2 Synaptics TouchPad
+xinput set-prop <number> "Device Enabled" 0
+```
+
+This allows you to use the computer without the sticky mouse annoyance but
+doesn't actually solve the problem. For that, the solution that worked for me
+is removing the `psmouse` kernel module before suspending and then reloading it
+after waking up from suspension. You can first try to do this manualy and then
+if it works create this script in `/lib/systemd/system-sleep/psmouse`:
+
+```bash
+#!/bin/sh
+
+case $1/$2 in
+  pre/*)
+    echo "Going to $2..."
+    modprobe -r psmouse
+    ;;
+  post/*)
+    echo "Waking up from $2..."
+    sleep 2
+    modprobe psmouse
+    ;;
+esac
+```
