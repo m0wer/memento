@@ -31,6 +31,8 @@ cryptography==37.0.2
     # via secretstorage
 csscompressor==0.9.5
     # via mkdocs-minify-plugin
+decorator==5.1.1
+    # via validators
 deepdiff==5.8.0
     # via mkdocs-newsletter
 docutils==0.18.1
@@ -102,7 +104,7 @@ mkdocs-autolinks-plugin==0.5.0
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-bibtex==2.1.0
+mkdocs-bibtex==2.4.0
     # via -r requirements.in
 mkdocs-exclude-search==0.6.4
     # via -r requirements.in
@@ -152,9 +154,9 @@ pymdown-extensions==9.4
     # via
     #   -r requirements.in
     #   mkdocs-material
-pypandoc==1.7.5
+pypandoc==1.8
     # via mkdocs-bibtex
-pyparsing==3.0.8
+pyparsing==3.0.9
     # via packaging
 python-dateutil==2.8.2
     # via ghp-import
@@ -175,6 +177,7 @@ readme-renderer==35.0
     # via twine
 requests==2.27.1
     # via
+    #   mkdocs-bibtex
     #   python-gitlab
     #   python-semantic-release
     #   requests-toolbelt
@@ -218,6 +221,8 @@ urllib3==1.26.9
     # via
     #   requests
     #   twine
+validators==0.19.0
+    # via mkdocs-bibtex
 watchdog==2.1.7
     # via mkdocs
 webencodings==0.5.1
@@ -232,7 +237,7 @@ zipp==3.8.0
 # The following packages are considered to be unsafe in a requirements file:
 pip==22.0.4
     # via pip-tools
-setuptools==62.1.0
+setuptools==62.2.0
     # via
     #   pip-tools
     #   setuptools-scm
