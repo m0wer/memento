@@ -63,7 +63,7 @@ importlib-metadata==4.11.3
     #   keyring
     #   mkdocs
     #   twine
-invoke==1.7.0
+invoke==1.7.1
     # via python-semantic-release
 jeepney==0.8.0
     # via
@@ -235,7 +235,7 @@ zipp==3.8.0
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
-pip==22.0.4
+pip==22.1
     # via pip-tools
 setuptools==62.2.0
     # via
