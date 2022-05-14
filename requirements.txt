@@ -33,7 +33,7 @@ csscompressor==0.9.5
     # via mkdocs-minify-plugin
 decorator==5.1.1
     # via validators
-deepdiff==5.8.0
+deepdiff==5.8.1
     # via mkdocs-newsletter
 docutils==0.18.1
     # via readme-renderer
@@ -134,7 +134,7 @@ packaging==21.3
     #   setuptools-scm
 pep517==0.12.0
     # via pip-tools
-pip-tools==6.6.0
+pip-tools==6.6.1
     # via -r requirements.in
 pkginfo==1.8.2
     # via twine
