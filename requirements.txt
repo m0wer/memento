@@ -223,7 +223,7 @@ urllib3==1.26.9
     #   twine
 validators==0.19.0
     # via mkdocs-bibtex
-watchdog==2.1.7
+watchdog==2.1.8
     # via mkdocs
 webencodings==0.5.1
     # via bleach
