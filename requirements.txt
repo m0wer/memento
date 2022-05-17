@@ -237,7 +237,7 @@ zipp==3.8.0
 # The following packages are considered to be unsafe in a requirements file:
 pip==22.1
     # via pip-tools
-setuptools==62.2.0
+setuptools==62.3.0
     # via
     #   pip-tools
     #   setuptools-scm
