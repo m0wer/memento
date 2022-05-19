@@ -10,7 +10,7 @@ beautifulsoup4==4.11.1
     # via mkdocs-newsletter
 bleach==5.0.0
     # via readme-renderer
-certifi==2021.10.8
+certifi==2022.5.18
     # via requests
 cffi==1.15.0
     # via cryptography
@@ -237,7 +237,7 @@ zipp==3.8.0
 # The following packages are considered to be unsafe in a requirements file:
 pip==22.1
     # via pip-tools
-setuptools==62.3.1
+setuptools==62.3.2
     # via
     #   pip-tools
     #   setuptools-scm
