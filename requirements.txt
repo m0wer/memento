@@ -112,7 +112,7 @@ mkdocs-git-revision-date-localized-plugin==1.0.1
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==8.2.15
+mkdocs-material==8.2.16
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -160,7 +160,7 @@ pyparsing==3.0.9
     # via packaging
 python-dateutil==2.8.2
     # via ghp-import
-python-gitlab==3.4.0
+python-gitlab==3.5.0
     # via python-semantic-release
 python-semantic-release==7.29.0
     # via mkdocs-newsletter
