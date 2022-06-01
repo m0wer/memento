@@ -11,7 +11,7 @@
     <managingEditor>m0wer</managingEditor>
 
     
-    <pubDate>2022-05-01 05:33:22+00:00</pubDate>
+    <pubDate>2022-06-01 05:54:42+00:00</pubDate>
     <ttl>43200</ttl>
 
     
@@ -25,6 +25,29 @@
     
 
     
+    
+    <item><title>May of 2022</title>
+      <author>m0wer</author>
+      <description>&lt;article class=&#34;md-content__inner md-typeset&#34;&gt; &lt;a class=&#34;md-content__button md-icon&#34; href=&#34;https://github.com/m0wer/memento/edit/master/docs/newsletter/2022_05.md&#34; title=&#34;Edit this page&#34;&gt; &lt;svg viewbox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt; &lt;/a&gt;  &lt;h2 id=&#34;computer-science&#34;&gt;Computer Science&lt;/h2&gt; &lt;h3 id=&#34;gnulinux&#34;&gt;GNULinux&lt;/h3&gt; &lt;h4 id=&#34;apt&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/gnu_linux/apt/&#34;&gt;APT&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: List all installed packages and their versions.&lt;/p&gt;  &lt;/li&gt; &lt;/ul&gt; &lt;h3 id=&#34;hardware&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/hardware/t14_amd_gen1/&#34;&gt;Hardware&lt;/a&gt;&lt;/h3&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Sticky touchpad after suspend.&lt;/p&gt; &lt;p&gt;After suspension, the touchpad behaves weird: can&#39;t scroll, and acts as if you were clicking and dragging (sticky). The TrackPoint works correctly though.&lt;/p&gt; &lt;p&gt;A first solution was to disable it and just use the TrackPoint. This is done as follows:&lt;/p&gt; &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;xinput list &lt;span class=&#34;c1&#34;&gt;# look for SynPS/2 Synaptics TouchPad&lt;/span&gt;
+xinput set-prop &amp;lt;number&amp;gt; &lt;span class=&#34;s2&#34;&gt;&#34;Device Enabled&#34;&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;p&gt;This allows you to use the computer without the sticky mouse annoyance but doesn&#39;t actually solve the problem. For that, the solution that worked for me is removing the &lt;code&gt;psmouse&lt;/code&gt; kernel module before suspending and then reloading it after waking up from suspension. You can first try to do this manualy and then if it works create this script in &lt;code&gt;/lib/systemd/system-sleep/psmouse&lt;/code&gt;:&lt;/p&gt; &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&#34;k&#34;&gt;case&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$1&lt;/span&gt;/&lt;span class=&#34;nv&#34;&gt;$2&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;in&lt;/span&gt;
+  pre/*&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&#34;Going to &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$2&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;...&#34;&lt;/span&gt;
+    modprobe -r psmouse
+    &lt;span class=&#34;p&#34;&gt;;;&lt;/span&gt;
+  post/*&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&#34;Waking up from &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$2&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;...&#34;&lt;/span&gt;
+    sleep &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;
+    modprobe psmouse
+    &lt;span class=&#34;p&#34;&gt;;;&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;esac&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt; &lt;div class=&#34;md-source-file&#34;&gt; &lt;small&gt; Last update: &lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago&#34;&gt;&lt;span class=&#34;timeago&#34; datetime=&#34;2022-06-01T05:54:42+00:00&#34; locale=&#34;en&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date&#34;&gt;2022-06-01&lt;/span&gt; &lt;/small&gt; &lt;/div&gt; &lt;/article&gt;</description>
+      <link>https://m0wer.github.io/memento/newsletter/2022_05/</link>
+      <pubDate>2022-06-01 05:54:42+00:00</pubDate>
+      <source url="https://m0wer.github.io/memento/monthly.xml">Memento</source>
+      <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2022_05/</guid>
+      
+    </item>
     
     <item><title>April of 2022</title>
       <author>m0wer</author>
