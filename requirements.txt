@@ -104,7 +104,7 @@ mkdocs-autolinks-plugin==0.5.0
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-bibtex==2.6.0
+mkdocs-bibtex==2.8.0
     # via -r requirements.in
 mkdocs-exclude-search==0.6.4
     # via -r requirements.in
@@ -162,7 +162,7 @@ python-dateutil==2.8.2
     # via ghp-import
 python-gitlab==3.5.0
     # via python-semantic-release
-python-semantic-release==7.29.0
+python-semantic-release==7.29.1
     # via mkdocs-newsletter
 pytz==2022.1
     # via babel
