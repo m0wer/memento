@@ -16,6 +16,10 @@ curl -sSL "https://github.com/neovim/neovim/releases/download/stable/nvim-linux6
 
 ## Usage
 
+### Shortcuts
+
+* Open the previous buffer: `<C-^>` (or `<C-6>` in some keyboards).
+
 ### Edit remote files with SSH
 
 Just run:
