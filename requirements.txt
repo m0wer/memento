@@ -112,7 +112,7 @@ mkdocs-git-revision-date-localized-plugin==1.0.1
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==8.3.1
+mkdocs-material==8.3.2
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -221,7 +221,7 @@ urllib3==1.26.9
     # via
     #   requests
     #   twine
-validators==0.19.0
+validators==0.20.0
     # via mkdocs-bibtex
 watchdog==2.1.8
     # via mkdocs
