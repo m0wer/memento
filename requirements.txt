@@ -111,7 +111,7 @@ mkdocs-git-revision-date-localized-plugin==1.0.1
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==8.3.3
+mkdocs-material==8.3.4
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -236,7 +236,7 @@ zipp==3.8.0
 # The following packages are considered to be unsafe in a requirements file:
 pip==22.1.2
     # via pip-tools
-setuptools==62.3.3
+setuptools==62.3.4
     # via
     #   pip-tools
     #   setuptools-scm
