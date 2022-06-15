@@ -4,7 +4,7 @@
 #
 #    pip-compile --allow-unsafe requirements.in
 #
-babel==2.10.1
+babel==2.10.2
     # via mkdocs-git-revision-date-localized-plugin
 beautifulsoup4==4.11.1
     # via mkdocs-newsletter
@@ -111,7 +111,7 @@ mkdocs-git-revision-date-localized-plugin==1.0.1
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==8.3.4
+mkdocs-material==8.3.5
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
