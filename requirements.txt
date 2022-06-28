@@ -8,7 +8,7 @@ babel==2.10.3
     # via mkdocs-git-revision-date-localized-plugin
 beautifulsoup4==4.11.1
     # via mkdocs-newsletter
-bleach==5.0.0
+bleach==5.0.1
     # via readme-renderer
 certifi==2022.6.15
     # via requests
@@ -159,7 +159,7 @@ pyparsing==3.0.9
     # via packaging
 python-dateutil==2.8.2
     # via ghp-import
-python-gitlab==3.5.0
+python-gitlab==3.6.0
     # via python-semantic-release
 python-semantic-release==7.29.3
     # via mkdocs-newsletter
