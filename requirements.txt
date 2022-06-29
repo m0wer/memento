@@ -10,6 +10,8 @@ beautifulsoup4==4.11.1
     # via mkdocs-newsletter
 bleach==5.0.1
     # via readme-renderer
+build==0.8.0
+    # via pip-tools
 certifi==2022.6.15
     # via requests
 cffi==1.15.0
@@ -129,11 +131,12 @@ ordered-set==4.1.0
     # via deepdiff
 packaging==21.3
     # via
+    #   build
     #   mkdocs
     #   setuptools-scm
 pep517==0.12.0
-    # via pip-tools
-pip-tools==6.6.2
+    # via build
+pip-tools==6.7.0
     # via -r requirements.in
 pkginfo==1.8.3
     # via twine
@@ -206,6 +209,7 @@ soupsieve==2.3.2.post1
     # via beautifulsoup4
 tomli==2.0.1
     # via
+    #   build
     #   pep517
     #   setuptools-scm
 tomlkit==0.10.2
