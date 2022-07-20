@@ -80,7 +80,7 @@ keyring==23.7.0
     # via twine
 latexcodec==2.0.1
     # via pybtex
-markdown==3.4.1
+markdown==3.3.7
     # via
     #   mkdocs
     #   mkdocs-bibtex
@@ -90,7 +90,7 @@ markupsafe==2.1.1
     # via jinja2
 mergedeep==1.3.4
     # via mkdocs
-mkdocs==1.3.0
+mkdocs==1.3.1
     # via
     #   -r requirements.in
     #   mkdocs-autolinks-plugin
