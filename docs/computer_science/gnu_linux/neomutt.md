@@ -18,6 +18,15 @@ When sending an email you might want to attach your GPG public key. Press
 
 * [myridia.com](https://myridia.com/dev_posts/view/236)
 
+## Delete/Undelete
+
+### All
+
+To delete or undelete all:
+
+1. Press `D` or `U`.
+1. Enter `~A` to mark all.
+
 ## Mailboxes
 
 Commands:
