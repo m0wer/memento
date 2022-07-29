@@ -37,3 +37,12 @@ letter (e.g., `continue` -> `c`).
 ## References
 
 * [Talk: Nina Zakharenko - Goodbye Print, Hello Debugger! - YouTube](https://www.youtube.com/watch?v=5AYIe-3cD-s)
+
+# better-exceptions
+
+Pretty and more helpful exceptions in Python, automatically.
+
+```bash
+pip install better_exceptions
+export BETTER_EXCEPTIONS=1
+```
