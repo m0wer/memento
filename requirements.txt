@@ -162,7 +162,7 @@ pyparsing==3.0.9
     # via packaging
 python-dateutil==2.8.2
     # via ghp-import
-python-gitlab==3.7.0
+python-gitlab==3.8.0
     # via python-semantic-release
 python-semantic-release==7.31.2
     # via mkdocs-newsletter
