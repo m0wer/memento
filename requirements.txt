@@ -166,7 +166,7 @@ python-gitlab==3.8.1
     # via python-semantic-release
 python-semantic-release==7.31.2
     # via mkdocs-newsletter
-pytz==2022.2
+pytz==2022.2.1
     # via babel
 pyyaml==6.0
     # via
@@ -237,5 +237,5 @@ zipp==3.8.1
 # The following packages are considered to be unsafe in a requirements file:
 pip==22.2.2
     # via pip-tools
-setuptools==64.0.1
+setuptools==64.0.3
     # via pip-tools
