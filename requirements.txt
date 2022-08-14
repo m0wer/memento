@@ -113,7 +113,7 @@ mkdocs-git-revision-date-localized-plugin==1.1.0
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==8.3.9
+mkdocs-material==8.4.0
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -190,7 +190,7 @@ requests-toolbelt==0.9.1
     #   twine
 rfc3986==2.0.0
     # via twine
-secretstorage==3.3.2
+secretstorage==3.3.3
     # via keyring
 semver==2.13.0
     # via python-semantic-release
