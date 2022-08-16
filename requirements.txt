@@ -148,7 +148,7 @@ pycparser==2.21
     # via cffi
 pydantic==1.9.2
     # via mkdocs-newsletter
-pygments==2.12.0
+pygments==2.13.0
     # via
     #   mkdocs-material
     #   readme-renderer
@@ -237,5 +237,5 @@ zipp==3.8.1
 # The following packages are considered to be unsafe in a requirements file:
 pip==22.2.2
     # via pip-tools
-setuptools==65.0.0
+setuptools==65.0.1
     # via pip-tools
