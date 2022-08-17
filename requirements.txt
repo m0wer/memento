@@ -105,7 +105,7 @@ mkdocs-autolinks-plugin==0.6.0
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-bibtex==2.8.2
+mkdocs-bibtex==2.8.3
     # via -r requirements.in
 mkdocs-exclude-search==0.6.4
     # via -r requirements.in
@@ -237,5 +237,5 @@ zipp==3.8.1
 # The following packages are considered to be unsafe in a requirements file:
 pip==22.2.2
     # via pip-tools
-setuptools==65.0.1
+setuptools==65.0.2
     # via pip-tools
