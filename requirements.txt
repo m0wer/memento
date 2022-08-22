@@ -113,7 +113,7 @@ mkdocs-git-revision-date-localized-plugin==1.1.0
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==8.4.0
+mkdocs-material==8.4.1
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -175,7 +175,7 @@ pyyaml==6.0
     #   pyyaml-env-tag
 pyyaml-env-tag==0.1
     # via mkdocs
-readme-renderer==36.0
+readme-renderer==37.0
     # via twine
 requests==2.28.1
     # via
@@ -237,5 +237,5 @@ zipp==3.8.1
 # The following packages are considered to be unsafe in a requirements file:
 pip==22.2.2
     # via pip-tools
-setuptools==65.1.0
+setuptools==65.2.0
     # via pip-tools
