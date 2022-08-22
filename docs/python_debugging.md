@@ -34,6 +34,29 @@ The main commands are:
 All of the above commands (except for `pp`) can be called by only its first
 letter (e.g., `continue` -> `c`).
 
+## Misc
+
+### Obkect details
+
+#### See a function definition at runtime
+
+```python
+from somewhere import somefunction
+from inspect import getsource
+
+print(getsource(somefunction))
+```
+
+### Get function signature at runtime
+
+
+```python
+from somewhere import somefunction
+from inspect import signature
+
+print(signature(somefunction))
+```
+
 ## References
 
 * [Talk: Nina Zakharenko - Goodbye Print, Hello Debugger! - YouTube](https://www.youtube.com/watch?v=5AYIe-3cD-s)
