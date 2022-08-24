@@ -164,7 +164,7 @@ python-dateutil==2.8.2
     # via ghp-import
 python-gitlab==3.8.1
     # via python-semantic-release
-python-semantic-release==7.31.3
+python-semantic-release==7.31.4
     # via mkdocs-newsletter
 pytz==2022.2.1
     # via babel
@@ -209,7 +209,7 @@ tomli==2.0.1
     # via
     #   build
     #   pep517
-tomlkit==0.10.2
+tomlkit==0.11.4
     # via python-semantic-release
 tqdm==4.64.0
     # via twine
