@@ -11,7 +11,7 @@
     <managingEditor>m0wer</managingEditor>
 
     
-    <pubDate>2022-08-01 06:01:49+00:00</pubDate>
+    <pubDate>2022-08-29 06:19:01+00:00</pubDate>
     <ttl>10080</ttl>
 
     
@@ -25,6 +25,24 @@
     
 
     
+    
+    <item><title>34th Week of 2022</title>
+      <author>m0wer</author>
+      <description>&lt;article class=&#34;md-content__inner md-typeset&#34;&gt; &lt;a class=&#34;md-content__button md-icon&#34; href=&#34;https://github.com/m0wer/memento/edit/master/docs/newsletter/2022_w34.md&#34; title=&#34;Edit this page&#34;&gt; &lt;svg viewbox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt; &lt;/a&gt;  &lt;h2 id=&#34;computer-science&#34;&gt;Computer Science&lt;/h2&gt; &lt;h3 id=&#34;gnulinux&#34;&gt;GNULinux&lt;/h3&gt; &lt;h4 id=&#34;debian&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/gnu_linux/debian/&#34;&gt;Debian&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Find what package a file belongs to.&lt;/p&gt;  &lt;/li&gt; &lt;/ul&gt; &lt;h3 id=&#34;programming&#34;&gt;Programming&lt;/h3&gt; &lt;h4 id=&#34;debugging&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/python_debugging/&#34;&gt;Debugging&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Debugging with inspect.&lt;/p&gt; &lt;p&gt;See a function definition at runtime&lt;/p&gt; &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;somewhere&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;somefunction&lt;/span&gt;
+&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;inspect&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;getsource&lt;/span&gt;
+
+&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;getsource&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;somefunction&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;p&gt;Get function signature at runtime&lt;/p&gt; &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;somewhere&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;somefunction&lt;/span&gt;
+&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;inspect&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;signature&lt;/span&gt;
+
+&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;signature&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;somefunction&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt; &lt;div class=&#34;md-source-file&#34;&gt; &lt;small&gt; Last update: &lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago&#34;&gt;&lt;span class=&#34;timeago&#34; datetime=&#34;2022-08-29T06:19:01+00:00&#34; locale=&#34;en&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date&#34;&gt;2022-08-29&lt;/span&gt; &lt;/small&gt; &lt;/div&gt; &lt;/article&gt;</description>
+      <link>https://m0wer.github.io/memento/newsletter/2022_w34/</link>
+      <pubDate>2022-08-29 06:19:01+00:00</pubDate>
+      <source url="https://m0wer.github.io/memento/weekly.xml">Memento</source>
+      <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2022_w34/</guid>
+      
+    </item>
     
     <item><title>30th Week of 2022</title>
       <author>m0wer</author>
@@ -320,16 +338,6 @@ git checkout new_branch &lt;span class=&#34;c1&#34;&gt;# go to the new branch an
       <pubDate>2022-02-07 05:24:30+00:00</pubDate>
       <source url="https://m0wer.github.io/memento/weekly.xml">Memento</source>
       <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2022_w05/</guid>
-      
-    </item>
-    
-    <item><title>3rd Week of 2022</title>
-      <author>m0wer</author>
-      <description>&lt;article class=&#34;md-content__inner md-typeset&#34;&gt; &lt;a class=&#34;md-content__button md-icon&#34; href=&#34;https://github.com/m0wer/memento/edit/master/docs/newsletter/2022_w03.md&#34; title=&#34;Edit this page&#34;&gt; &lt;svg viewbox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt; &lt;/a&gt;  &lt;h2 id=&#34;computer-science&#34;&gt;Computer Science&lt;/h2&gt; &lt;h3 id=&#34;cicd&#34;&gt;CICD&lt;/h3&gt; &lt;h4 id=&#34;github-actions&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/cicd/github_actions/&#34;&gt;Github Actions&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Conditional execution.&lt;/p&gt; &lt;p&gt;To allow a step to fail without that implying failing the whole workflow and then execute some steps according to the result, do:&lt;/p&gt;  &lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt; &lt;div class=&#34;md-source-file&#34;&gt; &lt;small&gt; Last update: &lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago&#34;&gt;&lt;span class=&#34;timeago&#34; datetime=&#34;2022-01-24T05:25:09+00:00&#34; locale=&#34;en&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date&#34;&gt;2022-01-24&lt;/span&gt; &lt;/small&gt; &lt;/div&gt; &lt;/article&gt;</description>
-      <link>https://m0wer.github.io/memento/newsletter/2022_w03/</link>
-      <pubDate>2022-01-24 05:25:09+00:00</pubDate>
-      <source url="https://m0wer.github.io/memento/weekly.xml">Memento</source>
-      <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2022_w03/</guid>
       
     </item>
     
