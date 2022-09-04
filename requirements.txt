@@ -179,7 +179,7 @@ pyyaml==6.0
     #   pyyaml-env-tag
 pyyaml-env-tag==0.1
     # via mkdocs
-readme-renderer==37.0
+readme-renderer==37.1
     # via twine
 requests==2.28.1
     # via
@@ -215,7 +215,7 @@ tomli==2.0.1
     #   pep517
 tomlkit==0.11.4
     # via python-semantic-release
-tqdm==4.64.0
+tqdm==4.64.1
     # via twine
 twine==3.8.0
     # via python-semantic-release
