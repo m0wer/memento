@@ -29,7 +29,7 @@ click-log==0.4.0
     # via python-semantic-release
 colorama==0.4.5
     # via twine
-cryptography==38.0.0
+cryptography==38.0.1
     # via secretstorage
 csscompressor==0.9.5
     # via mkdocs-minify-plugin
@@ -115,7 +115,7 @@ mkdocs-git-revision-date-localized-plugin==1.1.0
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==8.4.2
+mkdocs-material==8.4.3
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
