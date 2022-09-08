@@ -165,6 +165,8 @@ Options:
 
 * `model.json(exclude_none=True)`
 * `model.dict(exclude_none=True)`
+* `model.dict(by_alias=True)` Use the `Field(alias=...)` value instead of the
+  Python attribute name in the resulting dict.
 
 ### Types
 
