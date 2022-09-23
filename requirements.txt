@@ -160,7 +160,7 @@ pymdown-extensions==9.5
     # via
     #   -r requirements.in
     #   mkdocs-material
-pypandoc==1.8.1
+pypandoc==1.9
     # via mkdocs-bibtex
 pyparsing==3.0.9
     # via packaging
