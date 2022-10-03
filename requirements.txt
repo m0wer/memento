@@ -113,7 +113,7 @@ mkdocs-git-revision-date-localized-plugin==1.1.0
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==8.5.5
+mkdocs-material==8.5.6
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
