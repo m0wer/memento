@@ -43,3 +43,14 @@ Common types from `typing`:
 
 * `Type[Class]`: Accepts instances of the `Class` and the `Class` itself.
 * `Awaitable`: Promise/Future.
+
+## Common problems
+
+### F821 undefined name when class method return type is the class name
+
+Since the class is not defined yet, to use it as the return type that a class
+method returns you need to:
+
+```bash
+from __future__ import annotations
+```
