@@ -29,7 +29,7 @@ click-log==0.4.0
     # via python-semantic-release
 colorama==0.4.5
     # via twine
-cryptography==38.0.1
+cryptography==38.0.2
     # via secretstorage
 csscompressor==0.9.5
     # via mkdocs-minify-plugin
