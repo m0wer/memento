@@ -127,7 +127,7 @@ mkdocs-section-index==0.3.4
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-more-itertools==8.14.0
+more-itertools==9.0.0
     # via jaraco-classes
 ordered-set==4.1.0
     # via deepdiff
@@ -168,7 +168,7 @@ python-gitlab==3.10.0
     # via python-semantic-release
 python-semantic-release==7.32.1
     # via mkdocs-newsletter
-pytz==2022.4
+pytz==2022.5
     # via babel
 pyyaml==6.0
     # via
