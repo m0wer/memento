@@ -10,7 +10,7 @@ beautifulsoup4==4.11.1
     # via mkdocs-newsletter
 bleach==5.0.1
     # via readme-renderer
-build==0.8.0
+build==0.9.0
     # via pip-tools
 certifi==2022.9.24
     # via requests
@@ -164,7 +164,7 @@ pyparsing==3.0.9
     # via packaging
 python-dateutil==2.8.2
     # via ghp-import
-python-gitlab==3.10.0
+python-gitlab==3.11.0
     # via python-semantic-release
 python-semantic-release==7.32.2
     # via mkdocs-newsletter
@@ -212,7 +212,7 @@ tomli==2.0.1
     # via
     #   build
     #   pep517
-tomlkit==0.11.5
+tomlkit==0.11.6
     # via python-semantic-release
 tqdm==4.64.1
     # via twine
