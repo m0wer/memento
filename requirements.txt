@@ -168,7 +168,7 @@ python-gitlab==3.11.0
     # via python-semantic-release
 python-semantic-release==7.32.2
     # via mkdocs-newsletter
-pytz==2022.5
+pytz==2022.6
     # via babel
 pyyaml==6.0
     # via
@@ -177,7 +177,7 @@ pyyaml==6.0
     #   pyyaml-env-tag
 pyyaml-env-tag==0.1
     # via mkdocs
-readme-renderer==37.2
+readme-renderer==37.3
     # via twine
 requests==2.28.1
     # via
