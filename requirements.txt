@@ -156,7 +156,7 @@ pygments==2.13.0
     # via
     #   mkdocs-material
     #   readme-renderer
-pymdown-extensions==9.7
+pymdown-extensions==9.8
     # via
     #   -r requirements.in
     #   mkdocs-material
