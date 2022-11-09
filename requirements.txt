@@ -115,7 +115,7 @@ mkdocs-git-revision-date-localized-plugin==1.1.0
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==8.5.8
+mkdocs-material==8.5.9
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -228,7 +228,7 @@ watchdog==2.1.9
     # via mkdocs
 webencodings==0.5.1
     # via bleach
-wheel==0.38.2
+wheel==0.38.3
     # via
     #   pip-tools
     #   python-semantic-release
