@@ -228,7 +228,7 @@ watchdog==2.1.9
     # via mkdocs
 webencodings==0.5.1
     # via bleach
-wheel==0.38.3
+wheel==0.38.4
     # via
     #   pip-tools
     #   python-semantic-release
