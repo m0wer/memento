@@ -156,7 +156,7 @@ pygments==2.13.0
     # via
     #   mkdocs-material
     #   readme-renderer
-pymdown-extensions==9.8
+pymdown-extensions==9.9
     # via
     #   -r requirements.in
     #   mkdocs-material
@@ -218,7 +218,7 @@ twine==3.8.0
     # via python-semantic-release
 typing-extensions==4.4.0
     # via pydantic
-urllib3==1.26.12
+urllib3==1.26.13
     # via
     #   requests
     #   twine
@@ -238,5 +238,5 @@ zipp==3.10.0
 # The following packages are considered to be unsafe in a requirements file:
 pip==22.3.1
     # via pip-tools
-setuptools==65.6.0
+setuptools==65.6.2
     # via pip-tools
