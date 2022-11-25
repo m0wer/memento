@@ -45,7 +45,7 @@ future==0.18.2
     # via proselint
 ghp-import==2.1.0
     # via mkdocs
-gitdb==4.0.9
+gitdb==4.0.10
     # via
     #   gitdb2
     #   gitpython
@@ -60,7 +60,7 @@ htmlmin==0.1.12
     # via mkdocs-minify-plugin
 idna==3.4
     # via requests
-importlib-metadata==5.0.0
+importlib-metadata==5.1.0
     # via
     #   keyring
     #   twine
@@ -238,5 +238,5 @@ zipp==3.10.0
 # The following packages are considered to be unsafe in a requirements file:
 pip==22.3.1
     # via pip-tools
-setuptools==65.6.2
+setuptools==65.6.3
     # via pip-tools
