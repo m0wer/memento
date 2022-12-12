@@ -35,7 +35,7 @@ csscompressor==0.9.5
     # via mkdocs-minify-plugin
 decorator==5.1.1
     # via validators
-deepdiff==6.2.1
+deepdiff==6.2.2
     # via mkdocs-newsletter
 docutils==0.19
     # via readme-renderer
