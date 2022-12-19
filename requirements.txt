@@ -60,7 +60,7 @@ htmlmin==0.1.12
     # via mkdocs-minify-plugin
 idna==3.4
     # via requests
-importlib-metadata==5.1.0
+importlib-metadata==5.2.0
     # via
     #   keyring
     #   twine
@@ -78,7 +78,7 @@ jinja2==3.1.2
     #   mkdocs-material
 jsmin==3.0.1
     # via mkdocs-minify-plugin
-keyring==23.11.0
+keyring==23.13.1
     # via twine
 latexcodec==2.0.1
     # via pybtex
