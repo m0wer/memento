@@ -152,7 +152,7 @@ pybtex==0.24.0
     # via mkdocs-bibtex
 pycparser==2.21
     # via cffi
-pydantic==1.10.3
+pydantic==1.10.4
     # via mkdocs-newsletter
 pygments==2.13.0
     # via
