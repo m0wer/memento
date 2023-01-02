@@ -29,7 +29,7 @@ click-log==0.4.0
     # via python-semantic-release
 colorama==0.4.6
     # via twine
-cryptography==38.0.4
+cryptography==39.0.0
     # via secretstorage
 csscompressor==0.9.5
     # via mkdocs-minify-plugin
@@ -60,7 +60,7 @@ htmlmin==0.1.12
     # via mkdocs-minify-plugin
 idna==3.4
     # via requests
-importlib-metadata==5.2.0
+importlib-metadata==6.0.0
     # via
     #   keyring
     #   twine
@@ -154,7 +154,7 @@ pycparser==2.21
     # via cffi
 pydantic==1.10.4
     # via mkdocs-newsletter
-pygments==2.13.0
+pygments==2.14.0
     # via
     #   mkdocs-material
     #   readme-renderer
@@ -226,7 +226,7 @@ urllib3==1.26.13
     #   twine
 validators==0.20.0
     # via mkdocs-bibtex
-watchdog==2.2.0
+watchdog==2.2.1
     # via mkdocs
 webencodings==0.5.1
     # via bleach
