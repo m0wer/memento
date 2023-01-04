@@ -116,7 +116,7 @@ mkdocs-git-revision-date-localized-plugin==1.1.0
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==9.0.0
+mkdocs-material==9.0.1
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -145,9 +145,7 @@ pip==22.3.1
     # via pip-tools
 pip-tools==6.12.1
     # via -r requirements.in
-pipdeptree==2.3.3
-    # via mkdocs-material
-pkginfo==1.9.2
+pkginfo==1.9.3
     # via twine
 proselint==0.13.0
     # via -r requirements.in
