@@ -37,7 +37,7 @@ csscompressor==0.9.5
     # via mkdocs-minify-plugin
 decorator==5.1.1
     # via validators
-deepdiff==6.2.2
+deepdiff==6.2.3
     # via mkdocs-newsletter
 docutils==0.19
     # via readme-renderer
@@ -134,6 +134,8 @@ more-itertools==9.0.0
     # via jaraco-classes
 ordered-set==4.1.0
     # via deepdiff
+orjson==3.8.4
+    # via deepdiff
 packaging==22.0
     # via
     #   build
@@ -145,7 +147,7 @@ pip==22.3.1
     # via pip-tools
 pip-tools==6.12.1
     # via -r requirements.in
-pkginfo==1.9.3
+pkginfo==1.9.4
     # via twine
 proselint==0.13.0
     # via -r requirements.in
