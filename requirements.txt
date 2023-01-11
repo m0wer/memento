@@ -134,7 +134,7 @@ more-itertools==9.0.0
     # via jaraco-classes
 ordered-set==4.1.0
     # via deepdiff
-orjson==3.8.4
+orjson==3.8.5
     # via deepdiff
 packaging==23.0
     # via
