@@ -159,7 +159,7 @@ pygments==2.14.0
     # via
     #   mkdocs-material
     #   readme-renderer
-pymdown-extensions==9.9.1
+pymdown-extensions==9.9.2
     # via
     #   -r requirements.in
     #   mkdocs-material
@@ -204,7 +204,7 @@ secretstorage==3.3.3
     # via keyring
 semver==2.13.0
     # via python-semantic-release
-setuptools==66.0.0
+setuptools==66.1.1
     # via pip-tools
 six==1.16.0
     # via
