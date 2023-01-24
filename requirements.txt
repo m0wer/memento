@@ -8,7 +8,7 @@ babel==2.11.0
     # via mkdocs-git-revision-date-localized-plugin
 beautifulsoup4==4.11.1
     # via mkdocs-newsletter
-bleach==5.0.1
+bleach==6.0.0
     # via readme-renderer
 build==0.10.0
     # via pip-tools
