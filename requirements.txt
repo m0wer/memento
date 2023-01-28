@@ -239,5 +239,5 @@ wheel==0.38.4
     # via
     #   pip-tools
     #   python-semantic-release
-zipp==3.11.0
+zipp==3.12.0
     # via importlib-metadata
