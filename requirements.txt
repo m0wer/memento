@@ -116,7 +116,7 @@ mkdocs-git-revision-date-localized-plugin==1.1.0
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==9.0.6
+mkdocs-material==9.0.8
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -126,7 +126,7 @@ mkdocs-minify-plugin==0.6.2
     # via -r requirements.in
 mkdocs-newsletter==1.0.1
     # via -r requirements.in
-mkdocs-section-index==0.3.4
+mkdocs-section-index==0.3.5
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -204,7 +204,7 @@ secretstorage==3.3.3
     # via keyring
 semver==2.13.0
     # via python-semantic-release
-setuptools==66.1.1
+setuptools==67.0.0
     # via pip-tools
 six==1.16.0
     # via
