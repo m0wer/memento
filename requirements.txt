@@ -116,7 +116,7 @@ mkdocs-git-revision-date-localized-plugin==1.1.0
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==9.0.8
+mkdocs-material==9.0.9
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -141,7 +141,7 @@ packaging==23.0
     #   build
     #   mkdocs
     #   python-semantic-release
-pip==22.3.1
+pip==23.0
     # via pip-tools
 pip-tools==6.12.1
     # via -r requirements.in
@@ -169,7 +169,7 @@ pyproject-hooks==1.0.0
     # via build
 python-dateutil==2.8.2
     # via ghp-import
-python-gitlab==3.12.0
+python-gitlab==3.13.0
     # via python-semantic-release
 python-semantic-release==7.33.0
     # via mkdocs-newsletter
