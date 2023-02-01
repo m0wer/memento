@@ -6,7 +6,7 @@
 #
 babel==2.11.0
     # via mkdocs-git-revision-date-localized-plugin
-beautifulsoup4==4.11.1
+beautifulsoup4==4.11.2
     # via mkdocs-newsletter
 bleach==6.0.0
     # via readme-renderer
@@ -141,9 +141,7 @@ packaging==23.0
     #   build
     #   mkdocs
     #   python-semantic-release
-pip==23.0
-    # via pip-tools
-pip-tools==6.12.1
+pip-tools==6.12.2
     # via -r requirements.in
 pkginfo==1.9.6
     # via twine
@@ -204,8 +202,6 @@ secretstorage==3.3.3
     # via keyring
 semver==2.13.0
     # via python-semantic-release
-setuptools==67.0.0
-    # via pip-tools
 six==1.16.0
     # via
     #   bleach
@@ -241,3 +237,9 @@ wheel==0.38.4
     #   python-semantic-release
 zipp==3.12.0
     # via importlib-metadata
+
+# The following packages are considered to be unsafe in a requirements file:
+pip==23.0
+    # via pip-tools
+setuptools==67.0.0
+    # via pip-tools
