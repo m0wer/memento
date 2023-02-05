@@ -110,7 +110,7 @@ mkdocs-autolinks-plugin==0.6.0
     #   mkdocs-newsletter
 mkdocs-bibtex==2.8.12
     # via -r requirements.in
-mkdocs-exclude-search==0.6.4
+mkdocs-exclude-search==0.6.5
     # via -r requirements.in
 mkdocs-git-revision-date-localized-plugin==1.1.0
     # via
