@@ -31,7 +31,7 @@ colorama==0.4.6
     # via
     #   mkdocs-material
     #   twine
-cryptography==39.0.0
+cryptography==39.0.1
     # via secretstorage
 csscompressor==0.9.5
     # via mkdocs-minify-plugin
