@@ -151,7 +151,7 @@ pybtex==0.24.0
     # via mkdocs-bibtex
 pycparser==2.21
     # via cffi
-pydantic==1.10.4
+pydantic==1.10.5
     # via mkdocs-newsletter
 pygments==2.14.0
     # via
@@ -241,5 +241,5 @@ zipp==3.13.0
 # The following packages are considered to be unsafe in a requirements file:
 pip==23.0
     # via pip-tools
-setuptools==67.3.1
+setuptools==67.3.2
     # via pip-tools
