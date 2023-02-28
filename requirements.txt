@@ -104,7 +104,7 @@ mkdocs==1.4.2
     #   mkdocs-minify-plugin
     #   mkdocs-newsletter
     #   mkdocs-section-index
-mkdocs-autolinks-plugin==0.6.0
+mkdocs-autolinks-plugin==0.7.0
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -130,7 +130,7 @@ mkdocs-section-index==0.3.5
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-more-itertools==9.0.0
+more-itertools==9.1.0
     # via jaraco-classes
 ordered-set==4.1.0
     # via deepdiff
