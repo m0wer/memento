@@ -4,7 +4,7 @@
 #
 #    pip-compile --allow-unsafe requirements.in
 #
-babel==2.11.0
+babel==2.12.1
     # via mkdocs-git-revision-date-localized-plugin
 beautifulsoup4==4.11.2
     # via mkdocs-newsletter
@@ -134,7 +134,7 @@ more-itertools==9.1.0
     # via jaraco-classes
 ordered-set==4.1.0
     # via deepdiff
-orjson==3.8.6
+orjson==3.8.7
     # via deepdiff
 packaging==23.0
     # via
@@ -171,8 +171,6 @@ python-gitlab==3.13.0
     # via python-semantic-release
 python-semantic-release==7.33.2
     # via mkdocs-newsletter
-pytz==2022.7.1
-    # via babel
 pyyaml==6.0
     # via
     #   mkdocs
@@ -227,7 +225,7 @@ urllib3==1.26.14
     #   twine
 validators==0.20.0
     # via mkdocs-bibtex
-watchdog==2.3.0
+watchdog==2.3.1
     # via mkdocs
 webencodings==0.5.1
     # via bleach
