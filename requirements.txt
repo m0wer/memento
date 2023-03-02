@@ -108,7 +108,7 @@ mkdocs-autolinks-plugin==0.7.0
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-bibtex==2.8.13
+mkdocs-bibtex==2.8.14
     # via -r requirements.in
 mkdocs-exclude-search==0.6.5
     # via -r requirements.in
@@ -141,7 +141,7 @@ packaging==23.0
     #   build
     #   mkdocs
     #   python-semantic-release
-pip-tools==6.12.2
+pip-tools==6.12.3
     # via -r requirements.in
 pkginfo==1.9.6
     # via twine
