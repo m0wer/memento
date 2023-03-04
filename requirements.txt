@@ -215,7 +215,7 @@ soupsieve==2.4
     # via beautifulsoup4
 tomlkit==0.11.6
     # via python-semantic-release
-tqdm==4.64.1
+tqdm==4.65.0
     # via twine
 twine==3.8.0
     # via python-semantic-release
