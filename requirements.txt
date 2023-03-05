@@ -161,7 +161,7 @@ pymdown-extensions==9.9.2
     # via
     #   -r requirements.in
     #   mkdocs-material
-pypandoc==1.10
+pypandoc==1.11
     # via mkdocs-bibtex
 pyproject-hooks==1.0.0
     # via build
