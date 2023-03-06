@@ -116,7 +116,7 @@ mkdocs-git-revision-date-localized-plugin==1.2.0
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==9.1.0
+mkdocs-material==9.1.1
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -157,7 +157,7 @@ pygments==2.14.0
     # via
     #   mkdocs-material
     #   readme-renderer
-pymdown-extensions==9.9.2
+pymdown-extensions==9.10
     # via
     #   -r requirements.in
     #   mkdocs-material
@@ -177,6 +177,7 @@ pyyaml==6.0
     # via
     #   mkdocs
     #   pybtex
+    #   pymdown-extensions
     #   pyyaml-env-tag
 pyyaml-env-tag==0.1
     # via mkdocs
@@ -241,5 +242,5 @@ zipp==3.15.0
 # The following packages are considered to be unsafe in a requirements file:
 pip==23.0.1
     # via pip-tools
-setuptools==67.4.0
+setuptools==67.5.0
     # via pip-tools
