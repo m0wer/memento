@@ -37,7 +37,7 @@ csscompressor==0.9.5
     # via mkdocs-minify-plugin
 decorator==5.1.1
     # via validators
-deepdiff==6.2.3
+deepdiff==6.3.0
     # via mkdocs-newsletter
 docutils==0.19
     # via readme-renderer
@@ -133,8 +133,6 @@ mkdocs-section-index==0.3.5
 more-itertools==9.1.0
     # via jaraco-classes
 ordered-set==4.1.0
-    # via deepdiff
-orjson==3.8.7
     # via deepdiff
 packaging==23.0
     # via
