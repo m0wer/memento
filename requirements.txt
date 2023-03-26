@@ -169,7 +169,7 @@ python-gitlab==3.13.0
     # via python-semantic-release
 python-semantic-release==7.33.2
     # via mkdocs-newsletter
-pytz==2022.7.1
+pytz==2023.2
     # via mkdocs-git-revision-date-localized-plugin
 pyyaml==6.0
     # via
