@@ -6,7 +6,7 @@
 #
 babel==2.12.1
     # via mkdocs-git-revision-date-localized-plugin
-beautifulsoup4==4.12.0
+beautifulsoup4==4.12.1
     # via mkdocs-newsletter
 bleach==6.0.0
     # via readme-renderer
