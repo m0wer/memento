@@ -6,7 +6,7 @@
 #
 babel==2.12.1
     # via mkdocs-git-revision-date-localized-plugin
-beautifulsoup4==4.12.1
+beautifulsoup4==4.12.2
     # via mkdocs-newsletter
 bleach==6.0.0
     # via readme-renderer
@@ -62,7 +62,7 @@ htmlmin2==0.1.13
     # via mkdocs-minify-plugin
 idna==3.4
     # via requests
-importlib-metadata==6.1.0
+importlib-metadata==6.2.0
     # via
     #   keyring
     #   twine
@@ -116,7 +116,7 @@ mkdocs-git-revision-date-localized-plugin==1.2.0
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==9.1.5
+mkdocs-material==9.1.6
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -139,7 +139,7 @@ packaging==23.0
     #   build
     #   mkdocs
     #   python-semantic-release
-pip-tools==6.12.3
+pip-tools==6.13.0
     # via -r requirements.in
 pkginfo==1.9.6
     # via twine
@@ -155,7 +155,7 @@ pygments==2.14.0
     # via
     #   mkdocs-material
     #   readme-renderer
-pymdown-extensions==9.10
+pymdown-extensions==9.11
     # via
     #   -r requirements.in
     #   mkdocs-material
