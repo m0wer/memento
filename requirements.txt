@@ -165,7 +165,7 @@ pyproject-hooks==1.0.0
     # via build
 python-dateutil==2.8.2
     # via ghp-import
-python-gitlab==3.13.0
+python-gitlab==3.14.0
     # via python-semantic-release
 python-semantic-release==7.33.2
     # via mkdocs-newsletter
