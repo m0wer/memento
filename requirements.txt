@@ -62,7 +62,7 @@ htmlmin2==0.1.13
     # via mkdocs-minify-plugin
 idna==3.4
     # via requests
-importlib-metadata==6.5.1
+importlib-metadata==6.6.0
     # via
     #   keyring
     #   twine
@@ -116,7 +116,7 @@ mkdocs-git-revision-date-localized-plugin==1.2.0
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==9.1.6
+mkdocs-material==9.1.7
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -238,7 +238,7 @@ zipp==3.15.0
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
-pip==23.1
+pip==23.1.1
     # via pip-tools
 setuptools==67.7.1
     # via pip-tools
