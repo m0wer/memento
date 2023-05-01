@@ -191,7 +191,7 @@ requests==2.29.0
     #   python-semantic-release
     #   requests-toolbelt
     #   twine
-requests-toolbelt==0.10.1
+requests-toolbelt==1.0.0
     # via
     #   python-gitlab
     #   twine
