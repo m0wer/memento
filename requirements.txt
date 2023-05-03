@@ -93,7 +93,7 @@ markupsafe==2.1.2
     # via jinja2
 mergedeep==1.3.4
     # via mkdocs
-mkdocs==1.4.2
+mkdocs==1.4.3
     # via
     #   -r requirements.in
     #   mkdocs-autolinks-plugin
@@ -116,7 +116,7 @@ mkdocs-git-revision-date-localized-plugin==1.2.0
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==9.1.8
+mkdocs-material==9.1.9
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -181,7 +181,7 @@ pyyaml-env-tag==0.1
     # via mkdocs
 readme-renderer==37.3
     # via twine
-regex==2023.3.23
+regex==2023.5.4
     # via mkdocs-material
 requests==2.29.0
     # via
