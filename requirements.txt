@@ -183,7 +183,7 @@ readme-renderer==37.3
     # via twine
 regex==2023.5.5
     # via mkdocs-material
-requests==2.29.0
+requests==2.30.0
     # via
     #   mkdocs-bibtex
     #   mkdocs-material
@@ -220,7 +220,7 @@ twine==3.8.0
     # via python-semantic-release
 typing-extensions==4.5.0
     # via pydantic
-urllib3==1.26.15
+urllib3==2.0.2
     # via
     #   requests
     #   twine
