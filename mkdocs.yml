@@ -213,6 +213,8 @@ nav:
       - Theory:
           - Algorithms:
               - Union-find: computer_science/theory/algorithms/union_find.md
+  - Coffee:
+    - Tools: coffee_tools.md
   - Cooking:
       - All recipes:
           - Cheesecake: cooking/recipes/cheesecake.md
