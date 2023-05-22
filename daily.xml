@@ -11,7 +11,7 @@
     <managingEditor>m0wer</managingEditor>
 
     
-    <pubDate>2022-10-07 05:50:04+00:00</pubDate>
+    <pubDate>2023-05-22 05:25:34+00:00</pubDate>
     <ttl>1440</ttl>
 
     
@@ -25,6 +25,16 @@
     
 
     
+    
+    <item><title>21st May 2023</title>
+      <author>m0wer</author>
+      <description>&lt;article class=&#34;md-content__inner md-typeset&#34;&gt;  &lt;h2 id=&#34;coffee&#34;&gt;Coffee&lt;/h2&gt; &lt;h3 id=&#34;tools&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/coffee_tools/&#34;&gt;Tools&lt;/a&gt;&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;New: Coffee tools.&lt;/li&gt; &lt;li&gt;Correction: Typo in filename.&lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt;  &lt;/article&gt;</description>
+      <link>https://m0wer.github.io/memento/newsletter/2023_05_21/</link>
+      <pubDate>2023-05-22 05:25:34+00:00</pubDate>
+      <source url="https://m0wer.github.io/memento/daily.xml">Memento</source>
+      <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2023_05_21/</guid>
+      
+    </item>
     
     <item><title>6th October 2022</title>
       <author>m0wer</author>
@@ -202,18 +212,6 @@ BlueMessage.send(include_signature: false)
       <pubDate>2022-04-14 05:28:13+00:00</pubDate>
       <source url="https://m0wer.github.io/memento/daily.xml">Memento</source>
       <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2022_04_13/</guid>
-      
-    </item>
-    
-    <item><title>12th April 2022</title>
-      <author>m0wer</author>
-      <description>&lt;article class=&#34;md-content__inner md-typeset&#34;&gt;  &lt;h2 id=&#34;computer-science&#34;&gt;Computer Science&lt;/h2&gt; &lt;h3 id=&#34;gnulinux&#34;&gt;GNULinux&lt;/h3&gt; &lt;h4 id=&#34;basics&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/gnu_linux_basics/&#34;&gt;Basics&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Get command output or default value if emtpy.&lt;/p&gt;  &lt;/li&gt; &lt;/ul&gt; &lt;h4 id=&#34;neovim&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/gnu_linux/neovim/&#34;&gt;neovim&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Search for visual selection.&lt;/p&gt; &lt;p&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;vnoremap // y/\V&amp;lt;C-R&amp;gt;=escape(@&#34;,&#39;/\&#39;)&amp;lt;CR&amp;gt;&amp;lt;CR&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; To use the mapping, visually select the characters that are wanted in the search, then type &lt;code&gt;//&lt;/code&gt; to search for the next occurrence of the selected text.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h4 id=&#34;sed&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/gnu_linux/sed/&#34;&gt;sed&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Use matched pattern.&lt;/p&gt; &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&#34;foobarbaz&#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;sed&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&#39;s/^foo\(.*\)baz$/\1/&#39;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;p&gt;Returns &lt;code&gt;bar&lt;/code&gt;.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt; &lt;div class=&#34;md-source-file&#34;&gt; &lt;small&gt; Last update: &lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago&#34;&gt;&lt;span class=&#34;timeago&#34; datetime=&#34;2022-04-13T05:28:43+00:00&#34; locale=&#34;en&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date&#34;&gt;2022-04-13&lt;/span&gt; &lt;/small&gt; &lt;/div&gt; &lt;/article&gt;</description>
-      <link>https://m0wer.github.io/memento/newsletter/2022_04_12/</link>
-      <pubDate>2022-04-13 05:28:43+00:00</pubDate>
-      <source url="https://m0wer.github.io/memento/daily.xml">Memento</source>
-      <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2022_04_12/</guid>
       
     </item>
     
