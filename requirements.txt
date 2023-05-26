@@ -218,7 +218,7 @@ tqdm==4.65.0
     # via twine
 twine==3.8.0
     # via python-semantic-release
-typing-extensions==4.6.1
+typing-extensions==4.6.2
     # via pydantic
 urllib3==2.0.2
     # via
