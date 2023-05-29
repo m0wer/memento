@@ -167,7 +167,7 @@ python-dateutil==2.8.2
     # via ghp-import
 python-gitlab==3.14.0
     # via python-semantic-release
-python-semantic-release==7.33.5
+python-semantic-release==7.34.1
     # via mkdocs-newsletter
 pytz==2023.3
     # via mkdocs-git-revision-date-localized-plugin
