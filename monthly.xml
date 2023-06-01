@@ -11,7 +11,7 @@
     <managingEditor>m0wer</managingEditor>
 
     
-    <pubDate>2022-11-01 05:58:05+00:00</pubDate>
+    <pubDate>2023-06-01 05:25:29+00:00</pubDate>
     <ttl>43200</ttl>
 
     
@@ -25,6 +25,16 @@
     
 
     
+    
+    <item><title>May of 2023</title>
+      <author>m0wer</author>
+      <description>&lt;article class=&#34;md-content__inner md-typeset&#34;&gt;  &lt;h2 id=&#34;coffee&#34;&gt;Coffee&lt;/h2&gt; &lt;h3 id=&#34;tools&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/coffee_tools/&#34;&gt;Tools&lt;/a&gt;&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;New: Coffee tools.&lt;/li&gt; &lt;li&gt;Correction: Typo in filename.&lt;/li&gt; &lt;li&gt;Correction: Video embedding.&lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt;  &lt;/article&gt;</description>
+      <link>https://m0wer.github.io/memento/newsletter/2023_05/</link>
+      <pubDate>2023-06-01 05:25:29+00:00</pubDate>
+      <source url="https://m0wer.github.io/memento/monthly.xml">Memento</source>
+      <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2023_05/</guid>
+      
+    </item>
     
     <item><title>October of 2022</title>
       <author>m0wer</author>
@@ -501,16 +511,6 @@ mysql&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;-u&lt;span class=&#34;w&#34;&gt
       <pubDate>2022-04-02 15:44:45+00:00</pubDate>
       <source url="https://m0wer.github.io/memento/monthly.xml">Memento</source>
       <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2021_08/</guid>
-      
-    </item>
-    
-    <item><title>July of 2021</title>
-      <author>m0wer</author>
-      <description>&lt;article class=&#34;md-content__inner md-typeset&#34;&gt;  &lt;h2 id=&#34;computer-science&#34;&gt;Computer Science&lt;/h2&gt; &lt;h3 id=&#34;gnulinux&#34;&gt;GNULinux&lt;/h3&gt; &lt;h4 id=&#34;mail&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/gnu_linux/mail/&#34;&gt;mail&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt;New: Mark all messages as read.&lt;/li&gt; &lt;/ul&gt; &lt;h4 id=&#34;timedatectl&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/gnu_linux/timedatectl/&#34;&gt;timedatectl&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt;New: Control the system time and date.&lt;/li&gt; &lt;/ul&gt; &lt;h3 id=&#34;programming&#34;&gt;Programming&lt;/h3&gt; &lt;h4 id=&#34;plotly&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/computer_science/programming/python/plotly/&#34;&gt;Plotly&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt;New: Convert Matplotlib to Plotly.&lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt;  &lt;/article&gt;</description>
-      <link>https://m0wer.github.io/memento/newsletter/2021_07/</link>
-      <pubDate>2021-08-01 05:24:24+00:00</pubDate>
-      <source url="https://m0wer.github.io/memento/monthly.xml">Memento</source>
-      <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2021_07/</guid>
       
     </item>
     
