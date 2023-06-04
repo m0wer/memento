@@ -181,7 +181,7 @@ pyyaml-env-tag==0.1
     # via mkdocs
 readme-renderer==37.3
     # via twine
-regex==2023.5.5
+regex==2023.6.3
     # via mkdocs-material
 requests==2.31.0
     # via
