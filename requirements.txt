@@ -149,7 +149,7 @@ pybtex==0.24.0
     # via mkdocs-bibtex
 pycparser==2.21
     # via cffi
-pydantic==1.10.8
+pydantic==1.10.9
     # via mkdocs-newsletter
 pygments==2.15.1
     # via
@@ -220,7 +220,7 @@ twine==3.8.0
     # via python-semantic-release
 typing-extensions==4.6.3
     # via pydantic
-urllib3==2.0.2
+urllib3==2.0.3
     # via
     #   requests
     #   twine
