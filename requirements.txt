@@ -14,7 +14,7 @@ certifi==2023.5.7
     # via requests
 charset-normalizer==3.2.0
     # via requests
-click==8.1.5
+click==8.1.6
     # via
     #   mkdocs
     #   pip-tools
@@ -96,7 +96,7 @@ mkdocs-git-revision-date-localized-plugin==1.2.0
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==9.1.18
+mkdocs-material==9.1.19
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -116,7 +116,7 @@ packaging==23.1
     # via
     #   build
     #   mkdocs
-pip-tools==7.0.0
+pip-tools==7.1.0
     # via -r requirements.in
 proselint==0.13.0
     # via -r requirements.in
@@ -142,7 +142,7 @@ python-dateutil==2.8.2
     # via ghp-import
 python-gitlab==3.15.0
     # via python-semantic-release
-python-semantic-release==8.0.1
+python-semantic-release==8.0.2
     # via mkdocs-newsletter
 pytz==2023.3
     # via mkdocs-git-revision-date-localized-plugin
