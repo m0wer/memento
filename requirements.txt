@@ -185,7 +185,7 @@ typing-extensions==4.7.1
     # via
     #   pydantic
     #   pydantic-core
-urllib3==2.0.3
+urllib3==2.0.4
     # via requests
 validators==0.20.0
     # via mkdocs-bibtex
