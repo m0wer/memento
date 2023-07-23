@@ -10,7 +10,7 @@ beautifulsoup4==4.12.2
     # via mkdocs-newsletter
 build==0.10.0
     # via pip-tools
-certifi==2023.5.7
+certifi==2023.7.22
     # via requests
 charset-normalizer==3.2.0
     # via requests
@@ -191,11 +191,11 @@ validators==0.20.0
     # via mkdocs-bibtex
 watchdog==3.0.0
     # via mkdocs
-wheel==0.40.0
+wheel==0.41.0
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
-pip==23.2
+pip==23.2.1
     # via pip-tools
 setuptools==68.0.0
     # via pip-tools
