@@ -187,7 +187,7 @@ nav:
               - Debugging: python_debugging.md
               - Decorators: python_decorators.md
               - Docstrings: computer_science/programming/python/docstrings.md
-              - FastAPI: computer_science/programming/python/fastapi.md
+              - FastAPI: fastapi.md
               - Gotchas: computer_science/programming/python/gotchas.md
               - Jupyter Notebook/Lab: computer_science/programming/python/jupyter.md
               - json: computer_science/programming/python/json.md

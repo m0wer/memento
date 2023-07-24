@@ -145,6 +145,16 @@ def test_endpoint(client):
     assert response.status_code == 200
 ```
 
+### Dynamically getting the endpoint URLs
+
+If you want to get the URL of an endpoint dynamically, you can use:
+
+```python
+# get url for endpoint
+url = app.url_path_for("endpoint_name")
+```
+
+
 ## Performance
 
 Performance can be hugely improved with some minor changes:
