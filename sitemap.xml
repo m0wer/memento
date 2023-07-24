@@ -21,6 +21,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://m0wer.github.io/memento/fastapi/</loc>
+         <lastmod>2023-07-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://m0wer.github.io/memento/flutter_android/</loc>
          <lastmod>2023-07-24</lastmod>
          <changefreq>daily</changefreq>
@@ -852,11 +857,6 @@
     </url>
     <url>
          <loc>https://m0wer.github.io/memento/computer_science/programming/python/docstrings/</loc>
-         <lastmod>2023-07-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://m0wer.github.io/memento/computer_science/programming/python/fastapi/</loc>
          <lastmod>2023-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
