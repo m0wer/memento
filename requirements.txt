@@ -122,7 +122,7 @@ proselint==0.13.0
     # via -r requirements.in
 pybtex==0.24.0
     # via mkdocs-bibtex
-pydantic==1.10.11
+pydantic==1.10.12
     # via
     #   mkdocs-newsletter
     #   python-semantic-release
