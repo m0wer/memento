@@ -11,7 +11,7 @@
     <managingEditor>m0wer</managingEditor>
 
     
-    <pubDate>2023-05-24 05:25:57+00:00</pubDate>
+    <pubDate>2023-07-25 05:25:17+00:00</pubDate>
     <ttl>1440</ttl>
 
     
@@ -25,6 +25,16 @@
     
 
     
+    
+    <item><title>24th July 2023</title>
+      <author>m0wer</author>
+      <description>&lt;article class=&#34;md-content__inner md-typeset&#34;&gt;  &lt;h2 id=&#34;computer-science&#34;&gt;Computer Science&lt;/h2&gt; &lt;h3 id=&#34;programming&#34;&gt;Programming&lt;/h3&gt; &lt;h4 id=&#34;fastapi&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/fastapi/&#34;&gt;FastAPI&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt;New: How to dynamically get endpoint URLs for testing.&lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt;  &lt;/article&gt;</description>
+      <link>https://m0wer.github.io/memento/newsletter/2023_07_24/</link>
+      <pubDate>2023-07-25 05:25:17+00:00</pubDate>
+      <source url="https://m0wer.github.io/memento/daily.xml">Memento</source>
+      <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2023_07_24/</guid>
+      
+    </item>
     
     <item><title>23rd May 2023</title>
       <author>m0wer</author>
@@ -202,16 +212,6 @@ BlueMessage.send(include_signature: false)
       <pubDate>2022-04-19 05:35:59+00:00</pubDate>
       <source url="https://m0wer.github.io/memento/daily.xml">Memento</source>
       <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2022_04_18/</guid>
-      
-    </item>
-    
-    <item><title>14th April 2022</title>
-      <author>m0wer</author>
-      <description>&lt;article class=&#34;md-content__inner md-typeset&#34;&gt;  &lt;h2 id=&#34;computer-science&#34;&gt;Computer Science&lt;/h2&gt; &lt;h3 id=&#34;programming&#34;&gt;Programming&lt;/h3&gt; &lt;h4 id=&#34;basics&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/python_basics/&#34;&gt;Basics&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Check syntax without running.&lt;/p&gt; &lt;p&gt;Try to compile it:&lt;/p&gt;  &lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt; &lt;div class=&#34;md-source-file&#34;&gt; &lt;small&gt; Last update: &lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago&#34;&gt;&lt;span class=&#34;timeago&#34; datetime=&#34;2022-04-15T05:32:44+00:00&#34; locale=&#34;en&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date&#34;&gt;2022-04-15&lt;/span&gt; &lt;/small&gt; &lt;/div&gt; &lt;/article&gt;</description>
-      <link>https://m0wer.github.io/memento/newsletter/2022_04_14/</link>
-      <pubDate>2022-04-15 05:32:44+00:00</pubDate>
-      <source url="https://m0wer.github.io/memento/daily.xml">Memento</source>
-      <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2022_04_14/</guid>
       
     </item>
     
