@@ -60,7 +60,7 @@ jsmin==3.0.1
     # via mkdocs-minify-plugin
 latexcodec==2.0.1
     # via pybtex
-markdown==3.3.7
+markdown==3.4.4
     # via
     #   mkdocs
     #   mkdocs-material
@@ -68,12 +68,14 @@ markdown==3.3.7
 markdown-it-py==3.0.0
     # via rich
 markupsafe==2.1.3
-    # via jinja2
+    # via
+    #   jinja2
+    #   mkdocs
 mdurl==0.1.2
     # via markdown-it-py
 mergedeep==1.3.4
     # via mkdocs
-mkdocs==1.4.3
+mkdocs==1.5.0
     # via
     #   -r requirements.in
     #   mkdocs-autolinks-plugin
@@ -116,8 +118,12 @@ packaging==23.1
     # via
     #   build
     #   mkdocs
+pathspec==0.11.1
+    # via mkdocs
 pip-tools==7.1.0
     # via -r requirements.in
+platformdirs==3.9.1
+    # via mkdocs
 proselint==0.13.0
     # via -r requirements.in
 pybtex==0.24.0
@@ -142,7 +148,7 @@ python-dateutil==2.8.2
     # via ghp-import
 python-gitlab==3.15.0
     # via python-semantic-release
-python-semantic-release==8.0.3
+python-semantic-release==8.0.4
     # via mkdocs-newsletter
 pytz==2023.3
     # via mkdocs-git-revision-date-localized-plugin
