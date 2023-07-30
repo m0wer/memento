@@ -122,7 +122,7 @@ pathspec==0.11.2
     # via mkdocs
 pip-tools==7.1.0
     # via -r requirements.in
-platformdirs==3.9.1
+platformdirs==3.10.0
     # via mkdocs
 proselint==0.13.0
     # via -r requirements.in
@@ -171,7 +171,7 @@ requests==2.31.0
     #   requests-toolbelt
 requests-toolbelt==1.0.0
     # via python-gitlab
-rich==13.4.2
+rich==13.5.0
     # via python-semantic-release
 shellingham==1.5.0.post1
     # via python-semantic-release
