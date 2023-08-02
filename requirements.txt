@@ -104,7 +104,7 @@ mkdocs-material==9.1.21
     #   mkdocs-newsletter
 mkdocs-material-extensions==1.1.1
     # via mkdocs-material
-mkdocs-minify-plugin==0.7.0
+mkdocs-minify-plugin==0.7.1
     # via -r requirements.in
 mkdocs-newsletter==1.0.1
     # via -r requirements.in
@@ -171,7 +171,7 @@ requests==2.31.0
     #   requests-toolbelt
 requests-toolbelt==1.0.0
     # via python-gitlab
-rich==13.5.1
+rich==13.5.2
     # via python-semantic-release
 shellingham==1.5.0.post1
     # via python-semantic-release
