@@ -86,7 +86,7 @@ mkdocs==1.5.2
     #   mkdocs-minify-plugin
     #   mkdocs-newsletter
     #   mkdocs-section-index
-mkdocs-autolinks-plugin==0.7.0
+mkdocs-autolinks-plugin==0.7.1
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
