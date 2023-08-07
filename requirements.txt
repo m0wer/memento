@@ -132,7 +132,7 @@ pydantic==1.10.12
     # via
     #   mkdocs-newsletter
     #   python-semantic-release
-pygments==2.15.1
+pygments==2.16.1
     # via
     #   mkdocs-material
     #   rich
