@@ -14,7 +14,7 @@ certifi==2023.7.22
     # via requests
 charset-normalizer==3.2.0
     # via requests
-click==8.1.6
+click==8.1.7
     # via
     #   mkdocs
     #   pip-tools
@@ -171,7 +171,7 @@ requests-toolbelt==1.0.0
     # via python-gitlab
 rich==13.5.2
     # via python-semantic-release
-shellingham==1.5.2
+shellingham==1.5.3
     # via python-semantic-release
 six==1.16.0
     # via
