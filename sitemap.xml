@@ -51,6 +51,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://m0wer.github.io/memento/git/</loc>
+         <lastmod>2023-09-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://m0wer.github.io/memento/gnu_linux_android/</loc>
          <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
@@ -292,11 +297,6 @@
     </url>
     <url>
          <loc>https://m0wer.github.io/memento/computer_science/gnu_linux/ghostscript/</loc>
-         <lastmod>2023-09-04</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://m0wer.github.io/memento/computer_science/gnu_linux/git/</loc>
          <lastmod>2023-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
