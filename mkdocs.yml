@@ -53,7 +53,7 @@ nav:
           - genlop: computer_science/gnu_linux/genlop.md
           - Gentoo: computer_science/gnu_linux/gentoo.md
           - Ghostscript: computer_science/gnu_linux/ghostscript.md
-          - Git: computer_science/gnu_linux/git.md
+          - Git: git.md
           - GPG: computer_science/gnu_linux/gpg.md
           - grep: grep.md
           - GTK: gtk.md

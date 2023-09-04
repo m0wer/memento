@@ -333,6 +333,27 @@ To compare a file accross references (branches, tags, commits...) do:
 git diff <reference1> <reference2> -- <file>
 ```
 
+### Patches
+
+#### Create a patch
+
+To create a patch of the current unstaged changes:
+
+```bash
+git diff > patch.diff
+```
+
+#### Apply a patch
+
+To apply a patch:
+
+```bash
+git apply patch.diff
+```
+
+Or if you have it in your clipboard, just run `git apply` and paste it.
+
+
 ## Tips
 
 ### Unstage files
