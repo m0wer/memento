@@ -116,6 +116,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://m0wer.github.io/memento/sqlite/</loc>
+         <lastmod>2023-09-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://m0wer.github.io/memento/computer_science/android/apps/</loc>
          <lastmod>2023-09-13</lastmod>
          <changefreq>daily</changefreq>
