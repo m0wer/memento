@@ -108,7 +108,7 @@ mkdocs-minify-plugin==0.7.1
     # via -r requirements.in
 mkdocs-newsletter==1.0.1
     # via -r requirements.in
-mkdocs-section-index==0.3.6
+mkdocs-section-index==0.3.7
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
