@@ -11,7 +11,7 @@
     <managingEditor>m0wer</managingEditor>
 
     
-    <pubDate>2023-09-14 05:25:31+00:00</pubDate>
+    <pubDate>2023-09-14 05:26:19+00:00</pubDate>
     <ttl>1440</ttl>
 
     
@@ -30,7 +30,7 @@
       <author>m0wer</author>
       <description>&lt;article class=&#34;md-content__inner md-typeset&#34;&gt;  &lt;h2 id=&#34;computer-science&#34;&gt;Computer Science&lt;/h2&gt; &lt;h3 id=&#34;gnulinux&#34;&gt;GNULinux&lt;/h3&gt; &lt;h4 id=&#34;sqlite&#34;&gt;&lt;a href=&#34;https://m0wer.github.io/memento/sqlite/&#34;&gt;sqlite&lt;/a&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;New: Add basic commands.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;code&gt;.help&lt;/code&gt; - show help&lt;/li&gt; &lt;li&gt;&lt;code&gt;.quit&lt;/code&gt; - quit&lt;/li&gt; &lt;li&gt;&lt;code&gt;.tables&lt;/code&gt; - show tables&lt;/li&gt; &lt;li&gt;&lt;code&gt;.schema&lt;/code&gt; - show schema of table&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;hr/&gt;  &lt;/article&gt;</description>
       <link>https://m0wer.github.io/memento/newsletter/2023_09_13/</link>
-      <pubDate>2023-09-14 05:25:31+00:00</pubDate>
+      <pubDate>2023-09-14 05:26:19+00:00</pubDate>
       <source url="https://m0wer.github.io/memento/daily.xml">Memento</source>
       <guid isPermaLink="true">https://m0wer.github.io/memento/newsletter/2023_09_13/</guid>
       
