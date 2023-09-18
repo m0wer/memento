@@ -173,7 +173,7 @@ requests==2.31.0
     #   requests-toolbelt
 requests-toolbelt==1.0.0
     # via python-gitlab
-rich==13.5.2
+rich==13.5.3
     # via python-semantic-release
 shellingham==1.5.3
     # via python-semantic-release
@@ -183,13 +183,13 @@ six==1.16.0
     #   proselint
     #   pybtex
     #   python-dateutil
-smmap==5.0.0
+smmap==5.0.1
     # via gitdb
 soupsieve==2.5
     # via beautifulsoup4
 tomlkit==0.12.1
     # via python-semantic-release
-typing-extensions==4.7.1
+typing-extensions==4.8.0
     # via
     #   pydantic
     #   pydantic-core
