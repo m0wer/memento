@@ -11,3 +11,4 @@ pymdown-extensions
 mkdocs-autolinks-plugin
 mkdocs-bibtex
 mkdocs-newsletter
+pydantic<2.0.0
