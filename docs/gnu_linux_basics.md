@@ -28,3 +28,11 @@ Useful for recording part of the screen with (`ffmpeg`)[ffmpeg].
 ```bash
 watch -n 0.1 xdotool getmouselocation
 ```
+
+### Generate a random string
+
+Generate a random string to use for secrets or passwords:
+
+```bash
+head /dev/urandom | tr -dc A-Za-z0-9 | head -c10
+```
