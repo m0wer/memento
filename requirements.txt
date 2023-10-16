@@ -94,7 +94,7 @@ mkdocs-bibtex==2.11.0
     # via -r requirements.in
 mkdocs-exclude-search==0.6.5
     # via -r requirements.in
-mkdocs-git-revision-date-localized-plugin==1.2.0
+mkdocs-git-revision-date-localized-plugin==1.2.1
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -202,7 +202,7 @@ wheel==0.41.2
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
-pip==23.2.1
+pip==23.3
     # via pip-tools
 setuptools==68.2.2
     # via pip-tools
