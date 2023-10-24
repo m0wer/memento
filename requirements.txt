@@ -176,7 +176,7 @@ requests-toolbelt==1.0.0
     # via python-gitlab
 rich==13.6.0
     # via python-semantic-release
-shellingham==1.5.3
+shellingham==1.5.4
     # via python-semantic-release
 six==1.16.0
     # via
