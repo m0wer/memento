@@ -4,7 +4,7 @@
 #
 #    pip-compile --allow-unsafe requirements.in
 #
-babel==2.13.0
+babel==2.13.1
     # via
     #   mkdocs-git-revision-date-localized-plugin
     #   mkdocs-material
