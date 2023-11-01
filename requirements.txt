@@ -14,7 +14,7 @@ build==1.0.3
     # via pip-tools
 certifi==2023.7.22
     # via requests
-charset-normalizer==3.3.1
+charset-normalizer==3.3.2
     # via requests
 click==8.1.7
     # via
@@ -60,7 +60,7 @@ jsmin==3.0.1
     # via mkdocs-minify-plugin
 latexcodec==2.0.1
     # via pybtex
-markdown==3.5
+markdown==3.5.1
     # via
     #   mkdocs
     #   mkdocs-material
