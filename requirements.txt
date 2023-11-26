@@ -47,7 +47,7 @@ gitpython==3.1.40
     #   python-semantic-release
 htmlmin2==0.1.13
     # via mkdocs-minify-plugin
-idna==3.5
+idna==3.6
     # via requests
 importlib-resources==5.7.0
     # via python-semantic-release
@@ -139,7 +139,7 @@ pygments==2.17.2
     # via
     #   mkdocs-material
     #   rich
-pymdown-extensions==10.4
+pymdown-extensions==10.5
     # via
     #   -r requirements.in
     #   mkdocs-material
