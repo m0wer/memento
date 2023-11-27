@@ -98,7 +98,7 @@ mkdocs-git-revision-date-localized-plugin==1.2.1
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==9.4.12
+mkdocs-material==9.4.14
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -198,7 +198,7 @@ validators==0.22.0
     # via mkdocs-bibtex
 watchdog==3.0.0
     # via mkdocs
-wheel==0.41.3
+wheel==0.42.0
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
