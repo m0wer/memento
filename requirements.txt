@@ -4,7 +4,7 @@
 #
 #    pip-compile --allow-unsafe requirements.in
 #
-babel==2.13.1
+babel==2.14.0
     # via
     #   mkdocs-git-revision-date-localized-plugin
     #   mkdocs-material
@@ -205,6 +205,4 @@ wheel==0.42.0
 pip==23.3.1
     # via pip-tools
 setuptools==69.0.2
-    # via
-    #   babel
-    #   pip-tools
+    # via pip-tools
