@@ -98,7 +98,7 @@ mkdocs-git-revision-date-localized-plugin==1.2.4
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==9.5.7
+mkdocs-material==9.5.8
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -196,7 +196,7 @@ urllib3==2.2.0
     # via requests
 validators==0.22.0
     # via mkdocs-bibtex
-watchdog==3.0.0
+watchdog==4.0.0
     # via mkdocs
 wheel==0.42.0
     # via pip-tools
