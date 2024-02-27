@@ -190,7 +190,7 @@ smmap==5.0.1
     # via gitdb
 soupsieve==2.5
     # via beautifulsoup4
-tomlkit==0.12.3
+tomlkit==0.12.4
     # via python-semantic-release
 typing-extensions==4.10.0
     # via pydantic
