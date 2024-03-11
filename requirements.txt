@@ -114,7 +114,7 @@ mkdocs-section-index==0.3.8
     #   mkdocs-newsletter
 ordered-set==4.1.0
     # via deepdiff
-packaging==23.2
+packaging==24.0
     # via
     #   build
     #   mkdocs
