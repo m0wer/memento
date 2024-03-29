@@ -10,7 +10,7 @@ babel==2.14.0
     #   mkdocs-material
 beautifulsoup4==4.12.3
     # via mkdocs-newsletter
-build==1.1.1
+build==1.2.1
     # via pip-tools
 certifi==2024.2.2
     # via requests
