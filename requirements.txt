@@ -40,7 +40,7 @@ gitdb==4.0.11
     #   gitpython
 gitdb2==4.0.2
     # via -r requirements.in
-gitpython==3.1.42
+gitpython==3.1.43
     # via
     #   mkdocs-git-revision-date-localized-plugin
     #   mkdocs-newsletter
@@ -98,7 +98,7 @@ mkdocs-git-revision-date-localized-plugin==1.2.4
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==9.5.15
+mkdocs-material==9.5.16
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
