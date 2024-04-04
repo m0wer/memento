@@ -130,7 +130,7 @@ proselint==0.13.0
     # via -r requirements.in
 pybtex==0.24.0
     # via mkdocs-bibtex
-pydantic==1.10.14
+pydantic==1.10.15
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -195,7 +195,7 @@ typing-extensions==4.10.0
     # via pydantic
 urllib3==2.2.1
     # via requests
-validators==0.26.0
+validators==0.28.0
     # via mkdocs-bibtex
 watchdog==4.0.0
     # via mkdocs
