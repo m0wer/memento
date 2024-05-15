@@ -128,7 +128,7 @@ pathspec==0.12.1
     # via mkdocs
 pip-tools==7.4.1
     # via -r requirements.in
-platformdirs==4.2.1
+platformdirs==4.2.2
     # via mkdocs-get-deps
 proselint==0.13.0
     # via -r requirements.in
