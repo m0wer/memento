@@ -30,8 +30,6 @@ deepdiff==7.0.1
     # via mkdocs-newsletter
 dotty-dict==1.3.1
     # via python-semantic-release
-future==0.18.3
-    # via proselint
 ghp-import==2.1.0
     # via mkdocs
 gitdb==4.0.11
@@ -130,7 +128,7 @@ pip-tools==7.4.1
     # via -r requirements.in
 platformdirs==4.2.2
     # via mkdocs-get-deps
-proselint==0.13.0
+proselint==0.14.0
     # via -r requirements.in
 pybtex==0.24.0
     # via mkdocs-bibtex
@@ -187,7 +185,6 @@ shellingham==1.5.4
     # via python-semantic-release
 six==1.16.0
     # via
-    #   proselint
     #   pybtex
     #   python-dateutil
 smmap==5.0.1
@@ -196,13 +193,13 @@ soupsieve==2.5
     # via beautifulsoup4
 tomlkit==0.12.5
     # via python-semantic-release
-typing-extensions==4.11.0
+typing-extensions==4.12.0
     # via pydantic
 urllib3==2.2.1
     # via requests
-validators==0.28.1
+validators==0.28.2
     # via mkdocs-bibtex
-watchdog==4.0.0
+watchdog==4.0.1
     # via mkdocs
 wheel==0.43.0
     # via pip-tools
