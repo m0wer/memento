@@ -132,7 +132,7 @@ proselint==0.14.0
     # via -r requirements.in
 pybtex==0.24.0
     # via mkdocs-bibtex
-pydantic==1.10.15
+pydantic==1.10.16
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
