@@ -195,7 +195,7 @@ tomlkit==0.12.5
     # via python-semantic-release
 typing-extensions==4.12.2
     # via pydantic
-urllib3==2.2.1
+urllib3==2.2.2
     # via requests
 validators==0.28.3
     # via mkdocs-bibtex
