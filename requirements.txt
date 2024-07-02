@@ -197,7 +197,7 @@ typing-extensions==4.12.2
     # via pydantic
 urllib3==2.2.2
     # via requests
-validators==0.28.3
+validators==0.29.0
     # via mkdocs-bibtex
 watchdog==4.0.1
     # via mkdocs
@@ -207,7 +207,7 @@ wheel==0.43.0
 # The following packages are considered to be unsafe in a requirements file:
 pip==24.1.1
     # via pip-tools
-setuptools==70.1.1
+setuptools==70.2.0
     # via
     #   mkdocs-bibtex
     #   pip-tools
