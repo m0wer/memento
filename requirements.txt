@@ -197,7 +197,7 @@ typing-extensions==4.12.2
     # via pydantic
 urllib3==2.2.2
     # via requests
-validators==0.30.0
+validators==0.31.0
     # via mkdocs-bibtex
 watchdog==4.0.1
     # via mkdocs
