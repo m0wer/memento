@@ -191,13 +191,13 @@ smmap==5.0.1
     # via gitdb
 soupsieve==2.5
     # via beautifulsoup4
-tomlkit==0.12.5
+tomlkit==0.13.0
     # via python-semantic-release
 typing-extensions==4.12.2
     # via pydantic
 urllib3==2.2.2
     # via requests
-validators==0.31.0
+validators==0.32.0
     # via mkdocs-bibtex
 watchdog==4.0.1
     # via mkdocs
