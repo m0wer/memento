@@ -100,7 +100,7 @@ mkdocs-git-revision-date-localized-plugin==1.2.6
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==9.5.28
+mkdocs-material==9.5.29
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -197,7 +197,7 @@ typing-extensions==4.12.2
     # via pydantic
 urllib3==2.2.2
     # via requests
-validators==0.32.0
+validators==0.33.0
     # via mkdocs-bibtex
 watchdog==4.0.1
     # via mkdocs
