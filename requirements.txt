@@ -199,7 +199,7 @@ urllib3==2.2.2
     # via requests
 validators==0.33.0
     # via mkdocs-bibtex
-watchdog==4.0.1
+watchdog==4.0.2
     # via mkdocs
 wheel==0.44.0
     # via pip-tools
