@@ -189,9 +189,9 @@ six==1.16.0
     #   python-dateutil
 smmap==5.0.1
     # via gitdb
-soupsieve==2.5
+soupsieve==2.6
     # via beautifulsoup4
-tomlkit==0.13.0
+tomlkit==0.13.1
     # via python-semantic-release
 typing-extensions==4.12.2
     # via pydantic
@@ -207,7 +207,7 @@ wheel==0.44.0
 # The following packages are considered to be unsafe in a requirements file:
 pip==24.2
     # via pip-tools
-setuptools==72.1.0
+setuptools==72.2.0
     # via
     #   mkdocs-bibtex
     #   pip-tools
