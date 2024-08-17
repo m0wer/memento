@@ -58,7 +58,7 @@ jsmin==3.0.1
     # via mkdocs-minify-plugin
 latexcodec==3.0.0
     # via pybtex
-markdown==3.6
+markdown==3.7
     # via
     #   mkdocs
     #   mkdocs-material
