@@ -96,11 +96,11 @@ mkdocs-exclude-search==0.6.6
     # via -r requirements.in
 mkdocs-get-deps==0.2.0
     # via mkdocs
-mkdocs-git-revision-date-localized-plugin==1.2.6
+mkdocs-git-revision-date-localized-plugin==1.2.7
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==9.5.31
+mkdocs-material==9.5.32
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -207,7 +207,7 @@ wheel==0.44.0
 # The following packages are considered to be unsafe in a requirements file:
 pip==24.2
     # via pip-tools
-setuptools==72.2.0
+setuptools==73.0.0
     # via
     #   mkdocs-bibtex
     #   pip-tools
