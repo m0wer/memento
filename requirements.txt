@@ -45,7 +45,7 @@ gitpython==3.1.43
     #   python-semantic-release
 htmlmin2==0.1.13
     # via mkdocs-minify-plugin
-idna==3.7
+idna==3.8
     # via requests
 importlib-resources==5.7.0
     # via python-semantic-release
@@ -90,7 +90,7 @@ mkdocs-autolinks-plugin==0.7.1
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-bibtex==2.16.0
+mkdocs-bibtex==2.16.1
     # via -r requirements.in
 mkdocs-exclude-search==0.6.6
     # via -r requirements.in
@@ -100,7 +100,7 @@ mkdocs-git-revision-date-localized-plugin==1.2.7
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==9.5.32
+mkdocs-material==9.5.33
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
