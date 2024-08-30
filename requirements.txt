@@ -12,7 +12,7 @@ beautifulsoup4==4.12.3
     # via mkdocs-newsletter
 build==1.2.1
     # via pip-tools
-certifi==2024.7.4
+certifi==2024.8.30
     # via requests
 charset-normalizer==3.3.2
     # via requests
