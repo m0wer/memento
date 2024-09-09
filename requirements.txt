@@ -96,7 +96,7 @@ mkdocs-exclude-search==0.6.6
     # via -r requirements.in
 mkdocs-get-deps==0.2.0
     # via mkdocs
-mkdocs-git-revision-date-localized-plugin==1.2.7
+mkdocs-git-revision-date-localized-plugin==1.2.8
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -126,7 +126,7 @@ pathspec==0.12.1
     # via mkdocs
 pip-tools==7.4.1
     # via -r requirements.in
-platformdirs==4.3.1
+platformdirs==4.3.2
     # via mkdocs-get-deps
 proselint==0.14.0
     # via -r requirements.in
