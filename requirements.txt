@@ -100,7 +100,7 @@ mkdocs-git-revision-date-localized-plugin==1.2.9
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==9.5.38
+mkdocs-material==9.5.39
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -141,13 +141,13 @@ pygments==2.18.0
     # via
     #   mkdocs-material
     #   rich
-pymdown-extensions==10.11
+pymdown-extensions==10.11.1
     # via
     #   -r requirements.in
     #   mkdocs-material
 pypandoc==1.13
     # via mkdocs-bibtex
-pyproject-hooks==1.1.0
+pyproject-hooks==1.2.0
     # via
     #   build
     #   pip-tools
