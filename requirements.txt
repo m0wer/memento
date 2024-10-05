@@ -179,7 +179,7 @@ requests==2.32.3
     #   requests-toolbelt
 requests-toolbelt==1.0.0
     # via python-gitlab
-rich==13.9.1
+rich==13.9.2
     # via python-semantic-release
 shellingham==1.5.4
     # via python-semantic-release
