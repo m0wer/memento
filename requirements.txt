@@ -65,7 +65,7 @@ markdown==3.7
     #   pymdown-extensions
 markdown-it-py==3.0.0
     # via rich
-markupsafe==2.1.5
+markupsafe==3.0.0
     # via
     #   jinja2
     #   mkdocs
@@ -145,7 +145,7 @@ pymdown-extensions==10.11.2
     # via
     #   -r requirements.in
     #   mkdocs-material
-pypandoc==1.13
+pypandoc==1.14
     # via mkdocs-bibtex
 pyproject-hooks==1.2.0
     # via
