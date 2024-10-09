@@ -65,7 +65,7 @@ markdown==3.7
     #   pymdown-extensions
 markdown-it-py==3.0.0
     # via rich
-markupsafe==3.0.0
+markupsafe==3.0.1
     # via
     #   jinja2
     #   mkdocs
