@@ -179,7 +179,7 @@ requests==2.32.3
     #   requests-toolbelt
 requests-toolbelt==1.0.0
     # via python-gitlab
-rich==13.9.3
+rich==13.9.4
     # via python-semantic-release
 shellingham==1.5.4
     # via python-semantic-release
@@ -199,7 +199,7 @@ urllib3==2.2.3
     # via requests
 validators==0.34.0
     # via mkdocs-bibtex
-watchdog==5.0.3
+watchdog==6.0.0
     # via mkdocs
 wheel==0.44.0
     # via pip-tools
