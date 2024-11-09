@@ -116,7 +116,7 @@ mkdocs-section-index==0.3.9
     #   mkdocs-newsletter
 orderly-set==5.2.2
     # via deepdiff
-packaging==24.1
+packaging==24.2
     # via
     #   build
     #   mkdocs
@@ -201,7 +201,7 @@ validators==0.34.0
     # via mkdocs-bibtex
 watchdog==6.0.0
     # via mkdocs
-wheel==0.44.0
+wheel==0.45.0
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
