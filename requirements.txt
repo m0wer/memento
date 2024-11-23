@@ -201,7 +201,7 @@ validators==0.34.0
     # via mkdocs-bibtex
 watchdog==6.0.0
     # via mkdocs
-wheel==0.45.0
+wheel==0.45.1
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
