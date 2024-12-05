@@ -183,7 +183,7 @@ rich==13.9.4
     # via python-semantic-release
 shellingham==1.5.4
     # via python-semantic-release
-six==1.16.0
+six==1.17.0
     # via
     #   pybtex
     #   python-dateutil
