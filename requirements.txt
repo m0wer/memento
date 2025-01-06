@@ -137,7 +137,7 @@ pydantic==1.10.19
     #   -r requirements.in
     #   mkdocs-newsletter
     #   python-semantic-release
-pygments==2.18.0
+pygments==2.19.0
     # via
     #   mkdocs-material
     #   rich
@@ -207,7 +207,7 @@ wheel==0.45.1
 # The following packages are considered to be unsafe in a requirements file:
 pip==24.3.1
     # via pip-tools
-setuptools==75.6.0
+setuptools==75.7.0
     # via
     #   mkdocs-bibtex
     #   pip-tools
