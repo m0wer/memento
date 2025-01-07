@@ -137,7 +137,7 @@ pydantic==1.10.19
     #   -r requirements.in
     #   mkdocs-newsletter
     #   python-semantic-release
-pygments==2.19.0
+pygments==2.19.1
     # via
     #   mkdocs-material
     #   rich
