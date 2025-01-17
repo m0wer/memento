@@ -90,7 +90,7 @@ mkdocs-autolinks-plugin==0.7.1
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-bibtex==2.16.2
+mkdocs-bibtex==3.0.0
     # via -r requirements.in
 mkdocs-exclude-search==0.6.6
     # via -r requirements.in
@@ -166,6 +166,7 @@ pyyaml==6.0.2
     #   pybtex
     #   pymdown-extensions
     #   pyyaml-env-tag
+    #   responses
 pyyaml-env-tag==0.1
     # via mkdocs
 regex==2024.11.6
@@ -177,8 +178,11 @@ requests==2.32.3
     #   python-gitlab
     #   python-semantic-release
     #   requests-toolbelt
+    #   responses
 requests-toolbelt==1.0.0
     # via python-gitlab
+responses==0.25.6
+    # via mkdocs-bibtex
 rich==13.9.4
     # via python-semantic-release
 shellingham==1.5.4
@@ -196,7 +200,9 @@ tomlkit==0.13.2
 typing-extensions==4.12.2
     # via pydantic
 urllib3==2.3.0
-    # via requests
+    # via
+    #   requests
+    #   responses
 validators==0.34.0
     # via mkdocs-bibtex
 watchdog==6.0.0
