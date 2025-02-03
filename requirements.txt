@@ -8,7 +8,7 @@ babel==2.17.0
     # via
     #   mkdocs-git-revision-date-localized-plugin
     #   mkdocs-material
-beautifulsoup4==4.12.3
+beautifulsoup4==4.13.0
     # via mkdocs-newsletter
 build==1.2.2.post1
     # via pip-tools
@@ -198,7 +198,9 @@ soupsieve==2.6
 tomlkit==0.13.2
     # via python-semantic-release
 typing-extensions==4.12.2
-    # via pydantic
+    # via
+    #   beautifulsoup4
+    #   pydantic
 urllib3==2.3.0
     # via
     #   requests
