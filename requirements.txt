@@ -90,7 +90,7 @@ mkdocs-autolinks-plugin==0.7.1
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-bibtex==4.1.0
+mkdocs-bibtex==4.2.0
     # via -r requirements.in
 mkdocs-exclude-search==0.6.6
     # via -r requirements.in
